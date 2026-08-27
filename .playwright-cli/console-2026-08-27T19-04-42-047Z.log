@@ -1,1 +1,9 @@
 [  408196ms] [WARNING] The resource http://localhost:3003/_next/static/chunks/3kd2tnfn328ur.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3003/infranex:0
+[ 9527983ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3003/infranex?_rsc=XB9TcpjMMn3pwZ_C:0
+[ 9528325ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3003/infranex?_rsc=f1bX91YuFdOiugQy#contact:0
+[ 9528326ms] [ERROR] Failed to fetch RSC payload for http://localhost:3003/infranex#contact. Falling back to browser navigation. TypeError: Failed to fetch
+    at n (http://localhost:3003/_next/static/chunks/23se-2qgzdt8f.js:2:34885)
+    at w (http://localhost:3003/_next/static/chunks/23se-2qgzdt8f.js:1:21571)
+    at async S (http://localhost:3003/_next/static/chunks/23se-2qgzdt8f.js:1:19530)
+    at async S (http://localhost:3003/_next/static/chunks/23se-2qgzdt8f.js:2:39650) @ http://localhost:3003/_next/static/chunks/23se-2qgzdt8f.js:0
+[ 9528427ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3003/icon.svg?icon.2ku9f2ye1a1fl.svg:0

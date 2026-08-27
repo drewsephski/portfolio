@@ -54,15 +54,15 @@
 .productCard:hover .visit, .productCard:focus-visible .visit { color: #fff; letter-spacing: .016em; text-shadow: .35px 0 currentColor, -.35px 0 currentColor; transform: translateY(-1px); }
 .studies { padding-top: clamp(110px, 14vw, 176px); }
 .templates { padding-top: clamp(110px, 14vw, 176px); }
-.templateGrid { border-top: 1px solid #292929; }
-.templateCard { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(280px, .75fr); min-height: 430px; border-right: 1px solid #292929; border-bottom: 1px solid #292929; border-left: 1px solid #292929; background: #0b0b0b; }
-.templateThumbnail { position: relative; display: block; min-height: 430px; overflow: hidden; border-right: 1px solid #292929; background: #111; }
+.templateGrid { width: min(100%, 960px); margin-inline: auto; border-top: 1px solid #292929; }
+.templateCard { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(260px, .8fr); min-height: 350px; border-right: 1px solid #292929; border-bottom: 1px solid #292929; border-left: 1px solid #292929; background: #0b0b0b; }
+.templateThumbnail { position: relative; display: block; min-height: 350px; overflow: hidden; border-right: 1px solid #292929; background: #111; }
 .templateThumbnail img { width: 100%; height: 100%; object-fit: cover; object-position: center top; filter: saturate(.82) contrast(1.03); transition: filter 220ms ease, transform 600ms cubic-bezier(.16,1,.3,1); }
 .templateThumbnail:hover img, .templateThumbnail:focus-visible img { filter: saturate(1); transform: scale(1.015); }
 .templateThumbnail:focus-visible { outline: 2px solid #f1f1ef; outline-offset: -2px; }
-.templateDetails { display: flex; min-width: 0; flex-direction: column; justify-content: space-between; gap: 48px; padding: 32px; }
+.templateDetails { display: flex; min-width: 0; flex-direction: column; justify-content: space-between; gap: 36px; padding: 26px; }
 .templateLabel { margin: 0 0 18px; color: #c8f55f; font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
-.templateDetails h3 { margin: 0; font-size: clamp(30px, 4vw, 46px); font-weight: 500; letter-spacing: -.045em; line-height: 1; }
+.templateDetails h3 { margin: 0; font-size: clamp(28px, 3.4vw, 40px); font-weight: 500; letter-spacing: -.045em; line-height: 1; }
 .templateDescription { max-width: 38ch; margin: 18px 0 0; color: #8c8c87; font-size: 14px; line-height: 1.55; }
 .templateActions { display: grid; gap: 10px; }
 .templateActions a { display: flex; min-height: 42px; align-items: center; justify-content: space-between; gap: 16px; padding: 0 14px; border: 1px solid #30302e; border-radius: 2px; color: #aaa9a4; font-size: 12px; text-decoration: none; transition: border-color 180ms ease, background-color 180ms ease, color 180ms ease; }
@@ -71,7 +71,7 @@
 .templateActions a:last-child:hover, .templateActions a:last-child:focus-visible { background: #d5ff71; color: #080808; }
 .templateActions svg { width: 16px; height: 16px; stroke-width: 1.7; }
 .list { margin: 0; padding: 0; border-top: 1px solid #292929; list-style: none; }
-.row { display: grid; grid-template-columns: 168px minmax(0, 1fr); align-items: center; gap: 26px; border-bottom: 1px solid #292929; transition: border-color 160ms ease; }
+.row { display: grid; grid-template-columns: minmax(240px, 34%) minmax(0, 1fr); align-items: center; gap: clamp(24px, 4vw, 48px); border-bottom: 1px solid #292929; transition: border-color 160ms ease; }
 .link { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; align-self: stretch; gap: 24px; padding: 18px 4px 18px 0; color: inherit; text-decoration: none; }
 .row:hover, .row:focus-within { border-color: #666; }
 .link:focus-visible { outline: none; box-shadow: 0 2px 0 #fff; }
@@ -83,6 +83,7 @@
 .name, .description { display: block; }
 .name { font-size: clamp(20px, 3vw, 27px); line-height: 1.2; letter-spacing: -.025em; }
 .description { margin-top: 6px; color: #777773; font-size: 13px; line-height: 1.5; }
+.studyPrice { display: block; margin-top: 14px; color: #c8f55f; font-size: 10px; letter-spacing: .09em; text-transform: uppercase; }
 .arrow { display: grid; width: 34px; height: 34px; border: 1px solid transparent; border-radius: 50%; color: #777773; transition: border-color 200ms ease, color 200ms ease, transform 280ms cubic-bezier(.16,1,.3,1); place-items: center; }
 .arrow svg { width: 20px; height: 20px; stroke-width: 1.5; transition: stroke-width 200ms ease; }
 .row:hover .arrow, .row:focus-within .arrow { border-color: rgb(200 245 95 / 45%); color: #c8f55f; transform: translateX(4px); }
@@ -138,9 +139,9 @@
   .productVisual img { transform: translateY(-24px); }
   .productVisual[data-visual="sitterfolio"] img { transform: translate(-10px, -46px) rotate(-1.5deg) scale(.92); }
   .visit { right: 22px; bottom: 22px; }
-  .row { grid-template-columns: 104px minmax(0, 1fr); gap: 14px; }
+  .row { grid-template-columns: 132px minmax(0, 1fr); gap: 16px; }
   .templateCard { grid-template-columns: 1fr; min-height: 0; }
-  .templateThumbnail { min-height: 260px; border-right: 0; border-bottom: 1px solid #292929; }
+  .templateThumbnail { min-height: 220px; border-right: 0; border-bottom: 1px solid #292929; }
   .templateDetails { gap: 34px; padding: 24px 22px; }
   .link { gap: 12px; padding: 14px 0; }
   .name { font-size: 17px; }

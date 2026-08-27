@@ -124,3 +124,46 @@
 [ 1007279ms] [LOG] [Fast Refresh] done in 35ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
 [ 1030087ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
 [ 1030453ms] [LOG] [Fast Refresh] done in 467ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1252038ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1252267ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1252293ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1252296ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1252344ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1252388ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1252500ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1308310ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1308650ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1327921ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1328267ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1328323ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1328481ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1328527ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1328719ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1328996ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1329197ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1329718ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1329826ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1329879ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 1329942ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[ 2111661ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/image?url=%2Ffusionai%2Fb5f0052875825181.png&w=1920&q=75:0
+[ 2111758ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=2xNlIyRX-XOB_-GNUHQDk' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/0484_next_dist_client_1y3_-8_._.js:16348
+[ 2112761ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=2xNlIyRX-XOB_-GNUHQDk' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/0484_next_dist_client_1y3_-8_._.js:16348
+[ 2113765ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=2xNlIyRX-XOB_-GNUHQDk' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/0484_next_dist_client_1y3_-8_._.js:16348
+[ 2114769ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=2xNlIyRX-XOB_-GNUHQDk' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/0484_next_dist_client_1y3_-8_._.js:16348
+[ 2115655ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/image?url=%2Ffusionai%2Fd9fb45de16e7dbb2.png&w=1920&q=75:0
+[ 2115773ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=2xNlIyRX-XOB_-GNUHQDk' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/0484_next_dist_client_1y3_-8_._.js:16348
+[ 2119657ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/image?url=%2Ffusionai%2F66d4a144725e490d.png&w=1920&q=75:0
+[ 2120779ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=2xNlIyRX-XOB_-GNUHQDk' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/0484_next_dist_client_1y3_-8_._.js:16348
+[ 2123654ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/image?url=%2Ffusionai%2Fb5f0052875825181.png&w=1920&q=75:0
+[ 2125787ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=2xNlIyRX-XOB_-GNUHQDk' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/0484_next_dist_client_1y3_-8_._.js:16348
+[ 2127660ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/image?url=%2Ffusionai%2Fd9fb45de16e7dbb2.png&w=1920&q=75:0
+[ 2130811ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=2xNlIyRX-XOB_-GNUHQDk' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/0484_next_dist_client_1y3_-8_._.js:16348
+[ 2131655ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/image?url=%2Ffusionai%2F66d4a144725e490d.png&w=1920&q=75:0
+[ 2135655ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/image?url=%2Ffusionai%2Fb5f0052875825181.png&w=1920&q=75:0
+[ 2135846ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=2xNlIyRX-XOB_-GNUHQDk' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/0484_next_dist_client_1y3_-8_._.js:16348
+[ 2139655ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/image?url=%2Ffusionai%2Fd9fb45de16e7dbb2.png&w=1920&q=75:0
+[ 2140922ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=2xNlIyRX-XOB_-GNUHQDk' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/0484_next_dist_client_1y3_-8_._.js:16348
+[ 2143659ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/image?url=%2Ffusionai%2F66d4a144725e490d.png&w=1920&q=75:0
+[ 2145978ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=2xNlIyRX-XOB_-GNUHQDk' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/0484_next_dist_client_1y3_-8_._.js:16348
+[ 2147656ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/image?url=%2Ffusionai%2Fb5f0052875825181.png&w=1920&q=75:0
+[ 2151083ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=2xNlIyRX-XOB_-GNUHQDk' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/0484_next_dist_client_1y3_-8_._.js:16348

@@ -4,6 +4,7 @@ import { LandingPageList } from "./landing-page-list";
 import { PaidTemplateList } from "./paid-template-list";
 import { ProductGrid } from "./product-grid";
 import { ScrollRevealText } from "./scroll-reveal-text";
+import { marketplaceProducts } from "./marketplace/catalog";
 
 const products = [
   { name: "Sitterfolio", type: "SaaS product", description: "Pet sitters build polished websites and manage every inquiry in one workspace.", href: "https://www.sitterfolio.com", visual: "sitterfolio", preview: { mp4: "/assets/product-previews/sitterfolio-20260827.mp4", webm: "/assets/product-previews/sitterfolio-20260827.webm", poster: "/assets/product-previews/sitterfolio-20260827-poster.jpg" } },
@@ -14,55 +15,9 @@ const products = [
   { name: "Phoenix Design Lab", type: "Design system", description: "A design agency demo pairing bold art direction with an editorial portfolio.", href: "https://phoenixdev.agency/demo", visual: "design", preview: { mp4: "/assets/product-previews/phoenix-design-lab-20260827.mp4", webm: "/assets/product-previews/phoenix-design-lab-20260827.webm", poster: "/assets/product-previews/phoenix-design-lab-20260827-poster.jpg" } },
 ] as const;
 
-const landingPages = [
-  { name: "Equilibrium", description: "Wellness for a steadier everyday life", href: "/equilibrium", screenshot: "/screenshots/equilibrium.webp" },
-  { name: "Palomar", description: "One unified system for LLMs", href: "/palomar", screenshot: "/screenshots/palomar.webp" },
-  { name: "Axon", description: "Digital workers for mundane workflows", href: "/axon", screenshot: "/screenshots/axon.webp" },
-  { name: "Vesper", description: "Operational AI infrastructure", href: "/vesper", screenshot: "/screenshots/vesper.webp" },
-  { name: "Nexora", description: "Automation for busywork", href: "/nexora", screenshot: "/screenshots/nexora.webp" },
-  { name: "The Next Layer of Intelligence", description: "Infrastructure for scaling AI systems", href: "/next-layer-of-intelligence", screenshot: "/screenshots/next-layer-of-intelligence.webp" },
-  { name: "Convix Software", description: "The future of PR agency operations", href: "/convix", screenshot: "/screenshots/convix.webp" },
-  { name: "Vantage", description: "A clear signal across every dashboard", href: "/vantage", screenshot: "/screenshots/vantage.webp" },
-  { name: "Meridian", description: "Revenue intelligence for SaaS", href: "/meridian", screenshot: "/screenshots/meridian.webp" },
-] as const;
+const landingPages = marketplaceProducts.filter((product) => product.kind === "component").map((product) => ({ ...product, href: `/${product.slug}` }));
 
-const paidTemplates = [
-  {
-    name: "Infranex",
-    description: "A dark, cinematic AI SaaS template with feature bento grids, integration motion, testimonials, pricing, comparisons, FAQ, and launch-ready conversion sections.",
-    previewHref: "/infranex",
-    purchaseHref: "mailto:hello@drewsepeczi.xyz?subject=Purchase%20Infranex%20template",
-    screenshot: "/screenshots/infranex-hero.webp",
-  },
-  {
-    name: "Salix",
-    description: "A premium sales SaaS landing page with product storytelling, analytics, testimonials, pricing, and conversion-focused interactions.",
-    previewHref: "/salix",
-    purchaseHref: "mailto:hello@drewsepeczi.xyz?subject=Purchase%20Salix%20template",
-    screenshot: "/screenshots/salix-premium.png",
-  },
-  {
-    name: "DreamMotion",
-    description: "A cinematic AI image and video product landing page with galleries, testimonials, use cases, and interactive FAQ.",
-    previewHref: "/dreammotion",
-    purchaseHref: "mailto:hello@drewsepeczi.xyz?subject=Purchase%20DreamMotion%20template",
-    screenshot: "/screenshots/dreammotion.webp",
-  },
-  {
-    name: "AgentLab",
-    description: "A premium AI automation platform template with agent workflows, capability bento grids, industry use cases, testimonials, compliance, and interactive FAQ.",
-    previewHref: "/agentlab",
-    purchaseHref: "mailto:hello@drewsepeczi.xyz?subject=Purchase%20AgentLab%20template",
-    screenshot: "/screenshots/agentlab.webp",
-  },
-  {
-    name: "Fusion AI",
-    description: "A premium AI automation landing page with product storytelling, integration rails, social proof, workflow previews, and interactive FAQ.",
-    previewHref: "/fusion-ai",
-    purchaseHref: "mailto:hello@drewsepeczi.xyz?subject=Purchase%20Fusion%20AI%20template",
-    screenshot: "/screenshots/fusion-ai.webp",
-  },
-] as const;
+const paidTemplates = marketplaceProducts.filter((product) => product.kind === "template").map((product) => ({ ...product, previewHref: `/${product.slug}` }));
 
 export default function HomePage() {
   return (
@@ -103,13 +58,13 @@ export default function HomePage() {
           </div>
         </section>
         <section className={styles.studies} id="studies" aria-labelledby="studies-title">
-          <div className={styles.sectionHeader}><h2 id="studies-title">Interface studies</h2><p>Landing pages for software products</p></div>
+          <div className={styles.sectionHeader}><h2 id="studies-title">Hero components</h2><p>Premium interface studies · $39–$79</p></div>
           <LandingPageList landingPages={landingPages} />
         </section>
         <section className={styles.templates} id="templates" aria-labelledby="templates-title">
           <div className={styles.sectionHeader}>
-            <h2 id="templates-title">Paid templates</h2>
-            <p>Production-ready pages for your next launch</p>
+            <h2 id="templates-title">Complete templates</h2>
+            <p>Production-ready Next.js sites · $199–$299</p>
           </div>
           <PaidTemplateList templates={paidTemplates} />
         </section>

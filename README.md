@@ -16,6 +16,29 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Stripe marketplace checkout
+
+Copy `.env.example` to `.env.local` and configure:
+
+- `NEXT_PUBLIC_SITE_URL`: the canonical site origin, without a trailing slash.
+- `STRIPE_RESTRICTED_KEY`: a live or test restricted key that can create and read Checkout Sessions.
+- `STRIPE_WEBHOOK_SECRET`: the signing secret for the matching Stripe webhook endpoint.
+
+The webhook URL is `/api/stripe/webhook`. Subscribe it to:
+
+- `checkout.session.completed`
+- `checkout.session.async_payment_succeeded`
+- `checkout.session.async_payment_failed`
+- `checkout.session.expired`
+
+For local webhook testing, forward Stripe events to the development server:
+
+```bash
+stripe listen --forward-to localhost:3000/api/stripe/webhook
+```
+
+Use the webhook signing secret printed by the Stripe CLI only in `.env.local`. Never commit API keys or webhook secrets.
+
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.

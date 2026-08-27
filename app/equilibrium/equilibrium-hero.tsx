@@ -1,6 +1,7 @@
 "use client";
 
 import { ChevronDown, Infinity, Menu, X } from "lucide-react";
+import { motion } from "framer-motion";
 import { useState } from "react";
 
 import styles from "./equilibrium.module.css";
@@ -9,17 +10,25 @@ const BG_VIDEO =
   "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260511_230229_7c9bc431-46cf-489a-948d-e8144d8eb5d4.mp4";
 
 const navLinks = [
-  { label: "Home", active: true },
-  { label: "Wellness", dropdown: true },
-  { label: "Routine" },
-  { label: "Our Team" },
+  { label: "Home", href: "#home", active: true },
+  { label: "Routine", href: "#routine" },
+  { label: "Our Team", href: "#our-team" },
+];
+
+const wellnessLinks = [
+  { label: "Mindfulness", href: "#mindfulness" },
+  { label: "Movement", href: "#movement" },
+  { label: "Nutrition", href: "#nutrition" },
 ];
 
 export function EquilibriumHero() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [wellnessOpen, setWellnessOpen] = useState(false);
+  const [hoveredNav, setHoveredNav] = useState<string | null>(null);
+  const highlightedNav = wellnessOpen ? "Wellness" : (hoveredNav ?? "Home");
 
   return (
-    <main className={`${styles.page} relative h-screen w-full overflow-hidden`}>
+    <main id="home" className={`${styles.page} relative h-screen w-full overflow-hidden`}>
       <video
         className="absolute h-full w-full object-cover"
         autoPlay
@@ -35,25 +44,80 @@ export function EquilibriumHero() {
           <span>Equilibrium</span>
         </div>
 
-        <div className={`${styles.liquidGlass} hidden items-center gap-1 rounded-xl px-2 py-2 md:flex`}>
-          {navLinks.map((link) => (
+        <div
+          className={`${styles.liquidGlass} ${styles.navGlass} hidden items-center gap-1 rounded-xl px-2 py-2 md:flex`}
+          onMouseLeave={() => setHoveredNav(null)}
+        >
+          <a
+            href="#home"
+            className={styles.navItem}
+            onMouseEnter={() => setHoveredNav("Home")}
+            onFocus={() => setHoveredNav("Home")}
+            onBlur={() => setHoveredNav(null)}
+          >
+            {highlightedNav === "Home" && (
+              <motion.span layoutId="equilibrium-nav-highlight" className={styles.navHighlight} transition={{ duration: 0.22, ease: "easeInOut" }} />
+            )}
+            <span>Home</span>
+          </a>
+          <div
+            className={styles.dropdown}
+            onMouseEnter={() => {
+              setHoveredNav("Wellness");
+              setWellnessOpen(true);
+            }}
+            onMouseLeave={() => setWellnessOpen(false)}
+          >
             <button
-              key={link.label}
               type="button"
-              className={`flex items-center gap-0.5 rounded-md px-3 py-1.5 text-sm transition-colors ${
-                link.active ? "bg-white/15 text-white" : "text-white/70 hover:text-white"
-              }`}
+              className={`${styles.navItem} flex items-center gap-0.5`}
+              aria-expanded={wellnessOpen}
+              aria-haspopup="menu"
+              onMouseEnter={() => setHoveredNav("Wellness")}
+              onFocus={() => {
+                setHoveredNav("Wellness");
+                setWellnessOpen(true);
+              }}
+              onBlur={() => setHoveredNav(null)}
+              onClick={() => setWellnessOpen((open) => !open)}
             >
-              {link.label}
-              {link.dropdown && <ChevronDown size={13} className="mt-px" aria-hidden="true" />}
+              {highlightedNav === "Wellness" && (
+                <motion.span layoutId="equilibrium-nav-highlight" className={styles.navHighlight} transition={{ duration: 0.22, ease: "easeInOut" }} />
+              )}
+              <span>Wellness</span>
+              <ChevronDown size={13} className={`${styles.navItemIcon} ${wellnessOpen ? styles.chevronOpen : ""}`} aria-hidden="true" />
             </button>
+            {wellnessOpen && (
+              <div className={`${styles.liquidGlass} ${styles.dropdownMenu}`} role="menu">
+                {wellnessLinks.map((link) => (
+                  <a key={link.label} href={link.href} role="menuitem" onClick={() => setWellnessOpen(false)}>
+                    {link.label}
+                  </a>
+                ))}
+              </div>
+            )}
+          </div>
+          {navLinks.slice(1).map((link) => (
+            <a
+              key={link.label}
+              href={link.href}
+              className={styles.navItem}
+              onMouseEnter={() => setHoveredNav(link.label)}
+              onFocus={() => setHoveredNav(link.label)}
+              onBlur={() => setHoveredNav(null)}
+            >
+              {highlightedNav === link.label && (
+                <motion.span layoutId="equilibrium-nav-highlight" className={styles.navHighlight} transition={{ duration: 0.22, ease: "easeInOut" }} />
+              )}
+              <span>{link.label}</span>
+            </a>
           ))}
         </div>
 
         <div className="hidden items-center gap-3 md:flex">
           <button
             type="button"
-            className={`${styles.liquidGlass} rounded-full px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-white/5`}
+            className={`${styles.liquidGlass} ${styles.glassButton} rounded-full px-4 py-2.5 text-sm font-medium text-white`}
           >
             Log in
           </button>
@@ -83,21 +147,29 @@ export function EquilibriumHero() {
           className={`${styles.liquidGlass} absolute top-[72px] right-4 left-4 z-30 flex flex-col gap-1 rounded-2xl p-4 md:hidden`}
         >
           {navLinks.map((link) => (
-            <button
+            <a
               key={link.label}
-              type="button"
+              href={link.href}
+              onClick={() => setMenuOpen(false)}
               className={`flex w-full items-center justify-between rounded-lg px-4 py-3 text-sm transition-colors ${
                 link.active ? "bg-white/15 text-white" : "text-white/70 hover:text-white"
               }`}
             >
               {link.label}
-              {link.dropdown && <ChevronDown size={13} aria-hidden="true" />}
-            </button>
+            </a>
           ))}
+          <div className="border-t border-white/10 pt-2">
+            <p className="px-4 py-2 text-xs font-medium tracking-wide text-white/45 uppercase">Wellness</p>
+            {wellnessLinks.map((link) => (
+              <a key={link.label} href={link.href} onClick={() => setMenuOpen(false)} className="block rounded-lg px-4 py-2 text-sm text-white/70 hover:text-white">
+                {link.label}
+              </a>
+            ))}
+          </div>
           <div className="mt-2 flex gap-2 border-t border-white/10 pt-3">
             <button
               type="button"
-              className={`${styles.liquidGlass} flex-1 rounded-full px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-white/5`}
+              className={`${styles.liquidGlass} ${styles.glassButton} flex-1 rounded-full px-4 py-2.5 text-sm font-medium text-white`}
             >
               Log in
             </button>
@@ -128,7 +200,7 @@ export function EquilibriumHero() {
           </button>
           <button
             type="button"
-            className={`${styles.liquidGlass} rounded-full px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-white/5 sm:px-7 sm:text-base`}
+            className={`${styles.liquidGlass} ${styles.glassButton} rounded-full px-6 py-3 text-sm font-medium text-white sm:px-7 sm:text-base`}
           >
             Discover How
           </button>

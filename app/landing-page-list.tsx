@@ -11,6 +11,7 @@ type LandingPage = {
   description: string;
   href: string;
   screenshot: string;
+  price: number;
 };
 
 type LandingPageListProps = {
@@ -59,6 +60,7 @@ export function LandingPageList({ landingPages }: LandingPageListProps) {
               <span className={styles.copy}>
                 <span className={styles.name}>{landingPage.name}</span>
                 <span className={styles.description}>{landingPage.description}</span>
+                <span className={styles.studyPrice}>${landingPage.price} · Next.js hero</span>
               </span>
               <span className={styles.arrow} aria-hidden="true">
                 <ArrowRight />

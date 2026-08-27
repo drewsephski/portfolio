@@ -7,8 +7,8 @@ type PaidTemplate = {
   name: string;
   description: string;
   previewHref: string;
-  purchaseHref: string;
   screenshot: string;
+  price: number;
 };
 
 export function PaidTemplateList({ templates }: { templates: readonly PaidTemplate[] }) {
@@ -22,20 +22,18 @@ export function PaidTemplateList({ templates }: { templates: readonly PaidTempla
               alt={`${template.name} website template preview`}
               width={1440}
               height={900}
-              sizes="(max-width: 700px) calc(100vw - 40px), 720px"
+              sizes="(max-width: 700px) calc(100vw - 40px), 610px"
             />
           </Link>
           <div className={styles.templateDetails}>
             <div>
-              <p className={styles.templateLabel}>Premium Next.js template</p>
+              <p className={styles.templateLabel}>Complete Next.js template · ${template.price}</p>
               <h3>{template.name}</h3>
               <p className={styles.templateDescription}>{template.description}</p>
             </div>
             <div className={styles.templateActions}>
               <Link href={template.previewHref}>Live preview</Link>
-              <a href={template.purchaseHref}>
-                Purchase template <ArrowRight aria-hidden="true" />
-              </a>
+              <Link href={template.previewHref}>Buy now · ${template.price} <ArrowRight aria-hidden="true" /></Link>
             </div>
           </div>
         </article>
