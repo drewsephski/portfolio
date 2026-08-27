@@ -63,51 +63,102 @@
   color: #fff;
 }
 .button {
-  height: 42px;
-  min-width: 128px;
-  padding: 0 10px 0 17px;
-  border: 1px solid #ffffff30;
+  position: relative;
+  height: 44px;
+  padding: 10px 34px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 18px;
+  overflow: hidden;
   color: #fff;
-  background: #ffffff0b;
+  background: rgba(11, 11, 11, 0.72);
   font:
-    500 10px/1 Rubik,
+    500 12px/1 Rubik,
     Arial,
     sans-serif;
 }
+.button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.32) 100%);
+  opacity: 0.16;
+}
 .primary {
-  min-width: 151px;
-  background: #0f0f0f9e;
+  width: 239.8125px;
+  height: 58px;
+  padding: 17px 41px;
+  border: 0;
+  border-radius: 9px;
+  background: #000;
+  box-shadow: rgba(255, 255, 255, 0.06) 0 -12px 16px inset,
+    rgba(255, 255, 255, 0.16) 0 4px 16px inset,
+    rgba(255, 255, 255, 0.12) 0 0.75px 0.25px inset,
+    rgba(255, 255, 255, 0.32) 0 0.25px 0.25px inset,
+    rgba(0, 0, 0, 0.06) 0 40px 24px,
+    rgba(0, 0, 0, 0.08) 0 23px 14px,
+    rgba(0, 0, 0, 0.12) 0 10px 10px,
+    rgba(0, 0, 0, 0.19) 0 3px 6px,
+    rgba(0, 0, 0, 0.56) 0 0 0 0.75px;
+}
+.primary::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at 50% 0%, transparent 0%, #000 100%);
+  opacity: 0.32;
+}
+.primary::after {
+  background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.32) 100%);
+  opacity: 0.16;
 }
 .labelViewport {
-  height: 11px;
+  position: relative;
+  z-index: 1;
+  height: 12px;
   overflow: hidden;
 }
 .labelTrack {
   display: flex;
   flex-direction: column;
-  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .labelTrack > span {
-  height: 11px;
+  height: 12px;
+  line-height: 12px;
   white-space: nowrap;
 }
-.arrow {
-  display: flex;
-  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
-}
-.arrow img {
+.arrowViewport {
+  position: relative;
+  z-index: 1;
   width: 14px;
   height: 14px;
+  overflow: hidden;
 }
-.button:hover .labelTrack {
-  transform: translateY(-50%);
+.arrowTrack {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
 }
-.button:hover .arrow {
-  transform: translateX(3px);
+.arrowTrack > span,
+.arrowTrack img {
+  display: block;
+  width: 14px;
+  height: 14px;
+  flex: 0 0 14px;
+}
+.button:hover .labelTrack,
+.button:focus-visible .labelTrack {
+  transform: translateY(-12px);
+}
+.button:hover .arrowTrack,
+.button:focus-visible .arrowTrack {
+  transform: translateY(-14px);
 }
 .menu {
   display: none;
@@ -217,6 +268,12 @@
 .overviewCopy {
   width: 575px;
 }
+.overviewIcon {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 28px;
+  opacity: 0.82;
+}
 .overviewCopy > p {
   margin: 0 0 29px;
   font-size: 34px;
@@ -230,7 +287,7 @@
   gap: 12px;
   color: #ffffffad;
   font:
-    500 10px/1 Rubik,
+    500 12px/1 Rubik,
     Arial,
     sans-serif;
   letter-spacing: 0.04em;
@@ -389,7 +446,7 @@
     animation: none;
   }
   .labelTrack,
-  .arrow {
+  .arrowTrack {
     transition: none;
   }
 }
@@ -423,8 +480,6 @@
     width: 169px;
     height: 44px;
     font-size: 12px;
-    background: linear-gradient(180deg, rgba(54, 54, 54, 0.9), rgba(17, 17, 17, 0.94));
-    box-shadow: inset 0 1px rgba(255, 255, 255, 0.08);
     text-transform: uppercase;
   }
   .heroContent {
@@ -457,8 +512,6 @@
     width: 239.8125px;
     height: 58px;
     font-size: 12px;
-    background: linear-gradient(180deg, rgba(56, 56, 56, 0.96), rgba(13, 13, 13, 0.96));
-    box-shadow: inset 0 1px rgba(255, 255, 255, 0.12), 0 10px 24px rgba(0, 0, 0, 0.24);
   }
   .trust {
     bottom: 100px;

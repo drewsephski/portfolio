@@ -10,5 +10,11 @@ export const metadata: Metadata = {
 };
 
 export default function InfranexPage() {
-  return <main className={styles.page}><InfranexHero /><InfranexCapabilities /><InfranexConversion /></main>;
+  return (
+    <main className={styles.page}>
+      <InfranexHero />
+      <InfranexCapabilities />
+      <InfranexConversion />
+    </main>
+  );
 }

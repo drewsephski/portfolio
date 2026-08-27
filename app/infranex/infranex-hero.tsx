@@ -22,7 +22,7 @@ function Counter({ prefix = "", target, suffix }: { prefix?: string; target: num
 }
 function Arrow() { return <Image aria-hidden src="/infranex-live/dvNbIo7IbmzkaOdtCN5qcUchpM.svg" alt="" width={24} height={24} />; }
 function Button({ children, href, primary = false }: { children: string; href: string; primary?: boolean }) {
-  return <Link className={`${styles.button} ${primary ? styles.primary : ""}`} href={href}><span className={styles.labelViewport}><span className={styles.labelTrack}><span>{children}</span><span aria-hidden>{children}</span></span></span><span className={styles.arrow}><Arrow /></span></Link>;
+  return <Link className={`${styles.button} ${primary ? styles.primary : ""}`} href={href}><span className={styles.labelViewport}><span className={styles.labelTrack}><span>{children}</span><span aria-hidden>{children}</span></span></span><span className={styles.arrowViewport}><span className={styles.arrowTrack}><span><Arrow /></span><span aria-hidden><Arrow /></span></span></span></Link>;
 }
 
 export function InfranexHero() {
@@ -39,7 +39,7 @@ export function InfranexHero() {
     </section>
     <section className={styles.overview} id="about">
       <video className={styles.overviewVideo} autoPlay loop muted playsInline aria-hidden><source src="/infranex-live/features.webm" type="video/webm" /></video><div className={styles.overviewShade} />
-      <div className={styles.overviewContent}><div className={styles.overviewCopy}><p>Our team of data scientists, engineers, and creatives craft tailored AI solutions that solve real-world challenges across industries.</p><Link href="#features">LEARN MORE <Arrow /></Link></div>
+      <div className={styles.overviewContent}><div className={styles.overviewCopy}><Image className={styles.overviewIcon} src="/infranex-live/9MgzCqL6RYOVADFY6awtidfluA.svg" alt="" width={32} height={32}/><p>Our team of data scientists, engineers, and creatives craft tailored AI solutions that solve real-world challenges across industries.</p><Link href="#features">LEARN MORE <Arrow /></Link></div>
       <div className={styles.metrics}><div><span>Performance Snapshot</span><strong><Counter prefix="$" target={5} suffix="M+" /></strong></div><div><span>Digital Reach</span><strong><Counter target={250} suffix="+" /></strong></div><div><span>Client Trust</span><strong><Counter target={98} suffix="%" /></strong></div></div></div>
     </section>
   </>;

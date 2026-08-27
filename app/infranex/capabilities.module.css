@@ -2,3 +2,37 @@
 @keyframes marquee{to{transform:translateX(calc(-50% - 7px))}}@keyframes pulse{50%{transform:scale(1.08);filter:brightness(1.3)}}@keyframes turn{50%{transform:rotate(8deg) scale(1.05);filter:brightness(1.3)}}
 @media(max-width:700px){.section{padding:60px 20px}.how{height:1436.953px}.featureSection{height:1696.797px}.why{height:1948.797px}.integration{height:629.922px;padding-left:0;padding-right:0}.intro{margin-bottom:38px;padding:0 8px}.intro h2{font-size:24px;line-height:28.8px;margin-bottom:14px}.intro span{font-size:13px}.howGrid{grid-template-columns:1fr;gap:10px}.howCard{height:366px;padding:20px}.product{height:218px}.featureGrid{display:flex;flex-direction:column;gap:10px}.featureCard,.feature0{height:335px;min-height:335px}.dashboard,.feature0 .dashboard{inset:14px 14px 124px}.reasonGrid{grid-template-columns:1fr;gap:10px}.reason{height:258px;padding:24px}.reason img{width:55px;height:55px}.logo{width:108px;height:72px}.logo img{width:38px;height:38px}.track{gap:10px;animation-duration:28s}.marquee{margin:10px 0}.explore{margin-top:28px}.copy h3,.reason h3{font-size:18px;line-height:25.2px}}
 @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.track,.reason img{animation:none!important}.product img,.dashboard img{transition:none}}
+
+/* Framer card construction: the frame art is a separate layer below live content. */
+.card{position:relative;background:#0d0d0d;border-radius:16px}
+.card::before{content:"";position:absolute;inset:0;background:url('/infranex-live/qiM3KKH1kz79AFK3sIAsnEZrcA.svg') center/100% 100% no-repeat;pointer-events:none;z-index:0}
+.card>*{position:relative;z-index:1}
+.howGrid{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.howCard{height:410px;padding:25px 25px 32px}
+.product{height:245px}
+.product img{width:100%;height:213px;max-height:213px;object-fit:contain;border-radius:14px;box-shadow:0 28px 45px rgba(0,0,0,.6),0 12px 22px rgba(0,0,0,.72),0 2px 4px #000}
+.howCard:nth-child(2) .product img{width:100%}
+.dashboard{position:absolute!important}
+@media(max-width:700px){.howGrid{grid-template-columns:1fr;gap:10px}.howCard{height:366px;padding:20px}.product{height:218px}.product img{height:190px;max-height:190px}}
+
+/* Original Infranex animated card compositions and compact section rhythm. */
+.integration{height:auto;min-height:0;padding:80px 0 44px}
+.integration .intro{margin-bottom:44px}
+.integration .explore{margin-top:28px}
+.explore{font-size:12px}
+.product{position:relative}
+.howAnimation{position:absolute;inset:0;display:grid;place-items:center;overflow:hidden;border-radius:14px}
+.howAnimation svg{width:100%!important;height:100%!important}
+.howCard:nth-child(1) .howAnimation{inset:16px 0 0}
+.howCard:nth-child(3) .howAnimation{inset:-10px -4px -2px}
+.featureGrid{display:grid;grid-template-columns:458fr 752fr;grid-template-rows:401px 401px;grid-template-areas:"a b" "c d";gap:24px}
+.featureCard{height:401px;padding:25px 32px 32px}
+.feature0{grid-area:a}
+.feature1{grid-area:b}
+.feature2{grid-area:c}
+.feature3{grid-area:d}
+.dashboard,.feature0 .dashboard{inset:16px 16px 130px;border-radius:12px}
+.dashboard img{position:absolute;inset:0;object-position:center;opacity:.72}
+.featureAnimation{position:absolute;inset:10px;display:grid;place-items:center}
+.featureAnimation svg{width:100%!important;height:100%!important}
+@media(max-width:700px){.featureGrid{display:flex}.featureCard,.feature0{height:335px;min-height:335px}.dashboard,.feature0 .dashboard{inset:14px 14px 120px}.integration{min-height:0;height:auto;padding:60px 0 72px}}
