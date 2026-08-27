@@ -1,0 +1,465 @@
+@reference "../globals.css";
+
+.page {
+  @apply min-h-screen antialiased;
+
+  font-family: "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animateFadeUp {
+  animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animateFadeDown {
+  animation: fadeDown 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.stagger1 { animation-delay: 0ms; }
+.stagger2 { animation-delay: 120ms; }
+.stagger3 { animation-delay: 240ms; }
+.stagger4 { animation-delay: 360ms; }
+.stagger5 { animation-delay: 480ms; }
+.stagger6 { animation-delay: 600ms; }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 50;
+  background: transparent;
+  transition-duration: 300ms;
+}
+
+.navbarScrolled {
+  background: rgb(250 248 245 / 90%);
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%);
+  backdrop-filter: blur(12px);
+}
+
+.navContainer,
+.heroContent {
+  width: 100%;
+  max-width: 80rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.navBar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 4rem;
+}
+
+.desktopLinks {
+  display: none;
+  align-items: center;
+  gap: 2rem;
+}
+
+.desktopLink,
+.solutionsButton {
+  color: #2d3a2e;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  transition: opacity 150ms ease;
+}
+
+.desktopLink:hover,
+.solutionsButton:hover {
+  opacity: 0.7;
+}
+
+.solutionsButton {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  border: 0;
+  background: transparent;
+  color: #2d3a2e;
+  cursor: pointer;
+}
+
+.smallIcon {
+  width: 0.875rem;
+  height: 0.875rem;
+  flex: 0 0 auto;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #2d3a2e;
+  transform: translateX(-50%);
+}
+
+.logoIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  flex: 0 0 auto;
+  fill: #2d3a2e;
+  color: #2d3a2e;
+}
+
+.logoText {
+  color: #2d3a2e;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: -0.025em;
+}
+
+.desktopCta {
+  display: none;
+  align-items: center;
+  margin-left: auto;
+  padding: 0.625rem 1.25rem;
+  border-radius: 9999px;
+  background: #2d3a2e;
+  color: #fff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  transition: background-color 150ms ease;
+}
+
+.desktopCta:hover {
+  background: #3d5a3e;
+}
+
+.menuToggle {
+  position: relative;
+  z-index: 50;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: auto;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.menuToggle:focus {
+  outline: none;
+}
+
+.menuToggle:focus-visible {
+  border-radius: 0.25rem;
+  outline: 2px solid #2d3a2e;
+  outline-offset: 2px;
+}
+
+.menuBars {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.5rem;
+  display: block;
+  width: 1.5rem;
+  height: 15px;
+}
+
+.menuBar {
+  position: absolute;
+  left: 0;
+  width: 1.5rem;
+  height: 2px;
+  border-radius: 9999px;
+  background: #2d3a2e;
+  transition: all 300ms cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+.menuBarTop {
+  top: 6px;
+}
+
+.menuBarBottom {
+  top: 13px;
+}
+
+.menuBarTopOpen {
+  transform: translateY(5px) rotate(45deg);
+}
+
+.menuBarBottomOpen {
+  transform: rotate(-45deg);
+}
+
+.mobileOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: #faf8f5;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 500ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.mobileOverlayOpen {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.mobileMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 2rem;
+  opacity: 0;
+  transform: translateY(-2rem);
+  transition: opacity 500ms cubic-bezier(0.22, 1, 0.36, 1) 100ms,
+    transform 500ms cubic-bezier(0.22, 1, 0.36, 1) 100ms;
+}
+
+.mobileMenuOpen {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.mobileLink {
+  color: #2d3a2e;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  letter-spacing: -0.025em;
+}
+
+.mobileCta {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.875rem 2rem;
+  border-radius: 9999px;
+  background: #2d3a2e;
+  color: #fff;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.025em;
+}
+
+.hero {
+  @apply relative h-screen min-h-[700px] w-full overflow-hidden;
+
+  background: #faf8f5;
+}
+
+.videoLayer {
+  @apply absolute inset-0;
+}
+
+.video {
+  @apply h-full w-full object-cover object-bottom;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 7rem;
+}
+
+.announcement {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgb(45 58 46 / 15%);
+  border-radius: 9999px;
+  background: rgb(255 255 255 / 60%);
+  color: #2d3a2e;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  backdrop-filter: blur(4px);
+  transition: background-color 150ms ease;
+}
+
+.announcement:hover {
+  background: rgb(255 255 255 / 80%);
+}
+
+.headline {
+  max-width: 56rem;
+  color: #2d3a2e;
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  text-align: left;
+}
+
+.desktopBreak {
+  display: none;
+}
+
+.trusted {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.trustedLabel {
+  margin-bottom: 1.5rem;
+  color: rgb(45 58 46 / 50%);
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.25em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.logoRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+
+.wordmark {
+  color: rgb(45 58 46 / 80%);
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  white-space: nowrap;
+}
+
+.meridian {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+.stellex {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.luminar {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.overland {
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.kinetic {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+@media (min-width: 640px) {
+  .headline {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .desktopBreak {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .navBar {
+    height: 5rem;
+  }
+
+  .desktopLinks,
+  .desktopCta {
+    display: flex;
+  }
+
+  .menuToggle,
+  .mobileOverlay {
+    display: none;
+  }
+
+  .heroContent {
+    padding-top: 9rem;
+  }
+
+  .announcement {
+    margin-bottom: 1.5rem;
+  }
+
+  .headline {
+    font-size: 3rem;
+    line-height: 1.05;
+  }
+
+  .trusted {
+    margin-top: 2.5rem;
+  }
+
+  .trustedLabel {
+    margin-bottom: 2rem;
+  }
+
+  .logoRow {
+    gap: 3rem;
+  }
+
+  .wordmark {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navContainer,
+  .heroContent {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .headline {
+    font-size: 3.75rem;
+  }
+
+  .logoRow {
+    gap: 4rem;
+  }
+
+  .wordmark {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animateFadeUp,
+  .animateFadeDown {
+    animation: none;
+  }
+
+  .navbar,
+  .desktopLink,
+  .solutionsButton,
+  .desktopCta,
+  .menuBar,
+  .mobileOverlay,
+  .mobileMenu,
+  .announcement {
+    transition-duration: 0.01ms;
+  }
+}

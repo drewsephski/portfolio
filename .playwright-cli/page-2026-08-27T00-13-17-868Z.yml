@@ -1,0 +1,64 @@
+- generic [active] [ref=f2e1]:
+  - main [ref=f2e2]:
+    - generic [ref=f2e3]:
+      - heading "Landing pages" [level=1] [ref=f2e4]
+      - navigation "Landing pages" [ref=f2e5]:
+        - list [ref=f2e6]:
+          - listitem [ref=f2e7]:
+            - link "Nexora Smarter automation for busywork" [ref=f2e8] [cursor=pointer]:
+              - /url: /nexora
+              - generic [ref=f2e10]:
+                - generic [ref=f2e11]: Nexora
+                - generic [ref=f2e12]: Smarter automation for busywork
+              - generic [ref=f2e13]: →
+          - listitem [ref=f2e14]:
+            - link "Vantage One clear signal across every dashboard" [ref=f2e15] [cursor=pointer]:
+              - /url: /vantage
+              - generic [ref=f2e17]:
+                - generic [ref=f2e18]: Vantage
+                - generic [ref=f2e19]: One clear signal across every dashboard
+              - generic [ref=f2e20]: →
+          - listitem [ref=f2e21]:
+            - link "Meridian Revenue intelligence for SaaS" [ref=f2e22] [cursor=pointer]:
+              - /url: /meridian
+              - generic [ref=f2e24]:
+                - generic [ref=f2e25]: Meridian
+                - generic [ref=f2e26]: Revenue intelligence for SaaS
+              - generic [ref=f2e27]: →
+          - listitem [ref=f2e28]:
+            - link "Axon Digital workers for mundane workflows" [ref=f2e29] [cursor=pointer]:
+              - /url: /axon
+              - generic [ref=f2e31]:
+                - generic [ref=f2e32]: Axon
+                - generic [ref=f2e33]: Digital workers for mundane workflows
+              - generic [ref=f2e34]: →
+          - listitem [ref=f2e35]:
+            - link "Vesper Operational AI infrastructure" [ref=f2e36] [cursor=pointer]:
+              - /url: /vesper
+              - generic [ref=f2e38]:
+                - generic [ref=f2e39]: Vesper
+                - generic [ref=f2e40]: Operational AI infrastructure
+              - generic [ref=f2e41]: →
+          - listitem [ref=f2e42]:
+            - link "Palomar One unified system for LLMs" [ref=f2e43] [cursor=pointer]:
+              - /url: /palomar
+              - generic [ref=f2e45]:
+                - generic [ref=f2e46]: Palomar
+                - generic [ref=f2e47]: One unified system for LLMs
+              - generic [ref=f2e48]: →
+          - listitem [ref=f2e49]:
+            - link "The Next Layer of Intelligence Infrastructure for building and scaling AI systems" [ref=f2e50] [cursor=pointer]:
+              - /url: /next-layer-of-intelligence
+              - generic [ref=f2e52]:
+                - generic [ref=f2e53]: The Next Layer of Intelligence
+                - generic [ref=f2e54]: Infrastructure for building and scaling AI systems
+              - generic [ref=f2e55]: →
+          - listitem [ref=f2e56]:
+            - link "Convix Software The future of PR agency operations" [ref=f2e57] [cursor=pointer]:
+              - /url: /convix
+              - generic [ref=f2e59]:
+                - generic [ref=f2e60]: Convix Software
+                - generic [ref=f2e61]: The future of PR agency operations
+              - generic [ref=f2e62]: →
+  - button "Open Next.js Dev Tools" [ref=f2e68] [cursor=pointer]
+  - alert [ref=f2e72]

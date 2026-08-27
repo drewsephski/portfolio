@@ -1,0 +1,144 @@
+- main [ref=f23e2]:
+  - generic [ref=f23e3]:
+    - navigation "Primary navigation" [ref=f23e4]:
+      - link "Drew Sepeczi" [ref=f23e5] [cursor=pointer]:
+        - /url: "#top"
+      - generic [ref=f23e6]:
+        - link "Products" [ref=f23e7] [cursor=pointer]:
+          - /url: "#products"
+        - link "Portfolio ↗" [ref=f23e8] [cursor=pointer]:
+          - /url: https://portfolio.drewsepeczi.xyz
+        - link "Contact" [ref=f23e9] [cursor=pointer]:
+          - /url: mailto:hello@drewsepeczi.xyz
+    - generic [ref=f23e10]:
+      - paragraph [ref=f23e11]: Software engineer · Chicago
+      - heading "I design and build software people can actually use." [level=1] [ref=f23e12]
+      - generic [ref=f23e13]:
+        - paragraph [ref=f23e14]: AI products, developer tools, and full-stack web apps—from the first useful workflow through production.
+        - link "Let’s work together" [ref=f23e15] [cursor=pointer]:
+          - /url: mailto:hello@drewsepeczi.xyz
+          - text: Let’s work together ↗
+    - region [ref=f23e16]:
+      - generic [ref=f23e17]:
+        - heading "Selected products" [level=2] [ref=f23e18]
+        - paragraph [ref=f23e19]: 6 shipped & active
+      - generic [ref=f23e20]:
+        - link "01 SaaS product Sitterfolio A website and inquiry workspace for independent pet sitters—built to turn care details into a polished page and keep every request organized. Visit product" [ref=f23e21] [cursor=pointer]:
+          - /url: https://www.sitterfolio.com
+          - text: "01"
+          - generic [ref=f23e22]: SaaS product
+          - heading "Sitterfolio" [level=3] [ref=f23e23]
+          - paragraph [ref=f23e24]: A website and inquiry workspace for independent pet sitters—built to turn care details into a polished page and keep every request organized.
+          - generic [ref=f23e27]: Visit product ↗
+        - link "02 Voice AI Vault Zero An AI receptionist for home-service businesses that handles missed and after-hours calls while keeping a clear path back to a human. Visit product" [ref=f23e28] [cursor=pointer]:
+          - /url: https://vaultzero.dev
+          - text: "02"
+          - generic [ref=f23e29]: Voice AI
+          - heading "Vault Zero" [level=3] [ref=f23e30]
+          - paragraph [ref=f23e31]: An AI receptionist for home-service businesses that handles missed and after-hours calls while keeping a clear path back to a human.
+          - generic [ref=f23e34]: Visit product ↗
+        - link "03 AI workflow Vault Zero CRM An acquisition CRM that discovers, researches, and qualifies businesses against a buyer’s thesis—with evidence behind every recommendation. Visit product" [ref=f23e35] [cursor=pointer]:
+          - /url: https://crm.vaultzero.dev
+          - text: "03"
+          - generic [ref=f23e36]: AI workflow
+          - heading "Vault Zero CRM" [level=3] [ref=f23e37]
+          - paragraph [ref=f23e38]: An acquisition CRM that discovers, researches, and qualifies businesses against a buyer’s thesis—with evidence behind every recommendation.
+          - generic [ref=f23e41]: Visit product ↗
+        - link "04 Developer tool Squid Agent Turns prompts, screenshots, and live sites into working React prototypes, with evidence attached to every revision. Visit product" [ref=f23e42] [cursor=pointer]:
+          - /url: https://squidagent.app
+          - text: "04"
+          - generic [ref=f23e43]: Developer tool
+          - heading "Squid Agent" [level=3] [ref=f23e44]
+          - paragraph [ref=f23e45]: Turns prompts, screenshots, and live sites into working React prototypes, with evidence attached to every revision.
+          - generic [ref=f23e48]: Visit product ↗
+        - link "05 Developer API SquidCrawl An edge-native scraper API that gives AI agents clean page content instead of a pile of raw HTML. Visit product" [ref=f23e49] [cursor=pointer]:
+          - /url: https://squidcrawl.dev
+          - text: "05"
+          - generic [ref=f23e50]: Developer API
+          - heading "SquidCrawl" [level=3] [ref=f23e51]
+          - paragraph [ref=f23e52]: An edge-native scraper API that gives AI agents clean page content instead of a pile of raw HTML.
+          - generic [ref=f23e55]: Visit product ↗
+        - link "06 Design system Phoenix Design Lab A cinematic design-agency demo built around bold art direction, editorial typography, and an immersive scrolling portfolio. Visit product" [ref=f23e56] [cursor=pointer]:
+          - /url: https://phoenixdev.agency/demo
+          - text: "06"
+          - generic [ref=f23e57]: Design system
+          - heading "Phoenix Design Lab" [level=3] [ref=f23e58]
+          - paragraph [ref=f23e59]: A cinematic design-agency demo built around bold art direction, editorial typography, and an immersive scrolling portfolio.
+          - generic [ref=f23e62]: Visit product ↗
+    - region [ref=f23e63]:
+      - generic [ref=f23e64]:
+        - heading "Interface studies" [level=2] [ref=f23e65]
+        - paragraph [ref=f23e66]: Explorations in product storytelling
+      - list [ref=f23e67]:
+        - listitem [ref=f23e68]:
+          - button "Open Nexora screenshot" [ref=f23e69]
+          - link "Nexora Automation for busywork" [ref=f23e70] [cursor=pointer]:
+            - /url: /nexora
+            - generic [ref=f23e71]:
+              - generic [ref=f23e72]: Nexora
+              - generic [ref=f23e73]: Automation for busywork
+            - generic [ref=f23e74]: →
+        - listitem [ref=f23e75]:
+          - button "Open Vantage screenshot" [ref=f23e76]
+          - link "Vantage A clear signal across every dashboard" [ref=f23e77] [cursor=pointer]:
+            - /url: /vantage
+            - generic [ref=f23e78]:
+              - generic [ref=f23e79]: Vantage
+              - generic [ref=f23e80]: A clear signal across every dashboard
+            - generic [ref=f23e81]: →
+        - listitem [ref=f23e82]:
+          - button "Open Meridian screenshot" [ref=f23e83]
+          - link "Meridian Revenue intelligence for SaaS" [ref=f23e84] [cursor=pointer]:
+            - /url: /meridian
+            - generic [ref=f23e85]:
+              - generic [ref=f23e86]: Meridian
+              - generic [ref=f23e87]: Revenue intelligence for SaaS
+            - generic [ref=f23e88]: →
+        - listitem [ref=f23e89]:
+          - button "Open Axon screenshot" [ref=f23e90]
+          - link "Axon Digital workers for mundane workflows" [ref=f23e91] [cursor=pointer]:
+            - /url: /axon
+            - generic [ref=f23e92]:
+              - generic [ref=f23e93]: Axon
+              - generic [ref=f23e94]: Digital workers for mundane workflows
+            - generic [ref=f23e95]: →
+        - listitem [ref=f23e96]:
+          - button "Open Vesper screenshot" [ref=f23e97]
+          - link "Vesper Operational AI infrastructure" [ref=f23e98] [cursor=pointer]:
+            - /url: /vesper
+            - generic [ref=f23e99]:
+              - generic [ref=f23e100]: Vesper
+              - generic [ref=f23e101]: Operational AI infrastructure
+            - generic [ref=f23e102]: →
+        - listitem [ref=f23e103]:
+          - button "Open Palomar screenshot" [ref=f23e104]
+          - link "Palomar One unified system for LLMs" [ref=f23e105] [cursor=pointer]:
+            - /url: /palomar
+            - generic [ref=f23e106]:
+              - generic [ref=f23e107]: Palomar
+              - generic [ref=f23e108]: One unified system for LLMs
+            - generic [ref=f23e109]: →
+        - listitem [ref=f23e110]:
+          - button "Open The Next Layer of Intelligence screenshot" [ref=f23e111]
+          - link "The Next Layer of Intelligence Infrastructure for scaling AI systems" [ref=f23e112] [cursor=pointer]:
+            - /url: /next-layer-of-intelligence
+            - generic [ref=f23e113]:
+              - generic [ref=f23e114]: The Next Layer of Intelligence
+              - generic [ref=f23e115]: Infrastructure for scaling AI systems
+            - generic [ref=f23e116]: →
+        - listitem [ref=f23e117]:
+          - button "Open Convix Software screenshot" [ref=f23e118]
+          - link "Convix Software The future of PR agency operations" [ref=f23e119] [cursor=pointer]:
+            - /url: /convix
+            - generic [ref=f23e120]:
+              - generic [ref=f23e121]: Convix Software
+              - generic [ref=f23e122]: The future of PR agency operations
+            - generic [ref=f23e123]: →
+    - generic [ref=f23e124]:
+      - paragraph [ref=f23e125]: Available for thoughtful product work.
+      - generic [ref=f23e126]:
+        - link "GitHub ↗" [ref=f23e127] [cursor=pointer]:
+          - /url: https://github.com/drewsephski
+        - link "LinkedIn ↗" [ref=f23e128] [cursor=pointer]:
+          - /url: https://linkedin.com/in/drewsepeczi
+      - paragraph [ref=f23e129]: © 2026 Drew Sepeczi

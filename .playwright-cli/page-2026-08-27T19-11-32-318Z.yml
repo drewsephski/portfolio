@@ -1,0 +1,527 @@
+- generic [active] [ref=f1e1]:
+  - main [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - generic [ref=f1e7]:
+        - link "Infranex home" [ref=f1e8] [cursor=pointer]:
+          - /url: /infranex
+          - img "Infranex" [ref=f1e9]
+        - navigation [ref=f1e10]:
+          - link "Home" [ref=f1e11] [cursor=pointer]:
+            - /url: /infranex
+          - link "About" [ref=f1e12] [cursor=pointer]:
+            - /url: "#about"
+          - link "Features" [ref=f1e13] [cursor=pointer]:
+            - /url: "#features"
+          - link "Pricing" [ref=f1e14] [cursor=pointer]:
+            - /url: "#pricing"
+          - link "Blog" [ref=f1e15] [cursor=pointer]:
+            - /url: "#blog"
+          - link "Contact" [ref=f1e16] [cursor=pointer]:
+            - /url: "#contact"
+        - link "Get Started" [ref=f1e17] [cursor=pointer]:
+          - /url: "#contact"
+          - generic [ref=f1e19]:
+            - generic [ref=f1e20]: Get Started
+            - generic [ref=f1e21]: Get Started
+      - generic [ref=f1e24]:
+        - generic [ref=f1e25]: Smarter Task Management
+        - heading "Smarter by design. Simplified by AI." [level=1] [ref=f1e26]: Smarter by design.Simplified by AI.
+        - paragraph [ref=f1e27]: Automate your workflows, prioritize, and focus on what truly matters.
+        - link "Get Started Now" [ref=f1e28] [cursor=pointer]:
+          - /url: "#contact"
+          - generic [ref=f1e30]:
+            - generic [ref=f1e31]: Get Started Now
+            - generic [ref=f1e32]: Get Started Now
+      - paragraph [ref=f1e36]: Trusted by the World’s Largest Companies
+    - generic [ref=f1e42]:
+      - generic [ref=f1e43]:
+        - paragraph [ref=f1e44]: Our team of data scientists, engineers, and creatives craft tailored AI solutions that solve real-world challenges across industries.
+        - link "LEARN MORE" [ref=f1e45] [cursor=pointer]:
+          - /url: "#features"
+      - generic [ref=f1e47]:
+        - generic [ref=f1e48]:
+          - generic [ref=f1e49]: Performance Snapshot
+          - strong [ref=f1e50]: $3M+
+        - generic [ref=f1e51]:
+          - generic [ref=f1e52]: Digital Reach
+          - strong [ref=f1e53]: 143+
+        - generic [ref=f1e54]:
+          - generic [ref=f1e55]: Client Trust
+          - strong [ref=f1e56]: 56%
+    - generic [ref=f1e57]:
+      - generic [ref=f1e59]:
+        - generic [ref=f1e60]:
+          - paragraph [ref=f1e61]: HOW IT WORKS
+          - heading "Where complexity meets clarity" [level=2] [ref=f1e62]
+          - text: Analyze deadlines, effort, and context to reorder intelligently.
+        - generic [ref=f1e63]:
+          - article [ref=f1e64]:
+            - generic [ref=f1e65]: "01"
+            - generic [ref=f1e67]:
+              - heading "AI-Powered Prioritization" [level=3] [ref=f1e68]
+              - paragraph [ref=f1e69]: Our engine tasks by urgency & importance.
+          - article [ref=f1e70]:
+            - generic [ref=f1e71]: "02"
+            - generic [ref=f1e73]:
+              - heading "Capture Tasks Instantly" [level=3] [ref=f1e74]
+              - paragraph [ref=f1e75]: Add tasks via voice, email, or integrations.
+          - article [ref=f1e76]:
+            - generic [ref=f1e77]: "03"
+            - generic [ref=f1e79]:
+              - heading "Seamless Automation" [level=3] [ref=f1e80]
+              - paragraph [ref=f1e81]: We ready to handle them for you.
+      - generic [ref=f1e83]:
+        - generic [ref=f1e84]:
+          - paragraph [ref=f1e85]: OUR FEATURES
+          - heading "Your Productivity, Reinvented with AI" [level=2] [ref=f1e86]
+          - text: Infranex Management was founded by a team of productivity hackers.
+        - generic [ref=f1e87]:
+          - article [ref=f1e88]:
+            - img "Infranex dashboard" [ref=f1e90]
+            - generic [ref=f1e91]:
+              - text: SMART PRIORITIZATION
+              - heading "Fast, scalable, and tailored solutions" [level=3] [ref=f1e92]
+              - paragraph [ref=f1e93]: Our engine tasks by urgency & importance.
+          - article [ref=f1e94]:
+            - img "Infranex dashboard" [ref=f1e96]
+            - generic [ref=f1e97]:
+              - text: AUTOMATION
+              - heading "Workflow Automation" [level=3] [ref=f1e98]
+              - paragraph [ref=f1e99]: Trigger actions based on task completion, time, or team activity.
+          - article [ref=f1e100]:
+            - img "Infranex dashboard" [ref=f1e102]
+            - generic [ref=f1e103]:
+              - text: PLANNING
+              - heading "AI Planning Assistant" [level=3] [ref=f1e104]
+              - paragraph [ref=f1e105]: Suggests assignees, sets reminders, and flags blockers.
+          - article [ref=f1e106]:
+            - generic:
+              - img "Infranex dashboard"
+            - generic [ref=f1e107]:
+              - text: COLLABORATION
+              - heading "Collaboration AI" [level=3] [ref=f1e108]
+              - paragraph [ref=f1e109]: Automatically builds a realistic, daily schedule.
+      - generic [ref=f1e111]:
+        - generic [ref=f1e112]:
+          - paragraph [ref=f1e113]: WHY CHOOSE US
+          - heading "Building the future of work" [level=2] [ref=f1e114]
+          - text: Task AI Management was founded by a team of productivity hackers.
+        - generic [ref=f1e115]:
+          - article [ref=f1e116]:
+            - heading "Intelligent Automation" [level=3] [ref=f1e117]
+            - paragraph [ref=f1e118]: Streamline repetitive tasks and boost productivity effortlessly, saving time and reducing human errors.
+          - article [ref=f1e119]:
+            - heading "AI-Powered Insights" [level=3] [ref=f1e120]
+            - paragraph [ref=f1e121]: Make smarter decisions with data-driven by the recommendations and actionable, real-time.
+          - article [ref=f1e122]:
+            - heading "Seamless Integrations" [level=3] [ref=f1e123]
+            - paragraph [ref=f1e124]: Connect with your favorite tools and platforms easily, creating a unified, efficient workflow.
+          - article [ref=f1e125]:
+            - heading "User-Centric Design" [level=3] [ref=f1e126]
+            - paragraph [ref=f1e127]: Enjoy an intuitive, easy-to-use interface built for efficiency and enhanced team collaboration.
+          - article [ref=f1e128]:
+            - heading "Reliable Support" [level=3] [ref=f1e129]
+            - paragraph [ref=f1e130]: Access dedicated help whenever you need guidance or assistance, ensuring uninterrupted.
+          - article [ref=f1e131]:
+            - heading "Proven Results" [level=3] [ref=f1e132]
+            - paragraph [ref=f1e133]: Trusted by thousands of users and businesses worldwide for measurable success and growth.
+      - generic [ref=f1e134]:
+        - generic [ref=f1e136]:
+          - paragraph [ref=f1e137]: INTEGRATION
+          - heading "Effortless Connectivity" [level=2] [ref=f1e138]
+          - text: Task AI Management was founded by a team of productivity hackers.
+        - link "EXPLORE ALL ↗" [ref=f1e211] [cursor=pointer]:
+          - /url: "#pricing"
+          - text: EXPLORE ALL
+          - generic [ref=f1e212]: ↗
+    - generic [ref=f1e213]:
+      - generic [ref=f1e215]:
+        - generic [ref=f1e216]:
+          - paragraph [ref=f1e217]: Success Stories
+          - heading "Success Stories to Inspire" [level=2] [ref=f1e218]
+          - generic [ref=f1e219]: Discover how businesses and creators achieve results
+        - article [ref=f1e220]:
+          - img "Infranex" [ref=f1e223]
+          - generic [ref=f1e224]:
+            - generic [ref=f1e225]: CEO’S WORDS
+            - heading "From the Desk of Our CEO" [level=3] [ref=f1e226]
+            - blockquote [ref=f1e227]: “With Infranex, our growing team stayed in sync. AI auto-assigned tasks based on bandwidth and deadlines, letting us focus on shipping, not managing. Our campaigns are now delivered on time thanks to AI-prioritized sprints and real-time nudges for overdue tasks.”
+            - paragraph [ref=f1e228]: CO Founder of Infranex.
+      - generic [ref=f1e229]:
+        - generic [ref=f1e230]:
+          - paragraph [ref=f1e231]: Testimonials
+          - heading "Real People. Real Results" [level=2] [ref=f1e232]
+          - generic [ref=f1e233]: Find quick answers to the most common support questions
+        - generic [ref=f1e234]:
+          - generic [ref=f1e236]:
+            - article [ref=f1e237]:
+              - blockquote [ref=f1e238]: “Truly impressive. The AI assistant is fast, accurate, and blends into our daily ops without friction.”
+              - paragraph [ref=f1e240]:
+                - strong [ref=f1e241]: Ethan Parker
+                - generic [ref=f1e242]: Head of Product, FlowWorks
+            - article [ref=f1e243]:
+              - blockquote [ref=f1e244]: “Truly impressive. The AI assistant is fast, accurate, and blends into our daily ops without friction.”
+              - paragraph [ref=f1e246]:
+                - strong [ref=f1e247]: Liam Harrison
+                - generic [ref=f1e248]: Project Manager, CloudCore
+            - article [ref=f1e249]:
+              - blockquote [ref=f1e250]: “Before this, we were juggling spreadsheets and manual updates. Now everything’s automated.”
+              - paragraph [ref=f1e252]:
+                - strong [ref=f1e253]: Emma Foster
+                - generic [ref=f1e254]: Marketing Manager, BrightWave
+            - article [ref=f1e255]:
+              - blockquote [ref=f1e256]: “Truly impressive. The AI assistant is fast, accurate, and blends into our daily ops without friction.”
+              - paragraph [ref=f1e258]:
+                - strong [ref=f1e259]: Ethan Parker
+                - generic [ref=f1e260]: Head of Product, FlowWorks
+            - article [ref=f1e261]:
+              - blockquote [ref=f1e262]: “Truly impressive. The AI assistant is fast, accurate, and blends into our daily ops without friction.”
+              - paragraph [ref=f1e264]:
+                - strong [ref=f1e265]: Liam Harrison
+                - generic [ref=f1e266]: Project Manager, CloudCore
+            - article [ref=f1e267]:
+              - blockquote [ref=f1e268]: “Before this, we were juggling spreadsheets and manual updates. Now everything’s automated.”
+              - paragraph [ref=f1e270]:
+                - strong [ref=f1e271]: Emma Foster
+                - generic [ref=f1e272]: Marketing Manager, BrightWave
+          - generic [ref=f1e274]:
+            - article [ref=f1e275]:
+              - blockquote [ref=f1e276]: “Their predictive analytics helped us forecast trends more accurately than our previous tools.”
+              - paragraph [ref=f1e278]:
+                - strong [ref=f1e279]: Olivia Bennet
+                - generic [ref=f1e280]: CMO at GreenTech
+            - article [ref=f1e281]:
+              - blockquote [ref=f1e282]: “Their predictive analytics helped us forecast trends more accurately than our previous tools.”
+              - paragraph [ref=f1e284]:
+                - strong [ref=f1e285]: Sophia Collins
+                - generic [ref=f1e286]: UX/UI Lead, DesignHive
+            - article [ref=f1e287]:
+              - blockquote [ref=f1e288]: “Since switching to Task AI, I don’t spend hours juggling priorities. It thinks ahead for me.”
+              - paragraph [ref=f1e290]:
+                - strong [ref=f1e291]: Jackson Reed
+                - generic [ref=f1e292]: Operations Lead, TeamSync
+            - article [ref=f1e293]:
+              - blockquote [ref=f1e294]: “Their predictive analytics helped us forecast trends more accurately than our previous tools.”
+              - paragraph [ref=f1e296]:
+                - strong [ref=f1e297]: Olivia Bennet
+                - generic [ref=f1e298]: CMO at GreenTech
+            - article [ref=f1e299]:
+              - blockquote [ref=f1e300]: “Their predictive analytics helped us forecast trends more accurately than our previous tools.”
+              - paragraph [ref=f1e302]:
+                - strong [ref=f1e303]: Sophia Collins
+                - generic [ref=f1e304]: UX/UI Lead, DesignHive
+            - article [ref=f1e305]:
+              - blockquote [ref=f1e306]: “Since switching to Task AI, I don’t spend hours juggling priorities. It thinks ahead for me.”
+              - paragraph [ref=f1e308]:
+                - strong [ref=f1e309]: Jackson Reed
+                - generic [ref=f1e310]: Operations Lead, TeamSync
+          - generic [ref=f1e312]:
+            - article [ref=f1e313]:
+              - blockquote [ref=f1e314]: “It's like having an extra set of hands—only smarter. It’s like having a crystal ball for our business.”
+              - paragraph [ref=f1e316]:
+                - strong [ref=f1e317]: Kaloi Jack
+                - generic [ref=f1e318]: CMO at GreenTech
+            - article [ref=f1e319]:
+              - blockquote [ref=f1e320]: “It's like having an extra set of hands—only smarter. It’s like having a crystal ball for our business.”
+              - paragraph [ref=f1e322]:
+                - strong [ref=f1e323]: Noah Mitchell
+                - generic [ref=f1e324]: AI Engineer, SmartOps
+            - article [ref=f1e325]:
+              - blockquote [ref=f1e326]: “It's like having an extra set of hands—only smarter. It’s like having a crystal ball for our business.”
+              - paragraph [ref=f1e328]:
+                - strong [ref=f1e329]: Ava Sullivan
+                - generic [ref=f1e330]: Data Analyst, InsightFlow
+            - article [ref=f1e331]:
+              - blockquote [ref=f1e332]: “It's like having an extra set of hands—only smarter. It’s like having a crystal ball for our business.”
+              - paragraph [ref=f1e334]:
+                - strong [ref=f1e335]: Kaloi Jack
+                - generic [ref=f1e336]: CMO at GreenTech
+            - article [ref=f1e337]:
+              - blockquote [ref=f1e338]: “It's like having an extra set of hands—only smarter. It’s like having a crystal ball for our business.”
+              - paragraph [ref=f1e340]:
+                - strong [ref=f1e341]: Noah Mitchell
+                - generic [ref=f1e342]: AI Engineer, SmartOps
+            - article [ref=f1e343]:
+              - blockquote [ref=f1e344]: “It's like having an extra set of hands—only smarter. It’s like having a crystal ball for our business.”
+              - paragraph [ref=f1e346]:
+                - strong [ref=f1e347]: Ava Sullivan
+                - generic [ref=f1e348]: Data Analyst, InsightFlow
+      - generic [ref=f1e350]:
+        - generic [ref=f1e351]:
+          - paragraph [ref=f1e352]: Pricing Plan
+          - heading "Flexible Plans for Every Stage" [level=2] [ref=f1e353]
+          - generic [ref=f1e354]: Live dashboards and custom reports that surface the insights you need—instantly.
+        - generic [ref=f1e355]:
+          - article [ref=f1e356]:
+            - generic [ref=f1e357]:
+              - heading "Starter" [level=3] [ref=f1e358]
+              - emphasis [ref=f1e359]: Popular
+            - strong [ref=f1e360]: $999
+            - paragraph [ref=f1e361]: Perfect for small businesses getting started with digital marketing.
+            - list [ref=f1e362]:
+              - listitem [ref=f1e363]:
+                - generic [ref=f1e364]: ✓
+                - text: 1 Campaign
+              - listitem [ref=f1e365]:
+                - generic [ref=f1e366]: ✓
+                - text: Monthly Reports
+              - listitem [ref=f1e367]:
+                - generic [ref=f1e368]: ✓
+                - text: Email Support
+              - listitem [ref=f1e369]:
+                - generic [ref=f1e370]: ✓
+                - text: Priority Support
+              - listitem [ref=f1e371]:
+                - generic [ref=f1e372]: ✓
+                - text: 4x Revisions
+            - link "Get Started Get Started ↗" [ref=f1e373] [cursor=pointer]:
+              - /url: "#infranex-cta"
+              - generic [ref=f1e374]:
+                - generic [ref=f1e375]: Get Started
+                - generic [ref=f1e376]: Get Started
+              - generic [ref=f1e377]: ↗
+          - article [ref=f1e378]:
+            - generic [ref=f1e379]:
+              - heading "Growth" [level=3] [ref=f1e380]
+              - emphasis [ref=f1e381]: Most Popular
+            - strong [ref=f1e382]: $2,999
+            - paragraph [ref=f1e383]: For brands ready to scale fast with full-service marketing.
+            - list [ref=f1e384]:
+              - listitem [ref=f1e385]:
+                - generic [ref=f1e386]: ✓
+                - text: 1 Campaign
+              - listitem [ref=f1e387]:
+                - generic [ref=f1e388]: ✓
+                - text: Monthly Reports
+              - listitem [ref=f1e389]:
+                - generic [ref=f1e390]: ✓
+                - text: Email Support
+              - listitem [ref=f1e391]:
+                - generic [ref=f1e392]: ✓
+                - text: Priority Support
+              - listitem [ref=f1e393]:
+                - generic [ref=f1e394]: ✓
+                - text: 4x Revisions
+            - link "Get Started Get Started ↗" [ref=f1e395] [cursor=pointer]:
+              - /url: "#infranex-cta"
+              - generic [ref=f1e396]:
+                - generic [ref=f1e397]: Get Started
+                - generic [ref=f1e398]: Get Started
+              - generic [ref=f1e399]: ↗
+          - article [ref=f1e400]:
+            - generic [ref=f1e401]:
+              - heading "Enterprise" [level=3] [ref=f1e402]
+              - emphasis [ref=f1e403]: Premium
+            - strong [ref=f1e404]: $3,200
+            - paragraph [ref=f1e405]: Perfect for small businesses getting started with digital marketing.
+            - list [ref=f1e406]:
+              - listitem [ref=f1e407]:
+                - generic [ref=f1e408]: ✓
+                - text: 1 Campaign
+              - listitem [ref=f1e409]:
+                - generic [ref=f1e410]: ✓
+                - text: Monthly Reports
+              - listitem [ref=f1e411]:
+                - generic [ref=f1e412]: ✓
+                - text: Email Support
+              - listitem [ref=f1e413]:
+                - generic [ref=f1e414]: ✓
+                - text: Priority Support
+              - listitem [ref=f1e415]:
+                - generic [ref=f1e416]: ✓
+                - text: 4x Revisions
+            - link "Get Started Get Started ↗" [ref=f1e417] [cursor=pointer]:
+              - /url: "#infranex-cta"
+              - generic [ref=f1e418]:
+                - generic [ref=f1e419]: Get Started
+                - generic [ref=f1e420]: Get Started
+              - generic [ref=f1e421]: ↗
+      - generic [ref=f1e423]:
+        - generic [ref=f1e424]:
+          - paragraph [ref=f1e425]: Compare
+          - heading "Flexible Plans for Every Stage" [level=2] [ref=f1e426]
+          - generic [ref=f1e427]: Live dashboards and custom reports that surface the insights you need—instantly.
+        - generic [ref=f1e428]:
+          - article [ref=f1e429]:
+            - heading "Infranex" [level=3] [ref=f1e431]
+            - list [ref=f1e432]:
+              - listitem [ref=f1e433]:
+                - generic [ref=f1e434]: ✓
+                - text: Smart automation that saves time effortlessly
+              - listitem [ref=f1e435]:
+                - generic [ref=f1e436]: ✓
+                - text: Seamless onboarding with 120+ integrations
+              - listitem [ref=f1e437]:
+                - generic [ref=f1e438]: ✓
+                - text: Adaptive AI that learns your workflow
+              - listitem [ref=f1e439]:
+                - generic [ref=f1e440]: ✓
+                - text: 24/7 reliable customer assistance
+              - listitem [ref=f1e441]:
+                - generic [ref=f1e442]: ✓
+                - text: Modern, intuitive, and user-friendly design
+              - listitem [ref=f1e443]:
+                - generic [ref=f1e444]: ✓
+                - text: Real-time data-driven recommendation
+              - listitem [ref=f1e445]:
+                - generic [ref=f1e446]: ✓
+                - text: Transparent, flexible, and value-driven plans
+              - listitem [ref=f1e447]:
+                - generic [ref=f1e448]: ✓
+                - text: Proven real results that drive growth
+          - article [ref=f1e449]:
+            - heading "Competitors" [level=3] [ref=f1e451]
+            - list [ref=f1e452]:
+              - listitem [ref=f1e453]:
+                - generic [ref=f1e454]: ×
+                - text: Manual workflows and repetitive tasks
+              - listitem [ref=f1e455]:
+                - generic [ref=f1e456]: ×
+                - text: Complex setup and limited integrations
+              - listitem [ref=f1e457]:
+                - generic [ref=f1e458]: ×
+                - text: Generic tools with no personalization
+              - listitem [ref=f1e459]:
+                - generic [ref=f1e460]: ×
+                - text: Slow response and limited support
+              - listitem [ref=f1e461]:
+                - generic [ref=f1e462]: ×
+                - text: Outdated interface and poor usability
+              - listitem [ref=f1e463]:
+                - generic [ref=f1e464]: ×
+                - text: Reactive insights after decisions
+              - listitem [ref=f1e465]:
+                - generic [ref=f1e466]: ×
+                - text: Hidden costs and unclear pricing
+              - listitem [ref=f1e467]:
+                - generic [ref=f1e468]: ×
+                - text: Average productivity results
+      - generic [ref=f1e470]:
+        - generic [ref=f1e471]:
+          - paragraph [ref=f1e472]: Common Questions
+          - heading "Got questions? We’ve got answers." [level=2] [ref=f1e473]
+          - generic [ref=f1e474]: Find quick answers to the most common support questions
+        - generic [ref=f1e475]:
+          - article [ref=f1e476]:
+            - button "Why is a strong brand identity or website important? +" [expanded] [ref=f1e477] [cursor=pointer]:
+              - generic [ref=f1e478]: Why is a strong brand identity or website important?
+              - generic [ref=f1e479]: +
+            - paragraph [ref=f1e481]: A robust brand identity and website serve as the face of your business, shaping how it is perceived by potential customers. They not only convey professionalism but also establish trust and credibility, vital factors in today's competitive market.
+          - article [ref=f1e482]:
+            - button "Can I use Infranex with my existing tools? +" [ref=f1e483] [cursor=pointer]:
+              - generic [ref=f1e484]: Can I use Infranex with my existing tools?
+              - generic [ref=f1e485]: +
+            - generic:
+              - paragraph: Yes! Tash AI integrates seamlessly with your existing tools, allowing you to automate workflows, synchronize data, and boost team productivity effortlessly across every project and task.
+          - article [ref=f1e486]:
+            - button "Is Infranex suitable for individuals or only teams? +" [ref=f1e487] [cursor=pointer]:
+              - generic [ref=f1e488]: Is Infranex suitable for individuals or only teams?
+              - generic [ref=f1e489]: +
+            - generic:
+              - paragraph: Tash AI is designed for both individuals and teams. It scales to meet personal productivity needs while supporting collaborative workflows for businesses of all sizes efficiently.
+          - article [ref=f1e490]:
+            - button "Do I need to be tech-savvy to use Infranex? +" [ref=f1e491] [cursor=pointer]:
+              - generic [ref=f1e492]: Do I need to be tech-savvy to use Infranex?
+              - generic [ref=f1e493]: +
+            - generic:
+              - paragraph: No, you don’t need to be tech-savvy. Tash AI offers an intuitive, user-friendly interface, guiding you through automation and productivity features effortlessly
+          - article [ref=f1e494]:
+            - button "What happens after the free trial? +" [ref=f1e495] [cursor=pointer]:
+              - generic [ref=f1e496]: What happens after the free trial?
+              - generic [ref=f1e497]: +
+            - generic:
+              - paragraph: After the free trial, you can choose a paid plan that fits your needs, unlocking full features, integrations, and ongoing support for seamless productivity and enhanced team collaboration.
+      - generic [ref=f1e499]:
+        - generic [ref=f1e500]:
+          - generic [ref=f1e501]:
+            - paragraph [ref=f1e502]: News & Updates
+            - heading "Infranex Insights" [level=2] [ref=f1e503]
+            - generic [ref=f1e504]: Explore how Tash AI enhances efficiency and intelligence in every process. See how Tash AI drives smarter, faster outcomes.
+          - link "View All Blogs View All Blogs ↗" [ref=f1e505] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f1e506]:
+              - generic [ref=f1e507]: View All Blogs
+              - generic [ref=f1e508]: View All Blogs
+            - generic [ref=f1e509]: ↗
+        - generic [ref=f1e510]:
+          - article [ref=f1e511]:
+            - time [ref=f1e512]: July 30, 2026
+            - heading "Exploring automation, intelligence, and the future of work ahead" [level=3] [ref=f1e513]
+            - link "Read More Read More ↗" [ref=f1e514] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=f1e515]:
+                - generic [ref=f1e516]: Read More
+                - generic [ref=f1e517]: Read More
+              - generic [ref=f1e518]: ↗
+          - article [ref=f1e519]:
+            - time [ref=f1e520]: July 30, 2026
+            - heading "Insights on smarter workflows and modern efficiency daily" [level=3] [ref=f1e521]
+            - link "Read More Read More ↗" [ref=f1e522] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=f1e523]:
+                - generic [ref=f1e524]: Read More
+                - generic [ref=f1e525]: Read More
+              - generic [ref=f1e526]: ↗
+          - article [ref=f1e527]:
+            - time [ref=f1e528]: July 30, 2026
+            - heading "Stories and strategies shaping the intelligent workplace today" [level=3] [ref=f1e529]
+            - link "Read More Read More ↗" [ref=f1e530] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=f1e531]:
+                - generic [ref=f1e532]: Read More
+                - generic [ref=f1e533]: Read More
+              - generic [ref=f1e534]: ↗
+      - generic [ref=f1e538]:
+        - paragraph [ref=f1e539]: Ready to Work Smarter?
+        - heading "Take control of your tasks. Let AI handle the rest." [level=2] [ref=f1e540]: Take control of your tasks.Let AI handle the rest.
+        - generic [ref=f1e541]: Join thousands of professionals using Infranex to automate workflows, boost focus, and get more done in less time.
+        - link "Get Started Now Get Started Now ↗" [ref=f1e542] [cursor=pointer]:
+          - /url: "#pricing"
+          - generic [ref=f1e543]:
+            - generic [ref=f1e544]: Get Started Now
+            - generic [ref=f1e545]: Get Started Now
+          - generic [ref=f1e546]: ↗
+      - generic [ref=f1e547]:
+        - generic [ref=f1e548]:
+          - generic [ref=f1e549]:
+            - img "Infranex" [ref=f1e550]
+            - heading "Subscribe our newsletter" [level=2] [ref=f1e551]
+            - generic [ref=f1e552]:
+              - textbox "Enter your email" [ref=f1e553]
+              - button "Subscribe" [ref=f1e554]: ↗
+          - navigation [ref=f1e555]:
+            - generic [ref=f1e556]:
+              - heading "Links" [level=3] [ref=f1e557]
+              - link "Home" [ref=f1e558] [cursor=pointer]:
+                - /url: "#"
+              - link "About Us" [ref=f1e559] [cursor=pointer]:
+                - /url: "#"
+              - link "Features" [ref=f1e560] [cursor=pointer]:
+                - /url: "#"
+              - link "Integrations" [ref=f1e561] [cursor=pointer]:
+                - /url: "#"
+              - link "Pricing" [ref=f1e562] [cursor=pointer]:
+                - /url: "#"
+              - link "Blog" [ref=f1e563] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=f1e564]:
+              - heading "Utility Pages" [level=3] [ref=f1e565]
+              - link "404" [ref=f1e566] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=f1e567]:
+              - heading "Resources" [level=3] [ref=f1e568]
+              - link "Privacy Policy" [ref=f1e569] [cursor=pointer]:
+                - /url: "#"
+              - link "Terms" [ref=f1e570] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=f1e571]:
+          - generic [ref=f1e572]: "Connect with us:"
+          - generic [ref=f1e573]:
+            - link "IG" [ref=f1e574] [cursor=pointer]:
+              - /url: "#"
+            - link "IN" [ref=f1e575] [cursor=pointer]:
+              - /url: "#"
+            - link "X" [ref=f1e576] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=f1e577]: © 2025 Tash.AI. All Rights Reserved.
+  - alert [ref=f1e578]

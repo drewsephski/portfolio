@@ -1,0 +1,203 @@
+{
+  "h": 844,
+  "roots": [
+    {
+      "cls": "framer-yVODL framer-1yqy8ov framer-v-jw9bb8",
+      "display": "flex",
+      "grid": "none",
+      "i": 0,
+      "padding": "20px 20px 0px",
+      "rect": {
+        "h": 72,
+        "w": 375,
+        "y": 0
+      },
+      "tag": "NAV",
+      "text": "AgentLab Product Product Case Study Case Study Pricing Pricing Company Company About Company overview Blog Latest Insights Career Join our team Contact Get in touch Changelog Latest updates Waitlist Join early Terms & Conditions Legal terms of use Privacy Policy How we handle data G E T   S T A R T "
+    },
+    {
+      "cls": "framer-8zBWS framer-CvPef framer-WgqEX framer-GC1lv framer-MDOEI framer-nAJnP framer-membag framer-v-1i738b4",
+      "display": "flex",
+      "grid": "none",
+      "i": 1,
+      "padding": "100px 16px 48px",
+      "rect": {
+        "h": 1427.671875,
+        "w": 375,
+        "y": 0
+      },
+      "tag": "SECTION",
+      "text": "BACKED BY Y COMBINATOR Turn Your AI Product Into a Website That Sells Create intelligent agents that understand context, automate workflows, and execute tasks reliably across your operations. T A L K   T O   S A L E S S T A R T   F O R   F R E E AUTOMATE TASKS WITH AI AGENT   ACTIONS CUSTOMER SUPPOR"
+    },
+    {
+      "cls": "framer-l06Ud framer-css1i8 framer-v-1sbrbrk",
+      "display": "flex",
+      "grid": "none",
+      "i": 2,
+      "padding": "60px 20px",
+      "rect": {
+        "h": 144,
+        "w": 375,
+        "y": 1427.671875
+      },
+      "tag": "SECTION",
+      "text": ""
+    },
+    {
+      "cls": "framer-bftmub",
+      "display": "flex",
+      "grid": "none",
+      "i": 3,
+      "padding": "80px 20px",
+      "rect": {
+        "h": 1251.3125,
+        "w": 375,
+        "y": 1571.671875
+      },
+      "tag": "SECTION",
+      "text": "THE PROBLEM Most  Most  Organizations  Organizations  Operate  Operate  with  with  Broken  Broken  Data  Data  Pipelines,  Pipelines,  Siloed  Siloed  Teams,  Teams,  and  and  Outdated  Outdated  Workflows. Workflows. No Unified Agent Layer Without a centralized agent layer, coordinating multiple "
+    },
+    {
+      "cls": "framer-j56mnd",
+      "display": "flex",
+      "grid": "none",
+      "i": 4,
+      "padding": "80px 20px",
+      "rect": {
+        "h": 2972.90625,
+        "w": 375,
+        "y": 2822.984375
+      },
+      "tag": "SECTION",
+      "text": "THE SOLUTION Streamline Development, Reduce Errors, and Increase Deployment Speed by 10x with Enterprise-Grade AI Agent Infrastructure AGENT BUILDER Build and Deploy Agents in Minutes Design intelligent agents with a visual builder — no coding required. Define triggers, actions, and logic with an in"
+    },
+    {
+      "cls": "framer-1uy94uv",
+      "display": "flex",
+      "grid": "none",
+      "i": 5,
+      "padding": "80px 20px",
+      "rect": {
+        "h": 1030.3125,
+        "w": 375,
+        "y": 5795.890625
+      },
+      "tag": "SECTION",
+      "text": "ROI Impact You Can Measure 0 0 x Faster workflow execution 0 0 % Reduction in repetitive tasks Automate your most complex, high-impact multi-step workflows Streamline multi-step processes, reduce manual effort, and improve consistency across your operations with real-time execution and control. 9 0 "
+    },
+    {
+      "cls": "framer-1esorcu",
+      "display": "flex",
+      "grid": "none",
+      "i": 6,
+      "padding": "80px 20px",
+      "rect": {
+        "h": 3060.3125,
+        "w": 375,
+        "y": 6826.203125
+      },
+      "tag": "SECTION",
+      "text": "CAPABILITIES Discover How AI Agents Automate Real Business Workflows and Deliver Measurable Results Data Layer Data Source Pull live data from any source — databases, APIs, or cloud storage — and give your agents a unified, always-current data layer. TRIGGER Webhook PROCESS Analyze Data ACTION Send "
+    },
+    {
+      "cls": "framer-1fuzfyh",
+      "display": "flex",
+      "grid": "none",
+      "i": 7,
+      "padding": "80px 20px",
+      "rect": {
+        "h": 1768.90625,
+        "w": 375,
+        "y": 9886.515625
+      },
+      "tag": "SECTION",
+      "text": "INDUSTRY Solutions Across Every Sector Finance Automate account inquiries and fraud detection while maintaining SOC 2 compliance Healthcare Patient scheduling, prescription refills, and care coordination with full HIPAA compliance standards E-commerce Handle order tracking, returns processing, and p"
+    },
+    {
+      "cls": "framer-S7npf framer-8Nw1d framer-543tnv framer-v-16ixj2v",
+      "display": "flex",
+      "grid": "none",
+      "i": 8,
+      "padding": "80px 20px",
+      "rect": {
+        "h": 1209.625,
+        "w": 375,
+        "y": 11655.421875
+      },
+      "tag": "SECTION",
+      "text": "TESTIMONIALS What People Are Saying S E E   A L L   C A S E   S T U D I E S The orchestration layer simplifies complex workflows and makes easier to manage. Reduction in manual work  “AgentLab brings much-needed structure to AI automation workflows. The orchestration layer makes complex systems easi"
+    },
+    {
+      "cls": "framer-18tudx9",
+      "display": "flex",
+      "grid": "none",
+      "i": 9,
+      "padding": "80px 20px",
+      "rect": {
+        "h": 1034.90625,
+        "w": 375,
+        "y": 12865.046875
+      },
+      "tag": "SECTION",
+      "text": "COMPLIANCE Enterprise-Grade Security Standards SOC 2 GDPR HIPAA End-to-End Encryption All data encrypted in transit and at rest using AES-256 Zero Data Retention Your data is never stored or used for model training Private Deployment Deploy in your own VPC for complete data sovereignty"
+    },
+    {
+      "cls": "framer-VJMCS framer-8Nw1d framer-pcLHu framer-WgqEX framer-hrpcc3 framer-v-19kwk38",
+      "display": "flex",
+      "grid": "none",
+      "i": 10,
+      "padding": "60px 20px",
+      "rect": {
+        "h": 1170.90625,
+        "w": 375,
+        "y": 13899.953125
+      },
+      "tag": "SECTION",
+      "text": "FAQS Have questions?  Find answers. Have more questions?  Reach out to our friendly support team T A L K   T O   S A L E S What Exactly Is an AI Agent? An AI Agent is more than just a chatbot; it is a system designed to perform tasks autonomously. While a chatbot answers questions, an agent can use "
+    },
+    {
+      "cls": "framer-jNCqh framer-8Nw1d framer-WgqEX framer-A9GQy framer-QjT1y framer-EQ2rb framer-ft1lag framer-v-1jhgu6t",
+      "display": "flex",
+      "grid": "none",
+      "i": 11,
+      "padding": "0px",
+      "rect": {
+        "h": 1345.734375,
+        "w": 375,
+        "y": 15070.859375
+      },
+      "tag": "FOOTER",
+      "text": "Ready to Automate your Workflow? Join leading enterprises using AgentLab to scale operations, reduce costs, and deliver results faster than ever before. T A L K   T O   S A L E S V I E W   P R I C I N G AgentLab Building the future of intelligent automation with AI agents that think, act, and delive"
+    },
+    {
+      "cls": "framer-p4vlnf",
+      "display": "flex",
+      "grid": "none",
+      "i": 12,
+      "padding": "0px",
+      "rect": {
+        "h": 462.40625,
+        "w": 375,
+        "y": 15070.859375
+      },
+      "tag": "SECTION",
+      "text": "Ready to Automate your Workflow? Join leading enterprises using AgentLab to scale operations, reduce costs, and deliver results faster than ever before. T A L K   T O   S A L E S V I E W   P R I C I N G"
+    },
+    {
+      "cls": "framer-jtlw0y",
+      "display": "flex",
+      "grid": "none",
+      "i": 13,
+      "padding": "0px",
+      "rect": {
+        "h": 883.328125,
+        "w": 375,
+        "y": 15533.265625
+      },
+      "tag": "FOOTER",
+      "text": "AgentLab Building the future of intelligent automation with AI agents that think, act, and deliver. © 2026  Design & Developed by Amani Design MAIN Product Product About About Pricing Pricing Case Study Case Study Blog Blog Contact Contact USEFUL Industry Industry Teams Teams Career Career Changelog"
+    }
+  ],
+  "scrollHeight": 16417,
+  "w": 390
+}

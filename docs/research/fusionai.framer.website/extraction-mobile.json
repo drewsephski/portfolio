@@ -1,0 +1,254 @@
+[
+  {
+    "cls": "framer-1hi4yqa",
+    "id": "",
+    "rect": {
+      "h": 96,
+      "w": 375,
+      "y": 0
+    },
+    "style": {
+      "display": "flex",
+      "gap": "10px",
+      "overflow": "visible",
+      "padding": "16px",
+      "position": "fixed"
+    },
+    "tag": "NAV",
+    "text": "Fusion AIAbout usPricingIntegrationBlogContactWaitlistGet Started Get Started"
+  },
+  {
+    "cls": "framer-pmbd5h",
+    "id": "",
+    "rect": {
+      "h": 637,
+      "w": 375,
+      "y": 0
+    },
+    "style": {
+      "display": "flex",
+      "gap": "0px",
+      "overflow": "hidden",
+      "padding": "150px 16px 50px",
+      "position": "relative"
+    },
+    "tag": "HEADER",
+    "text": "Supercharge Your AI WorkflowsAutomate Your AI Workflows with AI AgentConnect your favorite apps, set triggers and watch AI handle the rest - no coding required. Get up and running "
+  },
+  {
+    "cls": "framer-Vn7mK framer-KBkxR framer-1xybijs framer-v-m6hasb",
+    "id": "",
+    "rect": {
+      "h": 198,
+      "w": 375,
+      "y": 637
+    },
+    "style": {
+      "display": "flex",
+      "gap": "0px",
+      "overflow": "visible",
+      "padding": "50px 16px",
+      "position": "relative"
+    },
+    "tag": "SECTION",
+    "text": "Trusted by 150,000+ users worldwide"
+  },
+  {
+    "cls": "framer-17myc6x",
+    "id": "",
+    "rect": {
+      "h": 2112,
+      "w": 375,
+      "y": 835
+    },
+    "style": {
+      "display": "flex",
+      "gap": "0px",
+      "overflow": "hidden",
+      "padding": "50px 16px",
+      "position": "relative"
+    },
+    "tag": "SECTION",
+    "text": "AI-Driven FeaturesBuild, scale and manage entire AI workforceFusion AI helps you tackle data bottlenecks, streamline analysis, and make smarter decisions with ease.Seamless Integra"
+  },
+  {
+    "cls": "framer-hsl4ti",
+    "id": "",
+    "rect": {
+      "h": 1627,
+      "w": 375,
+      "y": 2946
+    },
+    "style": {
+      "display": "flex",
+      "gap": "10px",
+      "overflow": "clip",
+      "padding": "50px 16px",
+      "position": "relative"
+    },
+    "tag": "SECTION",
+    "text": "AIPoweredCustomer SupportHealthcareMarketingEducationFinance"
+  },
+  {
+    "cls": "framer-ou1l0d",
+    "id": "feature",
+    "rect": {
+      "h": 2474,
+      "w": 375,
+      "y": 4573
+    },
+    "style": {
+      "display": "flex",
+      "gap": "0px",
+      "overflow": "visible",
+      "padding": "50px 16px",
+      "position": "relative"
+    },
+    "tag": "SECTION",
+    "text": "AI-Driven FeaturesBuild, scale and manage entire AI workforceFluence AI helps you tackle data bottlenecks, streamline analysis, and make smarter decisions with ease.Instant, One-Co"
+  },
+  {
+    "cls": "framer-11z9fid",
+    "id": "feature-animation",
+    "rect": {
+      "h": 840,
+      "w": 375,
+      "y": 7048
+    },
+    "style": {
+      "display": "flex",
+      "gap": "0px",
+      "overflow": "visible",
+      "padding": "50px 16px",
+      "position": "relative"
+    },
+    "tag": "SECTION",
+    "text": "PRODUCT FEATURESBuild workflows, track insights, connect toolsWorkflow: Drag-and-drop multi-step automations with triggers, AI actions, and rules—built visually in minutes.Analytic"
+  },
+  {
+    "cls": "framer-1hpr5xf",
+    "id": "",
+    "rect": {
+      "h": 572,
+      "w": 375,
+      "y": 7888
+    },
+    "style": {
+      "display": "flex",
+      "gap": "0px",
+      "overflow": "visible",
+      "padding": "50px 16px",
+      "position": "relative"
+    },
+    "tag": "SECTION",
+    "text": "POWERFUL INTEGRATIONS Seamlessly Integrate Every AppExplore AllExplore All"
+  },
+  {
+    "cls": "framer-DQE5p framer-myrI0 framer-6O6de framer-JY1O8 framer-1xztxps framer-v-1n9uihl",
+    "id": "",
+    "rect": {
+      "h": 771,
+      "w": 375,
+      "y": 8460
+    },
+    "style": {
+      "display": "flex",
+      "gap": "40px",
+      "overflow": "hidden",
+      "padding": "50px 16px",
+      "position": "relative"
+    },
+    "tag": "SECTION",
+    "text": "SUCCESS STORIESHear from our customers & their success stories“Seamless Slack and Salesforce integrations keep our team in sync. Fusion AI ensures everyone’s on the same page.”Mat "
+  },
+  {
+    "cls": "framer-slideshow framer-slideshow-axis-x",
+    "id": "",
+    "rect": {
+      "h": 424,
+      "w": 343,
+      "y": 8716
+    },
+    "style": {
+      "display": "flex",
+      "gap": "normal",
+      "overflow": "visible",
+      "padding": "0px",
+      "position": "static"
+    },
+    "tag": "SECTION",
+    "text": "“Seamless Slack and Salesforce integrations keep our team in sync. Fusion AI ensures everyone’s on the same page.”Mat MursmarkChief Growth Officer“Fusion AI cut our onboarding time"
+  },
+  {
+    "cls": "framer-1wlzoxi",
+    "id": "",
+    "rect": {
+      "h": 1603,
+      "w": 375,
+      "y": 9231
+    },
+    "style": {
+      "display": "flex",
+      "gap": "0px",
+      "overflow": "hidden",
+      "padding": "50px 16px",
+      "position": "relative"
+    },
+    "tag": "SECTION",
+    "text": "AI-Driven Features Automate workflows in three simple steps1. Select a triggerChoose an event or schedule that kicks off your workflow.2. Connect your appsSync Fusion AI with your "
+  },
+  {
+    "cls": "framer-rsW8E framer-myrI0 framer-KBkxR framer-KYDPx framer-lilyf3 framer-v-v5eysz",
+    "id": "",
+    "rect": {
+      "h": 950,
+      "w": 375,
+      "y": 10833
+    },
+    "style": {
+      "display": "flex",
+      "gap": "0px",
+      "overflow": "visible",
+      "padding": "50px 16px",
+      "position": "relative"
+    },
+    "tag": "SECTION",
+    "text": "FAQFrequently asked questionsGot any Questions?Let us know! Reach out and our team will get right back to you.Contact usContact usWhat is Fusion AI and how does it work?Which apps "
+  },
+  {
+    "cls": "framer-1qbnrtk",
+    "id": "",
+    "rect": {
+      "h": 528,
+      "w": 375,
+      "y": 11783
+    },
+    "style": {
+      "display": "flex",
+      "gap": "0px",
+      "overflow": "visible",
+      "padding": "50px 16px",
+      "position": "relative"
+    },
+    "tag": "SECTION",
+    "text": "Start Your AI Automation Journey Today Sign up for Fusion AI and let AI handle your routine tasks—no credit card needed.Get Started - FreeGet Started - FreeView PricingView Pricing"
+  },
+  {
+    "cls": "framer-w4qx4f",
+    "id": "",
+    "rect": {
+      "h": 862,
+      "w": 375,
+      "y": 12311
+    },
+    "style": {
+      "display": "flex",
+      "gap": "0px",
+      "overflow": "visible",
+      "padding": "50px 16px 30px",
+      "position": "relative"
+    },
+    "tag": "FOOTER",
+    "text": "Fusion AIFusion AI and let AI handle your routine tasks.Main PageHomeAboutPricingBlogsContactQuick LinksIntegrationTeamsCareerFAQ404OthersPrivacy PolicyTerms & ConditionWaitlistCha"
+  }
+]

@@ -1,0 +1,122 @@
+.studio {
+  --card: rgb(15 15 15);
+  --line: rgb(255 255 255 / 8%);
+  width: 100%;
+  color: #fff;
+  font-family: var(--dm-sans), Arial, sans-serif;
+}
+
+.section {
+  width: min(1080px, calc(100% - 48px));
+  margin: 0 auto;
+  padding-top: 108px;
+  animation: reveal 0.85s cubic-bezier(.22, 1, .36, 1) both;
+  animation-timeline: view();
+  animation-range: entry 5% cover 30%;
+}
+
+.features { min-height: 861px; }
+.useCases { min-height: 793px; }
+.benefits { min-height: 762px; padding-bottom: 100px; }
+
+.heading { max-width: 760px; margin-bottom: 64px; }
+.eyebrow { margin: 0 0 19px; color: rgb(255 255 255 / 50%); font-size: 12px; line-height: 1.2; }
+.heading h2 { margin: 0; font-family: var(--dm-display), Georgia, serif; font-size: clamp(42px, 4vw, 52px); font-weight: 400; line-height: 1.05; letter-spacing: -.025em; }
+
+.featureGrid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
+.card, .benefitCard { position: relative; overflow: hidden; border: 1px solid var(--line); border-radius: 20px; background: var(--card); }
+.card { min-height: 246px; padding: 24px; }
+.card h3, .benefitCard h3 { position: relative; z-index: 2; margin: 0 0 6px; font-size: 16px; font-weight: 400; line-height: 1.2; letter-spacing: -.02em; }
+.card p, .benefitCard p { position: relative; z-index: 2; margin: 0; color: rgb(255 255 255 / 46%); font-size: 12px; line-height: 1.25; }
+.imageGenerator { grid-column: span 2; }
+.videoGenerator { grid-column: span 4; }
+.models, .presets, .keyframes { grid-column: span 2; }
+.card img { position: absolute; display: block; pointer-events: none; }
+.videoGenerator img { right: -44px; bottom: -1px; width: 72%; }
+.models img { right: -35px; bottom: -126px; width: 88%; }
+.keyframes img { right: -53px; bottom: -76px; width: 92%; }
+.prompt { position: absolute; right: 0; bottom: 28px; left: 0; display: flex; align-items: center; gap: 14px; height: 57px; padding: 0 22px; color: #777; background: white; font-size: 13px; }
+.prompt span:first-child { color: #050505; font-size: 22px; }
+.prompt i { width: 1px; height: 16px; background: #202020; animation: cursor 1s steps(1) infinite; }
+.waveform { position: absolute; right: 42px; bottom: 38px; display: flex; align-items: center; gap: 7px; height: 58px; }
+.waveform i { width: 4px; height: 34%; border-radius: 9px; background: rgb(255 255 255 / 60%); }
+.waveform i:nth-child(2), .waveform i:nth-child(5) { height: 75%; }
+.waveform i:nth-child(3) { height: 100%; }
+.waveform i:nth-child(4) { height: 64%; }
+
+.useCasePanel { display: grid; grid-template-columns: 34% 66%; min-height: 430px; border: 1px solid var(--line); border-radius: 20px; background: var(--card); overflow: hidden; }
+.useCaseCopy { display: flex; flex-direction: column; padding: 24px; }
+.tabs { display: flex; flex-direction: column; }
+.tabs button { display: flex; align-items: center; gap: 14px; min-height: 50px; padding: 0; border: 0; border-bottom: 1px solid var(--line); color: rgb(255 255 255 / 35%); background: transparent; font: inherit; font-size: 14px; text-align: left; cursor: pointer; transition: color .25s ease; }
+.tabs button span { font-size: 10px; }
+.tabs button:hover, .tabs .activeTab { color: #fff; }
+.activeCopy { margin: auto 0 0; color: rgb(255 255 255 / 62%); font-size: 14px; line-height: 1.45; animation: copyIn .35s ease both; }
+.useCaseArt { position: relative; min-height: 430px; overflow: hidden; background: #101010; }
+.useCaseArt img { position: absolute; object-fit: cover; }
+.artFrame { inset: 0; width: 100%; height: 100%; }
+.artForeground { right: -8%; bottom: -34%; width: 57%; border-radius: 28px; filter: drop-shadow(0 24px 40px rgb(0 0 0 / 45%)); }
+
+.benefitGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.benefitCard { min-height: 190px; padding: 24px; }
+.benefitIcon { display: grid; width: 42px; height: 52px; color: rgb(255 255 255 / 68%); place-items: start; }
+.benefitIcon svg { width: 40px; height: 40px; overflow: visible; fill: none; stroke: currentColor; stroke-width: 1.35; stroke-linecap: round; stroke-linejoin: round; }
+.benefitIcon circle, .benefitIcon path, .benefitIcon rect { transform-box: fill-box; transform-origin: center; transition: transform .5s cubic-bezier(.16,1,.3,1), opacity .3s ease, stroke .3s ease; }
+.iconAccent { stroke: rgb(255 255 255 / 95%); }
+.benefitCard { transition: border-color .3s ease, background-color .3s ease, transform .45s cubic-bezier(.16,1,.3,1); }
+.benefitCard:hover { border-color: rgb(255 255 255 / 18%); background: rgb(18 18 18); transform: translateY(-2px); }
+.benefitCard:hover .benefitIcon { color: rgb(255 255 255 / 92%); }
+.benefitCard:hover .iconOrbit { animation: icon-orbit 1.8s linear infinite; transform-origin: 0 13px; }
+.benefitCard:hover .sliderOne { transform: translateX(10px); }
+.benefitCard:hover .sliderTwo { transform: translateX(-9px); }
+.benefitCard:hover .sliderThree { transform: translateX(6px); }
+.benefitCard:hover .testBack { transform: translate(-2px, 2px) rotate(-6deg); }
+.benefitCard:hover .testFront { transform: translate(2px, -1px) rotate(4deg); }
+.benefitCard:hover .channelCore { animation: icon-pulse 1.25s ease-in-out infinite; }
+.benefitCard:hover .teamLead { transform: translateY(-2px); }
+.benefitCard:hover .teamLeft { transform: translate(2px, 1px); }
+.benefitCard:hover .teamRight { transform: translate(-2px, 1px); }
+.benefitCard:first-child:hover .benefitIcon svg { animation: hourglass-turn .8s cubic-bezier(.16,1,.3,1); }
+.benefitCard p { max-width: 240px; }
+
+@keyframes reveal { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+@keyframes copyIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: none; } }
+@keyframes cursor { 50% { opacity: 0; } }
+@keyframes hourglass-turn { 55% { transform: rotate(180deg); } 100% { transform: rotate(180deg); } }
+@keyframes icon-orbit { to { transform: rotate(360deg); } }
+@keyframes icon-pulse { 50% { opacity: .4; transform: scale(1.7); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .section, .activeCopy, .prompt i, .benefitCard:hover .benefitIcon svg, .benefitCard:hover .iconOrbit, .benefitCard:hover .channelCore { animation: none; }
+  .benefitCard, .benefitIcon circle, .benefitIcon path, .benefitIcon rect { transition: none; }
+}
+
+@media (max-width: 900px) {
+  .section { width: min(100% - 32px, 560px); padding-top: 72px; animation-timeline: auto; }
+  .features { min-height: 1353px; }
+  .useCases { min-height: 803px; }
+  .benefits { min-height: 1499px; }
+  .heading { margin-bottom: 44px; }
+  .heading h2 { font-size: 32px; line-height: 38.4px; letter-spacing: -.02em; }
+  .featureGrid, .benefitGrid { grid-template-columns: 1fr; }
+  .card, .imageGenerator, .videoGenerator, .models, .presets, .keyframes { grid-column: 1; min-height: 210px; }
+  .imageGenerator, .videoGenerator { min-height: 230px; }
+  .videoGenerator img { width: 88%; }
+  .models img { width: 66%; }
+  .keyframes img { width: 66%; }
+  .useCasePanel { grid-template-columns: 1fr; }
+  .useCaseCopy { min-height: 315px; }
+  .useCaseArt { min-height: 350px; }
+  .benefitCard { min-height: 184px; }
+  .benefitCard p { max-width: 290px; }
+}
+
+@media (max-width: 480px) {
+  .section { width: calc(100% - 32px); }
+  .featureGrid, .benefitGrid { gap: 8px; }
+  .card, .benefitCard { padding: 20px; }
+  .useCasePanel { border-radius: 18px; }
+  .tabs button { font-size: 13px; }
+  .activeCopy { font-size: 13px; }
+  .useCaseArt { min-height: 300px; }
+  .artForeground { width: 64%; }
+}

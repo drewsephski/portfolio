@@ -1,0 +1,133 @@
+{
+  "height": 16853,
+  "sections": [
+    {
+      "display": "flex",
+      "h": 655.734375,
+      "i": 0,
+      "padding": "130px 0px 0px",
+      "y": 0
+    },
+    {
+      "display": "flex",
+      "h": 625.375,
+      "i": 1,
+      "padding": "60px 0px",
+      "y": 655.734375
+    },
+    {
+      "display": "flex",
+      "h": 1436.953125,
+      "i": 2,
+      "padding": "60px 0px",
+      "y": 1281.109375
+    },
+    {
+      "display": "flex",
+      "h": 1696.796875,
+      "i": 3,
+      "padding": "60px 0px",
+      "y": 2718.0625
+    },
+    {
+      "display": "flex",
+      "h": 1948.796875,
+      "i": 4,
+      "padding": "60px 0px",
+      "y": 4414.859375
+    },
+    {
+      "display": "flex",
+      "h": 629.921875,
+      "i": 5,
+      "padding": "60px 0px",
+      "y": 6363.65625
+    },
+    {
+      "display": "flex",
+      "h": 1057.140625,
+      "i": 6,
+      "padding": "60px 0px",
+      "y": 6993.578125
+    },
+    {
+      "display": "flex",
+      "h": 1016.796875,
+      "i": 7,
+      "padding": "60px 0px",
+      "y": 8050.71875
+    },
+    {
+      "display": "flex",
+      "h": 1979.796875,
+      "i": 8,
+      "padding": "60px 0px",
+      "y": 9067.515625
+    },
+    {
+      "display": "flex",
+      "h": 1655.640625,
+      "i": 9,
+      "padding": "60px 0px",
+      "y": 11047.3125
+    },
+    {
+      "display": "flex",
+      "h": 858.625,
+      "i": 10,
+      "padding": "60px 0px",
+      "y": 12702.953125
+    },
+    {
+      "display": "flex",
+      "h": 1851.453125,
+      "i": 11,
+      "padding": "60px 0px",
+      "y": 13561.578125
+    },
+    {
+      "display": "flex",
+      "h": 427.59375,
+      "i": 12,
+      "padding": "60px 0px",
+      "y": 15413.03125
+    },
+    {
+      "display": "flex",
+      "h": 1011.90625,
+      "i": 13,
+      "padding": "50px 0px 24px",
+      "y": 15840.625
+    }
+  ],
+  "videos": [
+    {
+      "h": 655.734375,
+      "src": "https://cdn.prod.website-files.com/692877de6096025570de1dac%2F69581d86ecfebab70af35e48_2270712_Fluffy_Outdoor_3840x2160_webm.webm",
+      "w": 390,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "h": 623.375,
+      "src": "https://framerusercontent.com/assets/aK87pajuVCXexrCJ3IeAHnuzd0g.webm",
+      "w": 996,
+      "x": -303,
+      "y": 656.734375
+    },
+    {
+      "h": 274,
+      "src": "https://cdn.prod.website-files.com/692877de6096025570de1dac%2F695c9cefdaf14feb3d7dbce0_CEO_webm.webm",
+      "w": 332,
+      "x": 29,
+      "y": 7753.71875
+    },
+    {
+      "h": 425.59375,
+      "src": "https://framerusercontent.com/assets/aK87pajuVCXexrCJ3IeAHnuzd0g.webm",
+      "w": 996,
+      "x": -303,
+      "y": 15414.03125
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+.page{min-width:320px;overflow:clip;background:#fff;color:#000;font-family:var(--agentlab-body),sans-serif;isolation:isolate}.page *,.page *::before,.page *::after{box-sizing:border-box}.page button,.page input{font:inherit}.page h1,.page h2,.page h3,.page p{max-width:none}.page a{color:inherit}
+@media(prefers-reduced-motion:reduce){.page *,.page *::before,.page *::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}

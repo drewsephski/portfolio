@@ -1,0 +1,21 @@
+- generic [active] [ref=f1e1]:
+  - main [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - link "Meridian" [ref=f1e4] [cursor=pointer]:
+        - /url: "#"
+      - button "Open menu" [ref=f1e12] [cursor=pointer]
+    - region [ref=f1e16]:
+      - generic [ref=f1e17]: Revenue Intelligence for SaaS
+      - heading "Every revenue decision starts with a better question. better question. better question." [level=1] [ref=f1e20]:
+        - generic [ref=f1e21]: Every revenue decision
+        - generic [ref=f1e24]:
+          - text: starts with a
+          - generic [ref=f1e25]: better question. better question. better question.
+      - generic [ref=f1e26]:
+        - link "Book Demo" [ref=f1e27] [cursor=pointer]:
+          - /url: "#"
+        - link "See Meridian in Action" [ref=f1e32] [cursor=pointer]:
+          - /url: "#"
+    - paragraph [ref=f1e34]:
+      - generic [ref=f1e35]: Meridian continuously analyzes product usage, customer behavior and commercial data to identify expansion opportunities, predict revenue risk, and recommend the highest-impact actions for your team.
+  - button "Open Next.js Dev Tools" [ref=f1e41] [cursor=pointer]

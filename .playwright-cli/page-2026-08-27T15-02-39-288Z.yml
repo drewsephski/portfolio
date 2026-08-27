@@ -1,0 +1,31 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]: Equilibrium
+      - generic [ref=e9]:
+        - button "Home" [ref=e10]
+        - generic [ref=e11]:
+          - button "Wellness" [expanded] [active] [ref=e12]
+          - menu "Wellness" [ref=e36]:
+            - menuitem "Mindfulness Find calm and clarity" [ref=e37]:
+              - generic [ref=e38]: Mindfulness
+              - generic [ref=e39]: Find calm and clarity
+            - menuitem "Movement Build an energizing rhythm" [ref=e40]:
+              - generic [ref=e41]: Movement
+              - generic [ref=e42]: Build an energizing rhythm
+            - menuitem "Sleep Restore with better rest" [ref=e43]:
+              - generic [ref=e44]: Sleep
+              - generic [ref=e45]: Restore with better rest
+        - button "Routine" [ref=e15]
+        - button "Our Team" [ref=e16]
+      - generic [ref=e17]:
+        - button "Log in" [ref=e18]
+        - button "Begin Now" [ref=e19]
+    - generic [ref=e20]:
+      - heading "Live Better, Feel Whole Every Day" [level=1] [ref=e21]
+      - paragraph [ref=e22]: Take charge of how you feel with a companion built for your journey—build routines, follow your growth, and unlock tailored insights for a steadier, more vibrant life each day.
+      - generic [ref=e23]:
+        - button "Start Today" [ref=e24]
+        - button "Discover How" [ref=e25]
+  - button "Open Next.js Dev Tools" [ref=e31] [cursor=pointer]
+  - alert [ref=e35]

@@ -1,0 +1,122 @@
+- generic [active] [ref=f1e1]:
+  - main [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - link "Nexora home" [ref=f1e4] [cursor=pointer]:
+        - /url: "#nexora-hero"
+        - generic [ref=f1e5]: ✦
+        - text: Nexora
+      - generic [ref=f1e6]:
+        - navigation "Primary navigation" [ref=f1e7]:
+          - link "Home" [ref=f1e8] [cursor=pointer]:
+            - /url: "#nexora-hero"
+          - link "Pricing" [ref=f1e9] [cursor=pointer]:
+            - /url: "#nexora-hero"
+          - link "About" [ref=f1e10] [cursor=pointer]:
+            - /url: "#nexora-hero"
+          - link "Contact" [ref=f1e11] [cursor=pointer]:
+            - /url: "#nexora-hero"
+        - button "Get started" [ref=f1e12] [cursor=pointer]
+    - region [ref=f1e13]:
+      - generic [ref=f1e14]:
+        - generic [ref=f1e15]: Now with GPT-5 support ✨
+        - heading [level=1] [ref=f1e16]:
+          - text: The Future of
+          - emphasis [ref=f1e17]: Smarter
+          - text: Automation
+        - paragraph [ref=f1e18]: Automate your busywork with intelligent agents that learn, adapt, and execute—so your team can focus on what matters most.
+        - generic [ref=f1e19]:
+          - button "Book a demo" [ref=f1e20] [cursor=pointer]
+          - button "Play product demo" [ref=f1e21] [cursor=pointer]
+        - generic [ref=f1e25]:
+          - generic "Nexora dashboard preview":
+            - generic:
+              - generic:
+                - generic: "N"
+                - generic: Nexora
+              - generic:
+                - generic: Search
+                - generic: ⌘K
+              - generic:
+                - generic: Move Money
+                - generic: JB
+            - generic:
+              - complementary:
+                - navigation "Dashboard navigation":
+                  - generic: Home
+                  - generic:
+                    - generic: Tasks
+                    - emphasis: "10"
+                  - generic: Transactions
+                  - generic: Payments
+                  - generic: Cards
+                  - generic: Capital
+                  - generic: Accounts
+                - paragraph: Workflows
+                - navigation "Workflow navigation":
+                  - generic: Trake rutes
+                  - generic: Payments
+                  - generic: Notifications
+                  - generic: Settings
+              - main:
+                - heading "Welcome, Jane" [level=2]
+                - generic:
+                  - generic:
+                    - generic: Send
+                    - generic: Request
+                    - generic: Transfer
+                    - generic: Deposit
+                    - generic: Pay Bill
+                    - generic: Create Invoice
+                  - generic: Customize
+                - generic:
+                  - generic:
+                    - generic: Mercury Balance
+                    - paragraph: $8,450,190.32
+                    - generic:
+                      - generic: Last 30 Days
+                      - strong: +$1.8M
+                      - emphasis: "-$900K"
+                  - generic:
+                    - generic: Accounts
+                    - generic:
+                      - generic:
+                        - generic: Credit
+                        - strong: $98,125.50
+                      - generic:
+                        - generic: Treasury
+                        - strong: $6,750,200.00
+                      - generic:
+                        - generic: Operations
+                        - strong: $1,592,864.82
+                - generic:
+                  - heading "Recent Transactions" [level=3]
+                  - table:
+                    - rowgroup:
+                      - row "Date Description Amount Status":
+                        - columnheader "Date"
+                        - columnheader "Description"
+                        - columnheader "Amount"
+                        - columnheader "Status"
+                    - rowgroup:
+                      - row "May 24 AWS -$5,200 Pending":
+                        - cell "May 24"
+                        - cell "AWS"
+                        - cell "-$5,200"
+                        - cell "Pending"
+                      - row "May 23 Client Payment +$125,000 Completed":
+                        - cell "May 23"
+                        - cell "Client Payment"
+                        - cell "+$125,000"
+                        - cell "Completed"
+                      - row "May 22 Payroll -$85,450 Completed":
+                        - cell "May 22"
+                        - cell "Payroll"
+                        - cell "-$85,450"
+                        - cell "Completed"
+                      - row "May 21 Office Supplies -$1,200 Completed":
+                        - cell "May 21"
+                        - cell "Office Supplies"
+                        - cell "-$1,200"
+                        - cell "Completed"
+  - button "Open Next.js Dev Tools" [ref=f1e31] [cursor=pointer]
+  - alert [ref=f1e35]

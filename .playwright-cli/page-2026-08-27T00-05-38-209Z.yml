@@ -1,0 +1,40 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e5]:
+    - banner [ref=f4e6]:
+      - link "Vesper.ai" [ref=f4e7] [cursor=pointer]:
+        - /url: "#top"
+      - navigation "Primary" [ref=f4e15]:
+        - link "Benefits" [ref=f4e16] [cursor=pointer]:
+          - /url: "#benefits"
+        - link "How It Works" [ref=f4e17] [cursor=pointer]:
+          - /url: "#how-it-works"
+        - link "FAQs" [ref=f4e18] [cursor=pointer]:
+          - /url: "#faqs"
+        - link "Pricing" [ref=f4e19] [cursor=pointer]:
+          - /url: "#pricing"
+      - link "Start for Free" [ref=f4e20] [cursor=pointer]:
+        - /url: "#start"
+    - main [ref=f4e21]:
+      - generic [ref=f4e22]:
+        - generic [ref=f4e23]: Operational AI Infrastructure
+        - heading "Train AI agents on your workflows in minutes." [level=1] [ref=f4e27]:
+          - generic [ref=f4e28]:
+            - text: Train
+            - emphasis [ref=f4e29]: AI agents
+            - text: on your
+          - generic [ref=f4e30]: workflows in minutes.
+        - paragraph [ref=f4e31]: Deploy adaptive AI agents that learn, execute, and scale operational tasks across your business.
+        - generic [ref=f4e32]:
+          - link "Start for Free" [ref=f4e33] [cursor=pointer]:
+            - /url: "#start"
+          - link "See it in action" [ref=f4e34] [cursor=pointer]:
+            - /url: "#demo"
+    - contentinfo "Platform statistics" [ref=f4e35]:
+      - generic [ref=f4e36]: 4.2M+ workflows automated
+      - generic [ref=f4e42]: 92% reduction in manual operations
+      - generic [ref=f4e47]:
+        - img [ref=f4e48]:
+          - generic [ref=f4e60]: e
+        - generic [ref=f4e61]: 180+ operational teams onboarded
+  - button "Open Next.js Dev Tools" [ref=f4e67] [cursor=pointer]
+  - alert [ref=f4e71]

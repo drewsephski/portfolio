@@ -1,0 +1,34 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - banner:
+      - link "Home" [ref=f7e4] [cursor=pointer]:
+        - /url: "#top"
+      - navigation "Primary" [ref=f7e9]:
+        - link "About" [ref=f7e10] [cursor=pointer]:
+          - /url: "#about"
+        - link "Features" [ref=f7e11] [cursor=pointer]:
+          - /url: "#features"
+        - link "FAQ" [ref=f7e12] [cursor=pointer]:
+          - /url: "#faq"
+        - link "Contact" [ref=f7e13] [cursor=pointer]:
+          - /url: "#contact"
+      - link "Get Started" [ref=f7e14] [cursor=pointer]:
+        - /url: "#get-started"
+    - main [ref=f7e16]:
+      - heading "The Next Layer of Intelligence" [level=1] [ref=f7e17]:
+        - generic [ref=f7e18]: The Next Layer
+        - generic [ref=f7e19]: of Intelligence
+      - paragraph [ref=f7e20]:
+        - generic [ref=f7e21]: A unified infrastructure platform to help teams build,
+        - generic [ref=f7e22]: ship, and scale AI systems with confidence.
+      - generic [ref=f7e23]:
+        - link "Get Started" [ref=f7e24] [cursor=pointer]:
+          - /url: "#get-started"
+        - link "View Architecture" [ref=f7e26] [cursor=pointer]:
+          - /url: "#architecture"
+    - generic "Trusted partners" [ref=f7e27]:
+      - generic: logoipsum
+      - generic: logoipsum
+      - generic: logoipsum
+      - generic: logoipsum
+  - alert [ref=f7e48]

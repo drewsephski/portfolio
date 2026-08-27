@@ -1,0 +1,117 @@
+{
+  "scrollHeight": 8493,
+  "sections": [
+    {
+      "display": "flex",
+      "height": 140,
+      "i": 0,
+      "id": "",
+      "top": 696,
+      "width": 350
+    },
+    {
+      "display": "flex",
+      "height": 50,
+      "i": 1,
+      "id": "",
+      "top": 781.40625,
+      "width": 310
+    },
+    {
+      "display": "flex",
+      "height": 1353.015625,
+      "i": 2,
+      "id": "features",
+      "top": 900,
+      "width": 753
+    },
+    {
+      "display": "flex",
+      "height": 1230.234375,
+      "i": 3,
+      "id": "benefits",
+      "top": 3056.015625,
+      "width": 753
+    },
+    {
+      "display": "flex",
+      "height": 1630.625,
+      "i": 4,
+      "id": "how-it-works",
+      "top": 4286.25,
+      "width": 753
+    },
+    {
+      "display": "flex",
+      "height": 464.609375,
+      "i": 5,
+      "id": "testimonials",
+      "top": 5916.875,
+      "width": 753
+    },
+    {
+      "display": "flex",
+      "height": 240,
+      "i": 6,
+      "id": "",
+      "top": 6091.484375,
+      "width": 721
+    },
+    {
+      "display": "flex",
+      "height": 538.609375,
+      "i": 7,
+      "id": "pricing",
+      "top": 6381.484375,
+      "width": 753
+    },
+    {
+      "display": "flex",
+      "height": 137,
+      "i": 8,
+      "id": "",
+      "top": 6556.09375,
+      "width": 721
+    },
+    {
+      "display": "flex",
+      "height": 137,
+      "i": 9,
+      "id": "",
+      "top": 6733.09375,
+      "width": 721
+    },
+    {
+      "display": "flex",
+      "height": 611.828125,
+      "i": 10,
+      "id": "faq",
+      "top": 6920.09375,
+      "width": 753
+    },
+    {
+      "display": "flex",
+      "height": 460,
+      "i": 11,
+      "id": "final-cta",
+      "top": 7531.921875,
+      "width": 753
+    },
+    {
+      "display": "flex",
+      "height": 803,
+      "i": 12,
+      "id": "usecases-1",
+      "top": 2253.015625,
+      "width": 753
+    },
+    {
+      "display": "flex",
+      "height": 412,
+      "i": 13,
+      "id": "",
+      "top": 2530.015625,
+      "width": 705
+    }
+  ]
+}

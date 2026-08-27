@@ -1,0 +1,149 @@
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.label {
+  position: relative;
+  transition: color 220ms ease;
+}
+
+.arrowFrame {
+  position: relative;
+  display: block;
+  width: 22px;
+  height: 22px;
+  color: #c8f55f;
+  transition: color 240ms ease, text-shadow 280ms ease, transform 360ms cubic-bezier(.16, 1, .3, 1);
+}
+
+.arrowFrame::before {
+  position: absolute;
+  inset: -1px -8px;
+  border: 1px solid rgb(200 245 95 / 0%);
+  border-radius: 9999px;
+  background: rgb(200 245 95 / 0%);
+  content: "";
+  opacity: 0;
+  transform: scaleX(.56);
+  transition: background-color 280ms ease, border-color 280ms ease, opacity 220ms ease, transform 420ms cubic-bezier(.16, 1, .3, 1);
+}
+
+.arrowClip {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+}
+
+.arrowTrack {
+  display: grid;
+  width: 200%;
+  height: 200%;
+  grid-template-columns: repeat(2, 22px);
+  grid-template-rows: repeat(2, 22px);
+  transform: translate(-22px, 0);
+  transition: transform 440ms cubic-bezier(.16, 1, .3, 1);
+}
+
+.arrowTrack span {
+  display: grid;
+  place-items: center;
+}
+
+.arrowTrack svg {
+  width: 13px;
+  height: 13px;
+  stroke-width: 1.8;
+  transition: stroke-width 320ms cubic-bezier(.16, 1, .3, 1);
+}
+
+.arrowTrack span:first-child {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.arrowTrack span:last-child {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.link:hover .label,
+.link:focus-visible .label {
+  color: #fff;
+}
+
+.link:hover .arrowTrack svg,
+.link:focus-visible .arrowTrack svg,
+.group:hover .arrowTrack svg,
+.group:focus-visible .arrowTrack svg {
+  stroke-width: 2.65;
+}
+
+.link:hover .arrowFrame,
+.link:focus-visible .arrowFrame,
+.group:hover .arrowFrame,
+.group:focus-visible .arrowFrame {
+  color: #c8f55f;
+  text-shadow: 0 5px 18px rgb(200 245 95 / 32%);
+  transform: translate(3px, -3px) rotate(4deg) scale(1.16);
+}
+
+.link:hover .arrowFrame::before,
+.link:focus-visible .arrowFrame::before,
+.group:hover .arrowFrame::before,
+.group:focus-visible .arrowFrame::before {
+  border-color: rgb(200 245 95 / 42%);
+  background: rgb(200 245 95 / 9%);
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.link:hover .arrowTrack,
+.link:focus-visible .arrowTrack,
+.group:hover .arrowTrack,
+.group:focus-visible .arrowTrack {
+  transform: translate(0, -22px);
+}
+
+.link:focus-visible {
+  border-radius: 4px;
+  outline: 2px solid #fff;
+  outline-offset: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .label,
+  .arrowFrame,
+  .arrowFrame::before,
+  .arrowTrack,
+  .arrowTrack svg {
+    transition: none;
+  }
+
+  .link:hover .arrowFrame,
+  .link:focus-visible .arrowFrame,
+  .group:hover .arrowFrame,
+  .group:focus-visible .arrowFrame {
+    transform: none;
+  }
+
+  .link:hover .arrowFrame::before,
+  .link:focus-visible .arrowFrame::before,
+  .group:hover .arrowFrame::before,
+  .group:focus-visible .arrowFrame::before {
+    transform: scaleX(1);
+  }
+
+  .link:hover .arrowTrack,
+  .link:focus-visible .arrowTrack,
+  .group:hover .arrowTrack,
+  .group:focus-visible .arrowTrack {
+    transform: translate(-22px, 0);
+  }
+}

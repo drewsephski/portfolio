@@ -1,0 +1,777 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e6]:
+      - generic [ref=e7]:
+        - link [ref=e10] [cursor=pointer]:
+          - /url: ./
+          - img "logo" [ref=e13]
+        - generic [ref=e15]:
+          - paragraph [ref=e17]:
+            - link "Home" [ref=e18] [cursor=pointer]:
+              - /url: ./
+          - paragraph [ref=e20]:
+            - link "About" [ref=e21] [cursor=pointer]:
+              - /url: ./about
+          - paragraph [ref=e23]:
+            - link "Features" [ref=e24] [cursor=pointer]:
+              - /url: ./features
+          - paragraph [ref=e26]:
+            - link "Pricing" [ref=e27] [cursor=pointer]:
+              - /url: ./pricing
+          - paragraph [ref=e29]:
+            - link "Blog" [ref=e30] [cursor=pointer]:
+              - /url: ./blogs
+          - paragraph [ref=e32]:
+            - link "Contact" [ref=e33] [cursor=pointer]:
+              - /url: ./contact
+        - link [ref=e35] [cursor=pointer]:
+          - /url: ./contact
+          - generic [ref=e38]:
+            - paragraph [ref=e40]: Get Started
+            - paragraph [ref=e42]: Get Started
+    - generic [ref=e43]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e55]:
+            - img "icon" [ref=e58]
+            - paragraph [ref=e60]: Smarter Task Management
+          - generic [ref=e62]:
+            - heading "Smarter by design. Simplified by AI." [level=1] [ref=e64]
+            - paragraph [ref=e66]: Automate your workflows, prioritize, and focus on what truly matters.
+          - link [ref=e69] [cursor=pointer]:
+            - /url: ./contact
+            - generic [ref=e73]:
+              - generic [ref=e74]:
+                - paragraph [ref=e76]: Get Started Now
+                - paragraph [ref=e78]: Get Started Now
+              - img "icon" [ref=e81]
+        - generic [ref=e84]:
+          - paragraph [ref=e86]: Trusted by the World’s Largest Companies
+          - list [ref=e88]:
+            - listitem [ref=e89]:
+              - img "image" [ref=e92]
+            - listitem [ref=e93]:
+              - img "image" [ref=e96]
+            - listitem [ref=e97]:
+              - img "image" [ref=e100]
+            - listitem [ref=e101]:
+              - img "image" [ref=e104]
+            - listitem [ref=e105]:
+              - img "image" [ref=e108]
+            - listitem [ref=e109]:
+              - img "image" [ref=e112]
+      - generic [ref=e121]:
+        - generic [ref=e122]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img "icon"
+          - heading "Our team of data scientists, engineers, and creatives craft tailored AI solutions that solve real-world challenges across industries." [level=4] [ref=e125]
+          - link [ref=e128] [cursor=pointer]:
+            - /url: ./about
+            - generic [ref=e131]:
+              - generic [ref=e132]:
+                - paragraph [ref=e134]: LEARN MORE
+                - paragraph [ref=e136]: LEARN MORE
+              - img "icon" [ref=e139]
+        - generic [ref=e140]:
+          - generic [ref=e143]:
+            - paragraph [ref=e145]: Performance Snapshot
+            - generic [ref=e147]:
+              - generic [ref=e148]: $
+              - generic [ref=e151]:
+                - generic [ref=e152]: "0"
+                - generic [ref=e153]: "1"
+                - generic [ref=e154]: "2"
+                - generic [ref=e155]: "3"
+                - generic [ref=e156]: "4"
+                - generic [ref=e157]: "5"
+              - generic [ref=e158]: M+
+          - generic [ref=e162]:
+            - paragraph [ref=e164]: Digital Reach
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - generic [ref=e169]:
+                  - generic [ref=e170]: "0"
+                  - generic [ref=e171]: "1"
+                  - generic [ref=e172]: "2"
+                - generic [ref=e174]:
+                  - generic [ref=e175]: "0"
+                  - generic [ref=e176]: "1"
+                  - generic [ref=e177]: "2"
+                  - generic [ref=e178]: "3"
+                  - generic [ref=e179]: "4"
+                  - generic [ref=e180]: "5"
+                - generic [ref=e181]: "0"
+              - generic [ref=e184]: +
+          - generic [ref=e188]:
+            - paragraph [ref=e190]: Client Trust
+            - generic [ref=e192]:
+              - generic [ref=e193]:
+                - generic [ref=e195]:
+                  - generic [ref=e196]: "0"
+                  - generic [ref=e197]: "1"
+                  - generic [ref=e198]: "2"
+                  - generic [ref=e199]: "3"
+                  - generic [ref=e200]: "4"
+                  - generic [ref=e201]: "5"
+                  - generic [ref=e202]: "6"
+                  - generic [ref=e203]: "7"
+                  - generic [ref=e204]: "8"
+                  - generic [ref=e205]: "9"
+                - generic [ref=e207]:
+                  - generic [ref=e208]: "0"
+                  - generic [ref=e209]: "1"
+                  - generic [ref=e210]: "2"
+                  - generic [ref=e211]: "3"
+                  - generic [ref=e212]: "4"
+                  - generic [ref=e213]: "5"
+                  - generic [ref=e214]: "6"
+                  - generic [ref=e215]: "7"
+                  - generic [ref=e216]: "8"
+              - generic [ref=e217]: "%"
+      - generic [ref=e223]:
+        - generic [ref=e224]:
+          - generic [ref=e228]:
+            - img "icon" [ref=e231]
+            - paragraph [ref=e233]: How It Works
+          - heading "Where complexity meets clarity" [level=3] [ref=e236]
+          - paragraph [ref=e238]: Analyze deadlines, effort, and context to reorder intelligently.
+        - generic [ref=e239]:
+          - generic [ref=e242]:
+            - img "bg" [ref=e245]
+            - generic [ref=e246]:
+              - img "image" [ref=e248]
+              - generic "Lottie Animation" [ref=e250]
+            - generic [ref=e251]:
+              - heading "AI-Powered Prioritization" [level=6] [ref=e253]
+              - paragraph [ref=e255]: Our engine tasks by urgency & importance.
+          - generic [ref=e258]:
+            - img "bg" [ref=e261]
+            - img "image" [ref=e264]
+            - generic [ref=e265]:
+              - heading "Capture Tasks Instantly" [level=6] [ref=e267]
+              - paragraph [ref=e269]: Add tasks via voice, email, or integrations.
+          - generic [ref=e272]:
+            - img "bg" [ref=e275]
+            - generic "Lottie Animation" [ref=e278]
+            - generic [ref=e279]:
+              - heading "Seamless Automation" [level=6] [ref=e281]
+              - paragraph [ref=e283]: We ready to handle them for you.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e294]:
+            - img "icon" [ref=e297]
+            - paragraph [ref=e299]: our Features
+          - heading "Your Productivity, Reinvented with AI" [level=3] [ref=e302]
+          - paragraph [ref=e304]: Infranex Management was founded by a team of productivity hackers.
+        - generic [ref=e305]:
+          - generic [ref=e306]:
+            - generic [ref=e311]:
+              - img "image" [ref=e314]
+              - img "bg" [ref=e317]
+              - generic "Lottie Animation" [ref=e319]
+              - generic [ref=e320]:
+                - heading "Fast, scalable, and tailored solutions" [level=6] [ref=e322]
+                - paragraph [ref=e324]: Our engine tasks by urgency & importance.
+            - generic [ref=e329]:
+              - img "bg" [ref=e332]
+              - generic "Lottie Animation" [ref=e334]
+              - generic [ref=e335]:
+                - heading "Workflow Automation" [level=6] [ref=e337]
+                - paragraph [ref=e339]: Trigger actions based on task completion, time, or team activity.
+          - generic [ref=e340]:
+            - generic [ref=e345]:
+              - img "bg" [ref=e348]
+              - generic "Lottie Animation" [ref=e350]
+              - generic [ref=e351]:
+                - heading "AI Planning Assistant" [level=6] [ref=e353]
+                - paragraph [ref=e355]: Suggests assignees, sets reminders, and flags blockers.
+            - generic [ref=e360]:
+              - img "bg" [ref=e363]
+              - generic "Lottie Animation" [ref=e365]
+              - generic [ref=e366]:
+                - heading "Collaboration AI" [level=6] [ref=e368]
+                - paragraph [ref=e370]: Automatically builds a realistic, daily schedule.
+      - generic [ref=e377]:
+        - generic [ref=e378]:
+          - generic [ref=e381]:
+            - img "icon" [ref=e384]
+            - paragraph [ref=e386]: Why choose us
+          - heading "Building the future of work" [level=3] [ref=e389]
+          - paragraph [ref=e391]: Task AI Management was founded by a team of productivity hackers.
+        - generic [ref=e392]:
+          - generic [ref=e396]:
+            - img "bg" [ref=e399]
+            - img "icon" [ref=e402]
+            - generic [ref=e403]:
+              - heading "Intelligent Automation" [level=6] [ref=e405]
+              - paragraph [ref=e407]: Streamline repetitive tasks and boost productivity effortlessly, saving time and reducing human errors.
+          - generic [ref=e411]:
+            - img "bg" [ref=e414]
+            - img "icon" [ref=e417]
+            - generic [ref=e418]:
+              - heading "AI-Powered Insights" [level=6] [ref=e420]
+              - paragraph [ref=e422]: Make smarter decisions with data-driven by the recommendations and actionable, real-time.
+          - generic [ref=e426]:
+            - img "bg" [ref=e429]
+            - img "icon" [ref=e432]
+            - generic [ref=e433]:
+              - heading "Seamless Integrations" [level=6] [ref=e435]
+              - paragraph [ref=e437]: Connect with your favorite tools and platforms easily, creating a unified, efficient workflow.
+          - generic [ref=e441]:
+            - img "bg" [ref=e444]
+            - img "icon" [ref=e447]
+            - generic [ref=e448]:
+              - heading "User-Centric Design" [level=6] [ref=e450]
+              - paragraph [ref=e452]: Enjoy an intuitive, easy-to-use interface built for efficiency and enhanced team collaboration.
+          - generic [ref=e456]:
+            - img "bg" [ref=e459]
+            - img "icon" [ref=e462]
+            - generic [ref=e463]:
+              - heading "Reliable Support" [level=6] [ref=e465]
+              - paragraph [ref=e467]: Access dedicated help whenever you need guidance or assistance, ensuring uninterrupted.
+          - generic [ref=e471]:
+            - img "bg" [ref=e474]
+            - img "icon" [ref=e477]
+            - generic [ref=e478]:
+              - heading "Proven Results" [level=6] [ref=e480]
+              - paragraph [ref=e482]: Trusted by thousands of users and businesses worldwide for measurable success and growth.
+      - generic [ref=e488]:
+        - generic [ref=e489]:
+          - generic [ref=e493]:
+            - img "icon" [ref=e496]
+            - paragraph [ref=e498]: Integration
+          - heading "Effortless Connectivity" [level=3] [ref=e501]
+          - paragraph [ref=e503]: Task AI Management was founded by a team of productivity hackers.
+          - link [ref=e507] [cursor=pointer]:
+            - /url: ./integrations
+            - generic [ref=e510]:
+              - generic [ref=e511]:
+                - paragraph [ref=e513]: explore all
+                - paragraph [ref=e515]: explore all
+              - img "icon" [ref=e518]
+        - generic [ref=e519]:
+          - generic [ref=e520]:
+            - generic:
+              - generic:
+                - generic:
+                  - img "logo"
+            - generic:
+              - generic:
+                - generic:
+                  - img "logo"
+            - generic:
+              - generic:
+                - generic:
+                  - img "logo"
+            - generic:
+              - generic:
+                - generic:
+                  - img "logo"
+            - generic:
+              - generic:
+                - generic:
+                  - img "logo"
+          - generic [ref=e521]:
+            - generic [ref=e522]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "logo"
+              - generic:
+                - generic:
+                  - generic:
+                    - img "logo"
+              - generic:
+                - generic:
+                  - generic:
+                    - img "logo"
+            - generic:
+              - generic:
+                - generic:
+                  - img "logo"
+            - generic [ref=e523]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "logo"
+              - generic:
+                - generic:
+                  - generic:
+                    - img "logo"
+              - generic:
+                - generic:
+                  - generic:
+                    - img "logo"
+          - generic [ref=e524]:
+            - generic:
+              - generic:
+                - generic:
+                  - img "logo"
+            - generic:
+              - generic:
+                - generic:
+                  - img "logo"
+            - generic:
+              - generic:
+                - generic:
+                  - img "logo"
+            - generic:
+              - generic:
+                - generic:
+                  - img "logo"
+            - generic:
+              - generic:
+                - generic:
+                  - img "logo"
+      - generic [ref=e531]:
+        - generic [ref=e532]:
+          - generic [ref=e535]:
+            - img "icon" [ref=e538]
+            - paragraph [ref=e540]: Success Stories
+          - heading "Success Stories to Inspire" [level=3] [ref=e543]
+          - paragraph [ref=e545]: Discover how businesses and creators achieve results
+        - generic [ref=e546]:
+          - generic [ref=e549]:
+            - img "bg" [ref=e552]
+            - generic [ref=e553]:
+              - generic [ref=e556]:
+                - img "icon" [ref=e559]
+                - paragraph [ref=e561]: CEO’s Words
+              - generic [ref=e563]:
+                - heading "From the Desk of Our CEO" [level=4] [ref=e565]
+                - paragraph [ref=e567]: “With Infranex, our growing team stayed in sync. AI auto-assigned tasks based on bandwidth and deadlines, letting us focus on shipping, not managing. Our campaigns are now delivered on time thanks to AI-prioritized sprints and real-time nudges for overdue tasks.”
+            - generic [ref=e568]:
+              - img "sign" [ref=e571]
+              - paragraph [ref=e573]: CO Founder of Infranex.
+          - img "bg" [ref=e581]
+      - generic [ref=e586]:
+        - generic [ref=e587]:
+          - generic [ref=e590]:
+            - img "icon" [ref=e593]
+            - paragraph [ref=e595]: Testimonials
+          - heading "Real People. Real Results" [level=3] [ref=e598]
+          - paragraph [ref=e600]: Find quick answers to the most common support questions
+        - generic [ref=e601]:
+          - list [ref=e603]:
+            - listitem [ref=e604]:
+              - generic [ref=e608]:
+                - img "bg" [ref=e611]
+                - paragraph [ref=e613]: “Truly impressive. The AI assistant is fast, accurate, and blends into our daily ops without friction.”
+                - generic [ref=e614]:
+                  - img "image" [ref=e617]
+                  - generic [ref=e618]:
+                    - paragraph [ref=e620]: Ethan Parker
+                    - paragraph [ref=e622]: Head of Product, FlowWorks
+            - listitem [ref=e623]:
+              - generic [ref=e627]:
+                - img "bg" [ref=e630]
+                - paragraph [ref=e632]: “Truly impressive. The AI assistant is fast, accurate, and blends into our daily ops without friction.”
+                - generic [ref=e633]:
+                  - img "image" [ref=e636]
+                  - generic [ref=e637]:
+                    - paragraph [ref=e639]: Liam Harrison
+                    - paragraph [ref=e641]: Project Manager, CloudCore
+            - listitem [ref=e642]:
+              - generic [ref=e646]:
+                - img "bg" [ref=e649]
+                - paragraph [ref=e651]: “Before this, we were juggling spreadsheets and manual updates. Now everything’s automated. “
+                - generic [ref=e652]:
+                  - img "image" [ref=e655]
+                  - generic [ref=e656]:
+                    - paragraph [ref=e658]: Emma Foster
+                    - paragraph [ref=e660]: Marketing Manager, BrightWave
+          - list [ref=e662]:
+            - listitem [ref=e663]:
+              - generic [ref=e667]:
+                - img "bg" [ref=e670]
+                - paragraph [ref=e672]: “Their predictive analytics helped us forecast trends more accurately than our previous tools.”
+                - generic [ref=e673]:
+                  - img "image" [ref=e676]
+                  - generic [ref=e677]:
+                    - paragraph [ref=e679]: Olivia Bennet
+                    - paragraph [ref=e681]: CMO at GreenTech
+            - listitem [ref=e682]:
+              - generic [ref=e686]:
+                - img "bg" [ref=e689]
+                - paragraph [ref=e691]: “Their predictive analytics helped us forecast trends more accurately than our previous tools.”
+                - generic [ref=e692]:
+                  - img "image" [ref=e695]
+                  - generic [ref=e696]:
+                    - paragraph [ref=e698]: Sophia Collins
+                    - paragraph [ref=e700]: UX/UI Lead, DesignHive
+            - listitem [ref=e701]:
+              - generic [ref=e705]:
+                - img "bg" [ref=e708]
+                - paragraph [ref=e710]: “Since switching to Task AI, I don’t spend hours juggling priorities. It thinks ahead for me.”
+                - generic [ref=e711]:
+                  - img "image" [ref=e714]
+                  - generic [ref=e715]:
+                    - paragraph [ref=e717]: Jackson Reed
+                    - paragraph [ref=e719]: Operations Lead, TeamSync
+          - list [ref=e721]:
+            - listitem [ref=e722]:
+              - generic [ref=e726]:
+                - img "bg" [ref=e729]
+                - paragraph [ref=e731]: “It's like having an extra set of hands—only smarter. It’s like having a crystal ball for our business.”
+                - generic [ref=e732]:
+                  - img "image" [ref=e735]
+                  - generic [ref=e736]:
+                    - paragraph [ref=e738]: Kaloi Jack
+                    - paragraph [ref=e740]: CMO at GreenTech
+            - listitem [ref=e741]:
+              - generic [ref=e745]:
+                - img "bg" [ref=e748]
+                - paragraph [ref=e750]: “It's like having an extra set of hands—only smarter. It’s like having a crystal ball for our business.”
+                - generic [ref=e751]:
+                  - img "image" [ref=e754]
+                  - generic [ref=e755]:
+                    - paragraph [ref=e757]: Noah Mitchell
+                    - paragraph [ref=e759]: AI Engineer, SmartOps
+            - listitem [ref=e760]:
+              - generic [ref=e764]:
+                - img "bg" [ref=e767]
+                - paragraph [ref=e769]: “It's like having an extra set of hands—only smarter. It’s like having a crystal ball for our business.”
+                - generic [ref=e770]:
+                  - img "image" [ref=e773]
+                  - generic [ref=e774]:
+                    - paragraph [ref=e776]: Ava Sullivan
+                    - paragraph [ref=e778]: Data Analyst, InsightFlow
+      - generic [ref=e785]:
+        - generic [ref=e786]:
+          - generic [ref=e789]:
+            - img "icon" [ref=e792]
+            - paragraph [ref=e794]: Pricing Plan
+          - heading "Flexible Plans for Every Stage" [level=3] [ref=e797]
+          - paragraph [ref=e799]: Live dashboards and custom reports that surface the insights you need—instantly.
+        - generic [ref=e800]:
+          - generic [ref=e804]:
+            - img "bg" [ref=e807]
+            - generic [ref=e810]:
+              - generic [ref=e811]:
+                - paragraph [ref=e813]: Starter
+                - paragraph [ref=e818]: Popular
+              - heading "$999" [level=3] [ref=e821]
+              - paragraph [ref=e823]: Perfect for small businesses getting started with digital marketing.
+            - generic [ref=e824]:
+              - generic [ref=e826]:
+                - img "icon" [ref=e829]
+                - paragraph [ref=e831]: 1 Campaign
+              - generic [ref=e833]:
+                - img "icon" [ref=e836]
+                - paragraph [ref=e838]: Monthly Reports
+              - generic [ref=e840]:
+                - img "icon" [ref=e843]
+                - paragraph [ref=e845]: Email Support
+              - generic [ref=e847]:
+                - img "icon" [ref=e850]
+                - paragraph [ref=e852]: Priority Support
+              - generic [ref=e854]:
+                - img "icon" [ref=e857]
+                - paragraph [ref=e859]: 4x Revisions
+            - link [ref=e861] [cursor=pointer]:
+              - /url: ./contact
+              - generic [ref=e864]:
+                - paragraph [ref=e866]: Get Started
+                - paragraph [ref=e868]: Get Started
+          - generic [ref=e872]:
+            - img "bg" [ref=e875]
+            - generic [ref=e878]:
+              - generic [ref=e879]:
+                - paragraph [ref=e881]: Growth
+                - paragraph [ref=e886]: Most Popular
+              - heading "$2,999" [level=3] [ref=e889]
+              - paragraph [ref=e891]: For brands ready to scale fast with full-service marketing.
+            - generic [ref=e892]:
+              - generic [ref=e894]:
+                - img "icon" [ref=e897]
+                - paragraph [ref=e899]: 1 Campaign
+              - generic [ref=e901]:
+                - img "icon" [ref=e904]
+                - paragraph [ref=e906]: Monthly Reports
+              - generic [ref=e908]:
+                - img "icon" [ref=e911]
+                - paragraph [ref=e913]: Email Support
+              - generic [ref=e915]:
+                - img "icon" [ref=e918]
+                - paragraph [ref=e920]: Priority Support
+              - generic [ref=e922]:
+                - img "icon" [ref=e925]
+                - paragraph [ref=e927]: 4x Revisions
+            - link [ref=e929] [cursor=pointer]:
+              - /url: ./contact
+              - generic [ref=e931]:
+                - paragraph [ref=e933]: Get started
+                - paragraph [ref=e935]: Get started
+          - generic [ref=e939]:
+            - img "bg" [ref=e942]
+            - generic [ref=e945]:
+              - generic [ref=e946]:
+                - paragraph [ref=e948]: enterprise
+                - paragraph [ref=e953]: Customized Solutions
+              - heading "$3,200" [level=3] [ref=e956]
+              - paragraph [ref=e958]: Perfect for small businesses getting started with digital marketing.
+            - generic [ref=e959]:
+              - generic [ref=e961]:
+                - img "icon" [ref=e964]
+                - paragraph [ref=e966]: 1 Campaign
+              - generic [ref=e968]:
+                - img "icon" [ref=e971]
+                - paragraph [ref=e973]: Monthly Reports
+              - generic [ref=e975]:
+                - img "icon" [ref=e978]
+                - paragraph [ref=e980]: Email Support
+              - generic [ref=e982]:
+                - img "icon" [ref=e985]
+                - paragraph [ref=e987]: Priority Support
+              - generic [ref=e989]:
+                - img "icon" [ref=e992]
+                - paragraph [ref=e994]: 4x Revisions
+            - link [ref=e996] [cursor=pointer]:
+              - /url: ./contact
+              - generic [ref=e999]:
+                - paragraph [ref=e1001]: Get Started
+                - paragraph [ref=e1003]: Get Started
+      - generic [ref=e1009]:
+        - generic [ref=e1010]:
+          - generic [ref=e1014]:
+            - img "icon" [ref=e1017]
+            - paragraph [ref=e1019]: Compare
+          - heading "Flexible Plans for Every Stage" [level=3] [ref=e1022]
+          - paragraph [ref=e1024]: Live dashboards and custom reports that surface the insights you need—instantly.
+        - generic [ref=e1025]:
+          - generic [ref=e1030]:
+            - img "bg" [ref=e1033]
+            - generic [ref=e1036]:
+              - img "icon" [ref=e1039]
+              - paragraph [ref=e1041]: Infranex
+            - generic [ref=e1043]:
+              - generic [ref=e1045]:
+                - img "icon" [ref=e1048]
+                - heading "Smart automation that saves time effortlessly" [level=6] [ref=e1050]
+              - generic [ref=e1052]:
+                - img "icon" [ref=e1055]
+                - heading "Seamless onboarding with 120+ integrations" [level=6] [ref=e1057]
+              - generic [ref=e1059]:
+                - img "icon" [ref=e1062]
+                - heading "Adaptive AI that learns your workflow" [level=6] [ref=e1064]
+              - generic [ref=e1066]:
+                - img "icon" [ref=e1069]
+                - heading "24/7 reliable customer assistance" [level=6] [ref=e1071]
+              - generic [ref=e1073]:
+                - img "icon" [ref=e1076]
+                - heading "Modern, intuitive, and user-friendly design" [level=6] [ref=e1078]
+              - generic [ref=e1080]:
+                - img "icon" [ref=e1083]
+                - heading "Real-time data-driven recommendation" [level=6] [ref=e1085]
+              - generic [ref=e1087]:
+                - img "icon" [ref=e1090]
+                - heading "Transparent, flexible, and value-driven plans" [level=6] [ref=e1092]
+              - generic [ref=e1094]:
+                - img "icon" [ref=e1097]
+                - heading "Proven real results that drive growth" [level=6] [ref=e1099]
+          - generic [ref=e1104]:
+            - img "bg" [ref=e1107]
+            - generic [ref=e1110]:
+              - img "icon" [ref=e1113]
+              - paragraph [ref=e1115]: Competitors
+            - generic [ref=e1117]:
+              - heading "Manual workflows and repetitive tasks" [level=6] [ref=e1123]
+              - heading "Complex setup and limited integrations" [level=6] [ref=e1129]
+              - heading "Generic tools with no personalization" [level=6] [ref=e1135]
+              - heading "Slow response and limited support" [level=6] [ref=e1141]
+              - heading "Outdated interface and poor usability" [level=6] [ref=e1147]
+              - heading "Reactive insights after decisions" [level=6] [ref=e1153]
+              - heading "Hidden costs and unclear pricing" [level=6] [ref=e1159]
+              - heading "Average productivity results" [level=6] [ref=e1165]
+      - generic [ref=e1172]:
+        - generic [ref=e1173]:
+          - generic [ref=e1176]:
+            - img "icon" [ref=e1179]
+            - paragraph [ref=e1181]: Common Questions
+          - heading "Got questions? We’ve got answers." [level=3] [ref=e1184]
+          - paragraph [ref=e1186]: Find quick answers to the most common support questions
+        - generic [ref=e1188]:
+          - generic [ref=e1192] [cursor=pointer]:
+            - generic [ref=e1193]:
+              - heading "Why is a strong brand identity or website important?" [level=6] [ref=e1195]
+              - img "icon" [ref=e1198]
+            - paragraph [ref=e1201]: A robust brand identity and website serve as the face of your business, shaping how it is perceived by potential customers. They not only convey professionalism but also establish trust and credibility, vital factors in today's competitive market.
+          - generic [ref=e1205] [cursor=pointer]:
+            - generic [ref=e1206]:
+              - heading "Can I use Infranex with my existing tools?" [level=6] [ref=e1208]
+              - img "icon" [ref=e1211]
+            - paragraph [ref=e1214]: Yes! Tash AI integrates seamlessly with your existing tools, allowing you to automate workflows, synchronize data, and boost team productivity effortlessly across every project and task.
+          - generic [ref=e1218] [cursor=pointer]:
+            - generic [ref=e1219]:
+              - heading "Is Infranex suitable for individuals or only teams?" [level=6] [ref=e1221]
+              - img "icon" [ref=e1224]
+            - paragraph [ref=e1227]: Tash AI is designed for both individuals and teams. It scales to meet personal productivity needs while supporting collaborative workflows for businesses of all sizes efficiently.
+          - generic [ref=e1231] [cursor=pointer]:
+            - generic [ref=e1232]:
+              - heading "Do I need to be tech-savvy to use Infranex?" [level=6] [ref=e1234]
+              - img "icon" [ref=e1237]
+            - paragraph [ref=e1240]: No, you don’t need to be tech-savvy. Tash AI offers an intuitive, user-friendly interface, guiding you through automation and productivity features effortlessly
+          - generic [ref=e1244] [cursor=pointer]:
+            - generic [ref=e1245]:
+              - heading "What happens after the free trial?" [level=6] [ref=e1247]
+              - img "icon" [ref=e1250]
+            - paragraph [ref=e1253]: After the free trial, you can choose a paid plan that fits your needs, unlocking full features, integrations, and ongoing support for seamless productivity and enhanced team collaboration.
+      - generic [ref=e1258]:
+        - generic [ref=e1259]:
+          - generic [ref=e1260]:
+            - generic [ref=e1264]:
+              - img "icon" [ref=e1267]
+              - paragraph [ref=e1269]: News & Updates
+            - heading "Infranex Insights" [level=3] [ref=e1273]
+            - paragraph [ref=e1276]: Explore how Tash AI enhances efficiency and intelligence in every process. See how Tash AI drives smarter, faster outcomes.
+          - link [ref=e1279] [cursor=pointer]:
+            - /url: ./blogs
+            - generic [ref=e1282]:
+              - generic [ref=e1283]:
+                - paragraph [ref=e1285]: View All Blogs
+                - paragraph [ref=e1287]: View All Blogs
+              - img "icon" [ref=e1290]
+        - generic [ref=e1291]:
+          - link [ref=e1292] [cursor=pointer]:
+            - /url: ./blogs/exploring-automation-intelligence-and-the-future-of-work-ahead
+            - generic [ref=e1295]:
+              - generic [ref=e1298]:
+                - img "bg" [ref=e1301]
+                - img "image" [ref=e1305]
+              - generic [ref=e1307]:
+                - generic [ref=e1308]:
+                  - img "icon" [ref=e1311]
+                  - paragraph [ref=e1313]: July 30, 2026
+                - heading "Exploring automation, intelligence, and the future of work ahead" [level=6] [ref=e1315]
+              - button [ref=e1317]:
+                - generic [ref=e1318]:
+                  - paragraph [ref=e1320]: Read More
+                  - paragraph [ref=e1322]: Read More
+                - img "icon" [ref=e1325]
+          - link [ref=e1326] [cursor=pointer]:
+            - /url: ./blogs/insights-on-smarter-workflows-and-modern-efficiency-daily
+            - generic [ref=e1329]:
+              - generic [ref=e1332]:
+                - img "bg" [ref=e1335]
+                - img "image" [ref=e1339]
+              - generic [ref=e1341]:
+                - generic [ref=e1342]:
+                  - img "icon" [ref=e1345]
+                  - paragraph [ref=e1347]: July 30, 2026
+                - heading "Insights on smarter workflows and modern efficiency daily" [level=6] [ref=e1349]
+              - button [ref=e1351]:
+                - generic [ref=e1352]:
+                  - paragraph [ref=e1354]: Read More
+                  - paragraph [ref=e1356]: Read More
+                - img "icon" [ref=e1359]
+          - link [ref=e1360] [cursor=pointer]:
+            - /url: ./blogs/stories-and-strategies-shaping-the-intelligent-workplace-today
+            - generic [ref=e1363]:
+              - generic [ref=e1366]:
+                - img "bg" [ref=e1369]
+                - img "image" [ref=e1373]
+              - generic [ref=e1375]:
+                - generic [ref=e1376]:
+                  - img "icon" [ref=e1379]
+                  - paragraph [ref=e1381]: July 30, 2026
+                - heading "Stories and strategies shaping the intelligent workplace today" [level=6] [ref=e1383]
+              - button [ref=e1385]:
+                - generic [ref=e1386]:
+                  - paragraph [ref=e1388]: Read More
+                  - paragraph [ref=e1390]: Read More
+                - img "icon" [ref=e1393]
+    - generic [ref=e1403]:
+      - generic [ref=e1406]:
+        - img "icon" [ref=e1409]
+        - paragraph [ref=e1411]: Ready to Work Smarter?
+      - generic [ref=e1413]:
+        - heading "Take control of your tasks. Let AI handle the rest." [level=3] [ref=e1415]
+        - paragraph [ref=e1417]: Join thousands of professionals using Infranex to automate workflows, boost focus, and get more done in less time.
+      - link [ref=e1419] [cursor=pointer]:
+        - /url: ./contact
+        - generic [ref=e1423]:
+          - generic [ref=e1424]:
+            - paragraph [ref=e1426]: Get Started Now
+            - paragraph [ref=e1428]: Get Started Now
+          - img "icon" [ref=e1431]
+    - generic [ref=e1435]:
+      - generic [ref=e1436]:
+        - generic [ref=e1437]:
+          - link [ref=e1439] [cursor=pointer]:
+            - /url: ./
+            - img "logo" [ref=e1442]
+          - generic [ref=e1443]:
+            - img "image" [ref=e1446]
+            - generic [ref=e1447]:
+              - paragraph [ref=e1449]: Subscribe our newsletter
+              - generic [ref=e1451]:
+                - textbox [ref=e1455]:
+                  - /placeholder: Enter your email
+                - button [ref=e1457] [cursor=pointer]:
+                  - img "icon" [ref=e1460]
+        - generic [ref=e1461]:
+          - generic [ref=e1462]:
+            - heading "Links" [level=6] [ref=e1464]
+            - generic [ref=e1465]:
+              - link [ref=e1467] [cursor=pointer]:
+                - /url: ./
+                - paragraph [ref=e1469]: Home
+                - paragraph [ref=e1471]: Home
+              - link [ref=e1473] [cursor=pointer]:
+                - /url: ./about
+                - paragraph [ref=e1475]: About Us
+                - paragraph [ref=e1477]: About Us
+              - link [ref=e1479] [cursor=pointer]:
+                - /url: ./features
+                - paragraph [ref=e1481]: Features
+                - paragraph [ref=e1483]: Features
+              - link [ref=e1485] [cursor=pointer]:
+                - /url: ./integrations
+                - paragraph [ref=e1487]: Integrations
+                - paragraph [ref=e1489]: Integrations
+              - link [ref=e1491] [cursor=pointer]:
+                - /url: ./pricing
+                - paragraph [ref=e1493]: Pricing
+                - paragraph [ref=e1495]: Pricing
+              - link [ref=e1497] [cursor=pointer]:
+                - /url: ./blogs
+                - paragraph [ref=e1499]: Blog
+                - paragraph [ref=e1501]: Blog
+          - generic [ref=e1502]:
+            - heading "Utility Pages" [level=6] [ref=e1504]
+            - link [ref=e1507] [cursor=pointer]:
+              - /url: ./404
+              - paragraph [ref=e1509]: "404"
+              - paragraph [ref=e1511]: "404"
+          - generic [ref=e1512]:
+            - generic [ref=e1513]:
+              - heading "Resources" [level=6] [ref=e1515]
+              - generic [ref=e1516]:
+                - link [ref=e1518] [cursor=pointer]:
+                  - /url: ./legals/privacy-policy
+                  - paragraph [ref=e1520]: Privacy Policy
+                  - paragraph [ref=e1522]: Privacy Policy
+                - link [ref=e1524] [cursor=pointer]:
+                  - /url: ./legals/terms-condition
+                  - paragraph [ref=e1526]: Terms
+                  - paragraph [ref=e1528]: Terms
+            - generic [ref=e1529]:
+              - paragraph [ref=e1531]: "Connect with us:"
+              - generic [ref=e1532]:
+                - link [ref=e1534] [cursor=pointer]:
+                  - /url: https://www.facebook.com
+                  - paragraph [ref=e1538]: Paste SVG
+                - link [ref=e1540] [cursor=pointer]:
+                  - /url: https://www.x.com
+                  - paragraph [ref=e1544]: Paste SVG
+                - link [ref=e1546] [cursor=pointer]:
+                  - /url: https://www.instagram.com
+                  - paragraph [ref=e1550]: Paste SVG
+      - paragraph [ref=e1555]: © 2025 Tash.AI. All Rights Reserved.
+  - generic:
+    - link "Create a free website with Framer, the website builder loved by startups, designers and agencies.":
+      - /url: https://www.framer.com
+      - paragraph [ref=e1556] [cursor=pointer]: Create a free website with Framer, the website builder loved by startups, designers and agencies.

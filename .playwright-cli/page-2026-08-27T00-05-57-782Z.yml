@@ -1,0 +1,86 @@
+- generic [active] [ref=f7e1]:
+  - main [ref=f7e3]:
+    - region [ref=f7e4]:
+      - generic [ref=f7e6]:
+        - navigation "Primary navigation" [ref=f7e8]:
+          - link "Convix Software home" [ref=f7e9] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=f7e20]:
+            - link "Home" [ref=f7e21] [cursor=pointer]:
+              - /url: "#"
+            - link "Features" [ref=f7e23] [cursor=pointer]:
+              - /url: "#"
+            - link "About" [ref=f7e24] [cursor=pointer]:
+              - /url: "#"
+            - link "Pages" [ref=f7e25] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=f7e28]:
+            - link "Shopping cart" [ref=f7e29] [cursor=pointer]:
+              - /url: "#"
+            - link "Get early access" [ref=f7e34] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f7e39]:
+          - generic [ref=f7e40]: Convix Software
+          - heading [level=1] [ref=f7e42]:
+            - text: Shaping
+            - emphasis [ref=f7e43]: Agencies
+            - text: of tomorrow
+          - paragraph [ref=f7e44]: The All-In-One Software Powering the Future of PR Agencies
+          - link "Get Started" [ref=f7e45] [cursor=pointer]:
+            - /url: "#"
+        - region "Convix analytics dashboard preview" [ref=f7e50]:
+          - generic [ref=f7e51]:
+            - article [ref=f7e52]:
+              - generic [ref=f7e53]:
+                - generic [ref=f7e54]: Clicks
+                - generic [ref=f7e55]: This Month
+              - generic [ref=f7e56]:
+                - strong [ref=f7e57]: 6,896
+                - generic [ref=f7e58]: "-3,382 (33%)"
+              - paragraph [ref=f7e62]: Compared to yesterday
+              - paragraph [ref=f7e63]: Month Target achieved
+              - generic [ref=f7e64]:
+                - img "92% achieved" [ref=f7e65]:
+                  - generic [ref=f7e104]: 92%
+                - generic [ref=f7e105]:
+                  - generic [ref=f7e106]: 389K
+                  - generic [ref=f7e107]: 425K
+              - generic [ref=f7e108]:
+                - button "Impressions" [ref=f7e109]
+                - button "Clicks" [ref=f7e110]
+            - article [ref=f7e111]:
+              - generic [ref=f7e112]:
+                - generic [ref=f7e113]: Show figures for
+                - button "Show figures for" [ref=f7e114]: This month
+              - generic [ref=f7e117]:
+                - generic [ref=f7e118]: Compare period by
+                - button "Compare period by" [ref=f7e119]: Month-to-date (MTD)
+              - generic [ref=f7e122]:
+                - generic [ref=f7e123]: Ste targets (This month)
+                - generic [ref=f7e124]:
+                  - generic [ref=f7e125]: "#"
+                  - textbox "Ste targets (This month)" [ref=f7e126]: "10"
+              - generic [ref=f7e127]:
+                - generic [ref=f7e128]: Ste targets (This year)
+                - generic [ref=f7e129]:
+                  - generic [ref=f7e130]: "#"
+                  - textbox "Ste targets (This year)" [ref=f7e131]: "100"
+              - generic [ref=f7e132]:
+                - button "Save" [ref=f7e133] [cursor=pointer]
+                - button "Cancel" [ref=f7e134] [cursor=pointer]
+                - button "Close form" [ref=f7e135] [cursor=pointer]
+            - article [ref=f7e139]:
+              - generic [ref=f7e140]:
+                - generic [ref=f7e141]: Video Starts
+                - generic [ref=f7e142]: today
+              - generic [ref=f7e143]:
+                - strong [ref=f7e144]: "0"
+                - generic [ref=f7e145]: "0"
+              - paragraph [ref=f7e149]: Compared to yesterday
+              - img "68% achieved" [ref=f7e152]:
+                - generic [ref=f7e191]: 68%
+              - generic [ref=f7e192]:
+                - button "Video Clicks" [ref=f7e193]
+                - button "Video Starts" [ref=f7e194]
+  - button "Open Next.js Dev Tools" [ref=f7e200] [cursor=pointer]
+  - alert [ref=f7e204]

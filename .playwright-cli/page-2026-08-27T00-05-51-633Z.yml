@@ -1,0 +1,35 @@
+- generic [active] [ref=f6e1]:
+  - generic [ref=f6e2]:
+    - banner:
+      - link "Home" [ref=f6e4] [cursor=pointer]:
+        - /url: "#top"
+      - navigation "Primary" [ref=f6e9]:
+        - link "About" [ref=f6e10] [cursor=pointer]:
+          - /url: "#about"
+        - link "Features" [ref=f6e11] [cursor=pointer]:
+          - /url: "#features"
+        - link "FAQ" [ref=f6e12] [cursor=pointer]:
+          - /url: "#faq"
+        - link "Contact" [ref=f6e13] [cursor=pointer]:
+          - /url: "#contact"
+      - link "Get Started" [ref=f6e14] [cursor=pointer]:
+        - /url: "#get-started"
+    - main [ref=f6e16]:
+      - heading "The Next Layer of Intelligence" [level=1] [ref=f6e17]:
+        - generic [ref=f6e18]: The Next Layer
+        - generic [ref=f6e19]: of Intelligence
+      - paragraph [ref=f6e20]:
+        - generic [ref=f6e21]: A unified infrastructure platform to help teams build,
+        - generic [ref=f6e22]: ship, and scale AI systems with confidence.
+      - generic [ref=f6e23]:
+        - link "Get Started" [ref=f6e24] [cursor=pointer]:
+          - /url: "#get-started"
+        - link "View Architecture" [ref=f6e26] [cursor=pointer]:
+          - /url: "#architecture"
+    - generic "Trusted partners" [ref=f6e27]:
+      - generic: logoipsum
+      - generic: logoipsum
+      - generic: logoipsum
+      - generic: logoipsum
+  - button "Open Next.js Dev Tools" [ref=f6e53] [cursor=pointer]
+  - alert [ref=f6e57]

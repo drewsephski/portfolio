@@ -1,0 +1,25 @@
+[    1151ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[    1253ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  144861ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  145772ms] [LOG] [Fast Refresh] done in 895ms @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  146038ms] [LOG] [Fast Refresh] done in 895ms @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  146305ms] [LOG] [Fast Refresh] done in 895ms @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  146454ms] [LOG] [Fast Refresh] done in 895ms @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  146542ms] [LOG] [Fast Refresh] done in 895ms @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  147114ms] [LOG] [Fast Refresh] done in 895ms @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  161505ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  161565ms] [LOG] [Fast Refresh] done in 64ms @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  161687ms] [LOG] [Fast Refresh] done in 64ms @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  162362ms] [LOG] [Fast Refresh] done in 64ms @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  162521ms] [LOG] [Fast Refresh] done in 64ms @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  162840ms] [LOG] [Fast Refresh] done in 64ms @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  163192ms] [LOG] [Fast Refresh] done in 64ms @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  187957ms] [LOG] [Fast Refresh] done in 64ms @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  188616ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  188666ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  210052ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  210098ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  210179ms] [WARNING] Image with src "/assets/bento-premium/phoenix-design-lab.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  210394ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[  210418ms] [LOG] [Fast Refresh] done in 128ms @ http://localhost:3001/_next/static/chunks/0484_next_dist_0_l-60x._.js:776

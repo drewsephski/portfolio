@@ -1,0 +1,57 @@
+- generic [active] [ref=f8e1]:
+  - main [ref=f8e2]:
+    - generic [ref=f8e3]:
+      - heading "Landing pages" [level=1] [ref=f8e4]
+      - navigation "Landing pages" [ref=f8e5]:
+        - list [ref=f8e6]:
+          - listitem [ref=f8e7]:
+            - link "Nexora Smarter automation for busywork" [ref=f8e8] [cursor=pointer]:
+              - /url: /nexora
+              - generic [ref=f8e10]:
+                - generic [ref=f8e11]: Nexora
+                - generic [ref=f8e12]: Smarter automation for busywork
+              - generic [ref=f8e13]: →
+          - listitem [ref=f8e14]:
+            - link "Vantage One clear signal across every dashboard" [ref=f8e15] [cursor=pointer]:
+              - /url: /vantage
+              - generic [ref=f8e17]:
+                - generic [ref=f8e18]: Vantage
+                - generic [ref=f8e19]: One clear signal across every dashboard
+              - generic [ref=f8e20]: →
+          - listitem [ref=f8e21]:
+            - link "Axon Digital workers for mundane workflows" [ref=f8e22] [cursor=pointer]:
+              - /url: /axon
+              - generic [ref=f8e24]:
+                - generic [ref=f8e25]: Axon
+                - generic [ref=f8e26]: Digital workers for mundane workflows
+              - generic [ref=f8e27]: →
+          - listitem [ref=f8e28]:
+            - link "Vesper Operational AI infrastructure" [ref=f8e29] [cursor=pointer]:
+              - /url: /vesper
+              - generic [ref=f8e31]:
+                - generic [ref=f8e32]: Vesper
+                - generic [ref=f8e33]: Operational AI infrastructure
+              - generic [ref=f8e34]: →
+          - listitem [ref=f8e35]:
+            - link "Palomar One unified system for LLMs" [ref=f8e36] [cursor=pointer]:
+              - /url: /palomar
+              - generic [ref=f8e38]:
+                - generic [ref=f8e39]: Palomar
+                - generic [ref=f8e40]: One unified system for LLMs
+              - generic [ref=f8e41]: →
+          - listitem [ref=f8e42]:
+            - link "The Next Layer of Intelligence Infrastructure for building and scaling AI systems" [ref=f8e43] [cursor=pointer]:
+              - /url: /next-layer-of-intelligence
+              - generic [ref=f8e45]:
+                - generic [ref=f8e46]: The Next Layer of Intelligence
+                - generic [ref=f8e47]: Infrastructure for building and scaling AI systems
+              - generic [ref=f8e48]: →
+          - listitem [ref=f8e49]:
+            - link "Convix Software The future of PR agency operations" [ref=f8e50] [cursor=pointer]:
+              - /url: /convix
+              - generic [ref=f8e52]:
+                - generic [ref=f8e53]: Convix Software
+                - generic [ref=f8e54]: The future of PR agency operations
+              - generic [ref=f8e55]: →
+  - button "Open Next.js Dev Tools" [ref=f8e61] [cursor=pointer]
+  - alert [ref=f8e65]

@@ -1,0 +1,21 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]: Equilibrium
+      - button "Close navigation menu" [expanded] [active] [ref=e48]
+    - generic [ref=e52]:
+      - button "Home" [ref=e54]
+      - button "Wellness" [ref=e56]
+      - button "Routine" [ref=e60]
+      - button "Our Team" [ref=e62]
+      - generic [ref=e63]:
+        - button "Log in" [ref=e64]
+        - button "Begin Now" [ref=e65]
+    - generic [ref=e20]:
+      - heading "Live Better, Feel Whole Every Day" [level=1] [ref=e21]
+      - paragraph [ref=e22]: Take charge of how you feel with a companion built for your journey—build routines, follow your growth, and unlock tailored insights for a steadier, more vibrant life each day.
+      - generic [ref=e23]:
+        - button "Start Today" [ref=e24]
+        - button "Discover How" [ref=e25]
+  - button "Open Next.js Dev Tools" [ref=e31] [cursor=pointer]
+  - alert [ref=e35]

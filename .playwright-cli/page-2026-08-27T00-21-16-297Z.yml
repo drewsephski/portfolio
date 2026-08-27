@@ -1,0 +1,77 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Interfaces that make new ideas feel obvious." [level=1] [ref=e5]
+        - generic [ref=e6]:
+          - paragraph [ref=e7]: A compact collection of landing pages for ambitious software.
+          - paragraph [ref=e8]: 8 selected projects
+      - region [ref=e9]:
+        - heading "Selected work" [level=2] [ref=e10]
+        - navigation "Selected landing pages" [ref=e11]:
+          - list [ref=e12]:
+            - listitem [ref=e13]:
+              - button "Open Nexora screenshot" [ref=e14]
+              - link "Nexora Smarter automation for busywork" [ref=e15] [cursor=pointer]:
+                - /url: /nexora
+                - generic [ref=e16]:
+                  - generic [ref=e17]: Nexora
+                  - generic [ref=e18]: Smarter automation for busywork
+                - generic [ref=e19]: →
+            - listitem [ref=e20]:
+              - button "Open Vantage screenshot" [ref=e21]
+              - link "Vantage One clear signal across every dashboard" [ref=e22] [cursor=pointer]:
+                - /url: /vantage
+                - generic [ref=e23]:
+                  - generic [ref=e24]: Vantage
+                  - generic [ref=e25]: One clear signal across every dashboard
+                - generic [ref=e26]: →
+            - listitem [ref=e27]:
+              - button "Open Meridian screenshot" [ref=e28]
+              - link "Meridian Revenue intelligence for SaaS" [ref=e29] [cursor=pointer]:
+                - /url: /meridian
+                - generic [ref=e30]:
+                  - generic [ref=e31]: Meridian
+                  - generic [ref=e32]: Revenue intelligence for SaaS
+                - generic [ref=e33]: →
+            - listitem [ref=e34]:
+              - button "Open Axon screenshot" [ref=e35]
+              - link "Axon Digital workers for mundane workflows" [ref=e36] [cursor=pointer]:
+                - /url: /axon
+                - generic [ref=e37]:
+                  - generic [ref=e38]: Axon
+                  - generic [ref=e39]: Digital workers for mundane workflows
+                - generic [ref=e40]: →
+            - listitem [ref=e41]:
+              - button "Open Vesper screenshot" [ref=e42]
+              - link "Vesper Operational AI infrastructure" [ref=e43] [cursor=pointer]:
+                - /url: /vesper
+                - generic [ref=e44]:
+                  - generic [ref=e45]: Vesper
+                  - generic [ref=e46]: Operational AI infrastructure
+                - generic [ref=e47]: →
+            - listitem [ref=e48]:
+              - button "Open Palomar screenshot" [ref=e49]
+              - link "Palomar One unified system for LLMs" [ref=e50] [cursor=pointer]:
+                - /url: /palomar
+                - generic [ref=e51]:
+                  - generic [ref=e52]: Palomar
+                  - generic [ref=e53]: One unified system for LLMs
+                - generic [ref=e54]: →
+            - listitem [ref=e55]:
+              - button "Open The Next Layer of Intelligence screenshot" [ref=e56]
+              - link "The Next Layer of Intelligence Infrastructure for building and scaling AI systems" [ref=e57] [cursor=pointer]:
+                - /url: /next-layer-of-intelligence
+                - generic [ref=e58]:
+                  - generic [ref=e59]: The Next Layer of Intelligence
+                  - generic [ref=e60]: Infrastructure for building and scaling AI systems
+                - generic [ref=e61]: →
+            - listitem [ref=e62]:
+              - button "Open Convix Software screenshot" [ref=e63]
+              - link "Convix Software The future of PR agency operations" [ref=e64] [cursor=pointer]:
+                - /url: /convix
+                - generic [ref=e65]:
+                  - generic [ref=e66]: Convix Software
+                  - generic [ref=e67]: The future of PR agency operations
+                - generic [ref=e68]: →
+  - button "Open Next.js Dev Tools" [ref=e74] [cursor=pointer]

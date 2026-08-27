@@ -1,0 +1,218 @@
+{
+  "headings": [
+    {
+      "fs": "22px",
+      "lh": "24.2px",
+      "text": "DreamMotion",
+      "width": 106.46875
+    },
+    {
+      "fs": "40px",
+      "lh": "48px",
+      "text": "DreamMotion turns prompts into cinematic visuals",
+      "width": 343
+    },
+    {
+      "fs": "32px",
+      "lh": "38.4px",
+      "text": "Generate, edit, animate, and export brand-ready visuals.",
+      "width": 343
+    },
+    {
+      "fs": "32px",
+      "lh": "38.4px",
+      "text": "Faster production, sharper concepts, and campaign assets ready in minutes.",
+      "width": 343
+    },
+    {
+      "fs": "32px",
+      "lh": "38.4px",
+      "text": "From prompt to finished visual in three simple steps.",
+      "width": 343
+    },
+    {
+      "fs": "32px",
+      "lh": "38.4px",
+      "text": "What creators say about us",
+      "width": 343
+    },
+    {
+      "fs": "32px",
+      "lh": "38.4px",
+      "text": "See DreamMachine in Action",
+      "width": 343
+    },
+    {
+      "fs": "32px",
+      "lh": "38.4px",
+      "text": "Your Questions, Answered clearly",
+      "width": 343
+    },
+    {
+      "fs": "32px",
+      "lh": "38.4px",
+      "text": "Start creating with DreamMotion today",
+      "width": 295
+    },
+    {
+      "fs": "32px",
+      "lh": "38.4px",
+      "text": "Explore every visual direction with one AI studio.",
+      "width": 327
+    },
+    {
+      "fs": "20px",
+      "lh": "22px",
+      "text": "DreamMotion",
+      "width": 96.78125
+    }
+  ],
+  "innerWidth": 390,
+  "navText": [
+    "DreamMotion",
+    "DreamMotion turns prompts into cinematic visuals\n\nCreate polished AI images and short videos for ads, social posts and more.\n\nStart Creating\n\nThe best AI image and video models in one creative workspace.\n\nVeo 3.1\n\nIdeogram\n\nRunway\n\nLuma\n\nFlux\n\nGemini"
+  ],
+  "scrollHeight": 8897,
+  "sections": [
+    {
+      "display": "flex",
+      "i": 0,
+      "id": "",
+      "rect": {
+        "height": 140,
+        "top": 640,
+        "width": 350
+      }
+    },
+    {
+      "display": "flex",
+      "i": 1,
+      "id": "",
+      "rect": {
+        "height": 50,
+        "top": 725.40625,
+        "width": 310
+      }
+    },
+    {
+      "display": "flex",
+      "i": 2,
+      "id": "features",
+      "rect": {
+        "height": 1353.015625,
+        "top": 844,
+        "width": 375
+      }
+    },
+    {
+      "display": "flex",
+      "i": 3,
+      "id": "benefits",
+      "rect": {
+        "height": 1499.078125,
+        "top": 3000.015625,
+        "width": 375
+      }
+    },
+    {
+      "display": "flex",
+      "i": 4,
+      "id": "how-it-works",
+      "rect": {
+        "height": 1745.84375,
+        "top": 4499.09375,
+        "width": 375
+      }
+    },
+    {
+      "display": "flex",
+      "i": 5,
+      "id": "testimonials",
+      "rect": {
+        "height": 464.609375,
+        "top": 6244.9375,
+        "width": 375
+      }
+    },
+    {
+      "display": "flex",
+      "i": 6,
+      "id": "",
+      "rect": {
+        "height": 240,
+        "top": 6419.546875,
+        "width": 343
+      }
+    },
+    {
+      "display": "flex",
+      "i": 7,
+      "id": "pricing",
+      "rect": {
+        "height": 538.609375,
+        "top": 6709.546875,
+        "width": 375
+      }
+    },
+    {
+      "display": "flex",
+      "i": 8,
+      "id": "",
+      "rect": {
+        "height": 137,
+        "top": 6884.15625,
+        "width": 343
+      }
+    },
+    {
+      "display": "flex",
+      "i": 9,
+      "id": "",
+      "rect": {
+        "height": 137,
+        "top": 7061.15625,
+        "width": 343
+      }
+    },
+    {
+      "display": "flex",
+      "i": 10,
+      "id": "faq",
+      "rect": {
+        "height": 688.640625,
+        "top": 7248.15625,
+        "width": 375
+      }
+    },
+    {
+      "display": "flex",
+      "i": 11,
+      "id": "final-cta",
+      "rect": {
+        "height": 460,
+        "top": 7936.796875,
+        "width": 375
+      }
+    },
+    {
+      "display": "flex",
+      "i": 12,
+      "id": "usecases-1",
+      "rect": {
+        "height": 803,
+        "top": 2197.015625,
+        "width": 375
+      }
+    },
+    {
+      "display": "flex",
+      "i": 13,
+      "id": "",
+      "rect": {
+        "height": 412,
+        "top": 2474.015625,
+        "width": 327
+      }
+    }
+  ]
+}

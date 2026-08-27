@@ -1,0 +1,1592 @@
+{
+  "assets": {
+    "backgrounds": [
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(rgba(18, 18, 18, 0) 0%, rgb(18, 18, 18) 100%)",
+      "linear-gradient(rgb(18, 18, 18) 0%, rgba(18, 18, 18, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "radial-gradient(50% 50%, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 50.4459%, rgba(255, 255, 255, 0) 100%)",
+      "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 50.4459%, rgba(255, 255, 255, 0) 100%)",
+      "linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 49.5541%, rgba(255, 255, 255, 0) 100%)",
+      "linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 49.5541%, rgba(255, 255, 255, 0) 100%)",
+      "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 50.4459%, rgba(255, 255, 255, 0) 100%)",
+      "linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 50.4459%, rgba(255, 255, 255, 0) 100%)",
+      "linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 50.4459%, rgba(255, 255, 255, 0) 100%)",
+      "linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 50.4459%, rgba(255, 255, 255, 0) 100%)",
+      "linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 50.4459%, rgba(255, 255, 255, 0) 100%)",
+      "linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 50.4459%, rgba(255, 255, 255, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 50.4459%, rgba(255, 255, 255, 0) 100%)",
+      "linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgb(153, 153, 153) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0.5) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgb(153, 153, 153) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgb(153, 153, 153) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 50.4459%, rgba(255, 255, 255, 0) 100%)",
+      "linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 50.4459%, rgba(255, 255, 255, 0) 100%)",
+      "linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0.5) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0.5) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(153, 153, 153, 0.5) 100%)",
+      "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 50.4459%, rgba(255, 255, 255, 0) 100%)",
+      "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 50.4459%, rgba(255, 255, 255, 0) 100%)",
+      "linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "radial-gradient(50% 50%, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.32) 100%)",
+      "linear-gradient(0deg, rgb(94, 94, 94) 0%, rgba(18, 18, 18, 0.32) 80%)",
+      "linear-gradient(0deg, rgb(94, 94, 94) 0%, rgba(18, 18, 18, 0.32) 80%)",
+      "linear-gradient(0deg, rgb(94, 94, 94) 0%, rgba(18, 18, 18, 0.32) 80%)",
+      "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 50.4459%, rgba(255, 255, 255, 0) 100%)"
+    ],
+    "fonts": [
+      "Times",
+      "sans-serif",
+      "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+      "Rubik, \"Rubik Placeholder\", sans-serif"
+    ],
+    "icons": [
+      "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20data-codex-favicon-badge%3D%22codex-favicon-badge%22%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cimage%20href%3D%22data%3Aimage%2Fbmp%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACC0lEQVR4nMSXbU4CMRCGp5UYjJpovASn8hLGPxr5CuofE%2B7gqbyFRkhQQeo7MoVm2Wm3uxDeZLLA9uPp7PTdYunAamk3nHNXuHzLV0PN5IwxU8oBgK4Rz4gZwtaEcNLvEwvqlEGoAGg8RqdLfHyg5lIXEHsEYDBdXBf4OkDMEUeUlwmfgYV8rg6AyTG3s7gOGQY%2F9WUgK%2BEHT8kEsSUb7WnMUiAGAsDASwlDyqpyZFMN9g2RBNg3RCujLdfEEUPgSgLym4BwwTWvCIviopQJSSC4IEepbsE82dvwTOnkK%2FoFwT7BhnWstPU7ZUI5GZDJ3xDnpG83%2Fv0H8Yq4R7RJT3W2FfOEF4hTSusG8Y4JHqmGtF3Aq%2FDutaTNyorB97guRsha%2F78jClWMq5JiGQjdS3sEViAYtudW%2Fs0F6p0yqUo%2BEIH0EFYg%2Bpi8532jyiBNAHYC0RSgMUSsCEMXK7tf1s7ImHOB6AqEWpSxInTBoEUviBWnh2BxQbb4XEGZADzhCW1WV3z%2Fh2BT0rPEO%2BQWEOwTY6oKwK6FTk%2B0OgktFAgWW2xHICiymLZ2M3YiKp6EQogwAx9oO6O4VEC1QhPv%2FzUn5b3StxTLwPoQErz%2FF8HEO1GTMyHroGfCsA5qq9LzUx5HWU1kq7IVFzLRo82%2Fnf1noARiKB5%2FRw0zkL2FvLdD7PVftDKZCdXUHwAAAP%2F%2FM2HjMwAAAAZJREFUAwCqByS8osSaiwAAAABJRU5ErkJggg%3D%3D%22%20width%3D%2232%22%20height%3D%2232%22%20opacity%3D%220.3%22%20%2F%3E%3Cpath%20d%3D%22M3.04536%204.45259C2.7582%203.60299%203.60299%202.7582%204.45259%203.04536L14.1828%206.33403C15.1637%206.66558%2015.0872%208.08006%2014.0715%208.39045L10.2994%209.54319C9.93919%209.65327%209.65327%209.93919%209.54319%2010.2994L8.39046%2014.0715C8.08007%2015.0872%206.66558%2015.1637%206.33404%2014.1828L3.04536%204.45259Z%22%20fill%3D%22black%22%20stroke%3D%22white%22%20stroke-width%3D%221.5%22%20stroke-linejoin%3D%22round%22%20paint-order%3D%22stroke%20fill%22%20transform%3D%22translate(-2%20-2)%20scale(2.1)%22%20%2F%3E%3C%2Fsvg%3E",
+      "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20data-codex-favicon-badge%3D%22codex-favicon-badge%22%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cimage%20href%3D%22data%3Aimage%2Fbmp%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACC0lEQVR4nMSXbU4CMRCGp5UYjJpovASn8hLGPxr5CuofE%2B7gqbyFRkhQQeo7MoVm2Wm3uxDeZLLA9uPp7PTdYunAamk3nHNXuHzLV0PN5IwxU8oBgK4Rz4gZwtaEcNLvEwvqlEGoAGg8RqdLfHyg5lIXEHsEYDBdXBf4OkDMEUeUlwmfgYV8rg6AyTG3s7gOGQY%2F9WUgK%2BEHT8kEsSUb7WnMUiAGAsDASwlDyqpyZFMN9g2RBNg3RCujLdfEEUPgSgLym4BwwTWvCIviopQJSSC4IEepbsE82dvwTOnkK%2FoFwT7BhnWstPU7ZUI5GZDJ3xDnpG83%2Fv0H8Yq4R7RJT3W2FfOEF4hTSusG8Y4JHqmGtF3Aq%2FDutaTNyorB97guRsha%2F78jClWMq5JiGQjdS3sEViAYtudW%2Fs0F6p0yqUo%2BEIH0EFYg%2Bpi8532jyiBNAHYC0RSgMUSsCEMXK7tf1s7ImHOB6AqEWpSxInTBoEUviBWnh2BxQbb4XEGZADzhCW1WV3z%2Fh2BT0rPEO%2BQWEOwTY6oKwK6FTk%2B0OgktFAgWW2xHICiymLZ2M3YiKp6EQogwAx9oO6O4VEC1QhPv%2FzUn5b3StxTLwPoQErz%2FF8HEO1GTMyHroGfCsA5qq9LzUx5HWU1kq7IVFzLRo82%2Fnf1noARiKB5%2FRw0zkL2FvLdD7PVftDKZCdXUHwAAAP%2F%2FM2HjMwAAAAZJREFUAwCqByS8osSaiwAAAABJRU5ErkJggg%3D%3D%22%20width%3D%2232%22%20height%3D%2232%22%20opacity%3D%220.3%22%20%2F%3E%3Cpath%20d%3D%22M3.04536%204.45259C2.7582%203.60299%203.60299%202.7582%204.45259%203.04536L14.1828%206.33403C15.1637%206.66558%2015.0872%208.08006%2014.0715%208.39045L10.2994%209.54319C9.93919%209.65327%209.65327%209.93919%209.54319%2010.2994L8.39046%2014.0715C8.08007%2015.0872%206.66558%2015.1637%206.33404%2014.1828L3.04536%204.45259Z%22%20fill%3D%22black%22%20stroke%3D%22white%22%20stroke-width%3D%221.5%22%20stroke-linejoin%3D%22round%22%20paint-order%3D%22stroke%20fill%22%20transform%3D%22translate(-2%20-2)%20scale(2.1)%22%20%2F%3E%3C%2Fsvg%3E",
+      "https://framerusercontent.com/sites/icons/default-touch-icon.v3.png"
+    ],
+    "images": [
+      {
+        "alt": "logo",
+        "h": 20,
+        "src": "https://framerusercontent.com/images/Pfz7HDkRJDSNaoNeKKqjcirubo.svg?width=114&height=20",
+        "w": 114
+      },
+      {
+        "alt": "icon",
+        "h": 32,
+        "src": "https://framerusercontent.com/images/9MgzCqL6RYOVADFY6awtidfluA.svg?width=32&height=32",
+        "w": 32
+      },
+      {
+        "alt": "icon",
+        "h": 24,
+        "src": "https://framerusercontent.com/images/dvNbIo7IbmzkaOdtCN5qcUchpM.svg?width=24&height=24",
+        "w": 24
+      },
+      {
+        "alt": "image",
+        "h": 37,
+        "src": "https://framerusercontent.com/images/dY6gFYwTiNDBOpNo0XjrZuC2k0.svg?width=147&height=37",
+        "w": 147
+      },
+      {
+        "alt": "image",
+        "h": 27,
+        "src": "https://framerusercontent.com/images/GO2mgXJdSWHQC4kP9mhLnl2gI.svg?width=108&height=27",
+        "w": 108
+      },
+      {
+        "alt": "image",
+        "h": 27,
+        "src": "https://framerusercontent.com/images/ik68RmZ03YqFseGfuYghKZayI.svg?width=108&height=27",
+        "w": 108
+      },
+      {
+        "alt": "image",
+        "h": 27,
+        "src": "https://framerusercontent.com/images/GQK4qUiDfkbd1MIRLv3w2a00m8.svg?width=216&height=27",
+        "w": 216
+      },
+      {
+        "alt": "image",
+        "h": 27,
+        "src": "https://framerusercontent.com/images/VPPDzyaDcAlhEkw70xfY6wKe0Lg.svg?width=54&height=27",
+        "w": 54
+      },
+      {
+        "alt": "image",
+        "h": 27,
+        "src": "https://framerusercontent.com/images/syEfnea7a159JvcSbIVdHseAe8g.svg?width=27&height=27",
+        "w": 27
+      },
+      {
+        "alt": "image",
+        "h": 37,
+        "src": "https://framerusercontent.com/images/dY6gFYwTiNDBOpNo0XjrZuC2k0.svg?width=147&height=37",
+        "w": 147
+      },
+      {
+        "alt": "image",
+        "h": 27,
+        "src": "https://framerusercontent.com/images/GO2mgXJdSWHQC4kP9mhLnl2gI.svg?width=108&height=27",
+        "w": 108
+      },
+      {
+        "alt": "image",
+        "h": 27,
+        "src": "https://framerusercontent.com/images/ik68RmZ03YqFseGfuYghKZayI.svg?width=108&height=27",
+        "w": 108
+      },
+      {
+        "alt": "image",
+        "h": 27,
+        "src": "https://framerusercontent.com/images/GQK4qUiDfkbd1MIRLv3w2a00m8.svg?width=216&height=27",
+        "w": 216
+      },
+      {
+        "alt": "image",
+        "h": 27,
+        "src": "https://framerusercontent.com/images/VPPDzyaDcAlhEkw70xfY6wKe0Lg.svg?width=54&height=27",
+        "w": 54
+      },
+      {
+        "alt": "image",
+        "h": 27,
+        "src": "https://framerusercontent.com/images/syEfnea7a159JvcSbIVdHseAe8g.svg?width=27&height=27",
+        "w": 27
+      },
+      {
+        "alt": "icon",
+        "h": 32,
+        "src": "https://framerusercontent.com/images/9MgzCqL6RYOVADFY6awtidfluA.svg?width=32&height=32",
+        "w": 32
+      },
+      {
+        "alt": "icon",
+        "h": 24,
+        "src": "https://framerusercontent.com/images/dvNbIo7IbmzkaOdtCN5qcUchpM.svg?width=24&height=24",
+        "w": 24
+      },
+      {
+        "alt": "icon",
+        "h": 32,
+        "src": "https://framerusercontent.com/images/9MgzCqL6RYOVADFY6awtidfluA.svg?width=32&height=32",
+        "w": 32
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "image",
+        "h": 210,
+        "src": "https://framerusercontent.com/images/WZaTQrTQXTQLxzaYPeajVLuOM.png?scale-down-to=512&width=1388&height=836",
+        "w": 349
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "image",
+        "h": 210,
+        "src": "https://framerusercontent.com/images/4pqPEybK047t1CUEhnDxM8bw1E.webp?scale-down-to=512&width=694&height=418",
+        "w": 349
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "icon",
+        "h": 32,
+        "src": "https://framerusercontent.com/images/9MgzCqL6RYOVADFY6awtidfluA.svg?width=32&height=32",
+        "w": 32
+      },
+      {
+        "alt": "image",
+        "h": 398,
+        "src": "https://framerusercontent.com/images/GDjODqPtfNZgQeT0MPGXvrBCf3c.webp?scale-down-to=512&width=920&height=798",
+        "w": 460
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "icon",
+        "h": 32,
+        "src": "https://framerusercontent.com/images/9MgzCqL6RYOVADFY6awtidfluA.svg?width=32&height=32",
+        "w": 32
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "icon",
+        "h": 48,
+        "src": "https://framerusercontent.com/images/z4KbVrq8xqTGq3YHkLLLcKJPXwA.svg?width=48&height=48",
+        "w": 48
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "icon",
+        "h": 48,
+        "src": "https://framerusercontent.com/images/IQUx8HjGqQBpySDt28ySmnFk8sk.svg?width=48&height=48",
+        "w": 48
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "icon",
+        "h": 48,
+        "src": "https://framerusercontent.com/images/ez2B1hHc9C6ENWKjSZHthmweciU.svg?width=48&height=48",
+        "w": 48
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "icon",
+        "h": 48,
+        "src": "https://framerusercontent.com/images/9XgoguBBjcJUAI2x2PWM87ExQ.svg?width=48&height=48",
+        "w": 48
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "icon",
+        "h": 48,
+        "src": "https://framerusercontent.com/images/0AyYm48SepWoXOdz2D9XuVPNc.svg?width=48&height=48",
+        "w": 48
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "icon",
+        "h": 0,
+        "src": "https://framerusercontent.com/images/g35XepqKCFb5kp6rETwYZZhdEOM.svg?width=48&height=48",
+        "w": 0
+      },
+      {
+        "alt": "icon",
+        "h": 32,
+        "src": "https://framerusercontent.com/images/9MgzCqL6RYOVADFY6awtidfluA.svg?width=32&height=32",
+        "w": 32
+      },
+      {
+        "alt": "icon",
+        "h": 24,
+        "src": "https://framerusercontent.com/images/dvNbIo7IbmzkaOdtCN5qcUchpM.svg?width=24&height=24",
+        "w": 24
+      },
+      {
+        "alt": "logo",
+        "h": 101,
+        "src": "https://framerusercontent.com/images/bHyCg0WYFzqyTtMor0H6RlxUAU.svg?width=101&height=101",
+        "w": 101
+      },
+      {
+        "alt": "logo",
+        "h": 121,
+        "src": "https://framerusercontent.com/images/6dXfWpbz1C3sDtP2uWuiofsaY.svg?width=122&height=121",
+        "w": 122
+      },
+      {
+        "alt": "logo",
+        "h": 138,
+        "src": "https://framerusercontent.com/images/xf1Kr6ozZwvcsY9FPObb7v2ZGQ.svg?width=139&height=138",
+        "w": 139
+      },
+      {
+        "alt": "logo",
+        "h": 121,
+        "src": "https://framerusercontent.com/images/xETkxVmKwHHKfbhOoT2c2r7GODI.svg?width=122&height=121",
+        "w": 122
+      },
+      {
+        "alt": "logo",
+        "h": 101,
+        "src": "https://framerusercontent.com/images/dtN9UNQVzR2eqYfdr4eAZyKCj7I.svg?width=101&height=101",
+        "w": 101
+      },
+      {
+        "alt": "logo",
+        "h": 125,
+        "src": "https://framerusercontent.com/images/wO4i0vn7ql7DQmfBDSY7HgSwos.svg?width=125&height=125",
+        "w": 125
+      },
+      {
+        "alt": "logo",
+        "h": 143,
+        "src": "https://framerusercontent.com/images/86yF6GxE00LbbGxalE2tltsc6j0.svg?width=143&height=143",
+        "w": 143
+      },
+      {
+        "alt": "logo",
+        "h": 156,
+        "src": "https://framerusercontent.com/images/j0F0JWsboU0D9XOtZ79lqQa9MAk.svg?width=156&height=156",
+        "w": 156
+      },
+      {
+        "alt": "logo",
+        "h": 196,
+        "src": "https://framerusercontent.com/images/DFC1R5GxXIhgAhmRR0wM7IqA9s.svg?width=196&height=196",
+        "w": 196
+      },
+      {
+        "alt": "logo",
+        "h": 151,
+        "src": "https://framerusercontent.com/images/nG3NU54et52KNLuGND1YGvspA.svg?width=151&height=151",
+        "w": 151
+      },
+      {
+        "alt": "logo",
+        "h": 138,
+        "src": "https://framerusercontent.com/images/o9XC7bdKwMbddRfLVOZL4B9U.svg?width=138&height=138",
+        "w": 138
+      },
+      {
+        "alt": "logo",
+        "h": 125,
+        "src": "https://framerusercontent.com/images/u2PJ9PmhDsGuC4a0bXIlb5HB6Q.svg?width=125&height=125",
+        "w": 125
+      },
+      {
+        "alt": "logo",
+        "h": 101,
+        "src": "https://framerusercontent.com/images/vxOtOGzFGCe9BahOECiY9nB0.svg?width=101&height=101",
+        "w": 101
+      },
+      {
+        "alt": "logo",
+        "h": 121,
+        "src": "https://framerusercontent.com/images/MZwjqDn2WQ1tZI3oNTrClLZHvx8.svg?width=122&height=121",
+        "w": 122
+      },
+      {
+        "alt": "logo",
+        "h": 138,
+        "src": "https://framerusercontent.com/images/BLaDh2QV85iM6EzTgyrjKt9pDE.svg?width=139&height=138",
+        "w": 139
+      },
+      {
+        "alt": "logo",
+        "h": 121,
+        "src": "https://framerusercontent.com/images/yl0ib3tHWKbKqG1rkxZDpJjdF0Y.svg?width=122&height=121",
+        "w": 122
+      },
+      {
+        "alt": "logo",
+        "h": 101,
+        "src": "https://framerusercontent.com/images/DuwPVOP5byGOziPZHL5OsdgW0o.svg?width=101&height=101",
+        "w": 101
+      },
+      {
+        "alt": "icon",
+        "h": 32,
+        "src": "https://framerusercontent.com/images/9MgzCqL6RYOVADFY6awtidfluA.svg?width=32&height=32",
+        "w": 32
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "icon",
+        "h": 32,
+        "src": "https://framerusercontent.com/images/9MgzCqL6RYOVADFY6awtidfluA.svg?width=32&height=32",
+        "w": 32
+      },
+      {
+        "alt": "sign",
+        "h": 31,
+        "src": "https://framerusercontent.com/images/Wf8ArP5Sp8g9ixN5KDucwGiUQk.svg?width=189&height=31",
+        "w": 189
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "icon",
+        "h": 32,
+        "src": "https://framerusercontent.com/images/9MgzCqL6RYOVADFY6awtidfluA.svg?width=32&height=32",
+        "w": 32
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "image",
+        "h": 192,
+        "src": "https://framerusercontent.com/images/yUye8aSKfttCvXpsL9JGJME6W4.webp?width=192&height=192",
+        "w": 192
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "image",
+        "h": 192,
+        "src": "https://framerusercontent.com/images/23XwtAZRLVvLFdFgrBjv0DbvSCU.webp?width=192&height=192",
+        "w": 192
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "image",
+        "h": 0,
+        "src": "https://framerusercontent.com/images/UiGEklJUZYBjVsVEOsoeS7CLA04.webp?width=192&height=192",
+        "w": 0
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "image",
+        "h": 0,
+        "src": "https://framerusercontent.com/images/sIAiUmcXBcWmr67SgWuE99Hi4.webp?width=192&height=192",
+        "w": 0
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "image",
+        "h": 0,
+        "src": "https://framerusercontent.com/images/as8aXZEgF1ysytNDnIWd15n7gY4.webp?width=192&height=192",
+        "w": 0
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "image",
+        "h": 0,
+        "src": "https://framerusercontent.com/images/C11CL5JjM4vCAYvFpgJ4F5y4Q.webp?width=192&height=192",
+        "w": 0
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "image",
+        "h": 0,
+        "src": "https://framerusercontent.com/images/sIAiUmcXBcWmr67SgWuE99Hi4.webp?width=192&height=192",
+        "w": 0
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "image",
+        "h": 0,
+        "src": "https://framerusercontent.com/images/as8aXZEgF1ysytNDnIWd15n7gY4.webp?width=192&height=192",
+        "w": 0
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "image",
+        "h": 0,
+        "src": "https://framerusercontent.com/images/C11CL5JjM4vCAYvFpgJ4F5y4Q.webp?width=192&height=192",
+        "w": 0
+      },
+      {
+        "alt": "icon",
+        "h": 32,
+        "src": "https://framerusercontent.com/images/9MgzCqL6RYOVADFY6awtidfluA.svg?width=32&height=32",
+        "w": 32
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "icon",
+        "h": 16,
+        "src": "https://framerusercontent.com/images/Qyi72qIWX0sWmpKMyTcDDxp4s.svg?width=16&height=16",
+        "w": 16
+      },
+      {
+        "alt": "icon",
+        "h": 16,
+        "src": "https://framerusercontent.com/images/Qyi72qIWX0sWmpKMyTcDDxp4s.svg?width=16&height=16",
+        "w": 16
+      },
+      {
+        "alt": "icon",
+        "h": 16,
+        "src": "https://framerusercontent.com/images/Qyi72qIWX0sWmpKMyTcDDxp4s.svg?width=16&height=16",
+        "w": 16
+      },
+      {
+        "alt": "icon",
+        "h": 16,
+        "src": "https://framerusercontent.com/images/Qyi72qIWX0sWmpKMyTcDDxp4s.svg?width=16&height=16",
+        "w": 16
+      },
+      {
+        "alt": "icon",
+        "h": 16,
+        "src": "https://framerusercontent.com/images/Qyi72qIWX0sWmpKMyTcDDxp4s.svg?width=16&height=16",
+        "w": 16
+      },
+      {
+        "alt": "bg",
+        "h": 539,
+        "src": "https://framerusercontent.com/images/KuGkEyS7Y3JaD73Q6ZxG813Zc.png?scale-down-to=1024&width=794&height=1078",
+        "w": 397
+      },
+      {
+        "alt": "icon",
+        "h": 16,
+        "src": "https://framerusercontent.com/images/Qyi72qIWX0sWmpKMyTcDDxp4s.svg?width=16&height=16",
+        "w": 16
+      },
+      {
+        "alt": "icon",
+        "h": 16,
+        "src": "https://framerusercontent.com/images/Qyi72qIWX0sWmpKMyTcDDxp4s.svg?width=16&height=16",
+        "w": 16
+      },
+      {
+        "alt": "icon",
+        "h": 16,
+        "src": "https://framerusercontent.com/images/Qyi72qIWX0sWmpKMyTcDDxp4s.svg?width=16&height=16",
+        "w": 16
+      },
+      {
+        "alt": "icon",
+        "h": 16,
+        "src": "https://framerusercontent.com/images/Qyi72qIWX0sWmpKMyTcDDxp4s.svg?width=16&height=16",
+        "w": 16
+      },
+      {
+        "alt": "icon",
+        "h": 16,
+        "src": "https://framerusercontent.com/images/Qyi72qIWX0sWmpKMyTcDDxp4s.svg?width=16&height=16",
+        "w": 16
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "icon",
+        "h": 16,
+        "src": "https://framerusercontent.com/images/Qyi72qIWX0sWmpKMyTcDDxp4s.svg?width=16&height=16",
+        "w": 16
+      },
+      {
+        "alt": "icon",
+        "h": 16,
+        "src": "https://framerusercontent.com/images/Qyi72qIWX0sWmpKMyTcDDxp4s.svg?width=16&height=16",
+        "w": 16
+      },
+      {
+        "alt": "icon",
+        "h": 16,
+        "src": "https://framerusercontent.com/images/Qyi72qIWX0sWmpKMyTcDDxp4s.svg?width=16&height=16",
+        "w": 16
+      },
+      {
+        "alt": "icon",
+        "h": 16,
+        "src": "https://framerusercontent.com/images/Qyi72qIWX0sWmpKMyTcDDxp4s.svg?width=16&height=16",
+        "w": 16
+      },
+      {
+        "alt": "icon",
+        "h": 16,
+        "src": "https://framerusercontent.com/images/Qyi72qIWX0sWmpKMyTcDDxp4s.svg?width=16&height=16",
+        "w": 16
+      },
+      {
+        "alt": "icon",
+        "h": 32,
+        "src": "https://framerusercontent.com/images/9MgzCqL6RYOVADFY6awtidfluA.svg?width=32&height=32",
+        "w": 32
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "icon",
+        "h": 32,
+        "src": "https://framerusercontent.com/images/9MgzCqL6RYOVADFY6awtidfluA.svg?width=32&height=32",
+        "w": 32
+      },
+      {
+        "alt": "icon",
+        "h": 28,
+        "src": "https://framerusercontent.com/images/EgYtJDpxE5l1SUuOHk7Yub1A2nQ.svg?width=28&height=28",
+        "w": 28
+      },
+      {
+        "alt": "icon",
+        "h": 28,
+        "src": "https://framerusercontent.com/images/EgYtJDpxE5l1SUuOHk7Yub1A2nQ.svg?width=28&height=28",
+        "w": 28
+      },
+      {
+        "alt": "icon",
+        "h": 28,
+        "src": "https://framerusercontent.com/images/EgYtJDpxE5l1SUuOHk7Yub1A2nQ.svg?width=28&height=28",
+        "w": 28
+      },
+      {
+        "alt": "icon",
+        "h": 28,
+        "src": "https://framerusercontent.com/images/EgYtJDpxE5l1SUuOHk7Yub1A2nQ.svg?width=28&height=28",
+        "w": 28
+      },
+      {
+        "alt": "icon",
+        "h": 28,
+        "src": "https://framerusercontent.com/images/EgYtJDpxE5l1SUuOHk7Yub1A2nQ.svg?width=28&height=28",
+        "w": 28
+      },
+      {
+        "alt": "icon",
+        "h": 28,
+        "src": "https://framerusercontent.com/images/EgYtJDpxE5l1SUuOHk7Yub1A2nQ.svg?width=28&height=28",
+        "w": 28
+      },
+      {
+        "alt": "icon",
+        "h": 28,
+        "src": "https://framerusercontent.com/images/EgYtJDpxE5l1SUuOHk7Yub1A2nQ.svg?width=28&height=28",
+        "w": 28
+      },
+      {
+        "alt": "icon",
+        "h": 28,
+        "src": "https://framerusercontent.com/images/EgYtJDpxE5l1SUuOHk7Yub1A2nQ.svg?width=28&height=28",
+        "w": 28
+      },
+      {
+        "alt": "bg",
+        "h": 410,
+        "src": "https://framerusercontent.com/images/qiM3KKH1kz79AFK3sIAsnEZrcA.svg?width=397&height=410",
+        "w": 397
+      },
+      {
+        "alt": "icon",
+        "h": 32,
+        "src": "https://framerusercontent.com/images/9MgzCqL6RYOVADFY6awtidfluA.svg?width=32&height=32",
+        "w": 32
+      },
+      {
+        "alt": "",
+        "h": 28,
+        "src": "https://framerusercontent.com/images/Qy6drKxgtNnsBdPPYD7BYSefP4.svg?width=28&height=28",
+        "w": 28
+      },
+      {
+        "alt": "",
+        "h": 28,
+        "src": "https://framerusercontent.com/images/Qy6drKxgtNnsBdPPYD7BYSefP4.svg?width=28&height=28",
+        "w": 28
+      },
+      {
+        "alt": "",
+        "h": 28,
+        "src": "https://framerusercontent.com/images/Qy6drKxgtNnsBdPPYD7BYSefP4.svg?width=28&height=28",
+        "w": 28
+      },
+      {
+        "alt": "",
+        "h": 28,
+        "src": "https://framerusercontent.com/images/Qy6drKxgtNnsBdPPYD7BYSefP4.svg?width=28&height=28",
+        "w": 28
+      },
+      {
+        "alt": "",
+        "h": 28,
+        "src": "https://framerusercontent.com/images/Qy6drKxgtNnsBdPPYD7BYSefP4.svg?width=28&height=28",
+        "w": 28
+      },
+      {
+        "alt": "",
+        "h": 28,
+        "src": "https://framerusercontent.com/images/Qy6drKxgtNnsBdPPYD7BYSefP4.svg?width=28&height=28",
+        "w": 28
+      },
+      {
+        "alt": "",
+        "h": 28,
+        "src": "https://framerusercontent.com/images/Qy6drKxgtNnsBdPPYD7BYSefP4.svg?width=28&height=28",
+        "w": 28
+      },
+      {
+        "alt": "",
+        "h": 28,
+        "src": "https://framerusercontent.com/images/Qy6drKxgtNnsBdPPYD7BYSefP4.svg?width=28&height=28",
+        "w": 28
+      },
+      {
+        "alt": "icon",
+        "h": 32,
+        "src": "https://framerusercontent.com/images/9MgzCqL6RYOVADFY6awtidfluA.svg?width=32&height=32",
+        "w": 32
+      },
+      {
+        "alt": "icon",
+        "h": 24,
+        "src": "https://framerusercontent.com/images/1UZg40GCTjPpWs1SjAEqFtuQFw.svg?width=24&height=24",
+        "w": 24
+      },
+      {
+        "alt": "icon",
+        "h": 24,
+        "src": "https://framerusercontent.com/images/1UZg40GCTjPpWs1SjAEqFtuQFw.svg?width=24&height=24",
+        "w": 24
+      },
+      {
+        "alt": "icon",
+        "h": 24,
+        "src": "https://framerusercontent.com/images/1UZg40GCTjPpWs1SjAEqFtuQFw.svg?width=24&height=24",
+        "w": 24
+      },
+      {
+        "alt": "icon",
+        "h": 24,
+        "src": "https://framerusercontent.com/images/1UZg40GCTjPpWs1SjAEqFtuQFw.svg?width=24&height=24",
+        "w": 24
+      },
+      {
+        "alt": "icon",
+        "h": 24,
+        "src": "https://framerusercontent.com/images/1UZg40GCTjPpWs1SjAEqFtuQFw.svg?width=24&height=24",
+        "w": 24
+      },
+      {
+        "alt": "icon",
+        "h": 32,
+        "src": "https://framerusercontent.com/images/9MgzCqL6RYOVADFY6awtidfluA.svg?width=32&height=32",
+        "w": 32
+      },
+      {
+        "alt": "icon",
+        "h": 24,
+        "src": "https://framerusercontent.com/images/dvNbIo7IbmzkaOdtCN5qcUchpM.svg?width=24&height=24",
+        "w": 24
+      },
+      {
+        "alt": "bg",
+        "h": 327,
+        "src": "https://framerusercontent.com/images/GPnLmwqasR5tALdVnBfggdRGdRA.png?scale-down-to=512&width=800&height=660",
+        "w": 397
+      },
+      {
+        "alt": "image",
+        "h": 234,
+        "src": "https://framerusercontent.com/images/5tA4EnLcAuxXZnOyIkk2I05do.webp?scale-down-to=512&width=1600&height=1000",
+        "w": 375
+      },
+      {
+        "alt": "icon",
+        "h": 20,
+        "src": "https://framerusercontent.com/images/nGojeL4RLAX16TqkOjUch1PpVZE.svg?width=20&height=20",
+        "w": 20
+      },
+      {
+        "alt": "icon",
+        "h": 24,
+        "src": "https://framerusercontent.com/images/dvNbIo7IbmzkaOdtCN5qcUchpM.svg?width=24&height=24",
+        "w": 24
+      },
+      {
+        "alt": "bg",
+        "h": 327,
+        "src": "https://framerusercontent.com/images/GPnLmwqasR5tALdVnBfggdRGdRA.png?scale-down-to=512&width=800&height=660",
+        "w": 397
+      },
+      {
+        "alt": "image",
+        "h": 305,
+        "src": "https://framerusercontent.com/images/EAnXNn68UM8wjv1N84pycIaWuWE.webp?scale-down-to=512&width=752&height=612",
+        "w": 375
+      },
+      {
+        "alt": "icon",
+        "h": 20,
+        "src": "https://framerusercontent.com/images/nGojeL4RLAX16TqkOjUch1PpVZE.svg?width=20&height=20",
+        "w": 20
+      },
+      {
+        "alt": "icon",
+        "h": 24,
+        "src": "https://framerusercontent.com/images/dvNbIo7IbmzkaOdtCN5qcUchpM.svg?width=24&height=24",
+        "w": 24
+      },
+      {
+        "alt": "bg",
+        "h": 327,
+        "src": "https://framerusercontent.com/images/GPnLmwqasR5tALdVnBfggdRGdRA.png?scale-down-to=512&width=800&height=660",
+        "w": 397
+      },
+      {
+        "alt": "image",
+        "h": 448,
+        "src": "https://framerusercontent.com/images/q55IAQc6vxBFkf6jNXiedybZLjA.webp?scale-down-to=512&width=752&height=612",
+        "w": 551
+      },
+      {
+        "alt": "icon",
+        "h": 20,
+        "src": "https://framerusercontent.com/images/nGojeL4RLAX16TqkOjUch1PpVZE.svg?width=20&height=20",
+        "w": 20
+      },
+      {
+        "alt": "icon",
+        "h": 24,
+        "src": "https://framerusercontent.com/images/dvNbIo7IbmzkaOdtCN5qcUchpM.svg?width=24&height=24",
+        "w": 24
+      },
+      {
+        "alt": "icon",
+        "h": 32,
+        "src": "https://framerusercontent.com/images/9MgzCqL6RYOVADFY6awtidfluA.svg?width=32&height=32",
+        "w": 32
+      },
+      {
+        "alt": "icon",
+        "h": 24,
+        "src": "https://framerusercontent.com/images/dvNbIo7IbmzkaOdtCN5qcUchpM.svg?width=24&height=24",
+        "w": 24
+      },
+      {
+        "alt": "logo",
+        "h": 20,
+        "src": "https://framerusercontent.com/images/Pfz7HDkRJDSNaoNeKKqjcirubo.svg?width=114&height=20",
+        "w": 114
+      },
+      {
+        "alt": "image",
+        "h": 0,
+        "src": "https://framerusercontent.com/images/YbrnLWPJPBzG5BEm2oPr2FqkhQg.webp?width=460&height=428",
+        "w": 0
+      },
+      {
+        "alt": "icon",
+        "h": 0,
+        "src": "https://framerusercontent.com/images/0Q6Eai6d7BO8frOemXGipXfk7b8.svg?width=24&height=24",
+        "w": 0
+      }
+    ],
+    "videos": [
+      {
+        "autoplay": true,
+        "loop": true,
+        "muted": true,
+        "poster": "",
+        "src": "https://cdn.prod.website-files.com/692877de6096025570de1dac%2F69581d86ecfebab70af35e48_2270712_Fluffy_Outdoor_3840x2160_webm.webm"
+      },
+      {
+        "autoplay": false,
+        "loop": true,
+        "muted": true,
+        "poster": "",
+        "src": "https://framerusercontent.com/assets/aK87pajuVCXexrCJ3IeAHnuzd0g.webm"
+      },
+      {
+        "autoplay": false,
+        "loop": true,
+        "muted": true,
+        "poster": "",
+        "src": "https://cdn.prod.website-files.com/692877de6096025570de1dac%2F695c9cefdaf14feb3d7dbce0_CEO_webm.webm"
+      },
+      {
+        "autoplay": false,
+        "loop": true,
+        "muted": true,
+        "poster": "",
+        "src": "https://framerusercontent.com/assets/aK87pajuVCXexrCJ3IeAHnuzd0g.webm"
+      }
+    ]
+  },
+  "body": {
+    "cls": "",
+    "rect": {
+      "h": 12816.234375,
+      "w": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "style": {
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "color": "rgb(0, 0, 0)",
+      "display": "block",
+      "fontFamily": "sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "letterSpacing": "normal",
+      "lineHeight": "normal",
+      "margin": "0px",
+      "overflow": "visible",
+      "padding": "0px",
+      "position": "static",
+      "transform": "none",
+      "transition": "all"
+    },
+    "tag": "BODY",
+    "text": "Home\n\nAbout\n\nFeatures\n\nPricing\n\nBlog\n\nContact\n\nGET STARTED\n\nGET STARTED\n\nSMARTER TASK MANAGEMENT\n\nSmarter by design. Simplified by AI.\n\nAutomate your workflows, prioritize, and focus on what truly matters.\n\nGet Started Now\n\nGet Started Now\n\nTRUSTED BY THE WORLD’S LARGEST COMPANIES\n\nOur team of data scientists, engineers, and creatives craft tailored AI solutions that solve real-world challenges across industries.\n\nLEARN MORE\n\nLEARN MORE\n\nPERFORMANCE SNAPSHOT\n\n$\n0\n1\n2\n3\n4\n5\nM+\n\nDIGITAL REACH\n\n0\n1"
+  },
+  "bodyClasses": "",
+  "htmlClasses": "lenis",
+  "scrollHeight": 12816,
+  "sections": [
+    {
+      "cls": "framer-4p0dvf",
+      "rect": {
+        "h": 1000,
+        "w": 1425,
+        "x": 0,
+        "y": 0
+      },
+      "style": {
+        "background": "rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "0px",
+        "gridTemplateColumns": "none",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "margin": "0px",
+        "overflow": "clip",
+        "padding": "0px",
+        "position": "relative",
+        "transform": "none",
+        "transition": "all"
+      },
+      "tag": "SECTION",
+      "text": "SMARTER TASK MANAGEMENT\n\nSmarter by design. Simplified by AI.\n\nAutomate your workflows, prioritize, and focus on what truly matters.\n\nGet Started Now\n\nGet Started Now\n\nTRUSTED BY THE WORLD’S LARGEST COMPANIES"
+    },
+    {
+      "cls": "framer-1jw5kk1",
+      "rect": {
+        "h": 702.96875,
+        "w": 1425,
+        "x": 0,
+        "y": 1000
+      },
+      "style": {
+        "background": "rgb(10, 10, 10) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(10, 10, 10)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "0px",
+        "gridTemplateColumns": "none",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "margin": "0px",
+        "overflow": "hidden",
+        "padding": "100px 0px",
+        "position": "relative",
+        "transform": "none",
+        "transition": "all"
+      },
+      "tag": "SECTION",
+      "text": "Our team of data scientists, engineers, and creatives craft tailored AI solutions that solve real-world challenges across industries.\n\nLEARN MORE\n\nLEARN MORE\n\nPERFORMANCE SNAPSHOT\n\n$\n0\n1\n2\n3\n4\n5\nM+\n\nDIGITAL REACH\n\n0\n1\n2\n0\n1\n2\n3\n4\n5\n0\n+\n\nCLIENT TRUST\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n0\n1\n2\n3\n4\n5\n6\n7\n8\n%"
+    },
+    {
+      "cls": "framer-8yx6yv",
+      "rect": {
+        "h": 846.40625,
+        "w": 1425,
+        "x": 0,
+        "y": 1702.96875
+      },
+      "style": {
+        "background": "rgb(10, 10, 10) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(10, 10, 10)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "0px",
+        "gridTemplateColumns": "none",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "margin": "0px",
+        "overflow": "hidden",
+        "padding": "100px 0px",
+        "position": "relative",
+        "transform": "none",
+        "transition": "all"
+      },
+      "tag": "SECTION",
+      "text": "HOW IT WORKS\n\nWhere complexity meets clarity\n\nAnalyze deadlines, effort, and context to reorder intelligently.\n\nAI-Powered Prioritization\n\nOur engine tasks by urgency & importance.\n\nCapture Tasks Instantly\n\nAdd tasks via voice, email, or integrations.\n\nSeamless Automation\n\nWe ready to handle them for you."
+    },
+    {
+      "cls": "framer-n5931u",
+      "rect": {
+        "h": 1262.40625,
+        "w": 1425,
+        "x": 0,
+        "y": 2549.375
+      },
+      "style": {
+        "background": "rgb(10, 10, 10) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(10, 10, 10)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "0px",
+        "gridTemplateColumns": "none",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "margin": "0px",
+        "overflow": "hidden",
+        "padding": "100px 0px",
+        "position": "relative",
+        "transform": "none",
+        "transition": "all"
+      },
+      "tag": "SECTION",
+      "text": "OUR FEATURES\n\nYour Productivity, Reinvented with AI\n\nInfranex Management was founded by a team of productivity hackers.\n\nFast, scalable, and tailored solutions\n\nOur engine tasks by urgency & importance.\n\nWorkflow Automation\n\nTrigger actions based on task completion, time, or team activity.\n\nAI Planning Assistant \n\nSuggests assignees, sets reminders, and flags blockers.\n\nCollaboration AI\n\nAutomatically builds a realistic, daily schedule."
+    },
+    {
+      "cls": "framer-1nfe6 framer-XPPTG framer-zRCSh framer-a072hl framer-v-a072hl",
+      "rect": {
+        "h": 964.40625,
+        "w": 1425,
+        "x": 0,
+        "y": 3811.78125
+      },
+      "style": {
+        "background": "rgb(10, 10, 10) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(10, 10, 10)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "0px",
+        "gridTemplateColumns": "none",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "margin": "0px",
+        "overflow": "hidden",
+        "padding": "100px 0px",
+        "position": "relative",
+        "transform": "none",
+        "transition": "all"
+      },
+      "tag": "SECTION",
+      "text": "WHY CHOOSE US\n\nBuilding the future of work\n\nTask AI Management was founded by a team of productivity hackers.\n\nIntelligent Automation\n\nStreamline repetitive tasks and boost productivity effortlessly, saving time and reducing human errors.\n\nAI-Powered Insights\n\nMake smarter decisions with data-driven by the recommendations and actionable, real-time.\n\nSeamless Integrations\n\nConnect with your favorite tools and platforms easily, creating a unified, efficient workflow.\n\nUser-Centric Design\n\nEnjoy an"
+    },
+    {
+      "cls": "framer-1t8o1ci",
+      "rect": {
+        "h": 1052.40625,
+        "w": 1425,
+        "x": 0,
+        "y": 4776.1875
+      },
+      "style": {
+        "background": "rgb(10, 10, 10) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(10, 10, 10)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "0px",
+        "gridTemplateColumns": "none",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "margin": "0px",
+        "overflow": "hidden",
+        "padding": "100px 0px",
+        "position": "relative",
+        "transform": "none",
+        "transition": "all"
+      },
+      "tag": "SECTION",
+      "text": "INTEGRATION\n\nEffortless Connectivity\n\nTask AI Management was founded by a team of productivity hackers.\n\nEXPLORE ALL\n\nEXPLORE ALL"
+    },
+    {
+      "cls": "framer-4QYCN framer-XPPTG framer-zRCSh framer-ojUx7 framer-ck9TE framer-9A0Ek framer-1t6pf60 framer-v-1t6pf60",
+      "rect": {
+        "h": 853.34375,
+        "w": 1425,
+        "x": 0,
+        "y": 5828.59375
+      },
+      "style": {
+        "background": "rgb(10, 10, 10) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(10, 10, 10)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "0px",
+        "gridTemplateColumns": "none",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "margin": "0px",
+        "overflow": "hidden",
+        "padding": "100px 0px",
+        "position": "relative",
+        "transform": "none",
+        "transition": "all"
+      },
+      "tag": "SECTION",
+      "text": "SUCCESS STORIES\n\nSuccess Stories to Inspire\n\nDiscover how businesses and creators achieve results \n\nCEO’S WORDS\n\nFrom the Desk of Our CEO\n\n“With Infranex, our growing team stayed in sync. AI auto-assigned tasks based on bandwidth and deadlines, letting us focus on shipping, not managing. Our campaigns are now delivered on time thanks to AI-prioritized sprints and real-time nudges for overdue tasks.”\n\nCO Founder of Infranex."
+    },
+    {
+      "cls": "framer-zoHwd framer-XPPTG framer-zRCSh framer-66gd3k framer-v-66gd3k",
+      "rect": {
+        "h": 1136.40625,
+        "w": 1425,
+        "x": 0,
+        "y": 6681.9375
+      },
+      "style": {
+        "background": "rgb(10, 10, 10) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(10, 10, 10)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "0px",
+        "gridTemplateColumns": "none",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "margin": "0px",
+        "overflow": "hidden",
+        "padding": "100px 0px",
+        "position": "relative",
+        "transform": "none",
+        "transition": "all"
+      },
+      "tag": "SECTION",
+      "text": "TESTIMONIALS\n\nReal People. Real Results\n\nFind quick answers to the most common support questions\n\n“Truly impressive. The AI assistant is fast, accurate, and blends into our daily ops without friction.”\n\nEthan Parker\n\nHead of Product, FlowWorks\n\n“Truly impressive. The AI assistant is fast, accurate, and blends into our daily ops without friction.”\n\nLiam Harrison\n\nProject Manager, CloudCore\n\n“Before this, we were juggling spreadsheets and manual updates. Now everything’s automated. “\n\nEmma Foster\n"
+    },
+    {
+      "cls": "framer-uwyC0 framer-XPPTG framer-zRCSh framer-1nqj2ti framer-v-1nqj2ti",
+      "rect": {
+        "h": 977.40625,
+        "w": 1425,
+        "x": 0,
+        "y": 7818.34375
+      },
+      "style": {
+        "background": "rgb(10, 10, 10) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(10, 10, 10)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "0px",
+        "gridTemplateColumns": "none",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "margin": "0px",
+        "overflow": "hidden",
+        "padding": "100px 0px",
+        "position": "relative",
+        "transform": "none",
+        "transition": "all"
+      },
+      "tag": "SECTION",
+      "text": "PRICING PLAN\n\nFlexible Plans for Every Stage\n\nLive dashboards and custom reports that surface the insights you need—instantly.\n\nSTARTER\n\nPOPULAR\n\n$999\n\nPerfect for small businesses getting started with digital marketing.\n\n1 Campaign\n\nMonthly Reports\n\nEmail Support\n\nPriority Support\n\n4x Revisions\n\nGET STARTED\n\nGET STARTED\n\nGROWTH\n\nMOST POPULAR\n\n$2,999\n\nFor brands ready to scale fast with full-service marketing.\n\n1 Campaign\n\nMonthly Reports\n\nEmail Support\n\nPriority Support\n\n4x Revisions\n\nGET START"
+    },
+    {
+      "cls": "framer-1w5whv2",
+      "rect": {
+        "h": 1142.40625,
+        "w": 1425,
+        "x": 0,
+        "y": 8795.75
+      },
+      "style": {
+        "background": "rgb(10, 10, 10) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(10, 10, 10)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "0px",
+        "gridTemplateColumns": "none",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "margin": "0px",
+        "overflow": "hidden",
+        "padding": "100px 0px",
+        "position": "relative",
+        "transform": "none",
+        "transition": "all"
+      },
+      "tag": "SECTION",
+      "text": "COMPARE\n\nFlexible Plans for Every Stage\n\nLive dashboards and custom reports that surface the insights you need—instantly.\n\nINFRANEX\n\nSmart automation that saves time effortlessly\nSeamless onboarding with 120+ integrations\nAdaptive AI that learns your workflow\n24/7 reliable customer assistance\nModern, intuitive, and user-friendly design\nReal-time data-driven recommendation\nTransparent, flexible, and value-driven plans\nProven real results that drive growth\n\nCOMPETITORS\n\nManual workflows and repeti"
+    },
+    {
+      "cls": "framer-Uy8P3 framer-XPPTG framer-zRCSh framer-1qycvuw framer-v-1qycvuw",
+      "rect": {
+        "h": 891.40625,
+        "w": 1425,
+        "x": 0,
+        "y": 9938.15625
+      },
+      "style": {
+        "background": "rgb(10, 10, 10) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(10, 10, 10)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "0px",
+        "gridTemplateColumns": "none",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "margin": "0px",
+        "overflow": "hidden",
+        "padding": "100px 0px",
+        "position": "relative",
+        "transform": "none",
+        "transition": "all"
+      },
+      "tag": "SECTION",
+      "text": "COMMON QUESTIONS\n\nGot questions? We’ve got answers.\n\nFind quick answers to the most common support questions\n\nWhy is a strong brand identity or website important?\n\nA robust brand identity and website serve as the face of your business, shaping how it is perceived by potential customers. They not only convey professionalism but also establish trust and credibility, vital factors in today's competitive market.\n\nCan I use Infranex with my existing tools?\n\nYes! Tash AI integrates seamlessly with you"
+    },
+    {
+      "cls": "framer-17jkuu",
+      "rect": {
+        "h": 961.859375,
+        "w": 1425,
+        "x": 0,
+        "y": 10829.5625
+      },
+      "style": {
+        "background": "rgb(10, 10, 10) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(10, 10, 10)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "0px",
+        "gridTemplateColumns": "none",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "margin": "0px",
+        "overflow": "hidden",
+        "padding": "100px 0px",
+        "position": "relative",
+        "transform": "none",
+        "transition": "all"
+      },
+      "tag": "SECTION",
+      "text": "NEWS & UPDATES\n\nInfranex Insights\n\nExplore how Tash AI enhances efficiency and intelligence in every process. See how Tash AI drives smarter, faster outcomes.\n\nVIEW ALL BLOGS\n\nVIEW ALL BLOGS\n\nJuly 30, 2026\n\nExploring automation, intelligence, and the future of work ahead\n\nRead More\n\nRead More\n\nJuly 30, 2026\n\nInsights on smarter workflows and modern efficiency daily\n\nRead More\n\nRead More\n\nJuly 30, 2026\n\nStories and strategies shaping the intelligent workplace today\n\nRead More\n\nRead More"
+    },
+    {
+      "cls": "framer-mwlh2k-container",
+      "rect": {
+        "h": 526.8125,
+        "w": 1425,
+        "x": 0,
+        "y": 11791.421875
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "margin": "0px",
+        "overflow": "visible",
+        "padding": "0px",
+        "position": "relative",
+        "transform": "none",
+        "transition": "all"
+      },
+      "tag": "DIV",
+      "text": "READY TO WORK SMARTER?\n\nTake control of your tasks. Let AI handle the rest.\n\nJoin thousands of professionals using Infranex to automate workflows, boost focus, and get more done in less time.\n\nGet Started Now\n\nGet Started Now"
+    },
+    {
+      "cls": "framer-fs1io framer-XPPTG framer-zRCSh framer-zua17x framer-v-zua17x",
+      "rect": {
+        "h": 526.8125,
+        "w": 1425,
+        "x": 0,
+        "y": 11791.421875
+      },
+      "style": {
+        "background": "rgb(10, 10, 10) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(10, 10, 10)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "0px",
+        "gridTemplateColumns": "none",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "margin": "0px",
+        "overflow": "hidden",
+        "padding": "100px 0px",
+        "position": "relative",
+        "transform": "none",
+        "transition": "all"
+      },
+      "tag": "SECTION",
+      "text": "READY TO WORK SMARTER?\n\nTake control of your tasks. Let AI handle the rest.\n\nJoin thousands of professionals using Infranex to automate workflows, boost focus, and get more done in less time.\n\nGet Started Now\n\nGet Started Now"
+    },
+    {
+      "cls": "framer-1qxmg5m-container",
+      "rect": {
+        "h": 498,
+        "w": 1425,
+        "x": 0,
+        "y": 12318.234375
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "margin": "0px",
+        "overflow": "visible",
+        "padding": "0px",
+        "position": "relative",
+        "transform": "none",
+        "transition": "all"
+      },
+      "tag": "DIV",
+      "text": "Subscribe our newsletter\n\nLinks\n\nHome \n\nHome \n\nAbout Us\n\nAbout Us\n\nFeatures\n\nFeatures\n\nIntegrations\n\nIntegrations\n\nPricing\n\nPricing\n\nBlog\n\nBlog\n\nUtility Pages\n\n404\n\n404\n\nResources\n\nPrivacy Policy\n\nPrivacy Policy\n\nTerms\n\nTerms\n\nConnect with us:\n\n© 2025 Tash.AI. All Rights Reserved."
+    },
+    {
+      "cls": "framer-nsR47 framer-ck9TE framer-FaEIa framer-zRCSh framer-fhgtua framer-v-fhgtua",
+      "rect": {
+        "h": 498,
+        "w": 1425,
+        "x": 0,
+        "y": 12318.234375
+      },
+      "style": {
+        "background": "rgb(10, 10, 10) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(10, 10, 10)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "0px",
+        "gridTemplateColumns": "none",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "margin": "0px",
+        "overflow": "visible",
+        "padding": "80px 0px 24px",
+        "position": "relative",
+        "transform": "none",
+        "transition": "all"
+      },
+      "tag": "SECTION",
+      "text": "Subscribe our newsletter\n\nLinks\n\nHome \n\nHome \n\nAbout Us\n\nAbout Us\n\nFeatures\n\nFeatures\n\nIntegrations\n\nIntegrations\n\nPricing\n\nPricing\n\nBlog\n\nBlog\n\nUtility Pages\n\n404\n\n404\n\nResources\n\nPrivacy Policy\n\nPrivacy Policy\n\nTerms\n\nTerms\n\nConnect with us:\n\n© 2025 Tash.AI. All Rights Reserved."
+    }
+  ],
+  "title": "Infranex — AI & SaaS Framer Template"
+}

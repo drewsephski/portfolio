@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-27T14:14:55Z",
+  "title": "Design System: Pontail",
+  "extensions": {
+    "colorMeta": {
+      "canvas-black": { "role": "neutral", "displayName": "Canvas Black", "canonical": "#080808", "tonalRamp": ["oklch(15% 0 0)", "oklch(25% 0 0)", "oklch(35% 0 0)", "oklch(47% 0 0)", "oklch(59% 0 0)", "oklch(71% 0 0)", "oklch(83% 0 0)", "oklch(95% 0 0)"] },
+      "raised-black": { "role": "neutral", "displayName": "Raised Black", "canonical": "#101010", "tonalRamp": ["oklch(15% 0 0)", "oklch(25% 0 0)", "oklch(35% 0 0)", "oklch(47% 0 0)", "oklch(59% 0 0)", "oklch(71% 0 0)", "oklch(83% 0 0)", "oklch(95% 0 0)"] },
+      "inset-black": { "role": "neutral", "displayName": "Inset Black", "canonical": "#111111", "tonalRamp": ["oklch(15% 0 0)", "oklch(25% 0 0)", "oklch(35% 0 0)", "oklch(47% 0 0)", "oklch(59% 0 0)", "oklch(71% 0 0)", "oklch(83% 0 0)", "oklch(95% 0 0)"] },
+      "modal-black": { "role": "neutral", "displayName": "Modal Black", "canonical": "#0c0c0c", "tonalRamp": ["oklch(15% 0 0)", "oklch(25% 0 0)", "oklch(35% 0 0)", "oklch(47% 0 0)", "oklch(59% 0 0)", "oklch(71% 0 0)", "oklch(83% 0 0)", "oklch(95% 0 0)"] },
+      "warm-white": { "role": "neutral", "displayName": "Warm White", "canonical": "#f1f1ef", "tonalRamp": ["oklch(15% 0.004 100)", "oklch(25% 0.004 100)", "oklch(35% 0.004 100)", "oklch(47% 0.004 100)", "oklch(59% 0.004 100)", "oklch(71% 0.004 100)", "oklch(83% 0.004 100)", "oklch(95% 0.004 100)"] },
+      "pure-white": { "role": "neutral", "displayName": "Interaction White", "canonical": "#ffffff", "tonalRamp": ["oklch(15% 0 0)", "oklch(25% 0 0)", "oklch(35% 0 0)", "oklch(47% 0 0)", "oklch(59% 0 0)", "oklch(71% 0 0)", "oklch(83% 0 0)", "oklch(100% 0 0)"] },
+      "body-gray": { "role": "neutral", "displayName": "Body Gray", "canonical": "#93938e", "tonalRamp": ["oklch(15% 0.006 100)", "oklch(25% 0.006 100)", "oklch(35% 0.006 100)", "oklch(47% 0.006 100)", "oklch(59% 0.006 100)", "oklch(71% 0.006 100)", "oklch(83% 0.006 100)", "oklch(95% 0.006 100)"] },
+      "quiet-gray": { "role": "neutral", "displayName": "Quiet Gray", "canonical": "#777773", "tonalRamp": ["oklch(15% 0.004 100)", "oklch(25% 0.004 100)", "oklch(35% 0.004 100)", "oklch(47% 0.004 100)", "oklch(59% 0.004 100)", "oklch(71% 0.004 100)", "oklch(83% 0.004 100)", "oklch(95% 0.004 100)"] },
+      "dim-gray": { "role": "neutral", "displayName": "Dim Gray", "canonical": "#656561", "tonalRamp": ["oklch(15% 0.004 100)", "oklch(25% 0.004 100)", "oklch(35% 0.004 100)", "oklch(47% 0.004 100)", "oklch(59% 0.004 100)", "oklch(71% 0.004 100)", "oklch(83% 0.004 100)", "oklch(95% 0.004 100)"] },
+      "hairline-gray": { "role": "neutral", "displayName": "Hairline Gray", "canonical": "#292929", "tonalRamp": ["oklch(15% 0 0)", "oklch(25% 0 0)", "oklch(35% 0 0)", "oklch(47% 0 0)", "oklch(59% 0 0)", "oklch(71% 0 0)", "oklch(83% 0 0)", "oklch(95% 0 0)"] },
+      "control-gray": { "role": "neutral", "displayName": "Control Gray", "canonical": "#3a3a37", "tonalRamp": ["oklch(15% 0.004 100)", "oklch(25% 0.004 100)", "oklch(35% 0.004 100)", "oklch(47% 0.004 100)", "oklch(59% 0.004 100)", "oklch(71% 0.004 100)", "oklch(83% 0.004 100)", "oklch(95% 0.004 100)"] },
+      "signal-lime": { "role": "primary", "displayName": "Signal Lime", "canonical": "#c8f55f", "tonalRamp": ["oklch(15% 0.06 125)", "oklch(25% 0.09 125)", "oklch(35% 0.12 125)", "oklch(47% 0.15 125)", "oklch(59% 0.17 125)", "oklch(71% 0.18 125)", "oklch(83% 0.17 125)", "oklch(95% 0.08 125)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Proof Statement", "purpose": "Hero statements only; expansive, tightly tracked, and balanced." },
+      "headline": { "displayName": "Product Headline", "purpose": "Product names inside the proof wall." },
+      "title": { "displayName": "Study Title", "purpose": "Interface-study names and secondary feature titles." },
+      "body": { "displayName": "Evidence Copy", "purpose": "Concise product descriptions and supporting explanation." },
+      "label": { "displayName": "Index Label", "purpose": "Section headings, types, indices, and utility metadata." }
+    },
+    "shadows": [
+      { "name": "signal-lift", "value": "0 5px 18px rgb(200 245 95 / 18%)", "purpose": "Small glow beneath an activated lime arrow control." },
+      { "name": "modal-depth", "value": "0 32px 100px rgb(0 0 0 / 72%)", "purpose": "Separates the screenshot dialog from the page." },
+      { "name": "focus-line", "value": "0 2px 0 #fff", "purpose": "Precise keyboard focus on study links." }
+    ],
+    "motion": [
+      { "name": "state-fast", "value": "160ms ease", "purpose": "Navigation, border, saturation, and compact arrow changes." },
+      { "name": "state-standard", "value": "220ms ease", "purpose": "Color and opacity responses." },
+      { "name": "premium-lift", "value": "260ms cubic-bezier(.16, 1, .3, 1)", "purpose": "Product imagery and directional control movement." },
+      { "name": "premium-arrow", "value": "320ms cubic-bezier(.16, 1, .3, 1)", "purpose": "Diagonal arrow fill, translation, and rotation." }
+    ],
+    "breakpoints": [
+      { "name": "mobile", "value": "700px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Product Card",
+      "kind": "card",
+      "refersTo": "product-card",
+      "description": "A square editorial proof panel with coordinated image and CTA motion.",
+      "html": "<a class=\"ds-product-card\" href=\"#\"><span class=\"ds-card-index\">01</span><h3>Product name</h3><p>Concise evidence-led product description.</p><span class=\"ds-card-cta\">Visit product <span class=\"ds-card-arrow\">↗</span></span></a>",
+      "css": ".ds-product-card{display:grid;gap:14px;min-height:360px;padding:28px;border:1px solid #292929;background:#080808;color:#f1f1ef;text-decoration:none;font-family:Arial,Helvetica,sans-serif;transition:background-color 180ms ease}.ds-product-card:hover,.ds-product-card:focus-visible{background:#101010;outline:none}.ds-card-index{color:#656561;font-size:11px}.ds-product-card h3{margin:44px 0 0;font-size:42px;font-weight:500;line-height:1;letter-spacing:-.04em}.ds-product-card p{margin:0;color:#93938e;font-size:14px;line-height:1.55}.ds-card-cta{display:inline-flex;align-items:center;gap:9px;align-self:end;color:#aaa9a4;font-size:12px}.ds-card-arrow{display:grid;width:26px;height:26px;place-items:center;border:1px solid #3a3a37;border-radius:50%;color:#c8f55f;transition:all 260ms cubic-bezier(.16,1,.3,1)}.ds-product-card:hover .ds-card-arrow,.ds-product-card:focus-visible .ds-card-arrow{border-color:#c8f55f;background:#c8f55f;color:#080808;box-shadow:0 5px 18px rgb(200 245 95 / 18%);transform:translate(3px,-3px) rotate(3deg)}"
+    },
+    {
+      "name": "Directional CTA",
+      "kind": "button",
+      "refersTo": "arrow-control",
+      "description": "A compact proof-to-destination link with a premium kinetic signal.",
+      "html": "<a class=\"ds-directional-cta\" href=\"#\">Visit product <span>↗</span></a>",
+      "css": ".ds-directional-cta{display:inline-flex;align-items:center;gap:9px;color:#aaa9a4;font:500 12px Arial,Helvetica,sans-serif;text-decoration:none;transition:color 240ms ease,letter-spacing 280ms ease,text-shadow 240ms ease,transform 280ms cubic-bezier(.16,1,.3,1)}.ds-directional-cta span{display:grid;width:26px;height:26px;place-items:center;border:1px solid #3a3a37;border-radius:50%;color:#c8f55f;font-weight:700;transition:border-color 240ms ease,background-color 240ms ease,color 240ms ease,box-shadow 240ms ease,transform 320ms cubic-bezier(.16,1,.3,1)}.ds-directional-cta:hover,.ds-directional-cta:focus-visible{color:#fff;letter-spacing:.016em;text-shadow:.35px 0 currentColor,-.35px 0 currentColor;transform:translateY(-1px);outline:none}.ds-directional-cta:hover span,.ds-directional-cta:focus-visible span{border-color:#c8f55f;background:#c8f55f;color:#080808;box-shadow:0 5px 18px rgb(200 245 95 / 18%);transform:translate(3px,-3px) rotate(3deg)}"
+    },
+    {
+      "name": "Study Row",
+      "kind": "custom",
+      "description": "A compact image-and-copy index row for interface studies.",
+      "html": "<div class=\"ds-study-row\"><div class=\"ds-study-preview\"></div><a href=\"#\"><span><strong>Interface study</strong><small>Product storytelling exploration</small></span><b>→</b></a></div>",
+      "css": ".ds-study-row{display:grid;grid-template-columns:168px 1fr;align-items:center;gap:26px;border-top:1px solid #292929;border-bottom:1px solid #292929;background:#080808;font-family:Arial,Helvetica,sans-serif}.ds-study-preview{aspect-ratio:16/10;border:1px solid #2c2c2c;border-radius:4px;background:#111}.ds-study-row a{display:grid;grid-template-columns:1fr auto;align-items:center;gap:24px;padding:18px 4px 18px 0;color:#f1f1ef;text-decoration:none}.ds-study-row strong,.ds-study-row small{display:block}.ds-study-row strong{font-size:27px;font-weight:400;letter-spacing:-.025em}.ds-study-row small{margin-top:6px;color:#777773;font-size:13px}.ds-study-row b{color:#777773;font-size:20px;font-weight:400;transition:color 160ms ease,transform 160ms ease}.ds-study-row a:hover b,.ds-study-row a:focus-visible b{color:#fff;transform:translateX(4px)}.ds-study-row a:focus-visible{outline:none;box-shadow:0 2px 0 #fff}"
+    },
+    {
+      "name": "Primary Navigation",
+      "kind": "nav",
+      "description": "Quiet framing navigation with a confident wordmark and muted utility links.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-wordmark\" href=\"#\">Drew Sepeczi</a><div><a href=\"#\">Products</a><a href=\"#\">Studies</a><a href=\"#\">Contact</a></div></nav>",
+      "css": ".ds-nav{display:flex;height:76px;align-items:center;justify-content:space-between;border-bottom:1px solid #292929;background:#080808;color:#f1f1ef;font:13px Arial,Helvetica,sans-serif}.ds-nav a{color:inherit;text-decoration:none}.ds-wordmark{font-weight:600;letter-spacing:-.02em}.ds-nav div{display:flex;gap:28px;color:#92928e}.ds-nav div a{transition:color 160ms ease}.ds-nav div a:hover,.ds-nav div a:focus-visible{color:#fff;outline:none}"
+    },
+    {
+      "name": "Screenshot Preview",
+      "kind": "button",
+      "refersTo": "preview-control",
+      "description": "A restrained media button that reveals full interface evidence.",
+      "html": "<button class=\"ds-preview\" type=\"button\"><span>Interface preview</span></button>",
+      "css": ".ds-preview{display:grid;aspect-ratio:16/10;width:168px;place-items:center;overflow:hidden;border:1px solid #2c2c2c;border-radius:4px;background:#111;color:#777773;font:12px Arial,Helvetica,sans-serif;cursor:zoom-in;transition:border-color 160ms ease,color 160ms ease}.ds-preview:hover{color:#f1f1ef}.ds-preview:focus-visible{border-color:#fff;color:#fff;outline:2px solid #fff;outline-offset:3px}"
+    },
+    {
+      "name": "Dialog Close",
+      "kind": "button",
+      "description": "A compact circular control for the cinematic screenshot dialog.",
+      "html": "<button class=\"ds-dialog-close\" type=\"button\" aria-label=\"Close\">×</button>",
+      "css": ".ds-dialog-close{display:grid;width:34px;height:34px;padding:0;place-items:center;border:1px solid #343434;border-radius:50%;background:#171717;color:#aaa;font:300 23px/1 Arial,Helvetica,sans-serif;cursor:pointer;transition:border-color 160ms ease,color 160ms ease}.ds-dialog-close:hover,.ds-dialog-close:focus-visible{border-color:#777;color:#fff;outline:none}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Proof Wall",
+    "overview": "Pontail presents shipped products as a premium gallery of evidence. A near-black canvas, large neo-grotesque typography, disciplined hairline grids, and carefully staged product imagery let the work command attention without agency-style theatrics. The system is restrained at rest and expressive in response. Its premium quality comes from exact spacing, scale, and kinetic detail: arrows lift with intent, imagery gains clarity and motion, and surfaces change tone without introducing decorative noise. Enhancement should sharpen this behavior while preserving the incumbent identity.",
+    "keyCharacteristics": ["Near-black, warm-white, and calibrated gray hierarchy.", "Oversized, tightly tracked headlines with concise supporting copy.", "Square editorial grids and hairline structural borders.", "Product imagery as the dominant proof layer.", "Rare signal-lime accents reserved for meaningful interaction.", "Smooth, coordinated motion that respects reduced-motion preferences."],
+    "rules": [
+      { "name": "The Rare Signal Rule", "body": "Signal Lime belongs to small, meaningful interaction cues; never spread it across large surfaces or decorative gradients.", "section": "colors" },
+      { "name": "The Warm Hierarchy Rule", "body": "Prefer the established warm whites and green-gray neutrals over cold pure grays; pure white is an interaction peak, not the default.", "section": "colors" },
+      { "name": "The Scale Before Ornament Rule", "body": "Create hierarchy with size, weight, tracking, and whitespace before introducing color or decoration.", "section": "typography" },
+      { "name": "The Flat-at-Rest Rule", "body": "Surfaces stay flat until state or hierarchy requires depth; shadows must communicate interaction or modal layering.", "section": "elevation" }
+    ],
+    "dos": ["Do preserve the near-black canvas, warm neutral hierarchy, and square proof grid.", "Do let product imagery and shipped-work copy provide the visual interest.", "Do coordinate hover motion across text, arrow, image, and surface as one response.", "Do use Signal Lime rarely and at compact scale for meaningful interaction.", "Do preserve visible keyboard focus and reduced-motion behavior whenever animation is enhanced.", "Do improve premium perception through spacing, timing, easing, and alignment before adding decoration."],
+    "donts": ["Don't replace the incumbent system with glossy startup gradients, glassmorphism, playful illustration, or decorative clutter.", "Don't round the primary product grid or turn every surface into a floating card.", "Don't use lime as a large background, ambient wash, or repeated decorative accent.", "Don't add motion that is constant, disconnected from user intent, or necessary for comprehension.", "Don't fabricate awards, testimonials, client logos, benchmarks, or product proof."]
+  }
+}

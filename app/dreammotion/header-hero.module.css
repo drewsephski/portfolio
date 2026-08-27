@@ -1,0 +1,312 @@
+.hero {
+  position: relative;
+  min-height: 936px;
+  overflow: hidden;
+  color: #fff;
+  background: rgb(10, 10, 10);
+  font-family: var(--dm-sans), Arial, sans-serif;
+  isolation: isolate;
+}
+
+.header {
+  position: fixed;
+  z-index: 50;
+  top: 20px;
+  left: 24px;
+  right: 24px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  min-height: 48px;
+  padding: 6px 8px 6px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  border-radius: 999px;
+  background: rgba(13, 13, 13, 0.68);
+  box-shadow: 0 12px 38px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(18px);
+}
+
+.wordmark {
+  width: max-content;
+  color: inherit;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  text-decoration: none;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navigation a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  text-decoration: none;
+  transition: color 180ms ease;
+}
+
+.navigation a:hover,
+.navigation a:focus-visible {
+  color: #fff;
+}
+
+.signup,
+.cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: transform 180ms ease, background-color 180ms ease;
+}
+
+.signup {
+  justify-self: end;
+  min-height: 36px;
+  padding: 0 18px;
+  color: #0a0a0a;
+  background: #fff;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.signup:hover,
+.cta:hover {
+  transform: translateY(-2px);
+}
+
+.artwork {
+  position: absolute;
+  z-index: -2;
+  inset: 0 0 104px;
+}
+
+.artworkImage {
+  object-fit: cover;
+  object-position: center 38%;
+  opacity: 0.78;
+}
+
+.artwork::before,
+.artwork::after {
+  position: absolute;
+  z-index: 1;
+  content: "";
+  pointer-events: none;
+}
+
+.artwork::before {
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.22) 0%, transparent 28%, rgba(0, 0, 0, 0.08) 58%, #0a0a0a 100%);
+}
+
+.artwork::after {
+  inset: 0;
+  background: radial-gradient(circle at 50% 38%, transparent 25%, rgba(0, 0, 0, 0.34) 100%);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min(1080px, calc(100% - 48px));
+  margin: 0 auto;
+  padding-top: 190px;
+  text-align: center;
+}
+
+.content h1 {
+  max-width: 780px;
+  margin: 0;
+  font-family: var(--dm-display), Georgia, serif;
+  font-size: clamp(52px, 5vw, 64px);
+  font-weight: 400;
+  line-height: 0.95;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+
+.content p {
+  max-width: 530px;
+  margin: 26px 0 0;
+  color: rgb(210, 210, 210);
+  font-size: 16px;
+  line-height: 1.55;
+  text-wrap: balance;
+}
+
+.cta {
+  gap: 10px;
+  min-height: 48px;
+  margin-top: 28px;
+  padding: 0 22px;
+  color: #0a0a0a;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cta span {
+  font-size: 15px;
+}
+
+.models {
+  position: absolute;
+  right: 0;
+  bottom: 36px;
+  left: 0;
+  text-align: center;
+}
+
+.models p {
+  margin: 0 24px 22px;
+  color: rgb(133, 133, 133);
+  font-size: 12px;
+  letter-spacing: 0.01em;
+}
+
+.marquee {
+  width: min(760px, calc(100% - 48px));
+  margin: 0 auto;
+  overflow: hidden;
+  mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+}
+
+.marqueeTrack {
+  display: flex;
+  width: max-content;
+  animation: model-marquee 24s linear infinite;
+}
+
+.marqueeTrack span {
+  position: relative;
+  min-width: 126px;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.marqueeTrack span::after {
+  position: absolute;
+  right: 0;
+  color: rgba(255, 255, 255, 0.2);
+  content: "·";
+}
+
+@keyframes model-marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 800px) {
+  .hero {
+    min-height: 760px;
+  }
+
+  .header {
+    grid-template-columns: auto 1fr auto;
+  }
+
+  .navigation {
+    gap: 18px;
+  }
+
+  .content {
+    padding-top: 172px;
+  }
+
+  .content h1 {
+    max-width: 650px;
+    font-size: 52px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    min-height: 640px;
+  }
+
+  .header {
+    display: flex;
+    right: 24px;
+    justify-content: center;
+    min-height: 44px;
+    padding: 5px 16px;
+  }
+
+  .navigation,
+  .signup {
+    display: none;
+  }
+
+  .artwork {
+    bottom: 88px;
+  }
+
+  .artworkImage {
+    object-position: center center;
+  }
+
+  .content {
+    width: 100%;
+    padding: 138px 24px 0;
+  }
+
+  .content h1 {
+    width: min(343px, 100%);
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.035em;
+  }
+
+  .content p {
+    max-width: 330px;
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .cta {
+    min-height: 44px;
+    margin-top: 22px;
+    padding: 0 19px;
+    font-size: 13px;
+  }
+
+  .models {
+    bottom: 24px;
+  }
+
+  .models p {
+    max-width: 290px;
+    margin: 0 auto 17px;
+    font-size: 11px;
+    line-height: 1.45;
+  }
+
+  .marquee {
+    width: calc(100% - 48px);
+  }
+
+  .marqueeTrack span {
+    min-width: 106px;
+    font-size: 12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marqueeTrack {
+    animation-play-state: paused;
+  }
+
+  .signup,
+  .cta,
+  .navigation a {
+    transition: none;
+  }
+}

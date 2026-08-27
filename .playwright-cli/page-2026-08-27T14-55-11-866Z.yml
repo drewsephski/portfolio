@@ -1,0 +1,19 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]: Equilibrium
+      - generic [ref=e9]:
+        - button "Home" [ref=e10]
+        - button "Wellness" [ref=e11]
+        - button "Routine" [ref=e14]
+        - button "Our Team" [ref=e15]
+      - generic [ref=e16]:
+        - button "Log in" [ref=e17]
+        - button "Begin Now" [ref=e18]
+    - generic [ref=e19]:
+      - heading "Live Better, Feel Whole Every Day" [level=1] [ref=e20]
+      - paragraph [ref=e21]: Take charge of how you feel with a companion built for your journey—build routines, follow your growth, and unlock tailored insights for a steadier, more vibrant life each day.
+      - generic [ref=e22]:
+        - button "Start Today" [ref=e23]
+        - button "Discover How" [ref=e24]
+  - alert [ref=e25]

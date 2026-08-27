@@ -1,0 +1,28 @@
+- generic [active] [ref=f6e1]:
+  - main [ref=f6e2]:
+    - navigation "Primary navigation" [ref=f6e3]:
+      - generic [ref=f6e5]:
+        - generic [ref=f6e6]:
+          - button "Solutions" [ref=f6e7] [cursor=pointer]
+          - link "Plans" [ref=f6e10] [cursor=pointer]:
+            - /url: "#"
+          - link "News" [ref=f6e11] [cursor=pointer]:
+            - /url: "#"
+        - link "Palomar home" [ref=f6e12] [cursor=pointer]:
+          - /url: "#top"
+          - generic [ref=f6e15]: Palomar
+        - link "Try It Free" [ref=f6e16] [cursor=pointer]:
+          - /url: "#"
+    - generic [ref=f6e20]:
+      - link "Live for everyone today! Offering $1MM in credits." [ref=f6e21] [cursor=pointer]:
+        - /url: "#"
+      - heading "One unified system to build, test, ship, and observe LLMs" [level=1] [ref=f6e25]
+      - generic [ref=f6e26]:
+        - paragraph [ref=f6e27]: Backed by
+        - generic [ref=f6e28]:
+          - generic [ref=f6e29]: Meridian
+          - generic [ref=f6e30]: STELLEX
+          - generic [ref=f6e31]: Luminar
+          - generic [ref=f6e32]: OVERLAND
+          - generic [ref=f6e33]: Kinetic
+  - alert [ref=f6e34]

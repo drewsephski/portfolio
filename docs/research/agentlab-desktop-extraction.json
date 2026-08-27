@@ -1,0 +1,3475 @@
+{
+  "backgrounds": [
+    {
+      "bg": "linear-gradient(45deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 41%, rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0) 100%)",
+      "cls": "text-shimmer-Raqmrmddp",
+      "tag": "P"
+    },
+    {
+      "bg": "linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%)",
+      "cls": "framer-eczswi",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)",
+      "cls": "framer-nr2v9h",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%)",
+      "cls": "framer-1ms7vd0",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)",
+      "cls": "framer-1if816g",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(270deg, rgb(0, 54, 250) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-7uu7gz",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(270deg, rgb(0, 54, 250) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-139azfr",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(270deg, rgb(0, 54, 250) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-7uu7gz",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(270deg, rgb(0, 54, 250) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-139azfr",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(270deg, rgb(0, 54, 250) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-7uu7gz",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(270deg, rgb(0, 54, 250) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-139azfr",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 41%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0) 100%)",
+      "cls": "text-shimmer-r45",
+      "tag": "P"
+    },
+    {
+      "bg": "linear-gradient(270deg, rgb(0, 54, 250) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-7uu7gz",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(270deg, rgb(0, 54, 250) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-139azfr",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(270deg, rgb(0, 54, 250) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-7uu7gz",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(270deg, rgb(0, 54, 250) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-139azfr",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(270deg, rgb(0, 54, 250) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-7uu7gz",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(270deg, rgb(0, 54, 250) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-139azfr",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(270deg, rgb(85, 139, 251) 0%, rgb(85, 139, 251) 100%)",
+      "cls": "framer-139azfr",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 0.163043%, rgb(85, 139, 251) 50.2172%, rgba(255, 255, 255, 0) 100%)",
+      "cls": "framer-1hk1g4n",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgb(3, 26, 74) 0%, rgb(0, 0, 0) 100%)",
+      "cls": "framer-e09m4f",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgba(85, 139, 251, 0.1) 0%, rgb(85, 139, 251) 48.4445%, rgba(85, 139, 251, 0.1) 100%)",
+      "cls": "framer-4q2fji",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgba(85, 139, 251, 0.05) 0%, rgba(85, 139, 251, 0) 100%)",
+      "cls": "framer-k3hsgg",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgba(85, 139, 251, 0.1) 0%, rgb(85, 139, 251) 48.4445%, rgba(85, 139, 251, 0.1) 100%)",
+      "cls": "framer-1rzs1d4",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgba(85, 139, 251, 0.05) 0%, rgba(85, 139, 251, 0) 100%)",
+      "cls": "framer-v6k6j0",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgba(85, 139, 251, 0.1) 0%, rgb(85, 139, 251) 48.4445%, rgba(85, 139, 251, 0.1) 100%)",
+      "cls": "framer-6rd0xs",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgba(85, 139, 251, 0.05) 0%, rgba(85, 139, 251, 0) 100%)",
+      "cls": "framer-1wkq0dj",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgba(85, 139, 251, 0.1) 0%, rgb(85, 139, 251) 48.4445%, rgba(85, 139, 251, 0.1) 100%)",
+      "cls": "framer-1r6ndpj",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgba(85, 139, 251, 0.05) 0%, rgba(85, 139, 251, 0) 100%)",
+      "cls": "framer-izudo7",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgba(102, 153, 255, 0.04) 0%, rgba(85, 139, 251, 0) 100%)",
+      "cls": "framer-1vfwl9t",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgba(85, 139, 251, 0.04) 0%, rgba(85, 139, 251, 0) 100%)",
+      "cls": "framer-1g4zx27",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgb(85, 139, 251) 0%, rgba(85, 139, 251, 0.1) 0%, rgb(85, 139, 251) 50%, rgba(85, 139, 251, 0.1) 100%)",
+      "cls": "framer-1knfyzg",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgba(85, 139, 251, 0.1) 0%, rgb(85, 139, 251) 48.4445%, rgba(85, 139, 251, 0.1) 100%)",
+      "cls": "framer-11vztg",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgb(3, 26, 74) 0%, rgb(0, 0, 0) 100%)",
+      "cls": "framer-upsmgj",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgb(85, 139, 251) 0%, rgba(85, 139, 251, 0.1) 0%, rgb(85, 139, 251) 50%, rgba(85, 139, 251, 0.1) 100%)",
+      "cls": "framer-1kp8tc",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)",
+      "cls": "framer-1tuzigh",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%)",
+      "cls": "framer-1etae67",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgba(85, 139, 251, 0.04) 0%, rgba(85, 139, 251, 0) 100%)",
+      "cls": "framer-1j7oj55",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgba(85, 139, 251, 0.04) 0%, rgba(85, 139, 251, 0) 100%)",
+      "cls": "framer-hbxr46",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgba(85, 139, 251, 0.04) 0%, rgba(85, 139, 251, 0) 100%)",
+      "cls": "framer-p4ik00",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgba(85, 139, 251, 0.04) 0%, rgba(85, 139, 251, 0) 100%)",
+      "cls": "framer-s3itjp",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(270deg, rgb(0, 54, 250) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-7uu7gz",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(270deg, rgb(0, 54, 250) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-139azfr",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(270deg, rgb(85, 139, 251) 0%, rgb(85, 139, 251) 100%)",
+      "cls": "framer-139azfr",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(270deg, rgb(0, 54, 250) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-7uu7gz",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(270deg, rgb(0, 54, 250) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-139azfr",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgb(78, 135, 252) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-o8yd5d",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgb(192, 226, 249) 0%, rgb(0, 54, 250) 100%)",
+      "cls": "framer-tlht2y",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgb(78, 135, 252) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-1u547et",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgb(192, 226, 249) 0%, rgb(0, 54, 250) 100%)",
+      "cls": "framer-1ea5gqp",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgb(78, 135, 252) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-11nahx1",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgb(192, 226, 249) 0%, rgb(0, 54, 250) 100%)",
+      "cls": "framer-1xgxhuq",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(270deg, rgb(0, 54, 250) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-7uu7gz",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(270deg, rgb(0, 54, 250) 0%, rgb(192, 226, 249) 100%)",
+      "cls": "framer-139azfr",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(135deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 42.8%, rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0) 57.2%, rgba(0, 0, 0, 0) 100%)",
+      "cls": "text-shimmer-R2qqrldp",
+      "tag": "P"
+    },
+    {
+      "bg": "linear-gradient(105deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 35%, rgb(217, 217, 217) 50%, rgba(0, 0, 0, 0) 65%, rgba(0, 0, 0, 0) 100%)",
+      "cls": "text-shimmer-r86",
+      "tag": "P"
+    }
+  ],
+  "colors": [
+    "rgb(0, 0, 0)",
+    "rgb(255, 255, 255)",
+    "rgb(0, 0, 238)",
+    "rgba(255, 255, 255, 0.6)",
+    "rgb(85, 139, 251)",
+    "rgba(255, 255, 255, 0.14)",
+    "rgba(0, 0, 0, 0.7)",
+    "rgb(250, 250, 250)",
+    "rgba(255, 255, 255, 0.4)",
+    "rgb(196, 228, 255)",
+    "rgba(0, 0, 0, 0.5)",
+    "rgb(230, 230, 230)",
+    "rgb(208, 208, 208)",
+    "rgba(0, 0, 0, 0.4)",
+    "rgb(5, 223, 114)",
+    "rgba(85, 139, 251, 0.15)",
+    "rgba(255, 255, 255, 0.02)",
+    "rgba(255, 255, 255, 0.04)"
+  ],
+  "favicons": [
+    "https://framerusercontent.com/images/qHjpjWRtd4BPA2HhIAgyBH8pjA.svg",
+    "https://framerusercontent.com/images/D2lhgnJj2kr5EiY0FgikXyptXco.svg"
+  ],
+  "fonts": [
+    "Times",
+    "sans-serif",
+    "Inter, \"Inter Placeholder\", sans-serif",
+    "Merriweather, \"Merriweather Placeholder\", serif",
+    "Cabin, \"Cabin Placeholder\", sans-serif"
+  ],
+  "htmlClass": "lenis lenis-autoToggle",
+  "images": [
+    {
+      "alt": "Icon",
+      "height": 20,
+      "src": "https://framerusercontent.com/images/CeHOgx8mV1jc6eAl1y2sZO2HkDI.svg?width=20&height=20",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "20px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "20px"
+      },
+      "width": 20
+    },
+    {
+      "alt": "AI agent automation interface over an abstract blue digital background",
+      "height": 431,
+      "src": "https://framerusercontent.com/images/uJE8NQyYXC4kBsQ6uhdSVoUQPzM.png?scale-down-to=1024&width=1690&height=1160",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "579.984px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "845px"
+      },
+      "width": 628
+    },
+    {
+      "alt": "",
+      "height": 150,
+      "src": "data:image/svg+xml,<svg display=\"block\" role=\"presentation\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g d=\"M 12.5 100 C 5.596 100 0 94.404 0 87.5 L 0 12.5 C 0 5.596 5.596 0 12.5 0 L 87.5 0 C 94.404 0 100 5.596 100 12.5 L 100 87.5 C 100 94.404 94.404 100 87.5 100 Z M 73.584 46.961 L 37.126 26.152 C 36.511 25.807 35.806 25.658 35.105 25.723 C 34.403 25.788 33.738 26.066 33.198 26.518 C 32.657 26.971 32.267 27.577 32.08 28.256 C 31.892 28.935 31.916 29.655 32.147 30.321 L 38.875 49.954 C 38.874 49.961 38.874 49.968 38.875 49.976 C 38.873 49.983 38.873 49.99 38.875 49.997 L 32.147 69.674 C 31.962 70.197 31.905 70.758 31.981 71.308 C 32.057 71.858 32.264 72.382 32.584 72.836 C 32.905 73.29 33.329 73.66 33.822 73.915 C 34.315 74.171 34.862 74.305 35.418 74.305 C 36.02 74.304 36.612 74.147 37.137 73.849 L 73.575 53.005 C 74.113 52.704 74.561 52.265 74.872 51.734 C 75.184 51.203 75.349 50.598 75.351 49.982 C 75.352 49.366 75.189 48.761 74.879 48.228 C 74.569 47.696 74.122 47.256 73.586 46.953 Z M 35.418 70.833 L 35.418 70.813 L 41.958 51.736 L 54.515 51.736 C 54.975 51.736 55.417 51.553 55.742 51.227 C 56.068 50.902 56.251 50.46 56.251 50 C 56.251 49.539 56.068 49.097 55.742 48.772 C 55.417 48.446 54.975 48.263 54.515 48.263 L 41.976 48.263 L 35.431 29.192 L 35.418 29.166 L 71.876 49.963 Z\" fill=\"transparent\" height=\"100px\" id=\"DMBx4P6ir\" width=\"100px\"><path d=\"M 12.5 100 C 5.596 100 0 94.404 0 87.5 L 0 12.5 C 0 5.596 5.596 0 12.5 0 L 87.5 0 C 94.404 0 100 5.596 100 12.5 L 100 87.5 C 100 94.404 94.404 100 87.5 100 Z\" fill=\"rgb(0, 0, 0)\" height=\"100px\" id=\"Nv8BCiiFt\" width=\"100px\"/><path d=\"M 41.636 21.253 L 5.177 0.444 C 4.563 0.099 3.858 -0.05 3.156 0.015 C 2.455 0.08 1.79 0.358 1.25 0.81 C 0.709 1.263 0.319 1.869 0.132 2.548 C -0.056 3.227 -0.032 3.947 0.199 4.613 L 6.926 24.246 C 6.926 24.253 6.926 24.26 6.926 24.268 C 6.925 24.275 6.925 24.282 6.926 24.289 L 0.199 43.966 C 0.014 44.489 -0.043 45.05 0.033 45.6 C 0.109 46.15 0.315 46.674 0.636 47.128 C 0.956 47.582 1.381 47.952 1.874 48.207 C 2.367 48.463 2.914 48.597 3.47 48.597 C 4.072 48.596 4.664 48.439 5.188 48.141 L 41.627 27.297 C 42.165 26.996 42.612 26.557 42.924 26.026 C 43.236 25.495 43.401 24.89 43.402 24.274 C 43.403 23.658 43.24 23.053 42.93 22.52 C 42.62 21.988 42.174 21.548 41.638 21.245 Z M 3.47 45.125 L 3.47 45.105 L 10.01 26.028 L 22.567 26.028 C 23.027 26.028 23.469 25.845 23.794 25.519 C 24.12 25.194 24.303 24.752 24.303 24.292 C 24.303 23.831 24.12 23.389 23.794 23.064 C 23.469 22.738 23.027 22.555 22.567 22.555 L 10.028 22.555 L 3.483 3.484 L 3.47 3.458 L 39.928 24.255 Z\" fill=\"rgb(255, 255, 255)\" height=\"48.596993758753456px\" id=\"Dm88U7R96\" transform=\"translate(31.948 25.708)\" width=\"43.402350860200016px\"/></g></svg>",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32px",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "relative",
+        "transition": "all",
+        "width": "32px"
+      },
+      "width": 150
+    },
+    {
+      "alt": "",
+      "height": 150,
+      "src": "data:image/svg+xml,<svg display=\"block\" role=\"presentation\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 10 100 C 4.477 100 0 95.523 0 90 L 0 10 C 0 4.477 4.477 0 10 0 L 90 0 C 95.523 0 100 4.477 100 10 L 100 90 C 100 95.523 95.523 100 90 100 Z\" fill=\"rgb(0, 0, 0)\" height=\"100px\" id=\"UeK7YVR7h\" width=\"100px\"/><path d=\"M 22.324 0.379 L 24.332 5.954 C 26.562 12.141 31.434 17.014 37.622 19.244 L 43.197 21.251 C 43.699 21.434 43.699 22.146 43.197 22.326 L 37.622 24.334 C 31.434 26.564 26.562 31.436 24.332 37.624 L 22.324 43.199 C 22.142 43.701 21.429 43.701 21.249 43.199 L 19.242 37.624 C 17.012 31.436 12.139 26.564 5.952 24.334 L 0.377 22.326 C -0.126 22.144 -0.126 21.431 0.377 21.251 L 5.952 19.244 C 12.139 17.014 17.012 12.141 19.242 5.954 L 21.249 0.379 C 21.429 -0.126 22.142 -0.126 22.324 0.379 Z\" fill=\"rgb(255, 255, 255)\" height=\"43.575525px\" id=\"p0r0Op1JE\" transform=\"translate(20.72 21.546)\" width=\"43.57359999999986px\"/><path d=\"M 11.306 0.191 L 12.324 3.014 C 13.454 6.146 15.921 8.614 19.054 9.744 L 21.876 10.761 C 22.131 10.854 22.131 11.214 21.876 11.306 L 19.054 12.324 C 15.921 13.454 13.454 15.921 12.324 19.054 L 11.306 21.876 C 11.214 22.131 10.854 22.131 10.761 21.876 L 9.744 19.054 C 8.614 15.921 6.146 13.454 3.014 12.324 L 0.191 11.306 C -0.064 11.214 -0.064 10.854 0.191 10.761 L 3.014 9.744 C 6.146 8.614 8.614 6.146 9.744 3.014 L 10.761 0.191 C 10.854 -0.064 11.216 -0.064 11.306 0.191 Z\" fill=\"rgb(255, 255, 255)\" height=\"22.06750000000001px\" id=\"H5p_UhiT3\" transform=\"translate(56.834 56.269)\" width=\"22.067499999999995px\"/></svg>",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "20px",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "relative",
+        "transition": "all",
+        "width": "20px"
+      },
+      "width": 150
+    },
+    {
+      "alt": "",
+      "height": 150,
+      "src": "data:image/svg+xml,<svg display=\"block\" role=\"presentation\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 10 100 C 4.477 100 0 95.523 0 90 L 0 10 C 0 4.477 4.477 0 10 0 L 90 0 C 95.523 0 100 4.477 100 10 L 100 90 C 100 95.523 95.523 100 90 100 Z\" fill=\"rgb(0, 0, 0)\" height=\"100px\" id=\"UeK7YVR7h\" width=\"100px\"/><path d=\"M 22.324 0.379 L 24.332 5.954 C 26.562 12.141 31.434 17.014 37.622 19.244 L 43.197 21.251 C 43.699 21.434 43.699 22.146 43.197 22.326 L 37.622 24.334 C 31.434 26.564 26.562 31.436 24.332 37.624 L 22.324 43.199 C 22.142 43.701 21.429 43.701 21.249 43.199 L 19.242 37.624 C 17.012 31.436 12.139 26.564 5.952 24.334 L 0.377 22.326 C -0.126 22.144 -0.126 21.431 0.377 21.251 L 5.952 19.244 C 12.139 17.014 17.012 12.141 19.242 5.954 L 21.249 0.379 C 21.429 -0.126 22.142 -0.126 22.324 0.379 Z\" fill=\"rgb(255, 255, 255)\" height=\"43.575525px\" id=\"p0r0Op1JE\" transform=\"translate(20.72 21.546)\" width=\"43.57359999999986px\"/><path d=\"M 11.306 0.191 L 12.324 3.014 C 13.454 6.146 15.921 8.614 19.054 9.744 L 21.876 10.761 C 22.131 10.854 22.131 11.214 21.876 11.306 L 19.054 12.324 C 15.921 13.454 13.454 15.921 12.324 19.054 L 11.306 21.876 C 11.214 22.131 10.854 22.131 10.761 21.876 L 9.744 19.054 C 8.614 15.921 6.146 13.454 3.014 12.324 L 0.191 11.306 C -0.064 11.214 -0.064 10.854 0.191 10.761 L 3.014 9.744 C 6.146 8.614 8.614 6.146 9.744 3.014 L 10.761 0.191 C 10.854 -0.064 11.216 -0.064 11.306 0.191 Z\" fill=\"rgb(255, 255, 255)\" height=\"22.06750000000001px\" id=\"H5p_UhiT3\" transform=\"translate(56.834 56.269)\" width=\"22.067499999999995px\"/></svg>",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "20px",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "relative",
+        "transition": "all",
+        "width": "20px"
+      },
+      "width": 150
+    },
+    {
+      "alt": "",
+      "height": 150,
+      "src": "data:image/svg+xml,<svg display=\"block\" role=\"presentation\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 10 100 C 4.477 100 0 95.523 0 90 L 0 10 C 0 4.477 4.477 0 10 0 L 90 0 C 95.523 0 100 4.477 100 10 L 100 90 C 100 95.523 95.523 100 90 100 Z\" fill=\"rgb(0, 0, 0)\" height=\"100px\" id=\"UeK7YVR7h\" width=\"100px\"/><path d=\"M 22.324 0.379 L 24.332 5.954 C 26.562 12.141 31.434 17.014 37.622 19.244 L 43.197 21.251 C 43.699 21.434 43.699 22.146 43.197 22.326 L 37.622 24.334 C 31.434 26.564 26.562 31.436 24.332 37.624 L 22.324 43.199 C 22.142 43.701 21.429 43.701 21.249 43.199 L 19.242 37.624 C 17.012 31.436 12.139 26.564 5.952 24.334 L 0.377 22.326 C -0.126 22.144 -0.126 21.431 0.377 21.251 L 5.952 19.244 C 12.139 17.014 17.012 12.141 19.242 5.954 L 21.249 0.379 C 21.429 -0.126 22.142 -0.126 22.324 0.379 Z\" fill=\"rgb(255, 255, 255)\" height=\"43.575525px\" id=\"p0r0Op1JE\" transform=\"translate(20.72 21.546)\" width=\"43.57359999999986px\"/><path d=\"M 11.306 0.191 L 12.324 3.014 C 13.454 6.146 15.921 8.614 19.054 9.744 L 21.876 10.761 C 22.131 10.854 22.131 11.214 21.876 11.306 L 19.054 12.324 C 15.921 13.454 13.454 15.921 12.324 19.054 L 11.306 21.876 C 11.214 22.131 10.854 22.131 10.761 21.876 L 9.744 19.054 C 8.614 15.921 6.146 13.454 3.014 12.324 L 0.191 11.306 C -0.064 11.214 -0.064 10.854 0.191 10.761 L 3.014 9.744 C 6.146 8.614 8.614 6.146 9.744 3.014 L 10.761 0.191 C 10.854 -0.064 11.216 -0.064 11.306 0.191 Z\" fill=\"rgb(255, 255, 255)\" height=\"22.06750000000001px\" id=\"H5p_UhiT3\" transform=\"translate(56.834 56.269)\" width=\"22.067499999999995px\"/></svg>",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "20px",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "relative",
+        "transition": "all",
+        "width": "20px"
+      },
+      "width": 150
+    },
+    {
+      "alt": "",
+      "height": 150,
+      "src": "data:image/svg+xml,<svg display=\"block\" role=\"presentation\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 10 100 C 4.477 100 0 95.523 0 90 L 0 10 C 0 4.477 4.477 0 10 0 L 90 0 C 95.523 0 100 4.477 100 10 L 100 90 C 100 95.523 95.523 100 90 100 Z\" fill=\"rgb(0, 0, 0)\" height=\"100px\" id=\"UeK7YVR7h\" width=\"100px\"/><path d=\"M 22.324 0.379 L 24.332 5.954 C 26.562 12.141 31.434 17.014 37.622 19.244 L 43.197 21.251 C 43.699 21.434 43.699 22.146 43.197 22.326 L 37.622 24.334 C 31.434 26.564 26.562 31.436 24.332 37.624 L 22.324 43.199 C 22.142 43.701 21.429 43.701 21.249 43.199 L 19.242 37.624 C 17.012 31.436 12.139 26.564 5.952 24.334 L 0.377 22.326 C -0.126 22.144 -0.126 21.431 0.377 21.251 L 5.952 19.244 C 12.139 17.014 17.012 12.141 19.242 5.954 L 21.249 0.379 C 21.429 -0.126 22.142 -0.126 22.324 0.379 Z\" fill=\"rgb(255, 255, 255)\" height=\"43.575525px\" id=\"p0r0Op1JE\" transform=\"translate(20.72 21.546)\" width=\"43.57359999999986px\"/><path d=\"M 11.306 0.191 L 12.324 3.014 C 13.454 6.146 15.921 8.614 19.054 9.744 L 21.876 10.761 C 22.131 10.854 22.131 11.214 21.876 11.306 L 19.054 12.324 C 15.921 13.454 13.454 15.921 12.324 19.054 L 11.306 21.876 C 11.214 22.131 10.854 22.131 10.761 21.876 L 9.744 19.054 C 8.614 15.921 6.146 13.454 3.014 12.324 L 0.191 11.306 C -0.064 11.214 -0.064 10.854 0.191 10.761 L 3.014 9.744 C 6.146 8.614 8.614 6.146 9.744 3.014 L 10.761 0.191 C 10.854 -0.064 11.216 -0.064 11.306 0.191 Z\" fill=\"rgb(255, 255, 255)\" height=\"22.06750000000001px\" id=\"H5p_UhiT3\" transform=\"translate(56.834 56.269)\" width=\"22.067499999999995px\"/></svg>",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "20px",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "relative",
+        "transition": "all",
+        "width": "20px"
+      },
+      "width": 150
+    },
+    {
+      "alt": "",
+      "height": 150,
+      "src": "data:image/svg+xml,<svg display=\"block\" role=\"presentation\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 10 100 C 4.477 100 0 95.523 0 90 L 0 10 C 0 4.477 4.477 0 10 0 L 90 0 C 95.523 0 100 4.477 100 10 L 100 90 C 100 95.523 95.523 100 90 100 Z\" fill=\"rgb(0, 0, 0)\" height=\"100px\" id=\"UeK7YVR7h\" width=\"100px\"/><path d=\"M 22.324 0.379 L 24.332 5.954 C 26.562 12.141 31.434 17.014 37.622 19.244 L 43.197 21.251 C 43.699 21.434 43.699 22.146 43.197 22.326 L 37.622 24.334 C 31.434 26.564 26.562 31.436 24.332 37.624 L 22.324 43.199 C 22.142 43.701 21.429 43.701 21.249 43.199 L 19.242 37.624 C 17.012 31.436 12.139 26.564 5.952 24.334 L 0.377 22.326 C -0.126 22.144 -0.126 21.431 0.377 21.251 L 5.952 19.244 C 12.139 17.014 17.012 12.141 19.242 5.954 L 21.249 0.379 C 21.429 -0.126 22.142 -0.126 22.324 0.379 Z\" fill=\"rgb(255, 255, 255)\" height=\"43.575525px\" id=\"p0r0Op1JE\" transform=\"translate(20.72 21.546)\" width=\"43.57359999999986px\"/><path d=\"M 11.306 0.191 L 12.324 3.014 C 13.454 6.146 15.921 8.614 19.054 9.744 L 21.876 10.761 C 22.131 10.854 22.131 11.214 21.876 11.306 L 19.054 12.324 C 15.921 13.454 13.454 15.921 12.324 19.054 L 11.306 21.876 C 11.214 22.131 10.854 22.131 10.761 21.876 L 9.744 19.054 C 8.614 15.921 6.146 13.454 3.014 12.324 L 0.191 11.306 C -0.064 11.214 -0.064 10.854 0.191 10.761 L 3.014 9.744 C 6.146 8.614 8.614 6.146 9.744 3.014 L 10.761 0.191 C 10.854 -0.064 11.216 -0.064 11.306 0.191 Z\" fill=\"rgb(255, 255, 255)\" height=\"22.06750000000001px\" id=\"H5p_UhiT3\" transform=\"translate(56.834 56.269)\" width=\"22.067499999999995px\"/></svg>",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "20px",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "relative",
+        "transition": "all",
+        "width": "20px"
+      },
+      "width": 150
+    },
+    {
+      "alt": "",
+      "height": 150,
+      "src": "data:image/svg+xml,<svg display=\"block\" role=\"presentation\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 10 100 C 4.477 100 0 95.523 0 90 L 0 10 C 0 4.477 4.477 0 10 0 L 90 0 C 95.523 0 100 4.477 100 10 L 100 90 C 100 95.523 95.523 100 90 100 Z\" fill=\"rgb(0, 0, 0)\" height=\"100px\" id=\"UeK7YVR7h\" width=\"100px\"/><path d=\"M 22.324 0.379 L 24.332 5.954 C 26.562 12.141 31.434 17.014 37.622 19.244 L 43.197 21.251 C 43.699 21.434 43.699 22.146 43.197 22.326 L 37.622 24.334 C 31.434 26.564 26.562 31.436 24.332 37.624 L 22.324 43.199 C 22.142 43.701 21.429 43.701 21.249 43.199 L 19.242 37.624 C 17.012 31.436 12.139 26.564 5.952 24.334 L 0.377 22.326 C -0.126 22.144 -0.126 21.431 0.377 21.251 L 5.952 19.244 C 12.139 17.014 17.012 12.141 19.242 5.954 L 21.249 0.379 C 21.429 -0.126 22.142 -0.126 22.324 0.379 Z\" fill=\"rgb(255, 255, 255)\" height=\"43.575525px\" id=\"p0r0Op1JE\" transform=\"translate(20.72 21.546)\" width=\"43.57359999999986px\"/><path d=\"M 11.306 0.191 L 12.324 3.014 C 13.454 6.146 15.921 8.614 19.054 9.744 L 21.876 10.761 C 22.131 10.854 22.131 11.214 21.876 11.306 L 19.054 12.324 C 15.921 13.454 13.454 15.921 12.324 19.054 L 11.306 21.876 C 11.214 22.131 10.854 22.131 10.761 21.876 L 9.744 19.054 C 8.614 15.921 6.146 13.454 3.014 12.324 L 0.191 11.306 C -0.064 11.214 -0.064 10.854 0.191 10.761 L 3.014 9.744 C 6.146 8.614 8.614 6.146 9.744 3.014 L 10.761 0.191 C 10.854 -0.064 11.216 -0.064 11.306 0.191 Z\" fill=\"rgb(255, 255, 255)\" height=\"22.06750000000001px\" id=\"H5p_UhiT3\" transform=\"translate(56.834 56.269)\" width=\"22.067499999999995px\"/></svg>",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "20px",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "relative",
+        "transition": "all",
+        "width": "20px"
+      },
+      "width": 150
+    },
+    {
+      "alt": "",
+      "height": 150,
+      "src": "data:image/svg+xml,<svg display=\"block\" role=\"presentation\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 10 100 C 4.477 100 0 95.523 0 90 L 0 10 C 0 4.477 4.477 0 10 0 L 90 0 C 95.523 0 100 4.477 100 10 L 100 90 C 100 95.523 95.523 100 90 100 Z\" fill=\"rgb(0, 0, 0)\" height=\"100px\" id=\"UeK7YVR7h\" width=\"100px\"/><path d=\"M 22.324 0.379 L 24.332 5.954 C 26.562 12.141 31.434 17.014 37.622 19.244 L 43.197 21.251 C 43.699 21.434 43.699 22.146 43.197 22.326 L 37.622 24.334 C 31.434 26.564 26.562 31.436 24.332 37.624 L 22.324 43.199 C 22.142 43.701 21.429 43.701 21.249 43.199 L 19.242 37.624 C 17.012 31.436 12.139 26.564 5.952 24.334 L 0.377 22.326 C -0.126 22.144 -0.126 21.431 0.377 21.251 L 5.952 19.244 C 12.139 17.014 17.012 12.141 19.242 5.954 L 21.249 0.379 C 21.429 -0.126 22.142 -0.126 22.324 0.379 Z\" fill=\"rgb(255, 255, 255)\" height=\"43.575525px\" id=\"p0r0Op1JE\" transform=\"translate(20.72 21.546)\" width=\"43.57359999999986px\"/><path d=\"M 11.306 0.191 L 12.324 3.014 C 13.454 6.146 15.921 8.614 19.054 9.744 L 21.876 10.761 C 22.131 10.854 22.131 11.214 21.876 11.306 L 19.054 12.324 C 15.921 13.454 13.454 15.921 12.324 19.054 L 11.306 21.876 C 11.214 22.131 10.854 22.131 10.761 21.876 L 9.744 19.054 C 8.614 15.921 6.146 13.454 3.014 12.324 L 0.191 11.306 C -0.064 11.214 -0.064 10.854 0.191 10.761 L 3.014 9.744 C 6.146 8.614 8.614 6.146 9.744 3.014 L 10.761 0.191 C 10.854 -0.064 11.216 -0.064 11.306 0.191 Z\" fill=\"rgb(255, 255, 255)\" height=\"22.06750000000001px\" id=\"H5p_UhiT3\" transform=\"translate(56.834 56.269)\" width=\"22.067499999999995px\"/></svg>",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "20px",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "relative",
+        "transition": "all",
+        "width": "20px"
+      },
+      "width": 150
+    },
+    {
+      "alt": "",
+      "height": 150,
+      "src": "data:image/svg+xml,<svg display=\"block\" role=\"presentation\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 10 100 C 4.477 100 0 95.523 0 90 L 0 10 C 0 4.477 4.477 0 10 0 L 90 0 C 95.523 0 100 4.477 100 10 L 100 90 C 100 95.523 95.523 100 90 100 Z\" fill=\"rgb(0, 0, 0)\" height=\"100px\" id=\"UeK7YVR7h\" width=\"100px\"/><path d=\"M 22.324 0.379 L 24.332 5.954 C 26.562 12.141 31.434 17.014 37.622 19.244 L 43.197 21.251 C 43.699 21.434 43.699 22.146 43.197 22.326 L 37.622 24.334 C 31.434 26.564 26.562 31.436 24.332 37.624 L 22.324 43.199 C 22.142 43.701 21.429 43.701 21.249 43.199 L 19.242 37.624 C 17.012 31.436 12.139 26.564 5.952 24.334 L 0.377 22.326 C -0.126 22.144 -0.126 21.431 0.377 21.251 L 5.952 19.244 C 12.139 17.014 17.012 12.141 19.242 5.954 L 21.249 0.379 C 21.429 -0.126 22.142 -0.126 22.324 0.379 Z\" fill=\"rgb(255, 255, 255)\" height=\"43.575525px\" id=\"p0r0Op1JE\" transform=\"translate(20.72 21.546)\" width=\"43.57359999999986px\"/><path d=\"M 11.306 0.191 L 12.324 3.014 C 13.454 6.146 15.921 8.614 19.054 9.744 L 21.876 10.761 C 22.131 10.854 22.131 11.214 21.876 11.306 L 19.054 12.324 C 15.921 13.454 13.454 15.921 12.324 19.054 L 11.306 21.876 C 11.214 22.131 10.854 22.131 10.761 21.876 L 9.744 19.054 C 8.614 15.921 6.146 13.454 3.014 12.324 L 0.191 11.306 C -0.064 11.214 -0.064 10.854 0.191 10.761 L 3.014 9.744 C 6.146 8.614 8.614 6.146 9.744 3.014 L 10.761 0.191 C 10.854 -0.064 11.216 -0.064 11.306 0.191 Z\" fill=\"rgb(255, 255, 255)\" height=\"22.06750000000001px\" id=\"H5p_UhiT3\" transform=\"translate(56.834 56.269)\" width=\"22.067499999999995px\"/></svg>",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "20px",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "relative",
+        "transition": "all",
+        "width": "20px"
+      },
+      "width": 150
+    },
+    {
+      "alt": "Professional working with AI automation tools",
+      "height": 580,
+      "src": "https://framerusercontent.com/images/wJo5NFOD9xOtFS68OXbtzXivQ0.png?scale-down-to=1024&width=822&height=1160",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "560px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "411px"
+      },
+      "width": 411
+    },
+    {
+      "alt": "Brand Image",
+      "height": 30,
+      "src": "https://framerusercontent.com/images/0tQJ7SlKdpCZUVbUjxOEy57XRhA.svg?width=96&height=30",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "30px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "96px"
+      },
+      "width": 96
+    },
+    {
+      "alt": "Brand Image",
+      "height": 27,
+      "src": "https://framerusercontent.com/images/hsbt5NG4UUe3LO7ERSFGv8A0PrA.svg?width=94&height=27",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "30px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "104.438px"
+      },
+      "width": 94
+    },
+    {
+      "alt": "Brand Image",
+      "height": 25,
+      "src": "https://framerusercontent.com/images/O7fimt1JVKhKUjjZOGgeAWTdLQ.svg?width=120&height=25",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "30px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "144px"
+      },
+      "width": 120
+    },
+    {
+      "alt": "Brand Image",
+      "height": 21,
+      "src": "https://framerusercontent.com/images/yg73mxfKVqYxGdl9PXd5goIE.svg?width=80&height=21",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "30px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "114.281px"
+      },
+      "width": 80
+    },
+    {
+      "alt": "Brand Image",
+      "height": 19,
+      "src": "https://framerusercontent.com/images/6Fbv7vEmmB0WPOWiVDEZNhoZ0.svg?width=68&height=19",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "30px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "107.359px"
+      },
+      "width": 68
+    },
+    {
+      "alt": "Brand Image",
+      "height": 30,
+      "src": "https://framerusercontent.com/images/0tQJ7SlKdpCZUVbUjxOEy57XRhA.svg?width=96&height=30",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "30px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "96px"
+      },
+      "width": 96
+    },
+    {
+      "alt": "Brand Image",
+      "height": 27,
+      "src": "https://framerusercontent.com/images/hsbt5NG4UUe3LO7ERSFGv8A0PrA.svg?width=94&height=27",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "30px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "104.438px"
+      },
+      "width": 94
+    },
+    {
+      "alt": "",
+      "height": 150,
+      "src": "data:image/svg+xml,<svg display=\"block\" role=\"presentation\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs ><linearGradient id=\"ydGQ4zfMq-2976685517-linear-gradient\" x1=\"0.49751243781094523\" x2=\"0.5024875621890548\" y1=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"rgb(0, 66, 203)\"/><stop offset=\"1\" stop-color=\"rgb(166, 195, 255)\"/></linearGradient></defs><path d=\"M 0 0 L 0 0.024 L 0.032 0.04 C 0.032 0.04 0.008 0.016 0 0 Z\" fill=\"transparent\" height=\"1px\" id=\"K5P3IDcy2\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(53.935 74.153)\" width=\"1px\"/><path d=\"M 16.411 22.032 C 16.411 25.484 15.339 27.822 13.202 29.04 C 11.057 30.258 8.484 30.008 5.476 28.266 L 0 25.105 L 0 18.831 L 0.363 19.04 L 5.476 21.992 C 6.976 22.855 8.266 22.984 9.339 22.379 C 10.403 21.766 10.944 20.597 10.944 18.871 C 10.944 18.032 10.815 17.177 10.557 16.306 C 10.371 15.653 10.113 15 9.774 14.331 C 9.726 14.226 9.678 14.121 9.613 14.024 C 9.532 13.855 9.436 13.677 9.339 13.508 C 9.218 13.298 9.097 13.105 8.976 12.911 C 8.613 12.355 8.234 11.847 7.823 11.395 C 7.306 10.798 6.742 10.29 6.145 9.863 C 5.928 9.71 5.702 9.565 5.476 9.435 L 0.032 6.29 C 0.032 6.29 0.008 6.266 0 6.25 L 0 0 L 0.355 0.202 L 1.694 0.976 L 5.476 3.153 C 7.371 4.25 9.097 5.734 10.645 7.597 L 10.653 7.597 L 10.653 7.613 L 10.661 7.621 C 11.121 8.161 11.548 8.726 11.968 9.331 C 12.395 9.944 12.807 10.589 13.202 11.266 C 13.347 11.516 13.492 11.766 13.621 12.016 C 14.032 12.758 14.395 13.5 14.702 14.234 C 15.839 16.879 16.411 19.476 16.411 22.032 Z\" fill=\"transparent\" height=\"29.796193962791662px\" id=\"sOQMsqOF8\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(53.935 67.903)\" width=\"16.411300000000004px\"/><path d=\"M 43.484 25.113 L 38.016 21.952 L 27.073 15.637 L 16.129 9.315 L 0 0 L 0 56.508 L 15.863 65.661 C 15.137 63.831 14.589 62.008 14.226 60.202 C 13.863 58.395 13.677 56.661 13.677 54.984 C 13.677 54.411 13.686 53.879 13.71 53.395 C 13.734 52.911 13.79 52.436 13.887 51.968 L 10.944 50.266 L 10.944 37.71 L 16.129 40.71 L 20.992 43.516 C 22.315 43.282 23.742 43.339 25.266 43.669 C 26.266 43.887 27.29 44.234 28.355 44.734 C 28.839 44.952 29.331 45.202 29.831 45.484 C 29.919 45.532 30 45.581 30.089 45.629 L 31.605 46.508 L 35.339 48.661 L 40.887 51.863 L 41.387 52.153 L 44.661 54.04 L 46.218 54.936 L 46.508 55.105 C 46.629 55.177 46.75 55.242 46.863 55.315 C 46.984 55.379 47.097 55.452 47.21 55.516 C 47.452 55.669 47.686 55.806 47.903 55.952 C 48.339 56.226 48.782 56.548 49.242 56.919 L 49.242 28.436 Z M 21.887 37.75 L 16.129 34.427 L 10.944 31.436 L 10.944 18.879 L 16.129 21.871 L 21.887 25.194 Z M 38.298 47.226 L 36.008 45.903 L 34.524 45.048 L 27.355 40.911 L 27.355 28.355 L 38.298 34.669 Z\" fill=\"url(%23ydGQ4zfMq-2976685517-linear-gradient)\" height=\"65.66133px\" id=\"ydGQ4zfMq\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.877193\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(12.902 9.677)\" width=\"49.242000000000004px\"/><path d=\"M 10.944 0 L 10.944 11.782 L 8.653 10.46 L 7.169 9.605 L 0 5.468 Z\" fill=\"transparent\" height=\"11.7823px\" id=\"zrAhEz3m4\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(40.258 45.121)\" width=\"10.9435px\"/><path d=\"M 10.944 6.314 L 10.944 7.089 L 0 12.556 L 0 0 Z\" fill=\"transparent\" height=\"12.556399999999996px\" id=\"yk7AzMmGf\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(40.258 38.033)\" width=\"10.9435px\"/><path d=\"M 0 0 L 0.006 0\" fill=\"transparent\" height=\"1px\" id=\"wWOmQotGZ\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(64.588 75.508)\" width=\"1px\"/><path d=\"M 5.081 4.911 L 0 7.451 L 0 1.177 L 1.556 0.395 L 2.347 0 C 2.758 0.452 3.137 0.96 3.5 1.516 C 3.621 1.71 3.742 1.903 3.863 2.113 C 3.96 2.282 4.056 2.46 4.137 2.629 C 4.202 2.726 4.25 2.831 4.298 2.935 C 4.637 3.605 4.895 4.258 5.081 4.911 Z\" fill=\"transparent\" height=\"7.451499999999996px\" id=\"kUHtJqc_G\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(59.412 79.299)\" width=\"5.0807px\"/><path d=\"M 18.766 11.016 L 17.976 11.411 L 16.419 12.194 L 14.218 10.919 L 0 2.718 L 2.919 1.258 L 5.476 2.734 L 8 1.468 L 10.943 0 L 10.943 5.895 L 10.976 5.911 L 16.419 9.056 C 16.645 9.186 16.871 9.331 17.089 9.484 C 17.685 9.911 18.25 10.419 18.766 11.016 Z\" fill=\"transparent\" height=\"12.193600000000004px\" id=\"dZbWjdUbL\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(42.992 68.282)\" width=\"18.766099999999994px\"/><path d=\"M 11.298 3.161 L 10.653 3.484 L 6.355 5.629 L 5.468 6.073 L 5.468 6.452 L 2.524 7.919 L 0 9.185 L 0 2.911 L 0.379 2.718 L 5.234 0.298 L 5.822 0 L 9.097 1.887 L 10.653 2.782 L 10.944 2.952 C 11.064 3.024 11.185 3.089 11.298 3.161 Z\" fill=\"transparent\" height=\"9.185499999999998px\" id=\"Dz8Nzg1Nm\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(48.469 61.831)\" width=\"11.298299999999998px\"/><path d=\"M 32.54 20.532 C 32.54 23.984 31.468 26.322 29.331 27.54 L 28.694 27.855 L 13.202 35.605 C 15.339 34.387 16.411 32.048 16.411 28.597 C 16.411 26.04 15.839 23.444 14.702 20.798 C 14.395 20.064 14.032 19.322 13.621 18.581 C 13.492 18.331 13.347 18.081 13.202 17.831 C 12.807 17.153 12.395 16.508 11.968 15.895 C 11.548 15.29 11.121 14.726 10.661 14.185 L 10.661 14.169 L 10.645 14.169 C 9.097 12.298 7.371 10.815 5.476 9.718 L 1.694 7.54 L 0.355 6.766 L 0 6.565 L 0.887 6.121 L 5.186 3.976 L 5.831 3.653 C 5.952 3.718 6.065 3.79 6.178 3.855 C 6.419 4.008 6.653 4.145 6.871 4.29 C 7.306 4.565 7.75 4.887 8.21 5.258 L 9.992 4.371 L 16.129 1.298 L 18.734 0 L 21.605 1.653 C 24.613 3.395 27.185 6.097 29.331 9.766 C 31.468 13.435 32.54 17.024 32.54 20.532 Z\" fill=\"transparent\" height=\"35.6048px\" id=\"wvFQa4gsL\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(53.935 61.339)\" width=\"32.5404px\"/><path d=\"M 10.944 6.315 L 10.944 7.089 L 5.185 9.968 L 0 12.556 L 0 0 L 5.185 2.992 Z\" fill=\"transparent\" height=\"12.5565px\" id=\"wBVYkjpGk\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(23.846 28.556)\" width=\"10.943599999999996px\"/><path d=\"M 10.944 0 L 10.944 11.782 L 5.185 8.46 L 0 5.468 L 5.185 2.879 Z\" fill=\"transparent\" height=\"11.782199999999996px\" id=\"DZoXAsXmp\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(23.846 35.645)\" width=\"10.943599999999996px\"/><path d=\"M 65.371 28.435 L 53.718 34.258 L 49.242 36.5 L 43.484 33.177 L 38.016 30.016 L 27.073 23.702 L 16.129 17.379 L 0 8.065 L 16.129 0 Z\" fill=\"transparent\" height=\"36.49998px\" id=\"QV_Nq_7cR\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(12.902 1.613)\" width=\"65.37100000000001px\"/><path d=\"M 16.129 0 L 16.129 28.484 L 10.524 31.29 L 7.919 32.589 L 1.782 35.661 L 0 36.548 L 0 8.064 L 4.476 5.823 Z\" fill=\"transparent\" height=\"36.5484px\" id=\"SscbgwXr_\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(62.145 30.048)\" width=\"16.1291px\"/><path d=\"M 17.411 7.024 L 7.419 12.024 L 2.944 14.258 L 0 12.556 L 0 0 L 5.185 3 L 10.048 5.806 C 11.371 5.573 12.798 5.629 14.323 5.96 C 15.323 6.178 16.347 6.524 17.411 7.024 Z\" fill=\"transparent\" height=\"14.258099999999999px\" id=\"Oksh044pe\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(23.846 47.387)\" width=\"17.411299999999997px\"/><path d=\"M 17.927 1.774 L 16.137 2.669 L 9.194 6.145 L 8.685 6.395 C 8.427 6.54 8.185 6.71 7.952 6.887 C 6.298 8.202 5.468 10.379 5.468 13.411 C 5.468 15.194 5.75 17.008 6.331 18.855 L 2.185 20.927 C 1.46 19.097 0.911 17.274 0.548 15.468 C 0.185 13.661 0 11.927 0 10.25 C 0 9.677 0.008 9.145 0.032 8.661 C 0.056 8.177 0.113 7.702 0.21 7.234 L 4.685 5 L 14.677 0 C 15.161 0.218 15.653 0.468 16.153 0.75 C 16.242 0.798 16.323 0.847 16.411 0.895 Z\" fill=\"transparent\" height=\"20.9274px\" id=\"o5rFPt_2j\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(26.58 54.412)\" width=\"17.9274px\"/><path d=\"M 5.476 10.905 L 5.476 10.921 C 5.476 12.655 6.008 14.437 7.081 16.284 C 8.153 18.131 9.444 19.493 10.944 20.364 L 16.419 23.518 L 16.419 29.8 L 10.944 26.638 C 7.935 24.905 5.363 22.187 3.218 18.485 C 2.177 16.703 1.395 14.945 0.863 13.211 C 0.282 11.364 0 9.55 0 7.768 C 0 4.735 0.831 2.558 2.484 1.243 C 2.718 1.066 2.96 0.897 3.218 0.751 L 3.726 0.501 C 5.766 -0.418 8.169 -0.071 10.944 1.526 L 11.194 1.671 L 16.419 4.687 L 16.419 10.961 L 13.863 9.485 L 11.282 8.001 L 10.944 7.808 C 9.444 6.937 8.153 6.808 7.081 7.421 C 6.008 8.026 5.476 9.187 5.476 10.905 Z\" fill=\"transparent\" height=\"29.799767303716585px\" id=\"weEIFqY5s\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(32.049 60.055)\" width=\"16.419400000000003px\"/><path d=\"M 18.516 5.645 L 17.927 5.936 L 13.073 8.363 L 12.694 8.556 L 7.468 5.54 L 7.218 5.395 C 4.444 3.798 2.04 3.452 0 4.371 L 6.944 0.895 L 8.734 0 L 12.468 2.153 L 18.016 5.355 Z\" fill=\"transparent\" height=\"8.5565px\" id=\"zDv2WxsxV\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(35.773 56.185)\" width=\"18.516199999999998px\"/><path d=\"M 13.855 15.017 L 10.944 16.476 L 5.468 13.323 C 3.968 12.452 2.677 11.089 1.605 9.243 C 0.532 7.396 0 5.614 0 3.88 L 0 3.864 C 0 2.146 0.532 0.985 1.605 0.38 C 2.677 -0.233 3.968 -0.104 5.468 0.767 L 5.806 0.96 L 8.387 2.444 L 5.468 3.904 L 5.468 10.178 Z\" fill=\"transparent\" height=\"16.47641059679229px\" id=\"akIWlevEh\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(37.523 67.096)\" width=\"13.8549px\"/><path d=\"M 8.387 3.161 L 5.468 4.621 L 5.468 5.008 L 0 7.742 L 0 1.46 L 2.911 0 Z\" fill=\"transparent\" height=\"7.741900000000001px\" id=\"iRdgQrfi4\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(48.469 82.113)\" width=\"8.387px\"/><path d=\"M 16.419 9.476 L 16.419 15.75 L 14.226 14.484 L 13.863 14.274 L 8.387 11.113 L 0 6.274 L 0 0 L 14.218 8.202 Z\" fill=\"transparent\" height=\"15.75px\" id=\"JNJAtyo4Q\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(42.992 71)\" width=\"16.4193px\"/><path d=\"M 10.944 2.565 C 10.944 4.29 10.403 5.46 9.339 6.073 C 8.266 6.677 6.976 6.548 5.476 5.686 L 0.363 2.734 L 0 2.524 L 2.919 1.065 L 3.282 1.274 L 5.476 2.54 L 10.557 0 C 10.815 0.871 10.944 1.726 10.944 2.565 Z\" fill=\"transparent\" height=\"6.446494113122355px\" id=\"rw_KL246C\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(53.935 84.21)\" width=\"10.943599999999996px\"/></svg>",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "cursor": "default",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "100px",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "relative",
+        "transition": "all",
+        "width": "100px"
+      },
+      "width": 150
+    },
+    {
+      "alt": "",
+      "height": 150,
+      "src": "data:image/svg+xml,<svg display=\"block\" role=\"presentation\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs ><linearGradient id=\"SJMs_K_a8-3064461558-linear-gradient\" x1=\"0.49751243781094523\" x2=\"0.5024875621890548\" y1=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"rgb(85, 139, 251)\"/><stop offset=\"1\" stop-color=\"rgb(0, 55, 170)\"/></linearGradient></defs><path d=\"M 8.509 3.667 L 0 7.921 L 0 0 C 2.991 1.728 5.825 2.947 8.509 3.667 Z\" fill=\"transparent\" height=\"7.920999999999992px\" id=\"PQsxlbkXf\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.877193\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(41.166 89.772)\" width=\"8.508700000000005px\"/><path d=\"M 0 0.737 L 1.474 0 C 0.974 0.21 0.482 0.465 0 0.737 Z\" fill=\"transparent\" height=\"1px\" id=\"CEu1I7rHN\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.877193\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(19.158 15.404)\" width=\"1.4739000000000004px\"/><path d=\"M 48.342 28.456 C 48.342 33.754 47.474 38.132 45.745 41.579 C 44.245 44.579 42.088 46.877 39.281 48.482 C 39.07 48.605 38.851 48.719 38.632 48.824 L 38.044 49.123 C 34.403 50.807 30.316 51.044 25.781 49.842 L 25.772 49.842 C 23.088 49.123 20.254 47.903 17.263 46.175 L 17.263 54.096 L 0 29.272 L 17.263 24.386 L 17.263 32.307 C 21.079 34.517 24.491 35.351 27.5 34.816 C 28.623 34.623 29.684 34.237 30.684 33.667 C 33.807 31.895 35.605 28.754 36.105 24.237 C 36.202 23.377 36.254 22.456 36.254 21.482 C 36.254 18.439 35.754 15.307 34.745 12.088 C 33.737 8.868 32.368 5.763 30.64 2.789 L 40.404 0 C 42.877 4.596 44.816 9.351 46.228 14.254 C 47.281 17.904 47.939 21.456 48.202 24.912 C 48.298 26.105 48.342 27.289 48.342 28.456 Z\" fill=\"transparent\" height=\"54.0963px\" id=\"yBBZS5zmp\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.877193\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(23.904 43.597)\" width=\"48.342000000000006px\"/><path d=\"M 27.307 0 L 18.447 4.43 L 9.763 8.772 L 0 11.561 L 17.544 2.789 Z\" fill=\"transparent\" height=\"11.561300000000003px\" id=\"ZxrrUguta\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.877193\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(54.543 34.825)\" width=\"27.30709999999999px\"/><path d=\"M 34.807 0 L 19.474 7.667 L 17.263 8.772 L 0 13.658 L 17.544 4.886 Z\" fill=\"transparent\" height=\"13.658000000000001px\" id=\"GZnBmh7YO\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.877193\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(23.904 59.211)\" width=\"34.8069px\"/><path d=\"M 23.158 23.42 L 5.614 32.192 C 3.886 29.21 2.517 26.113 1.509 22.885 C 0.5 19.666 0 16.534 0 13.499 C 0 7.49 1.86 3.42 5.57 1.306 C 5.579 1.297 5.588 1.297 5.596 1.289 C 8.991 -0.632 13.017 -0.404 17.693 1.964 C 17.596 2.833 17.544 3.754 17.544 4.727 C 17.544 7.762 18.044 10.894 19.053 14.113 C 20.061 17.341 21.43 20.438 23.158 23.42 Z\" fill=\"transparent\" height=\"32.19210227157447px\" id=\"qEEylhtlm\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.877193\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(22.176 29.65)\" width=\"23.1578px\"/><path d=\"M 29.43 0.754 L 20.404 5.272 L 20.404 13.193 C 16.491 10.938 12.851 9.543 9.474 9.017 C 6.035 8.482 2.877 8.833 0 10.087 L 15.938 2.114 C 19.877 -0.141 24.377 -0.588 29.43 0.754 Z\" fill=\"transparent\" height=\"13.19253898528274px\" id=\"vYQRav_1Z\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.877193\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(20.764 5.255)\" width=\"29.429900000000004px\"/><path d=\"M 31.079 29.719 L 31.079 21.789 C 30.64 21.535 30.211 21.298 29.781 21.088 C 25.105 18.719 21.079 18.491 17.684 20.412 C 17.675 20.421 17.667 20.421 17.658 20.43 C 13.947 22.544 12.088 26.614 12.088 32.623 C 12.088 35.658 12.588 38.789 13.597 42.009 C 14.605 45.237 15.974 48.333 17.702 51.316 L 7.947 54.096 C 5.474 49.5 3.526 44.746 2.114 39.842 C 0.71 34.93 0 30.202 0 25.64 C 0 15.737 3.026 9.061 9.07 5.614 L 10.544 4.877 L 10.675 4.816 C 13.553 3.561 16.71 3.21 20.149 3.746 C 23.526 4.272 27.167 5.667 31.079 7.921 L 31.079 0 L 38.386 10.509 L 48.342 24.825 Z\" fill=\"transparent\" height=\"54.0965px\" id=\"nNcSY_rHM\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.877193\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(10.088 10.526)\" width=\"48.342px\"/><path d=\"M 34.807 24.825 L 17.263 33.597 L 7.307 19.281 L 0 8.772 L 9.026 4.254 L 9.035 4.254 L 17.544 0 Z\" fill=\"transparent\" height=\"33.59651px\" id=\"SHzVgKDGp\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.877193\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(41.166 1.754)\" width=\"34.8069px\"/><path d=\"M 18.842 0.702 C 18.342 5.219 16.544 8.36 13.421 10.132 C 12.421 10.702 11.36 11.088 10.237 11.281 C 7.228 11.816 3.816 10.982 0 8.772 L 17.544 0 C 17.982 0.254 18.412 0.491 18.842 0.702 Z\" fill=\"transparent\" height=\"11.437558707268465px\" id=\"TbO7FoUeK\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.877193\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(41.166 67.132)\" width=\"18.842100000000002px\"/><path d=\"M 17.544 0 L 17.544 7.921 L 0 16.693 L 0 8.772 L 2.211 7.667 Z\" fill=\"transparent\" height=\"16.692999999999998px\" id=\"y768RtM9s\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.877193\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(41.166 59.211)\" width=\"17.543800000000005px\"/><path d=\"M 27.254 28.456 C 27.254 38.36 24.228 45.035 18.193 48.482 L 16.684 49.237 L 0 57.596 C 0.219 57.491 0.439 57.377 0.649 57.254 C 3.456 55.649 5.614 53.351 7.114 50.351 C 8.842 46.904 9.71 42.526 9.71 37.228 C 9.71 36.061 9.667 34.877 9.57 33.684 C 9.307 30.228 8.649 26.675 7.597 23.026 C 6.184 18.123 4.246 13.368 1.772 8.772 L 10.456 4.43 L 19.316 0 C 21.79 4.596 23.728 9.351 25.14 14.254 C 26.553 19.167 27.254 23.903 27.254 28.456 Z\" fill=\"url(%23SJMs_K_a8-3064461558-linear-gradient)\" height=\"57.59630000000001px\" id=\"SJMs_K_a8\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.877193\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(62.535 34.825)\" width=\"27.2543px\"/></svg>",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "cursor": "default",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "100px",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "relative",
+        "transition": "all",
+        "width": "100px"
+      },
+      "width": 150
+    },
+    {
+      "alt": "",
+      "height": 150,
+      "src": "data:image/svg+xml,<svg display=\"block\" role=\"presentation\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs ><linearGradient id=\"ydGQ4zfMq-2976685517-linear-gradient\" x1=\"0.49751243781094523\" x2=\"0.5024875621890548\" y1=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"rgb(0, 66, 203)\"/><stop offset=\"1\" stop-color=\"rgb(166, 195, 255)\"/></linearGradient></defs><path d=\"M 0 0 L 0 0.024 L 0.032 0.04 C 0.032 0.04 0.008 0.016 0 0 Z\" fill=\"transparent\" height=\"1px\" id=\"K5P3IDcy2\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(53.935 74.153)\" width=\"1px\"/><path d=\"M 16.411 22.032 C 16.411 25.484 15.339 27.822 13.202 29.04 C 11.057 30.258 8.484 30.008 5.476 28.266 L 0 25.105 L 0 18.831 L 0.363 19.04 L 5.476 21.992 C 6.976 22.855 8.266 22.984 9.339 22.379 C 10.403 21.766 10.944 20.597 10.944 18.871 C 10.944 18.032 10.815 17.177 10.557 16.306 C 10.371 15.653 10.113 15 9.774 14.331 C 9.726 14.226 9.678 14.121 9.613 14.024 C 9.532 13.855 9.436 13.677 9.339 13.508 C 9.218 13.298 9.097 13.105 8.976 12.911 C 8.613 12.355 8.234 11.847 7.823 11.395 C 7.306 10.798 6.742 10.29 6.145 9.863 C 5.928 9.71 5.702 9.565 5.476 9.435 L 0.032 6.29 C 0.032 6.29 0.008 6.266 0 6.25 L 0 0 L 0.355 0.202 L 1.694 0.976 L 5.476 3.153 C 7.371 4.25 9.097 5.734 10.645 7.597 L 10.653 7.597 L 10.653 7.613 L 10.661 7.621 C 11.121 8.161 11.548 8.726 11.968 9.331 C 12.395 9.944 12.807 10.589 13.202 11.266 C 13.347 11.516 13.492 11.766 13.621 12.016 C 14.032 12.758 14.395 13.5 14.702 14.234 C 15.839 16.879 16.411 19.476 16.411 22.032 Z\" fill=\"transparent\" height=\"29.796193962791662px\" id=\"sOQMsqOF8\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(53.935 67.903)\" width=\"16.411300000000004px\"/><path d=\"M 43.484 25.113 L 38.016 21.952 L 27.073 15.637 L 16.129 9.315 L 0 0 L 0 56.508 L 15.863 65.661 C 15.137 63.831 14.589 62.008 14.226 60.202 C 13.863 58.395 13.677 56.661 13.677 54.984 C 13.677 54.411 13.686 53.879 13.71 53.395 C 13.734 52.911 13.79 52.436 13.887 51.968 L 10.944 50.266 L 10.944 37.71 L 16.129 40.71 L 20.992 43.516 C 22.315 43.282 23.742 43.339 25.266 43.669 C 26.266 43.887 27.29 44.234 28.355 44.734 C 28.839 44.952 29.331 45.202 29.831 45.484 C 29.919 45.532 30 45.581 30.089 45.629 L 31.605 46.508 L 35.339 48.661 L 40.887 51.863 L 41.387 52.153 L 44.661 54.04 L 46.218 54.936 L 46.508 55.105 C 46.629 55.177 46.75 55.242 46.863 55.315 C 46.984 55.379 47.097 55.452 47.21 55.516 C 47.452 55.669 47.686 55.806 47.903 55.952 C 48.339 56.226 48.782 56.548 49.242 56.919 L 49.242 28.436 Z M 21.887 37.75 L 16.129 34.427 L 10.944 31.436 L 10.944 18.879 L 16.129 21.871 L 21.887 25.194 Z M 38.298 47.226 L 36.008 45.903 L 34.524 45.048 L 27.355 40.911 L 27.355 28.355 L 38.298 34.669 Z\" fill=\"url(%23ydGQ4zfMq-2976685517-linear-gradient)\" height=\"65.66133px\" id=\"ydGQ4zfMq\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.877193\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(12.902 9.677)\" width=\"49.242000000000004px\"/><path d=\"M 10.944 0 L 10.944 11.782 L 8.653 10.46 L 7.169 9.605 L 0 5.468 Z\" fill=\"transparent\" height=\"11.7823px\" id=\"zrAhEz3m4\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(40.258 45.121)\" width=\"10.9435px\"/><path d=\"M 10.944 6.314 L 10.944 7.089 L 0 12.556 L 0 0 Z\" fill=\"transparent\" height=\"12.556399999999996px\" id=\"yk7AzMmGf\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(40.258 38.033)\" width=\"10.9435px\"/><path d=\"M 0 0 L 0.006 0\" fill=\"transparent\" height=\"1px\" id=\"wWOmQotGZ\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(64.588 75.508)\" width=\"1px\"/><path d=\"M 5.081 4.911 L 0 7.451 L 0 1.177 L 1.556 0.395 L 2.347 0 C 2.758 0.452 3.137 0.96 3.5 1.516 C 3.621 1.71 3.742 1.903 3.863 2.113 C 3.96 2.282 4.056 2.46 4.137 2.629 C 4.202 2.726 4.25 2.831 4.298 2.935 C 4.637 3.605 4.895 4.258 5.081 4.911 Z\" fill=\"transparent\" height=\"7.451499999999996px\" id=\"kUHtJqc_G\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(59.412 79.299)\" width=\"5.0807px\"/><path d=\"M 18.766 11.016 L 17.976 11.411 L 16.419 12.194 L 14.218 10.919 L 0 2.718 L 2.919 1.258 L 5.476 2.734 L 8 1.468 L 10.943 0 L 10.943 5.895 L 10.976 5.911 L 16.419 9.056 C 16.645 9.186 16.871 9.331 17.089 9.484 C 17.685 9.911 18.25 10.419 18.766 11.016 Z\" fill=\"transparent\" height=\"12.193600000000004px\" id=\"dZbWjdUbL\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(42.992 68.282)\" width=\"18.766099999999994px\"/><path d=\"M 11.298 3.161 L 10.653 3.484 L 6.355 5.629 L 5.468 6.073 L 5.468 6.452 L 2.524 7.919 L 0 9.185 L 0 2.911 L 0.379 2.718 L 5.234 0.298 L 5.822 0 L 9.097 1.887 L 10.653 2.782 L 10.944 2.952 C 11.064 3.024 11.185 3.089 11.298 3.161 Z\" fill=\"transparent\" height=\"9.185499999999998px\" id=\"Dz8Nzg1Nm\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(48.469 61.831)\" width=\"11.298299999999998px\"/><path d=\"M 32.54 20.532 C 32.54 23.984 31.468 26.322 29.331 27.54 L 28.694 27.855 L 13.202 35.605 C 15.339 34.387 16.411 32.048 16.411 28.597 C 16.411 26.04 15.839 23.444 14.702 20.798 C 14.395 20.064 14.032 19.322 13.621 18.581 C 13.492 18.331 13.347 18.081 13.202 17.831 C 12.807 17.153 12.395 16.508 11.968 15.895 C 11.548 15.29 11.121 14.726 10.661 14.185 L 10.661 14.169 L 10.645 14.169 C 9.097 12.298 7.371 10.815 5.476 9.718 L 1.694 7.54 L 0.355 6.766 L 0 6.565 L 0.887 6.121 L 5.186 3.976 L 5.831 3.653 C 5.952 3.718 6.065 3.79 6.178 3.855 C 6.419 4.008 6.653 4.145 6.871 4.29 C 7.306 4.565 7.75 4.887 8.21 5.258 L 9.992 4.371 L 16.129 1.298 L 18.734 0 L 21.605 1.653 C 24.613 3.395 27.185 6.097 29.331 9.766 C 31.468 13.435 32.54 17.024 32.54 20.532 Z\" fill=\"transparent\" height=\"35.6048px\" id=\"wvFQa4gsL\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(53.935 61.339)\" width=\"32.5404px\"/><path d=\"M 10.944 6.315 L 10.944 7.089 L 5.185 9.968 L 0 12.556 L 0 0 L 5.185 2.992 Z\" fill=\"transparent\" height=\"12.5565px\" id=\"wBVYkjpGk\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(23.846 28.556)\" width=\"10.943599999999996px\"/><path d=\"M 10.944 0 L 10.944 11.782 L 5.185 8.46 L 0 5.468 L 5.185 2.879 Z\" fill=\"transparent\" height=\"11.782199999999996px\" id=\"DZoXAsXmp\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(23.846 35.645)\" width=\"10.943599999999996px\"/><path d=\"M 65.371 28.435 L 53.718 34.258 L 49.242 36.5 L 43.484 33.177 L 38.016 30.016 L 27.073 23.702 L 16.129 17.379 L 0 8.065 L 16.129 0 Z\" fill=\"transparent\" height=\"36.49998px\" id=\"QV_Nq_7cR\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(12.902 1.613)\" width=\"65.37100000000001px\"/><path d=\"M 16.129 0 L 16.129 28.484 L 10.524 31.29 L 7.919 32.589 L 1.782 35.661 L 0 36.548 L 0 8.064 L 4.476 5.823 Z\" fill=\"transparent\" height=\"36.5484px\" id=\"SscbgwXr_\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(62.145 30.048)\" width=\"16.1291px\"/><path d=\"M 17.411 7.024 L 7.419 12.024 L 2.944 14.258 L 0 12.556 L 0 0 L 5.185 3 L 10.048 5.806 C 11.371 5.573 12.798 5.629 14.323 5.96 C 15.323 6.178 16.347 6.524 17.411 7.024 Z\" fill=\"transparent\" height=\"14.258099999999999px\" id=\"Oksh044pe\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(23.846 47.387)\" width=\"17.411299999999997px\"/><path d=\"M 17.927 1.774 L 16.137 2.669 L 9.194 6.145 L 8.685 6.395 C 8.427 6.54 8.185 6.71 7.952 6.887 C 6.298 8.202 5.468 10.379 5.468 13.411 C 5.468 15.194 5.75 17.008 6.331 18.855 L 2.185 20.927 C 1.46 19.097 0.911 17.274 0.548 15.468 C 0.185 13.661 0 11.927 0 10.25 C 0 9.677 0.008 9.145 0.032 8.661 C 0.056 8.177 0.113 7.702 0.21 7.234 L 4.685 5 L 14.677 0 C 15.161 0.218 15.653 0.468 16.153 0.75 C 16.242 0.798 16.323 0.847 16.411 0.895 Z\" fill=\"transparent\" height=\"20.9274px\" id=\"o5rFPt_2j\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(26.58 54.412)\" width=\"17.9274px\"/><path d=\"M 5.476 10.905 L 5.476 10.921 C 5.476 12.655 6.008 14.437 7.081 16.284 C 8.153 18.131 9.444 19.493 10.944 20.364 L 16.419 23.518 L 16.419 29.8 L 10.944 26.638 C 7.935 24.905 5.363 22.187 3.218 18.485 C 2.177 16.703 1.395 14.945 0.863 13.211 C 0.282 11.364 0 9.55 0 7.768 C 0 4.735 0.831 2.558 2.484 1.243 C 2.718 1.066 2.96 0.897 3.218 0.751 L 3.726 0.501 C 5.766 -0.418 8.169 -0.071 10.944 1.526 L 11.194 1.671 L 16.419 4.687 L 16.419 10.961 L 13.863 9.485 L 11.282 8.001 L 10.944 7.808 C 9.444 6.937 8.153 6.808 7.081 7.421 C 6.008 8.026 5.476 9.187 5.476 10.905 Z\" fill=\"transparent\" height=\"29.799767303716585px\" id=\"weEIFqY5s\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(32.049 60.055)\" width=\"16.419400000000003px\"/><path d=\"M 18.516 5.645 L 17.927 5.936 L 13.073 8.363 L 12.694 8.556 L 7.468 5.54 L 7.218 5.395 C 4.444 3.798 2.04 3.452 0 4.371 L 6.944 0.895 L 8.734 0 L 12.468 2.153 L 18.016 5.355 Z\" fill=\"transparent\" height=\"8.5565px\" id=\"zDv2WxsxV\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(35.773 56.185)\" width=\"18.516199999999998px\"/><path d=\"M 13.855 15.017 L 10.944 16.476 L 5.468 13.323 C 3.968 12.452 2.677 11.089 1.605 9.243 C 0.532 7.396 0 5.614 0 3.88 L 0 3.864 C 0 2.146 0.532 0.985 1.605 0.38 C 2.677 -0.233 3.968 -0.104 5.468 0.767 L 5.806 0.96 L 8.387 2.444 L 5.468 3.904 L 5.468 10.178 Z\" fill=\"transparent\" height=\"16.47641059679229px\" id=\"akIWlevEh\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(37.523 67.096)\" width=\"13.8549px\"/><path d=\"M 8.387 3.161 L 5.468 4.621 L 5.468 5.008 L 0 7.742 L 0 1.46 L 2.911 0 Z\" fill=\"transparent\" height=\"7.741900000000001px\" id=\"iRdgQrfi4\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(48.469 82.113)\" width=\"8.387px\"/><path d=\"M 16.419 9.476 L 16.419 15.75 L 14.226 14.484 L 13.863 14.274 L 8.387 11.113 L 0 6.274 L 0 0 L 14.218 8.202 Z\" fill=\"transparent\" height=\"15.75px\" id=\"JNJAtyo4Q\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(42.992 71)\" width=\"16.4193px\"/><path d=\"M 10.944 2.565 C 10.944 4.29 10.403 5.46 9.339 6.073 C 8.266 6.677 6.976 6.548 5.476 5.686 L 0.363 2.734 L 0 2.524 L 2.919 1.065 L 3.282 1.274 L 5.476 2.54 L 10.557 0 C 10.815 0.871 10.944 1.726 10.944 2.565 Z\" fill=\"transparent\" height=\"6.446494113122355px\" id=\"rw_KL246C\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.88\" stroke=\"rgb(53, 53, 53)\" transform=\"translate(53.935 84.21)\" width=\"10.943599999999996px\"/></svg>",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "cursor": "default",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "100px",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "relative",
+        "transition": "all",
+        "width": "100px"
+      },
+      "width": 150
+    },
+    {
+      "alt": "BG Image",
+      "height": 559,
+      "src": "https://framerusercontent.com/images/Um7kpW33X62N4GTAd2zbgaxoTdc.png?scale-down-to=1024&width=2948&height=2600",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "650px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "737px"
+      },
+      "width": 635
+    },
+    {
+      "alt": "",
+      "height": 150,
+      "src": "data:image/svg+xml,<svg display=\"block\" role=\"presentation\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 10 100 C 4.477 100 0 95.523 0 90 L 0 10 C 0 4.477 4.477 0 10 0 L 90 0 C 95.523 0 100 4.477 100 10 L 100 90 C 100 95.523 95.523 100 90 100 Z\" fill=\"rgb(0, 0, 0)\" height=\"100px\" id=\"UeK7YVR7h\" width=\"100px\"/><path d=\"M 22.324 0.379 L 24.332 5.954 C 26.562 12.141 31.434 17.014 37.622 19.244 L 43.197 21.251 C 43.699 21.434 43.699 22.146 43.197 22.326 L 37.622 24.334 C 31.434 26.564 26.562 31.436 24.332 37.624 L 22.324 43.199 C 22.142 43.701 21.429 43.701 21.249 43.199 L 19.242 37.624 C 17.012 31.436 12.139 26.564 5.952 24.334 L 0.377 22.326 C -0.126 22.144 -0.126 21.431 0.377 21.251 L 5.952 19.244 C 12.139 17.014 17.012 12.141 19.242 5.954 L 21.249 0.379 C 21.429 -0.126 22.142 -0.126 22.324 0.379 Z\" fill=\"rgb(255, 255, 255)\" height=\"43.575525px\" id=\"p0r0Op1JE\" transform=\"translate(20.72 21.546)\" width=\"43.57359999999986px\"/><path d=\"M 11.306 0.191 L 12.324 3.014 C 13.454 6.146 15.921 8.614 19.054 9.744 L 21.876 10.761 C 22.131 10.854 22.131 11.214 21.876 11.306 L 19.054 12.324 C 15.921 13.454 13.454 15.921 12.324 19.054 L 11.306 21.876 C 11.214 22.131 10.854 22.131 10.761 21.876 L 9.744 19.054 C 8.614 15.921 6.146 13.454 3.014 12.324 L 0.191 11.306 C -0.064 11.214 -0.064 10.854 0.191 10.761 L 3.014 9.744 C 6.146 8.614 8.614 6.146 9.744 3.014 L 10.761 0.191 C 10.854 -0.064 11.216 -0.064 11.306 0.191 Z\" fill=\"rgb(255, 255, 255)\" height=\"22.06750000000001px\" id=\"H5p_UhiT3\" transform=\"translate(56.834 56.269)\" width=\"22.067499999999995px\"/></svg>",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "28px",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "relative",
+        "transition": "all",
+        "width": "28px"
+      },
+      "width": 150
+    },
+    {
+      "alt": "ImageImage",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/z7HCOFOWbsFzXklhyxQDcVO80.png?width=904&height=1200",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "47.7812px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "36px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "",
+      "height": 150,
+      "src": "data:image/svg+xml,<svg display=\"block\" role=\"presentation\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 10 100 C 4.477 100 0 95.523 0 90 L 0 10 C 0 4.477 4.477 0 10 0 L 90 0 C 95.523 0 100 4.477 100 10 L 100 90 C 100 95.523 95.523 100 90 100 Z\" fill=\"rgb(0, 0, 0)\" height=\"100px\" id=\"UeK7YVR7h\" width=\"100px\"/><path d=\"M 22.324 0.379 L 24.332 5.954 C 26.562 12.141 31.434 17.014 37.622 19.244 L 43.197 21.251 C 43.699 21.434 43.699 22.146 43.197 22.326 L 37.622 24.334 C 31.434 26.564 26.562 31.436 24.332 37.624 L 22.324 43.199 C 22.142 43.701 21.429 43.701 21.249 43.199 L 19.242 37.624 C 17.012 31.436 12.139 26.564 5.952 24.334 L 0.377 22.326 C -0.126 22.144 -0.126 21.431 0.377 21.251 L 5.952 19.244 C 12.139 17.014 17.012 12.141 19.242 5.954 L 21.249 0.379 C 21.429 -0.126 22.142 -0.126 22.324 0.379 Z\" fill=\"rgb(255, 255, 255)\" height=\"43.575525px\" id=\"p0r0Op1JE\" transform=\"translate(20.72 21.546)\" width=\"43.57359999999986px\"/><path d=\"M 11.306 0.191 L 12.324 3.014 C 13.454 6.146 15.921 8.614 19.054 9.744 L 21.876 10.761 C 22.131 10.854 22.131 11.214 21.876 11.306 L 19.054 12.324 C 15.921 13.454 13.454 15.921 12.324 19.054 L 11.306 21.876 C 11.214 22.131 10.854 22.131 10.761 21.876 L 9.744 19.054 C 8.614 15.921 6.146 13.454 3.014 12.324 L 0.191 11.306 C -0.064 11.214 -0.064 10.854 0.191 10.761 L 3.014 9.744 C 6.146 8.614 8.614 6.146 9.744 3.014 L 10.761 0.191 C 10.854 -0.064 11.216 -0.064 11.306 0.191 Z\" fill=\"rgb(255, 255, 255)\" height=\"22.06750000000001px\" id=\"H5p_UhiT3\" transform=\"translate(56.834 56.269)\" width=\"22.067499999999995px\"/></svg>",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "28px",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "relative",
+        "transition": "all",
+        "width": "28px"
+      },
+      "width": 150
+    },
+    {
+      "alt": "",
+      "height": 150,
+      "src": "data:image/svg+xml,<svg display=\"block\" role=\"presentation\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g d=\"M 12.5 100 C 5.596 100 0 94.404 0 87.5 L 0 12.5 C 0 5.596 5.596 0 12.5 0 L 87.5 0 C 94.404 0 100 5.596 100 12.5 L 100 87.5 C 100 94.404 94.404 100 87.5 100 Z M 73.584 46.961 L 37.126 26.152 C 36.511 25.807 35.806 25.658 35.105 25.723 C 34.403 25.788 33.738 26.066 33.198 26.518 C 32.657 26.971 32.267 27.577 32.08 28.256 C 31.892 28.935 31.916 29.655 32.147 30.321 L 38.875 49.954 C 38.874 49.961 38.874 49.968 38.875 49.976 C 38.873 49.983 38.873 49.99 38.875 49.997 L 32.147 69.674 C 31.962 70.197 31.905 70.758 31.981 71.308 C 32.057 71.858 32.264 72.382 32.584 72.836 C 32.905 73.29 33.329 73.66 33.822 73.915 C 34.315 74.171 34.862 74.305 35.418 74.305 C 36.02 74.304 36.612 74.147 37.137 73.849 L 73.575 53.005 C 74.113 52.704 74.561 52.265 74.872 51.734 C 75.184 51.203 75.349 50.598 75.351 49.982 C 75.352 49.366 75.189 48.761 74.879 48.228 C 74.569 47.696 74.122 47.256 73.586 46.953 Z M 35.418 70.833 L 35.418 70.813 L 41.958 51.736 L 54.515 51.736 C 54.975 51.736 55.417 51.553 55.742 51.227 C 56.068 50.902 56.251 50.46 56.251 50 C 56.251 49.539 56.068 49.097 55.742 48.772 C 55.417 48.446 54.975 48.263 54.515 48.263 L 41.976 48.263 L 35.431 29.192 L 35.418 29.166 L 71.876 49.963 Z\" fill=\"transparent\" height=\"100px\" id=\"DMBx4P6ir\" width=\"100px\"><path d=\"M 12.5 100 C 5.596 100 0 94.404 0 87.5 L 0 12.5 C 0 5.596 5.596 0 12.5 0 L 87.5 0 C 94.404 0 100 5.596 100 12.5 L 100 87.5 C 100 94.404 94.404 100 87.5 100 Z\" fill=\"rgb(0, 0, 0)\" height=\"100px\" id=\"Nv8BCiiFt\" width=\"100px\"/><path d=\"M 41.636 21.253 L 5.177 0.444 C 4.563 0.099 3.858 -0.05 3.156 0.015 C 2.455 0.08 1.79 0.358 1.25 0.81 C 0.709 1.263 0.319 1.869 0.132 2.548 C -0.056 3.227 -0.032 3.947 0.199 4.613 L 6.926 24.246 C 6.926 24.253 6.926 24.26 6.926 24.268 C 6.925 24.275 6.925 24.282 6.926 24.289 L 0.199 43.966 C 0.014 44.489 -0.043 45.05 0.033 45.6 C 0.109 46.15 0.315 46.674 0.636 47.128 C 0.956 47.582 1.381 47.952 1.874 48.207 C 2.367 48.463 2.914 48.597 3.47 48.597 C 4.072 48.596 4.664 48.439 5.188 48.141 L 41.627 27.297 C 42.165 26.996 42.612 26.557 42.924 26.026 C 43.236 25.495 43.401 24.89 43.402 24.274 C 43.403 23.658 43.24 23.053 42.93 22.52 C 42.62 21.988 42.174 21.548 41.638 21.245 Z M 3.47 45.125 L 3.47 45.105 L 10.01 26.028 L 22.567 26.028 C 23.027 26.028 23.469 25.845 23.794 25.519 C 24.12 25.194 24.303 24.752 24.303 24.292 C 24.303 23.831 24.12 23.389 23.794 23.064 C 23.469 22.738 23.027 22.555 22.567 22.555 L 10.028 22.555 L 3.483 3.484 L 3.47 3.458 L 39.928 24.255 Z\" fill=\"rgb(255, 255, 255)\" height=\"48.596993758753456px\" id=\"Dm88U7R96\" transform=\"translate(31.948 25.708)\" width=\"43.402350860200016px\"/></g></svg>",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32px",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "relative",
+        "transition": "all",
+        "width": "32px"
+      },
+      "width": 150
+    },
+    {
+      "alt": "BG Image",
+      "height": 559,
+      "src": "https://framerusercontent.com/images/sNfkiiKpmA5n0lXmgjZgrZkvCk.png?scale-down-to=1024&width=2948&height=2600",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "650px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "737px"
+      },
+      "width": 635
+    },
+    {
+      "alt": "BG Image",
+      "height": 559,
+      "src": "https://framerusercontent.com/images/vBQrwmEehzRwXON1C4YwQsAp8M.png?scale-down-to=1024&width=2948&height=2600",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "650px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "737px"
+      },
+      "width": 635
+    },
+    {
+      "alt": "BG Shape",
+      "height": 232,
+      "src": "https://framerusercontent.com/images/i6BW3QgDJgD0jVkXifqeODXE59c.png?scale-down-to=1024&width=2172&height=928",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "232.422px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "544px"
+      },
+      "width": 544
+    },
+    {
+      "alt": "Graph Image",
+      "height": 69,
+      "src": "https://framerusercontent.com/images/boS3ut5EmUJTOMFw62VlJ0INwbA.svg?width=119&height=69",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "59.0312px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "102.266px"
+      },
+      "width": 119
+    },
+    {
+      "alt": "Graph Image",
+      "height": 69,
+      "src": "https://framerusercontent.com/images/hhxDVYJfK141oFZTvQebHKmuBY8.svg?width=119&height=69",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "59.0312px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "102.266px"
+      },
+      "width": 119
+    },
+    {
+      "alt": "Graph Image",
+      "height": 69,
+      "src": "https://framerusercontent.com/images/D5bKJwYni03bA1M7OPbvPvENbI.svg?width=119&height=69",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "59.0312px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "102.266px"
+      },
+      "width": 119
+    },
+    {
+      "alt": "Graph Image",
+      "height": 69,
+      "src": "https://framerusercontent.com/images/ZkijOVhX07s9T5PnB7KP0QLAebc.svg?width=119&height=69",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "59.0312px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "102.266px"
+      },
+      "width": 119
+    },
+    {
+      "alt": "Image",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/hEq2lGnA6G6ziYMb2M9sqX6hSdU.png?width=546&height=316",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "72.3594px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "124.516px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "Graph Image",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/fePTLnRwGtnt5m0SjhjSwbS5qHE.svg?width=122&height=71",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "64.9844px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "110.812px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "Icon",
+      "height": 300,
+      "src": "https://framerusercontent.com/images/oAXT8szKSAOaI3PrJamS72fZuc.png?width=300&height=300",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "3px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "15px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "15px"
+      },
+      "width": 300
+    },
+    {
+      "alt": "",
+      "height": 25,
+      "src": "https://framerusercontent.com/images/wTcCUxnqAG0EAJA9nDolaMOGkUg.svg?width=25&height=25",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 25
+    },
+    {
+      "alt": "",
+      "height": 31,
+      "src": "https://framerusercontent.com/images/xuxlCXQ0OVrRtNiFUK16nQc.svg?width=31&height=31",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 31
+    },
+    {
+      "alt": "",
+      "height": 31,
+      "src": "https://framerusercontent.com/images/gW3r5ebQuwWxRf2escaqCWCVbI.svg?width=31&height=31",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 31
+    },
+    {
+      "alt": "",
+      "height": 30,
+      "src": "https://framerusercontent.com/images/XOU3bUifiyOWTEVLPqJ8ovsYoU.svg?width=31&height=30",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 31
+    },
+    {
+      "alt": "",
+      "height": 22,
+      "src": "https://framerusercontent.com/images/fdTeoN8pCamQcPJAn1hyJQFhE.svg?width=31&height=22",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 31
+    },
+    {
+      "alt": "",
+      "height": 31,
+      "src": "https://framerusercontent.com/images/iQtqTITKY7zUT947iMba3jsyE.svg?width=31&height=31",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 31
+    },
+    {
+      "alt": "",
+      "height": 25,
+      "src": "https://framerusercontent.com/images/wTcCUxnqAG0EAJA9nDolaMOGkUg.svg?width=25&height=25",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 25
+    },
+    {
+      "alt": "",
+      "height": 31,
+      "src": "https://framerusercontent.com/images/xuxlCXQ0OVrRtNiFUK16nQc.svg?width=31&height=31",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 31
+    },
+    {
+      "alt": "",
+      "height": 31,
+      "src": "https://framerusercontent.com/images/gW3r5ebQuwWxRf2escaqCWCVbI.svg?width=31&height=31",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 31
+    },
+    {
+      "alt": "",
+      "height": 30,
+      "src": "https://framerusercontent.com/images/XOU3bUifiyOWTEVLPqJ8ovsYoU.svg?width=31&height=30",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 31
+    },
+    {
+      "alt": "",
+      "height": 22,
+      "src": "https://framerusercontent.com/images/fdTeoN8pCamQcPJAn1hyJQFhE.svg?width=31&height=22",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 31
+    },
+    {
+      "alt": "",
+      "height": 31,
+      "src": "https://framerusercontent.com/images/iQtqTITKY7zUT947iMba3jsyE.svg?width=31&height=31",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 31
+    },
+    {
+      "alt": "",
+      "height": 25,
+      "src": "https://framerusercontent.com/images/wTcCUxnqAG0EAJA9nDolaMOGkUg.svg?width=25&height=25",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 25
+    },
+    {
+      "alt": "",
+      "height": 31,
+      "src": "https://framerusercontent.com/images/xuxlCXQ0OVrRtNiFUK16nQc.svg?width=31&height=31",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 31
+    },
+    {
+      "alt": "",
+      "height": 31,
+      "src": "https://framerusercontent.com/images/gW3r5ebQuwWxRf2escaqCWCVbI.svg?width=31&height=31",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 31
+    },
+    {
+      "alt": "",
+      "height": 30,
+      "src": "https://framerusercontent.com/images/XOU3bUifiyOWTEVLPqJ8ovsYoU.svg?width=31&height=30",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 31
+    },
+    {
+      "alt": "",
+      "height": 22,
+      "src": "https://framerusercontent.com/images/fdTeoN8pCamQcPJAn1hyJQFhE.svg?width=31&height=22",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 31
+    },
+    {
+      "alt": "",
+      "height": 31,
+      "src": "https://framerusercontent.com/images/iQtqTITKY7zUT947iMba3jsyE.svg?width=31&height=31",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 31
+    },
+    {
+      "alt": "",
+      "height": 25,
+      "src": "https://framerusercontent.com/images/wTcCUxnqAG0EAJA9nDolaMOGkUg.svg?width=25&height=25",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 25
+    },
+    {
+      "alt": "",
+      "height": 31,
+      "src": "https://framerusercontent.com/images/xuxlCXQ0OVrRtNiFUK16nQc.svg?width=31&height=31",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 31
+    },
+    {
+      "alt": "",
+      "height": 31,
+      "src": "https://framerusercontent.com/images/gW3r5ebQuwWxRf2escaqCWCVbI.svg?width=31&height=31",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 31
+    },
+    {
+      "alt": "",
+      "height": 30,
+      "src": "https://framerusercontent.com/images/XOU3bUifiyOWTEVLPqJ8ovsYoU.svg?width=31&height=30",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 31
+    },
+    {
+      "alt": "",
+      "height": 22,
+      "src": "https://framerusercontent.com/images/fdTeoN8pCamQcPJAn1hyJQFhE.svg?width=31&height=22",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 31
+    },
+    {
+      "alt": "",
+      "height": 31,
+      "src": "https://framerusercontent.com/images/iQtqTITKY7zUT947iMba3jsyE.svg?width=31&height=31",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "32.2344px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "32.2344px"
+      },
+      "width": 31
+    },
+    {
+      "alt": "Back Arrow",
+      "height": 40,
+      "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "cursor": "pointer",
+        "display": "inline",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "40px",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "40px"
+      },
+      "width": 40
+    },
+    {
+      "alt": "Next Arrow",
+      "height": 40,
+      "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "cursor": "pointer",
+        "display": "inline",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "40px",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "40px"
+      },
+      "width": 40
+    },
+    {
+      "alt": "Image",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/sGnTnbdWuAoVaLMV90SkJYNLAWM.png?width=352&height=352",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "90px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "90px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/AQbPdqKasj6Mg3iV4jMK95WPRCM.png?width=480&height=480",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "120px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "120px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/AQbPdqKasj6Mg3iV4jMK95WPRCM.png?width=480&height=480",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "120px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "120px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/SmH4euiZ3JokwWRNyZrJQyLtlLY.png?width=480&height=480",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "120px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "120px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/wdhlHkmmD4nzkOj8GrECeEq108.png?width=480&height=480",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "120px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "120px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/wdhlHkmmD4nzkOj8GrECeEq108.png?width=480&height=480",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "120px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "120px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/JQzWA4NShfz9Wnr2WD5YRTj9A.png?width=480&height=480",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "120px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "120px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/yw4x5UaRBq5WpjyjWO31OBXDQ.svg?width=64&height=20",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "cursor": "pointer",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "20px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "98px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/BF3tv5c217CAYp3BfO4tQMdMD7M.svg?width=72&height=20",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "cursor": "pointer",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "20px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "98px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/YB5sNZ0xUq2BJx6HvDHhAY4EE4k.svg?width=99&height=20",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "cursor": "pointer",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "20px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "98px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/ryE2UpILPPOJTTDvlVXuatX6Ac4.svg?width=77&height=20",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "cursor": "pointer",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "20px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "98px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "BG Image",
+      "height": 520,
+      "src": "https://framerusercontent.com/images/umGUgFqDkDa4ipvbkxjPoIOwGE.png?scale-down-to=1024&width=1800&height=2080",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "520px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "450px"
+      },
+      "width": 449
+    },
+    {
+      "alt": "Brand Image",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/yw4x5UaRBq5WpjyjWO31OBXDQ.svg?width=64&height=20",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "60.4062px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "297px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "Image",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/pdhZaMaOSIzBG5FaYTQR034OyRk.png?width=492&height=480",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "120px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "120px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "BG Image",
+      "height": 520,
+      "src": "https://framerusercontent.com/images/umGUgFqDkDa4ipvbkxjPoIOwGE.png?scale-down-to=1024&width=1800&height=2080",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "520px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "450px"
+      },
+      "width": 449
+    },
+    {
+      "alt": "Brand Image",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/BF3tv5c217CAYp3BfO4tQMdMD7M.svg?width=72&height=20",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "60.4062px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "297px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "Image",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/CXipLKeSIdL0cDkxv4uZJivb2E.png?width=1088&height=1248",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "120px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "120px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "BG Image",
+      "height": 520,
+      "src": "https://framerusercontent.com/images/umGUgFqDkDa4ipvbkxjPoIOwGE.png?scale-down-to=1024&width=1800&height=2080",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "520px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "450px"
+      },
+      "width": 449
+    },
+    {
+      "alt": "Brand Image",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/YB5sNZ0xUq2BJx6HvDHhAY4EE4k.svg?width=99&height=20",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "60.4062px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "297px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "Image",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/xQagQ8uubfx7UqGyS04prpQ8IEE.png?width=1088&height=1248",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "120px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "120px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "BG Image",
+      "height": 520,
+      "src": "https://framerusercontent.com/images/umGUgFqDkDa4ipvbkxjPoIOwGE.png?scale-down-to=1024&width=1800&height=2080",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "520px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "450px"
+      },
+      "width": 449
+    },
+    {
+      "alt": "Brand Image",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/ryE2UpILPPOJTTDvlVXuatX6Ac4.svg?width=77&height=20",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "60.4062px",
+        "objectFit": "contain",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "297px"
+      },
+      "width": 0
+    },
+    {
+      "alt": "Image",
+      "height": 0,
+      "src": "https://framerusercontent.com/images/QEhphb7zrqKtu5gnflVTDF8Mk.png?width=2481&height=2240",
+      "styles": {
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "120px",
+        "objectFit": "cover",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "static",
+        "transition": "all",
+        "width": "120px"
+      },
+      "width": 0
+    }
+  ],
+  "roots": [
+    {
+      "children": [
+        {
+          "classes": "framer-7yziar",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "gap": "10px",
+            "height": "34px",
+            "justifyContent": "center",
+            "maxWidth": "1280px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "visible",
+            "position": "relative",
+            "transition": "all",
+            "width": "1280px"
+          },
+          "tag": "DIV",
+          "text": "AgentLab Product Product Case Study Case Study Pricing Pricing Company Company G E T   S T A R T E D"
+        },
+        {
+          "classes": "framer-1dhj8e7",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "height": "74px",
+            "justifyContent": "space-between",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "clip",
+            "position": "absolute",
+            "transition": "all",
+            "width": "1425px",
+            "zIndex": "0"
+          },
+          "tag": "DIV",
+          "text": ""
+        },
+        {
+          "classes": "framer-1rp8d32",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "height": "74px",
+            "justifyContent": "space-between",
+            "left": "17.5px",
+            "maxWidth": "1390px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "visible",
+            "position": "absolute",
+            "right": "17.5px",
+            "transition": "all",
+            "width": "1390px",
+            "zIndex": "4"
+          },
+          "tag": "DIV",
+          "text": ""
+        }
+      ],
+      "classes": "framer-yVODL framer-1yqy8ov framer-v-1yqy8ov",
+      "i": 0,
+      "rect": {
+        "height": 74,
+        "width": 1425,
+        "x": 0,
+        "y": 30
+      },
+      "styles": {
+        "alignItems": "center",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "flexDirection": "column",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "10px",
+        "height": "74px",
+        "justifyContent": "center",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "visible",
+        "padding": "20px 30px",
+        "position": "relative",
+        "transition": "all",
+        "width": "1425px"
+      },
+      "tag": "NAV",
+      "text": "AgentLab\n\nProduct\n\nProduct\n\nCase Study\n\nCase Study\n\nPricing\n\nPricing\n\nCompany\n\nCompany\n\nG\nE\nT\n \nS\nT\nA\nR\nT\nE\nD"
+    },
+    {
+      "children": [
+        {
+          "classes": "framer-12q5i0j",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "column",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "gap": "80px",
+            "height": "950px",
+            "justifyContent": "flex-start",
+            "maxWidth": "1280px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "clip",
+            "position": "relative",
+            "transition": "all",
+            "width": "1280px"
+          },
+          "tag": "DIV",
+          "text": "BACKED BY Y COMBINATOR Turn Your AI Product Into a Website That Sells Create intelligent agents that understand context, automate workflows, and execute tasks reliably across your operations. T A L K   T O   S A L E S S T A R T   F O R   F R E E AUTOMATE TASKS WITH AI AGENT How can I help you today  ACTIONS CUSTOMER SUPPORT AGENT SALES LEAD QUALIFIER DATA ANALYSIS AGENT EMAIL RESPONDER CUSTOMER SUPPORT AGENT SALES LEAD QUALIFIER DATA ANALYSIS AGENT EMAIL RESPONDER"
+        },
+        {
+          "classes": "framer-r749ry",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "bottom": "-3px",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "height": "1116px",
+            "justifyContent": "space-between",
+            "left": "17.5px",
+            "maxWidth": "1390px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "visible",
+            "position": "absolute",
+            "right": "17.5px",
+            "top": "-3px",
+            "transition": "all",
+            "width": "1390px",
+            "zIndex": "2"
+          },
+          "tag": "DIV",
+          "text": ""
+        }
+      ],
+      "classes": "framer-8zBWS framer-CvPef framer-WgqEX framer-GC1lv framer-MDOEI framer-nAJnP framer-membag framer-v-membag",
+      "i": 1,
+      "rect": {
+        "height": 1110,
+        "width": 1425,
+        "x": 0,
+        "y": 104
+      },
+      "styles": {
+        "alignItems": "center",
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "flexDirection": "column",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "10px",
+        "height": "1110px",
+        "justifyContent": "flex-start",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "padding": "80px 30px",
+        "position": "relative",
+        "transition": "all",
+        "width": "1425px"
+      },
+      "tag": "SECTION",
+      "text": "BACKED BY Y COMBINATOR\n\nTurn Your AI Product Into a Website That Sells\n\nCreate intelligent agents that understand context, automate workflows, and execute tasks reliably across your operations.\n\nT\nA\nL\nK\n \nT\nO\n \nS\nA\nL\nE\nS\n\nS\nT\nA\nR\nT\n \nF\nO\nR\n \nF\nR\nE\nE\n\nAUTOMATE TASKS WITH AI AGENT\n\nHow can I help you today \n\nACTIONS\n\nCUSTOMER SUPPORT AGENT\n\nSALES LEAD QUALIFIER\n\nDATA ANALYSIS AGENT\n\nEMAIL RESPONDER\n\nCUSTOMER SUPPORT AGENT\n\nSALES LEAD QUALIFIER\n\nDATA ANALYSIS AGENT\n\nEMAIL RESPONDER"
+    },
+    {
+      "children": [
+        {
+          "classes": "framer-1ccjyzl",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "gap": "10px",
+            "height": "30px",
+            "justifyContent": "center",
+            "maxWidth": "1280px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "clip",
+            "position": "relative",
+            "transition": "all",
+            "width": "1280px"
+          },
+          "tag": "DIV",
+          "text": ""
+        },
+        {
+          "classes": "framer-12nmq01",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "height": "150px",
+            "justifyContent": "space-between",
+            "left": "17.5px",
+            "maxWidth": "1390px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "visible",
+            "position": "absolute",
+            "right": "17.5px",
+            "transition": "all",
+            "width": "1390px",
+            "zIndex": "0"
+          },
+          "tag": "DIV",
+          "text": ""
+        }
+      ],
+      "classes": "framer-l06Ud framer-css1i8 framer-v-css1i8",
+      "i": 2,
+      "rect": {
+        "height": 150,
+        "width": 1425,
+        "x": 0,
+        "y": 1214
+      },
+      "styles": {
+        "alignItems": "center",
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "flexDirection": "column",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "10px",
+        "height": "150px",
+        "justifyContent": "center",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "visible",
+        "padding": "60px 30px",
+        "position": "relative",
+        "transition": "all",
+        "width": "1425px"
+      },
+      "tag": "SECTION",
+      "text": ""
+    },
+    {
+      "children": [
+        {
+          "classes": "framer-1ny9e08",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "column",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "gap": "80px",
+            "height": "644.891px",
+            "justifyContent": "center",
+            "maxWidth": "1280px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "clip",
+            "position": "relative",
+            "transition": "all",
+            "width": "1280px"
+          },
+          "tag": "DIV",
+          "text": "THE PROBLEM Most  Most  Organizations  Organizations  Operate  Operate  with  with  Broken  Broken  Data  Data  Pipelines,  Pipelines,  Siloed  Siloed  Teams,  Teams,  and  and  Outdated  Outdated  Workflows. Workflows. No Unified Agent Layer Time-Consuming Tasks Zero Process Visibility"
+        },
+        {
+          "classes": "framer-120kqbn",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "height": "924.891px",
+            "justifyContent": "space-between",
+            "left": "17.5px",
+            "maxWidth": "1390px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "clip",
+            "position": "absolute",
+            "right": "17.5px",
+            "transition": "all",
+            "width": "1390px",
+            "zIndex": "0"
+          },
+          "tag": "DIV",
+          "text": ""
+        }
+      ],
+      "classes": "framer-bftmub",
+      "i": 3,
+      "rect": {
+        "height": 924.890625,
+        "width": 1425,
+        "x": 0,
+        "y": 1364
+      },
+      "styles": {
+        "alignItems": "center",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "flexDirection": "column",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "10px",
+        "height": "924.891px",
+        "justifyContent": "center",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "padding": "140px 30px",
+        "position": "relative",
+        "transition": "all",
+        "width": "1425px"
+      },
+      "tag": "SECTION",
+      "text": "THE PROBLEM\n\nMost \nMost \nOrganizations \nOrganizations \nOperate \nOperate \nwith \nwith \nBroken \nBroken \nData \nData \nPipelines, \nPipelines, \nSiloed \nSiloed \nTeams, \nTeams, \nand \nand \nOutdated \nOutdated \nWorkflows.\nWorkflows.\n\nNo Unified Agent Layer\n\nTime-Consuming Tasks\n\nZero Process Visibility"
+    },
+    {
+      "children": [
+        {
+          "classes": "framer-1u64h2g",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "column",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "gap": "140px",
+            "height": "2625.69px",
+            "justifyContent": "center",
+            "maxWidth": "1280px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "clip",
+            "position": "relative",
+            "transition": "all",
+            "width": "1280px"
+          },
+          "tag": "DIV",
+          "text": "THE SOLUTION Streamline Development, Reduce Errors, and Increase Deployment Speed by 10x with Enterprise-Grade AI Agent Infrastructure AGENT BUILDER Build and Deploy Agents in Minutes Design intelligent agents with a visual builder — no coding required. Define triggers, actions, and logic with an intuitive drag-and-drop interface. Visual no-code agent builder Pre-built agent templates One-click deployment to production SUPPORT AGENT Hello! Describe the agent you want to build. Handle customer or"
+        },
+        {
+          "classes": "framer-ahjv2z",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "bottom": "-0.25px",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "height": "2905.69px",
+            "justifyContent": "space-between",
+            "left": "17.5px",
+            "maxWidth": "1390px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "clip",
+            "position": "absolute",
+            "right": "17.5px",
+            "top": "0.25px",
+            "transition": "all",
+            "width": "1390px",
+            "zIndex": "0"
+          },
+          "tag": "DIV",
+          "text": ""
+        }
+      ],
+      "classes": "framer-j56mnd",
+      "i": 4,
+      "rect": {
+        "height": 2905.6875,
+        "width": 1425,
+        "x": 0,
+        "y": 2288.890625
+      },
+      "styles": {
+        "alignItems": "center",
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "flexDirection": "column",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "10px",
+        "height": "2905.69px",
+        "justifyContent": "center",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "padding": "140px 30px",
+        "position": "relative",
+        "transition": "all",
+        "width": "1425px"
+      },
+      "tag": "SECTION",
+      "text": "THE SOLUTION\n\nStreamline Development, Reduce Errors, and Increase Deployment Speed by 10x with Enterprise-Grade AI Agent Infrastructure\n\nAGENT BUILDER\n\nBuild and Deploy Agents in Minutes\n\nDesign intelligent agents with a visual builder — no coding required. Define triggers, actions, and logic with an intuitive drag-and-drop interface.\n\nVisual no-code agent builder\n\nPre-built agent templates\n\nOne-click deployment to production\n\nSUPPORT AGENT\n\nHello! Describe the agent you want to build.\n\nHandle customer order updates and returns\n\nUpdates & return agent\n\nProduct recommendations Update order status\n\nResolved automatically\n\nDescribe your agent...\n\nDescribe your agent...\n\nWORKFLOW - RUNNING\n\nLead Enrichment\n\nTrigger: New Lead\n\nEnrich lead data via API\n\nScore & qualify lead\n\nRoute to sales team\n\nLog activity to CRM\n\nPROGRESS\n\n20%\n\n20%\n\nWORKFLOW AUTOMATION\n\nAutomate Complex Multi-Step Workflows\n\nDeploy intelligent AI agents that understand your business context, coordinate complex workflows, and execute tasks with unprecedented precision.\n\nAutomated workflow orchestration\n\nContext-aware task execution\n\nEnterprise-grade reliability\n\nANALYTICS & INSIGHTS\n\nMonitor Agent Performance in Real Time\n\nTrack performance metrics, identify bottlenecks, and optimize agent efficiency with real-time analytics.\n\nReal-time performance monitoring\n\nAutomated bottleneck detection\n\nPredictive analytics insights\n\nANALYTICS OVERVIEW\n\n1,247\n\nTasks Today\n\n98.4%\n\nSuccess Rate\n\n1.2s\n\nAvg Duration\n\nTask volume — last 12 hours\n\nResearch Agent\n\n342 tasks\n\nSupport Agent\n\n289 tasks\n\nAnalysis Agent\n\n156 tasks"
+    },
+    {
+      "children": [
+        {
+          "classes": "framer-1h26a0j",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "column",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "gap": "60px",
+            "height": "739.109px",
+            "justifyContent": "center",
+            "maxWidth": "1280px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "clip",
+            "position": "relative",
+            "transition": "all",
+            "width": "1280px"
+          },
+          "tag": "DIV",
+          "text": "ROI Impact You Can Measure 0 0 x Faster workflow execution 0 0 % Reduction in repetitive tasks Automate your most complex, high-impact multi-step workflows Streamline multi-step processes, reduce manual effort, and improve consistency across your operations with real-time execution and control. 9 0 . 9 %  Reliable task completion across workflows"
+        },
+        {
+          "classes": "framer-1b9j8do",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "height": "1019.11px",
+            "justifyContent": "space-between",
+            "left": "17.5px",
+            "maxWidth": "1390px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "visible",
+            "position": "absolute",
+            "right": "17.5px",
+            "transition": "all",
+            "width": "1390px",
+            "zIndex": "0"
+          },
+          "tag": "DIV",
+          "text": ""
+        }
+      ],
+      "classes": "framer-1uy94uv",
+      "i": 5,
+      "rect": {
+        "height": 1019.109375,
+        "width": 1425,
+        "x": 0,
+        "y": 5194.578125
+      },
+      "styles": {
+        "alignItems": "center",
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "flexDirection": "column",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "10px",
+        "height": "1019.11px",
+        "justifyContent": "center",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "visible",
+        "padding": "140px 30px",
+        "position": "relative",
+        "transition": "all",
+        "width": "1425px"
+      },
+      "tag": "SECTION",
+      "text": "ROI\n\nImpact You Can Measure\n0\n0\nx\n\nFaster workflow execution\n\n0\n0\n%\n\nReduction in repetitive tasks\n\nAutomate your most complex, high-impact multi-step workflows\n\nStreamline multi-step processes, reduce manual effort, and improve consistency across your operations with real-time execution and control.\n\n9\n0\n.\n9\n%\n\n Reliable task completion across workflows"
+    },
+    {
+      "children": [
+        {
+          "classes": "framer-1ve2sze",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "column",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "height": "1431.89px",
+            "justifyContent": "center",
+            "maxWidth": "1280px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "clip",
+            "position": "relative",
+            "transition": "all",
+            "width": "1280px"
+          },
+          "tag": "DIV",
+          "text": "CAPABILITIES Discover How AI Agents Automate Real Business Workflows and Deliver Measurable Results Data Layer Data Source Pull live data from any source — databases, APIs, or cloud storage — and give your agents a unified, always-current data layer. TRIGGER Webhook PROCESS Analyze Data ACTION Send Response Ready to deploy Visual Agent Build Design and configure AI agents visually — no code needed. Set triggers, define logic, and deploy production-ready agents in minutes. Schedul  Report Schedul"
+        },
+        {
+          "classes": "framer-nghwc",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "height": "1711.89px",
+            "justifyContent": "space-between",
+            "left": "17.5px",
+            "maxWidth": "1390px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "clip",
+            "position": "absolute",
+            "right": "17.5px",
+            "transition": "all",
+            "width": "1390px",
+            "zIndex": "0"
+          },
+          "tag": "DIV",
+          "text": ""
+        }
+      ],
+      "classes": "framer-1esorcu",
+      "i": 6,
+      "rect": {
+        "height": 1711.890625,
+        "width": 1425,
+        "x": 0,
+        "y": 6213.6875
+      },
+      "styles": {
+        "alignItems": "center",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "flexDirection": "column",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "10px",
+        "height": "1711.89px",
+        "justifyContent": "center",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "padding": "140px 30px",
+        "position": "relative",
+        "transition": "all",
+        "width": "1425px"
+      },
+      "tag": "SECTION",
+      "text": "CAPABILITIES\n\nDiscover How AI Agents Automate Real Business Workflows and Deliver Measurable Results\n\nData Layer\n\nData Source\n\nPull live data from any source — databases, APIs, or cloud storage — and give your agents a unified, always-current data layer.\n\nTRIGGER\n\nWebhook\n\nPROCESS\n\nAnalyze Data\n\nACTION\n\nSend Response\n\nReady to deploy\n\nVisual Agent Build\n\nDesign and configure AI agents visually — no code needed. Set triggers, define logic, and deploy production-ready agents in minutes.\n\nSchedul \n\nReport Scheduled\n\nData Complied\n\nSend WhatsApp\n\nCreate Hubspot Contact\n\nCancel Meeting\n\nWorkflow Orchestration\n\nAutomate multi-step business processes end-to-end. Your agents handle sequencing, error recovery, and handoffs so your team stays focused.\n\nTask Input\n\nAI Router\n\nGPT-5\n\nClaude\n\nDALL-E\n\nElevenLabs\n\nMulti Model AI\n\nRoute tasks intelligently to the right AI model — GPT, Claude, DALL-E, or ElevenLabs — based on task type and performance goals.\n\nIntegration\n\nConnect AgentLab to the tools your team already uses — CRMs, support desks, and databases — with native integrations in just clicks.\n\nImplement IT support\n\nHelp customers\n\nResolve issues\n\nProvide feedback\n\nEnhance experience\n\nStreamline processes\n\nEducate users\n\nOffer support\n\nSummarize emails\n\nPrepare for calls\n\nImplement IT support\n\nHelp customers\n\nEnhance experience\n\nResolve issues\n\nProvide feedback\n\nEnhance experience\n\nStreamline processes"
+    },
+    {
+      "children": [
+        {
+          "classes": "framer-1pwr74",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "column",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "gap": "70px",
+            "height": "775.297px",
+            "justifyContent": "center",
+            "maxWidth": "1280px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "clip",
+            "position": "relative",
+            "transition": "all",
+            "width": "1280px"
+          },
+          "tag": "DIV",
+          "text": "INDUSTRY Solutions Across Every Sector Finance Automate account inquiries and fraud detection while maintaining SOC 2 compliance Healthcare Patient scheduling, prescription refills, and care coordination with full HIPAA compliance standards E-commerce Handle order tracking, returns processing, and product recommendations at scale during peak seasons Education Student enrollment support and course recommendations for learning platforms Enterprise IT helpdesk automation, employee onboarding workfl"
+        },
+        {
+          "classes": "framer-wzqab9",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "height": "1055.3px",
+            "justifyContent": "space-between",
+            "left": "17.5px",
+            "maxWidth": "1390px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "clip",
+            "position": "absolute",
+            "right": "17.5px",
+            "transition": "all",
+            "width": "1390px",
+            "zIndex": "0"
+          },
+          "tag": "DIV",
+          "text": ""
+        }
+      ],
+      "classes": "framer-1fuzfyh",
+      "i": 7,
+      "rect": {
+        "height": 1055.296875,
+        "width": 1425,
+        "x": 0,
+        "y": 7925.578125
+      },
+      "styles": {
+        "alignItems": "center",
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "flexDirection": "column",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "10px",
+        "height": "1055.3px",
+        "justifyContent": "center",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "padding": "140px 30px",
+        "position": "relative",
+        "transition": "all",
+        "width": "1425px"
+      },
+      "tag": "SECTION",
+      "text": "INDUSTRY\n\nSolutions Across Every Sector\n\nFinance\n\nAutomate account inquiries and fraud detection while maintaining SOC 2 compliance\n\nHealthcare\n\nPatient scheduling, prescription refills, and care coordination with full HIPAA compliance standards\n\nE-commerce\n\nHandle order tracking, returns processing, and product recommendations at scale during peak seasons\n\nEducation\n\nStudent enrollment support and course recommendations for learning platforms\n\nEnterprise\n\nIT helpdesk automation, employee onboarding workflows, and internal request management at scale\n\nInsurance\n\nClaims status updates, policy inquiries, and document collection with secure data handling protocols"
+    },
+    {
+      "children": [
+        {
+          "classes": "framer-dhtgsm",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "column",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "gap": "60px",
+            "height": "799.297px",
+            "justifyContent": "center",
+            "maxWidth": "1280px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "clip",
+            "position": "relative",
+            "transition": "all",
+            "width": "1280px"
+          },
+          "tag": "DIV",
+          "text": "TESTIMONIALS What People Are Saying S E E   A L L   C A S E   S T U D I E S The orchestration layer simplifies complex workflows and makes easier to manage. Reduction in manual work  “AgentLab brings much-needed structure to AI automation workflows. The orchestration layer makes complex systems easier to understand, manage efficiently, and scale without breaking.” Colton Pond Head of Partnership Orchestration layer simplifies workflows and improves overall system efficiency Reduction in manual w"
+        },
+        {
+          "classes": "framer-19v4kb7",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "bottom": "0.515625px",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "height": "1079.3px",
+            "justifyContent": "space-between",
+            "left": "17.5px",
+            "maxWidth": "1390px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "clip",
+            "position": "absolute",
+            "right": "17.5px",
+            "top": "-0.515625px",
+            "transition": "all",
+            "width": "1390px",
+            "zIndex": "0"
+          },
+          "tag": "DIV",
+          "text": ""
+        }
+      ],
+      "classes": "framer-S7npf framer-8Nw1d framer-543tnv framer-v-543tnv",
+      "i": 8,
+      "rect": {
+        "height": 1079.296875,
+        "width": 1425,
+        "x": 0,
+        "y": 8980.875
+      },
+      "styles": {
+        "alignItems": "center",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "flexDirection": "column",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "10px",
+        "height": "1079.3px",
+        "justifyContent": "center",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "padding": "140px 30px",
+        "position": "relative",
+        "transition": "all",
+        "width": "1425px"
+      },
+      "tag": "SECTION",
+      "text": "TESTIMONIALS\n\nWhat People Are Saying\n\nS\nE\nE\n \nA\nL\nL\n \nC\nA\nS\nE\n \nS\nT\nU\nD\nI\nE\nS\n\nThe orchestration layer simplifies complex workflows and makes easier to manage.\n\nReduction in manual work\n\n “AgentLab brings much-needed structure to AI automation workflows. The orchestration layer makes complex systems easier to understand, manage efficiently, and scale without breaking.”\n\nColton Pond\n\nHead of Partnership\n\nOrchestration layer simplifies workflows and improves overall system efficiency\n\nReduction in manual work\n\n\"AgentFlow brings structure to AI workflows, while its orchestration layer simplifies complexity and improves efficiency, enabling scalable and reliable system performance without breaking under scale.\"\n\nEthan Walker\n\nCTO\n\nOrchestration layer brings clarity and structure to complex digital workflows\n\nReduction in manual work\n\n\"AgentFlow organizes automation workflows effectively, and its orchestration layer reduces system complexity, enhances control, and enables smooth scalable growth with consistent performance and operational stability.\"\n\nSophia Martinez\n\nProduct Manager\n\nOrchestration layer unifies multiple services into one streamlined workflow system\n\nReduction in manual work\n\n\"AgentFlow delivers clarity to automation processes, while its orchestration layer simplifies complex systems and improves coordination, ensuring consistent scalable performance with reliable and stable execution.\"\n\nNoah Williams\n\nCloud Engineer"
+    },
+    {
+      "children": [
+        {
+          "classes": "framer-1e9o4c9",
+          "styles": {
+            "alignItems": "flex-start",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "gap": "80px",
+            "height": "316px",
+            "justifyContent": "center",
+            "maxWidth": "1280px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "clip",
+            "position": "relative",
+            "transition": "all",
+            "width": "1280px"
+          },
+          "tag": "DIV",
+          "text": "COMPLIANCE Enterprise-Grade Security Standards SOC 2 GDPR HIPAA End-to-End Encryption All data encrypted in transit and at rest using AES-256 Zero Data Retention Your data is never stored or used for model training Private Deployment Deploy in your own VPC for complete data sovereignty"
+        },
+        {
+          "classes": "framer-1cy2cwt",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "height": "596px",
+            "justifyContent": "space-between",
+            "left": "17.5px",
+            "maxWidth": "1390px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "visible",
+            "position": "absolute",
+            "right": "17.5px",
+            "transition": "all",
+            "width": "1390px",
+            "zIndex": "1"
+          },
+          "tag": "DIV",
+          "text": ""
+        }
+      ],
+      "classes": "framer-18tudx9",
+      "i": 9,
+      "rect": {
+        "height": 596,
+        "width": 1425,
+        "x": 0,
+        "y": 10060.171875
+      },
+      "styles": {
+        "alignItems": "center",
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "flexDirection": "column",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "10px",
+        "height": "596px",
+        "justifyContent": "center",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "visible",
+        "padding": "140px 30px",
+        "position": "relative",
+        "transition": "all",
+        "width": "1425px"
+      },
+      "tag": "SECTION",
+      "text": "COMPLIANCE\n\nEnterprise-Grade Security Standards\n\nSOC 2\n\nGDPR\n\nHIPAA\n\nEnd-to-End Encryption\n\nAll data encrypted in transit and at rest using AES-256\n\nZero Data Retention\n\nYour data is never stored or used for model training\n\nPrivate Deployment\n\nDeploy in your own VPC for complete data sovereignty"
+    },
+    {
+      "children": [
+        {
+          "classes": "framer-1hvn923",
+          "styles": {
+            "alignItems": "flex-start",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "gap": "100px",
+            "height": "550px",
+            "justifyContent": "center",
+            "maxWidth": "1280px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "clip",
+            "position": "relative",
+            "transition": "all",
+            "width": "1280px"
+          },
+          "tag": "DIV",
+          "text": "FAQS Have questions?  Find answers. Have more questions?  Reach out to our friendly support team T A L K   T O   S A L E S What Exactly Is an AI Agent? An AI Agent is more than just a chatbot; it is a system designed to perform tasks autonomously. While a chatbot answers questions, an agent can use tools, browse the web, and execute workflows (like booking a meeting or updating a CRM) to achieve a specific goal. What Tools Can the AI Agent Connect To? AI agents can connect to a wide range of too"
+        },
+        {
+          "classes": "framer-kxqxlq",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "height": "830px",
+            "justifyContent": "space-between",
+            "left": "17.5px",
+            "maxWidth": "1390px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "clip",
+            "position": "absolute",
+            "right": "17.5px",
+            "transition": "all",
+            "width": "1390px",
+            "zIndex": "0"
+          },
+          "tag": "DIV",
+          "text": ""
+        }
+      ],
+      "classes": "framer-VJMCS framer-8Nw1d framer-pcLHu framer-WgqEX framer-hrpcc3 framer-v-hrpcc3",
+      "i": 10,
+      "rect": {
+        "height": 830,
+        "width": 1425,
+        "x": 0,
+        "y": 10656.171875
+      },
+      "styles": {
+        "alignItems": "center",
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "flexDirection": "column",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "10px",
+        "height": "830px",
+        "justifyContent": "center",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "padding": "140px 30px",
+        "position": "relative",
+        "transition": "all",
+        "width": "1425px"
+      },
+      "tag": "SECTION",
+      "text": "FAQS\n\nHave questions?  Find answers.\n\nHave more questions? \n\nReach out to our friendly support team\n\nT\nA\nL\nK\n \nT\nO\n \nS\nA\nL\nE\nS\n\nWhat Exactly Is an AI Agent?\n\nAn AI Agent is more than just a chatbot; it is a system designed to perform tasks autonomously. While a chatbot answers questions, an agent can use tools, browse the web, and execute workflows (like booking a meeting or updating a CRM) to achieve a specific goal.\n\nWhat Tools Can the AI Agent Connect To?\n\nAI agents can connect to a wide range of tools to expand their capabilities and automate tasks more effectively. These typically include APIs, databases, CRM systems, cloud platforms, messaging apps, and third-party services.\n\nHow Do we Measure if the AI Agent Is Successful?\n\nYou measure an AI agent’s success by how well it achieves its goals and improves outcomes over time. Key indicators include task completion rate, accuracy of responses, and how often users get the right result without needing help.\n\nWhat Metrics Can we Use to Evaluate User Satisfaction?\n\nUser satisfaction can be evaluated using a mix of direct feedback and behavioral data. Common metrics include customer satisfaction scores (CSAT), where users rate their experience, and Net Promoter Score (NPS), which measures how likely they are to recommend the service.\n\nHow Frequently Should we Conduct Performance Reviews of the AI?\n\nAI performance reviews should be done on a regular, structured cycle—plus continuous monitoring in the background. For most use cases, a monthly review works well to assess key metrics like accuracy, task success rate, and user satisfaction.\n\nHow Long Does It Take to Design and Deploy an AI Agent?\n\nThe biggest factors affecting time are the scope of features, data availability, integration needs, and testing requirements. Planning, iteration, and optimization are just as important as the initial build, so deployment is often just the beginning of ongoing improvements."
+    },
+    {
+      "children": [
+        {
+          "classes": "framer-p4vlnf",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "gap": "10px",
+            "height": "364px",
+            "justifyContent": "center",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "visible",
+            "position": "relative",
+            "transition": "all",
+            "width": "1425px"
+          },
+          "tag": "SECTION",
+          "text": "Ready to Automate your Workflow? Join leading enterprises using AgentLab to scale operations, reduce costs, and deliver results faster than ever before. T A L K   T O   S A L E S V I E W   P R I C I N G"
+        },
+        {
+          "classes": "framer-jtlw0y",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "column",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "height": "859.438px",
+            "justifyContent": "center",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "visible",
+            "position": "relative",
+            "transition": "all",
+            "width": "1425px"
+          },
+          "tag": "FOOTER",
+          "text": "AgentLab Building the future of intelligent automation with AI agents that think, act, and deliver. © 2026  Design & Developed by Amani Design MAIN Product Product About About Pricing Pricing Case Study Case Study Blog Blog Contact Contact USEFUL Industry Industry Teams Teams Career Career Changelog Changelog FAQ FAQ OTHERS Privacy Policy Privacy Policy Terms & Conditions Terms & Conditions Cookie Policy Cookie Policy Waitlist Waitlist 404 404 SOCIAL Facebook Facebook LinkedIn LinkedIn X X Insta"
+        }
+      ],
+      "classes": "framer-jNCqh framer-8Nw1d framer-WgqEX framer-A9GQy framer-QjT1y framer-EQ2rb framer-ft1lag framer-v-ft1lag",
+      "i": 11,
+      "rect": {
+        "height": 1223.4375,
+        "width": 1425,
+        "x": 0,
+        "y": 11486.171875
+      },
+      "styles": {
+        "alignItems": "center",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "flexDirection": "column",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "1223.44px",
+        "justifyContent": "center",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "clip",
+        "position": "relative",
+        "transition": "all",
+        "width": "1425px"
+      },
+      "tag": "FOOTER",
+      "text": "Ready to Automate your Workflow?\n\nJoin leading enterprises using AgentLab to scale operations, reduce costs, and deliver results faster than ever before.\n\nT\nA\nL\nK\n \nT\nO\n \nS\nA\nL\nE\nS\n\nV\nI\nE\nW\n \nP\nR\nI\nC\nI\nN\nG\n\nAgentLab\n\nBuilding the future of intelligent automation with AI agents that think, act, and deliver.\n\n© 2026  Design & Developed by Amani Design\n\nMAIN\n\nProduct\n\nProduct\n\nAbout\n\nAbout\n\nPricing\n\nPricing\n\nCase Study\n\nCase Study\n\nBlog\n\nBlog\n\nContact\n\nContact\n\nUSEFUL\n\nIndustry\n\nIndustry\n\nTeams\n\nTeams\n\nCareer\n\nCareer\n\nChangelog\n\nChangelog\n\nFAQ\n\nFAQ\n\nOTHERS\n\nPrivacy Policy\n\nPrivacy Policy\n\nTerms & Conditions\n\nTerms & Conditions\n\nCookie Policy\n\nCookie Policy\n\nWaitlist\n\nWaitlist\n\n404\n\n404\n\nSOCIAL\n\nFacebook\n\nFacebook\n\nLinkedIn\n\nLinkedIn\n\nX\n\nX\n\nInstagram\n\nInstagram"
+    },
+    {
+      "children": [
+        {
+          "classes": "framer-14lpb7v",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "gap": "10px",
+            "height": "364px",
+            "justifyContent": "center",
+            "maxWidth": "1360px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "hidden",
+            "padding": "120px 30px",
+            "position": "relative",
+            "transition": "all",
+            "width": "1360px"
+          },
+          "tag": "DIV",
+          "text": "Ready to Automate your Workflow? Join leading enterprises using AgentLab to scale operations, reduce costs, and deliver results faster than ever before. T A L K   T O   S A L E S V I E W   P R I C I N G"
+        }
+      ],
+      "classes": "framer-p4vlnf",
+      "i": 12,
+      "rect": {
+        "height": 364,
+        "width": 1425,
+        "x": 0,
+        "y": 11486.171875
+      },
+      "styles": {
+        "alignItems": "center",
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "flexDirection": "row",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "10px",
+        "height": "364px",
+        "justifyContent": "center",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "visible",
+        "position": "relative",
+        "transition": "all",
+        "width": "1425px"
+      },
+      "tag": "SECTION",
+      "text": "Ready to Automate your Workflow?\n\nJoin leading enterprises using AgentLab to scale operations, reduce costs, and deliver results faster than ever before.\n\nT\nA\nL\nK\n \nT\nO\n \nS\nA\nL\nE\nS\n\nV\nI\nE\nW\n \nP\nR\nI\nC\nI\nN\nG"
+    },
+    {
+      "children": [
+        {
+          "classes": "framer-9hhbba",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "column",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "height": "452px",
+            "justifyContent": "center",
+            "maxWidth": "1360px",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "clip",
+            "padding": "0px 30px",
+            "position": "relative",
+            "transition": "all",
+            "width": "1360px"
+          },
+          "tag": "DIV",
+          "text": "AgentLab Building the future of intelligent automation with AI agents that think, act, and deliver. © 2026  Design & Developed by Amani Design MAIN Product Product About About Pricing Pricing Case Study Case Study Blog Blog Contact Contact USEFUL Industry Industry Teams Teams Career Career Changelog Changelog FAQ FAQ OTHERS Privacy Policy Privacy Policy Terms & Conditions Terms & Conditions Cookie Policy Cookie Policy Waitlist Waitlist 404 404 SOCIAL Facebook Facebook LinkedIn LinkedIn X X Insta"
+        },
+        {
+          "classes": "framer-4faz14",
+          "styles": {
+            "alignItems": "center",
+            "border": "0px none rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "gap": "10px",
+            "height": "407.438px",
+            "justifyContent": "center",
+            "objectFit": "fill",
+            "opacity": "1",
+            "overflow": "visible",
+            "position": "relative",
+            "transition": "all",
+            "width": "1425px"
+          },
+          "tag": "DIV",
+          "text": ""
+        }
+      ],
+      "classes": "framer-jtlw0y",
+      "i": 13,
+      "rect": {
+        "height": 859.4375,
+        "width": 1425,
+        "x": 0,
+        "y": 11850.171875
+      },
+      "styles": {
+        "alignItems": "center",
+        "border": "0px none rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "display": "flex",
+        "flexDirection": "column",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "height": "859.438px",
+        "justifyContent": "center",
+        "objectFit": "fill",
+        "opacity": "1",
+        "overflow": "visible",
+        "position": "relative",
+        "transition": "all",
+        "width": "1425px"
+      },
+      "tag": "FOOTER",
+      "text": "AgentLab\n\nBuilding the future of intelligent automation with AI agents that think, act, and deliver.\n\n© 2026  Design & Developed by Amani Design\n\nMAIN\n\nProduct\n\nProduct\n\nAbout\n\nAbout\n\nPricing\n\nPricing\n\nCase Study\n\nCase Study\n\nBlog\n\nBlog\n\nContact\n\nContact\n\nUSEFUL\n\nIndustry\n\nIndustry\n\nTeams\n\nTeams\n\nCareer\n\nCareer\n\nChangelog\n\nChangelog\n\nFAQ\n\nFAQ\n\nOTHERS\n\nPrivacy Policy\n\nPrivacy Policy\n\nTerms & Conditions\n\nTerms & Conditions\n\nCookie Policy\n\nCookie Policy\n\nWaitlist\n\nWaitlist\n\n404\n\n404\n\nSOCIAL\n\nFacebook\n\nFacebook\n\nLinkedIn\n\nLinkedIn\n\nX\n\nX\n\nInstagram\n\nInstagram"
+    }
+  ],
+  "svgs": [
+    "<svg width=\"1425\" height=\"74\" viewBox=\"0 0 1425 74\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none\" aria-hidden=\"true\" preserveAspectRatio=\"none\"><path d=\"M1424.5,73.5 H0.5\" fill=\"none\" stroke=\"var(--token-06a467bf-35a5-4409-b7e5-6816b75aba90, rgb(240, 240, 240))\" stroke-width=\"1\" stroke-dasharray=\"12,6\" stroke-dashoffset=\"0\" style=\"animation: 1s linear 0s infinite normal none running dash-anim-clockwise-3avak85ns;\"></path></svg>",
+    "<svg width=\"1360\" height=\"1116\" viewBox=\"0 0 1360 1116\" aria-hidden=\"true\" preserveAspectRatio=\"none\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none;\"><path d=\"M1359.5,0.5 V1115.5 M0.5,1115.5 V0.5\" fill=\"none\" stroke=\"var(--token-06a467bf-35a5-4409-b7e5-6816b75aba90, rgb(240, 240, 240))\" stroke-width=\"1\" stroke-dasharray=\"12,6\" stroke-dashoffset=\"0\" style=\"animation: 1s linear 0s infinite normal none running dash-anim-clockwise-fn3o5esss;\"></path></svg>",
+    "<svg width=\"1360\" height=\"150\" viewBox=\"0 0 1360 150\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none\" aria-hidden=\"true\" preserveAspectRatio=\"none\"><path d=\"M1359.5,0.5 V149.5 M0.5,149.5 V0.5\" fill=\"none\" stroke=\"var(--token-06a467bf-35a5-4409-b7e5-6816b75aba90, rgb(240, 240, 240))\" stroke-width=\"1\" stroke-dasharray=\"12,6\" stroke-dashoffset=\"0\" style=\"animation: 1s linear 0s infinite normal none running dash-anim-clockwise-h68el45l1;\"></path></svg>",
+    "<svg width=\"1365\" height=\"150\" viewBox=\"0 0 1365 150\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none\" aria-hidden=\"true\" preserveAspectRatio=\"none\"><path d=\"M0.5,0.5 H1364.5\" fill=\"none\" stroke=\"var(--token-06a467bf-35a5-4409-b7e5-6816b75aba90, rgb(240, 240, 240))\" stroke-width=\"1\" stroke-dasharray=\"12,6\" stroke-dashoffset=\"0\" style=\"animation: 1s linear 0s infinite normal none running dash-anim-clockwise-yoyqri56e;\"></path></svg>",
+    "<svg width=\"1360\" height=\"924.890625\" viewBox=\"0 0 1360 924.890625\" aria-hidden=\"true\" preserveAspectRatio=\"none\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none;\"><path d=\"M1359.5,0.5 V924.390625 M0.5,924.390625 V0.5\" fill=\"none\" stroke=\"var(--token-65b76487-574b-4aa2-a0ed-d69f7d724057, rgba(255, 255, 255, 0.1))\" stroke-width=\"1\" stroke-dasharray=\"12,6\" stroke-dashoffset=\"0\" style=\"animation: 1s linear 0s infinite normal none running dash-anim-clockwise-2eh3fappw;\"></path></svg>",
+    "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 20 44\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg170005945_421\"></use></svg>",
+    "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 20 44\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg170005945_421\"></use></svg>",
+    "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 20 44\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg170005945_421\"></use></svg>",
+    "<svg width=\"1360\" height=\"2905.6875\" viewBox=\"0 0 1360 2905.6875\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none\" aria-hidden=\"true\" preserveAspectRatio=\"none\"><path d=\"M1359.5,0.5 V2905.1875 M0.5,2905.1875 V0.5\" fill=\"none\" stroke=\"var(--token-06a467bf-35a5-4409-b7e5-6816b75aba90, rgb(240, 240, 240))\" stroke-width=\"1\" stroke-dasharray=\"12,6\" stroke-dashoffset=\"0\" style=\"animation: 1s linear 0s infinite normal none running dash-anim-clockwise-qwmftx6xp;\"></path></svg>",
+    "<svg width=\"1360\" height=\"1019.109375\" viewBox=\"0 0 1360 1019.109375\" aria-hidden=\"true\" preserveAspectRatio=\"none\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none;\"><path d=\"M1359.5,0.5 V1018.609375 M0.5,1018.609375 V0.5\" fill=\"none\" stroke=\"var(--token-06a467bf-35a5-4409-b7e5-6816b75aba90, rgb(240, 240, 240))\" stroke-width=\"1\" stroke-dasharray=\"12,6\" stroke-dashoffset=\"0\" style=\"animation: 1s linear 0s infinite normal none running dash-anim-clockwise-rza9kk0a6;\"></path></svg>",
+    "<svg width=\"1360\" height=\"1019.109375\" viewBox=\"0 0 1360 1019.109375\" aria-hidden=\"true\" preserveAspectRatio=\"none\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none;\"><path d=\"M0.5,0.5 H1359.5\" fill=\"none\" stroke=\"var(--token-06a467bf-35a5-4409-b7e5-6816b75aba90, rgb(240, 240, 240))\" stroke-width=\"1\" stroke-dasharray=\"12,6\" stroke-dashoffset=\"0\" style=\"animation: 1s linear 0s infinite normal none running dash-anim-clockwise-eo2189jk9;\"></path></svg>",
+    "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 194 2\"><path d=\"M 194 1 L 0 1\" fill=\"transparent\" stroke-width=\"3\" stroke=\"rgba(85, 139, 251, 0.1)\" stroke-miterlimit=\"10\" id=\"path_4dace52e-4f0b-4afb-be6b-9e2f7d60ba6e\"></path></svg>",
+    "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 3 26\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg756977738_513\"></use></svg>",
+    "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 3 26\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-1208540374_513\"></use></svg>",
+    "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 23 23\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-2084154873_1888\"></use></svg>",
+    "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 23 23\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-1686737697_5100\"></use></svg>",
+    "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 23 23\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1893058421_4044\"></use></svg>",
+    "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 23 23\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-2118696483_2949\"></use></svg>",
+    "<svg width=\"1360\" height=\"1711.890625\" viewBox=\"0 0 1360 1711.890625\" aria-hidden=\"true\" preserveAspectRatio=\"none\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none;\"><path d=\"M1359.5,0.5 V1711.390625 M0.5,1711.390625 V0.5\" fill=\"none\" stroke=\"var(--token-65b76487-574b-4aa2-a0ed-d69f7d724057, rgba(255, 255, 255, 0.1))\" stroke-width=\"1\" stroke-dasharray=\"12,6\" stroke-dashoffset=\"0\" style=\"animation: 1s linear 0s infinite normal none running dash-anim-clockwise-llbmbvtfh;\"></path></svg>",
+    "<svg width=\"1360\" height=\"1055.296875\" viewBox=\"0 0 1360 1055.296875\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none\" aria-hidden=\"true\" preserveAspectRatio=\"none\"><path d=\"M0.5,0.5 H1359.5 A0,0 0 0 1 1359.5,0.5 V1054.796875 A0,0 0 0 1 1359.5,1054.796875 H0.5 A0,0 0 0 1 0.5,1054.796875 V0.5 A0,0 0 0 1 0.5,0.5 Z\" fill=\"none\" stroke=\"var(--token-06a467bf-35a5-4409-b7e5-6816b75aba90, rgb(240, 240, 240))\" stroke-width=\"1\" stroke-dasharray=\"12,6\" stroke-dashoffset=\"0\" style=\"animation: 1s linear 0s infinite normal none running dash-anim-clockwise-3zrzndqgv;\"></path></svg>",
+    "<svg width=\"1360\" height=\"1079.296875\" viewBox=\"0 0 1360 1079.296875\" aria-hidden=\"true\" preserveAspectRatio=\"none\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none;\"><path d=\"M1359.5,0.5 V1078.796875 M0.5,1078.796875 V0.5\" fill=\"none\" stroke=\"var(--token-65b76487-574b-4aa2-a0ed-d69f7d724057, rgba(255, 255, 255, 0.1))\" stroke-width=\"1\" stroke-dasharray=\"12,6\" stroke-dashoffset=\"0\" style=\"animation: 1s linear 0s infinite normal none running dash-anim-clockwise-ravsa7iu4;\"></path></svg>",
+    "<svg width=\"1360\" height=\"596\" viewBox=\"0 0 1360 596\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none\" aria-hidden=\"true\" preserveAspectRatio=\"none\"><path d=\"M1359.5,0.5 V595.5 M0.5,595.5 V0.5\" fill=\"none\" stroke=\"var(--token-06a467bf-35a5-4409-b7e5-6816b75aba90, rgb(240, 240, 240))\" stroke-width=\"1\" stroke-dasharray=\"12,6\" stroke-dashoffset=\"0\" style=\"animation: 1s linear 0s infinite normal none running dash-anim-clockwise-7tnax542e;\"></path></svg>",
+    "<svg width=\"1360\" height=\"830\" viewBox=\"0 0 1360 830\" aria-hidden=\"true\" preserveAspectRatio=\"none\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none;\"><path d=\"M0.5,0.5 H1359.5 A0,0 0 0 1 1359.5,0.5 V829.5 A0,0 0 0 1 1359.5,829.5 H0.5 A0,0 0 0 1 0.5,829.5 V0.5 A0,0 0 0 1 0.5,0.5 Z\" fill=\"none\" stroke=\"var(--token-06a467bf-35a5-4409-b7e5-6816b75aba90, rgb(240, 240, 240))\" stroke-width=\"1\" stroke-dasharray=\"12,6\" stroke-dashoffset=\"0\" style=\"animation: 1s linear 0s infinite normal none running dash-anim-clockwise-pshszcxth;\"></path></svg>",
+    "<svg width=\"1360\" height=\"364\" viewBox=\"0 0 1360 364\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none\" aria-hidden=\"true\" preserveAspectRatio=\"none\"><path d=\"M1359.5,0.5 V363.5 M0.5,363.5 V0.5\" fill=\"none\" stroke=\"var(--token-65b76487-574b-4aa2-a0ed-d69f7d724057, rgba(255, 255, 255, 0.1))\" stroke-width=\"1\" stroke-dasharray=\"12,6\" stroke-dashoffset=\"0\" style=\"animation: 1s linear 0s infinite normal none running dash-anim-clockwise-4q5k6b0sm;\"></path></svg>",
+    "<svg width=\"1360\" height=\"364\" viewBox=\"0 0 1360 364\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none\" aria-hidden=\"true\" preserveAspectRatio=\"none\"><path d=\"M1359.5,363.5 H0.5\" fill=\"none\" stroke=\"var(--token-65b76487-574b-4aa2-a0ed-d69f7d724057, rgba(255, 255, 255, 0.1))\" stroke-width=\"1\" stroke-dasharray=\"12,6\" stroke-dashoffset=\"0\" style=\"animation: 1s linear 0s infinite normal none running dash-anim-clockwise-liwwppctt;\"></path></svg>",
+    "<svg width=\"1360\" height=\"452\" viewBox=\"0 0 1360 452\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none\" aria-hidden=\"true\" preserveAspectRatio=\"none\"><path d=\"M1359.5,0.5 V451.5 M0.5,451.5 V0.5\" fill=\"none\" stroke=\"var(--token-65b76487-574b-4aa2-a0ed-d69f7d724057, rgba(255, 255, 255, 0.1))\" stroke-width=\"1\" stroke-dasharray=\"12,6\" stroke-dashoffset=\"0\" style=\"animation: 1s linear 0s infinite normal none running dash-anim-clockwise-1k1b50vpl;\"></path></svg>",
+    "<svg width=\"1360\" height=\"407.4375\" viewBox=\"0 0 1360 407.4375\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none\" aria-hidden=\"true\" preserveAspectRatio=\"none\"><path d=\"M0.5,0.5 H1359.5\" fill=\"none\" stroke=\"var(--token-65b76487-574b-4aa2-a0ed-d69f7d724057, rgba(255, 255, 255, 0.1))\" stroke-width=\"1\" stroke-dasharray=\"12,6\" stroke-dashoffset=\"0\" style=\"animation: 1s linear 0s infinite normal none running dash-anim-clockwise-462vadpsj;\"></path></svg>",
+    "<svg width=\"1360\" height=\"407.4375\" viewBox=\"0 0 1360 407.4375\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none\" aria-hidden=\"true\" preserveAspectRatio=\"none\"><path d=\"M1359.5,0.5 V406.9375 M0.5,406.9375 V0.5\" fill=\"none\" stroke=\"var(--token-65b76487-574b-4aa2-a0ed-d69f7d724057, rgba(255, 255, 255, 0.1))\" stroke-width=\"1\" stroke-dasharray=\"12,6\" stroke-dashoffset=\"0\" style=\"animation: 1s linear 0s infinite normal none running dash-anim-clockwise-lr8svgfal;\"></path></svg>",
+    "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 11 10\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-1160060004_483\"></use></svg>",
+    "<svg width=\"20\" height=\"44\" viewBox=\"0 0 20 44\" fill=\"none\" id=\"svg170005945_421\">\n<path d=\"M0 10C0 4.47715 4.47715 0 10 0V0C15.5228 0 20 4.47715 20 10V10C20 15.5228 15.5228 20 10 20V20C4.47715 20 0 15.5228 0 10V10Z\" fill=\"black\"></path>\n<path d=\"M14 7L8.5 12.5L6 10\" stroke=\"white\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<rect width=\"1\" height=\"24\" transform=\"translate(9.5 20)\" fill=\"#558BFB\"></rect>\n</svg>",
+    "<svg width=\"3\" height=\"26\" viewBox=\"-1 -1 3 26\" fill=\"none\" id=\"svg756977738_513\">\n<line x1=\"0.5\" y1=\"2.18557e-08\" x2=\"0.499999\" y2=\"24\" stroke=\"url(#svg756977738_513_paint0_linear_680_35565)\"></line>\n<defs>\n<linearGradient id=\"svg756977738_513_paint0_linear_680_35565\" x1=\"-0.5\" y1=\"-2.18557e-08\" x2=\"-0.500001\" y2=\"24\" gradientUnits=\"userSpaceOnUse\">\n<stop stop-color=\"#558BFB\" stop-opacity=\"0.1\"></stop>\n<stop offset=\"0.466346\" stop-color=\"#558BFB\"></stop>\n<stop offset=\"1\" stop-color=\"#558BFB\" stop-opacity=\"0.1\"></stop>\n</linearGradient>\n</defs>\n</svg>",
+    "<svg width=\"3\" height=\"26\" viewBox=\"-1 -1 3 26\" fill=\"none\" id=\"svg-1208540374_513\">\n<line x1=\"0.5\" y1=\"2.18557e-08\" x2=\"0.499999\" y2=\"24\" stroke=\"url(#svg-1208540374_513_paint0_linear_680_35566)\"></line>\n<defs>\n<linearGradient id=\"svg-1208540374_513_paint0_linear_680_35566\" x1=\"-0.5\" y1=\"-2.18557e-08\" x2=\"-0.500001\" y2=\"24\" gradientUnits=\"userSpaceOnUse\">\n<stop stop-color=\"#558BFB\" stop-opacity=\"0.1\"></stop>\n<stop offset=\"0.466346\" stop-color=\"#558BFB\"></stop>\n<stop offset=\"1\" stop-color=\"#558BFB\" stop-opacity=\"0.1\"></stop>\n</linearGradient>\n</defs>\n</svg>",
+    "<svg width=\"23\" height=\"23\" viewBox=\"0 0 23 23\" fill=\"none\" id=\"svg-2084154873_1888\">\n<foreignObject x=\"-10.8266\" y=\"-10.8266\" width=\"44.1532\" height=\"44.1532\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"backdrop-filter:blur(5.23px);clip-path:url(#svg-2084154873_1888_bgblur_0_680_35634_clip_path);height:100%;width:100%\"></div></foreignObject><rect data-figma-bg-blur-radius=\"10.4516\" width=\"22.5\" height=\"22.5\" rx=\"3\" fill=\"white\" fill-opacity=\"0.02\" stroke=\"url(#svg-2084154873_1888_paint0_linear_680_35634)\" stroke-width=\"0.75\"></rect>\n<path opacity=\"0.7\" d=\"M11.25 3.76465C15.3956 3.76465 18.75 7.1194 18.75 11.2646C18.75 15.4103 15.3952 18.7646 11.25 18.7646C7.10438 18.7646 3.75 15.4099 3.75 11.2646C3.75 7.11902 7.10476 3.76465 11.25 3.76465ZM11.25 5.16016C7.88391 5.16016 5.14551 7.89855 5.14551 11.2646C5.14551 14.6307 7.88391 17.3691 11.25 17.3691C14.6161 17.3691 17.3545 14.6307 17.3545 11.2646C17.3545 7.89855 14.6161 5.16016 11.25 5.16016ZM11.25 6.20703C14.0388 6.20728 16.3076 8.47575 16.3076 11.2646C16.3076 14.0536 14.0389 16.323 11.25 16.3232C8.46094 16.3232 6.19141 14.0537 6.19141 11.2646C6.19142 8.4756 8.46095 6.20703 11.25 6.20703ZM13.6191 9.41504C13.4148 9.21072 13.0832 9.21072 12.8789 9.41504L10.958 11.3359C10.5886 11.7054 9.98957 11.7054 9.62012 11.3359C9.4158 11.1316 9.08423 11.1316 8.87988 11.3359C8.67569 11.5403 8.67559 11.8719 8.87988 12.0762L9.91895 13.1143C10.1232 13.3186 10.455 13.3185 10.6592 13.1143L13.6191 10.1543C13.8231 9.95002 13.8231 9.61928 13.6191 9.41504Z\" fill=\"#558BFB\"></path>\n<defs>\n<clipPath id=\"svg-2084154873_1888_bgblur_0_680_35634_clip_path\" transform=\"translate(10.8266 10.8266)\"><rect width=\"22.5\" height=\"22.5\" rx=\"3\"></rect>\n</clipPath><linearGradient id=\"svg-2084154873_1888_paint0_linear_680_35634\" x1=\"11.25\" y1=\"0\" x2=\"11.25\" y2=\"22.5\" gradientUnits=\"userSpaceOnUse\">\n<stop stop-color=\"white\" stop-opacity=\"0.1\"></stop>\n<stop offset=\"1\" stop-color=\"white\" stop-opacity=\"0.15\"></stop>\n</linearGradient>\n</defs>\n</svg>",
+    "<svg width=\"23\" height=\"23\" viewBox=\"0 0 23 23\" fill=\"none\" id=\"svg-1686737697_5100\">\n<foreignObject x=\"-10.8266\" y=\"-10.8266\" width=\"44.1532\" height=\"44.1532\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"backdrop-filter:blur(5.23px);clip-path:url(#svg-1686737697_5100_bgblur_0_680_35646_clip_path);height:100%;width:100%\"></div></foreignObject><rect data-figma-bg-blur-radius=\"10.4516\" width=\"22.5\" height=\"22.5\" rx=\"3\" fill=\"white\" fill-opacity=\"0.02\" stroke=\"url(#svg-1686737697_5100_paint0_linear_680_35646)\" stroke-width=\"0.75\"></rect>\n<g opacity=\"0.7\">\n<g clip-path=\"url(#svg-1686737697_5100_clip1_680_35646)\">\n<path d=\"M9.14498 10.7322C7.25996 10.7322 5.50376 10.2078 4.31677 9.41025C4.30417 9.40176 4.2916 9.39326 4.2793 9.38477V11.0112C4.51733 11.2388 4.81862 11.4578 5.17379 11.6569C6.2501 12.26 7.69742 12.6061 9.14501 12.6061C9.70836 12.6061 10.2612 12.5637 10.7894 12.4814V10.6168C10.257 10.693 9.70481 10.7322 9.14498 10.7322Z\" fill=\"#558BFB\"></path>\n<path d=\"M10.7893 13.9299V13.3683C10.257 13.4445 9.70481 13.4837 9.14498 13.4837C7.25645 13.4837 5.49731 12.9575 4.31032 12.157C4.29978 12.1503 4.28952 12.1433 4.2793 12.1362V13.924C4.49041 14.1041 4.74163 14.2772 5.02739 14.4376C6.1037 15.0408 7.55103 15.3869 8.99861 15.3869C9.77568 15.3869 10.5329 15.3061 11.2332 15.1518C10.9504 14.8165 10.7893 14.3875 10.7893 13.9299Z\" fill=\"#558BFB\"></path>\n<path d=\"M14.0011 16.9007L13.9712 16.8846L12.1567 15.8179C11.1975 16.1101 10.1139 16.2662 8.99861 16.2662C7.1704 16.2662 5.46339 15.7731 4.2793 15.0156V16.7071C4.2793 18.0584 6.73294 18.7652 9.1567 18.7652C11.4575 18.7652 13.7852 18.1281 14.0151 16.9074C14.0104 16.9054 14.0057 16.903 14.0011 16.9007Z\" fill=\"#558BFB\"></path>\n<path d=\"M9.15484 3.76465C6.8074 3.76465 4.43224 4.42767 4.28479 5.69651C4.49142 5.87016 4.73488 6.03721 5.01124 6.19201C6.08737 6.79515 7.53484 7.14103 8.9824 7.14103C10.472 7.14103 11.889 6.84357 12.9723 6.30346C13.4036 6.08842 13.7544 5.8452 14.0072 5.59298C13.7459 4.3916 11.4372 3.76465 9.15484 3.76465Z\" fill=\"#558BFB\"></path>\n<path d=\"M13.366 7.08967C12.1634 7.68932 10.6072 8.01958 8.98426 8.01958C7.16334 8.01958 5.46277 7.50073 4.2793 6.74854V8.31706C4.51733 8.54455 4.78936 8.70501 5.14452 8.90411C6.22083 9.50728 7.69742 9.85336 9.14501 9.85336C9.70836 9.85336 10.2612 9.81091 10.7894 9.72861V9.22471C10.7894 8.85343 11.0379 8.52785 11.3949 8.42977L14.0338 7.65853V6.70166C13.8321 6.83874 13.6096 6.96814 13.366 7.08967Z\" fill=\"#558BFB\"></path>\n<path d=\"M17.7193 9.0965L14.9933 8.29971L14.9823 8.29667C14.8997 8.27481 14.8123 8.27481 14.7298 8.29667L11.9928 9.0965C11.6977 9.17765 11.4922 9.44674 11.4922 9.75342V13.6428C11.4922 14.2336 11.8171 14.7666 12.3412 15.0373L14.1221 16.084L14.1467 16.0975C14.3688 16.2096 14.6124 16.2656 14.856 16.2656C15.0996 16.2656 15.3433 16.2096 15.5653 16.0975L15.5779 16.0912L17.3709 15.0373C17.895 14.7665 18.2199 14.2336 18.2199 13.6428V9.75342C18.2199 9.44674 18.0144 9.17771 17.7193 9.0965ZM16.4429 11.7693L14.6494 13.429C14.6457 13.4323 14.6418 13.4352 14.638 13.4385C14.6328 13.443 14.6277 13.4475 14.6224 13.4517C14.6163 13.4564 14.6101 13.4608 14.6039 13.4652C14.5984 13.4691 14.593 13.473 14.5873 13.4766C14.5808 13.4808 14.5741 13.4846 14.5675 13.4884C14.5619 13.4916 14.5564 13.4948 14.5507 13.4977C14.5436 13.5013 14.5363 13.5045 14.529 13.5078C14.5236 13.5102 14.5182 13.5128 14.5126 13.515C14.5048 13.5181 14.4969 13.5206 14.489 13.5233C14.4838 13.525 14.4786 13.5269 14.4733 13.5284C14.4648 13.5309 14.4561 13.5328 14.4475 13.5348C14.4426 13.5359 14.4379 13.5372 14.4331 13.5381C14.4234 13.54 14.4136 13.5412 14.4038 13.5424C14.3999 13.5428 14.3961 13.5436 14.3923 13.5439C14.3786 13.5452 14.3649 13.5459 14.3512 13.5459H14.3511H14.3511C14.3366 13.5459 14.3222 13.5451 14.3078 13.5437C14.3037 13.5433 14.2997 13.5425 14.2957 13.542C14.2854 13.5407 14.2751 13.5393 14.2649 13.5373C14.2598 13.5363 14.2548 13.5348 14.2498 13.5336C14.2407 13.5315 14.2317 13.5294 14.2228 13.5267C14.2172 13.525 14.2118 13.5229 14.2063 13.5209C14.1981 13.5181 14.1898 13.5153 14.1818 13.5119C14.1759 13.5095 14.1703 13.5066 14.1645 13.5039C14.157 13.5004 14.1495 13.4969 14.1421 13.4929C14.1362 13.4897 14.1305 13.486 14.1246 13.4826C14.1178 13.4784 14.1109 13.4743 14.1043 13.4698C14.0984 13.4658 14.0927 13.4614 14.087 13.4571C14.0807 13.4523 14.0744 13.4476 14.0683 13.4425C14.0628 13.4378 14.0574 13.4327 14.052 13.4277C14.0482 13.4241 14.0441 13.4209 14.0403 13.4172L13.2568 12.6335C13.0852 12.4619 13.0852 12.1839 13.2568 12.0124C13.4283 11.8408 13.7064 11.8408 13.8779 12.0124L14.3628 12.4972L15.8461 11.1246C16.0241 10.9598 16.302 10.9706 16.4668 11.1487C16.6317 11.3267 16.6209 11.6046 16.4429 11.7693Z\" fill=\"#558BFB\"></path>\n</g>\n</g>\n<defs>\n<clipPath id=\"svg-1686737697_5100_bgblur_0_680_35646_clip_path\" transform=\"translate(10.8266 10.8266)\"><rect width=\"22.5\" height=\"22.5\" rx=\"3\"></rect>\n</clipPath><linearGradient id=\"svg-1686737697_5100_paint0_linear_680_35646\" x1=\"11.25\" y1=\"0\" x2=\"11.25\" y2=\"22.5\" gradientUnits=\"userSpaceOnUse\">\n<stop stop-color=\"white\" stop-opacity=\"0.1\"></stop>\n<stop offset=\"1\" stop-color=\"white\" stop-opacity=\"0.15\"></stop>\n</linearGradient>\n<clipPath id=\"svg-1686737697_5100_clip1_680_35646\">\n<rect x=\"3.75\" y=\"3.76465\" width=\"15\" height=\"15\" rx=\"3\" fill=\"white\"></rect>\n</clipPath>\n</defs>\n</svg>",
+    "<svg width=\"23\" height=\"23\" viewBox=\"0 0 23 23\" fill=\"none\" id=\"svg1893058421_4044\">\n<foreignObject x=\"-10.8266\" y=\"-10.8266\" width=\"44.1532\" height=\"44.1532\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"backdrop-filter:blur(5.23px);clip-path:url(#svg1893058421_4044_bgblur_0_680_35669_clip_path);height:100%;width:100%\"></div></foreignObject><rect data-figma-bg-blur-radius=\"10.4516\" width=\"22.5\" height=\"22.5\" rx=\"3\" fill=\"white\" fill-opacity=\"0.02\" stroke=\"url(#svg1893058421_4044_paint0_linear_680_35669)\" stroke-width=\"0.75\"></rect>\n<g opacity=\"0.7\">\n<path d=\"M16.589 5.91398C15.1981 4.49487 13.29 3.69872 11.3031 3.70809H11.2904C7.19852 3.7081 3.8313 7.07534 3.8313 11.1672C3.8313 11.1864 3.83171 11.2052 3.83171 11.2244C3.84409 12.2692 4.06373 13.2985 4.47512 14.2535C4.66961 14.705 4.73951 15.2069 4.60974 15.6811C4.22676 17.0804 5.49878 18.3712 6.90357 18.0088L6.96858 17.992C7.44376 17.8694 7.94351 17.9432 8.39605 18.1331C9.30596 18.5148 10.2865 18.7087 11.2785 18.6999C15.3856 18.6774 18.7524 15.291 18.7499 11.1836C18.7597 9.21012 17.9815 7.31226 16.589 5.91398ZM11.3031 17.4335C10.1973 17.4393 9.11106 17.1426 8.16174 16.5757C8.00372 16.4967 7.82241 16.4776 7.65142 16.5221L7.40426 16.5863C6.5788 16.8009 5.82762 16.0475 6.04467 15.2227L6.0974 15.0223C6.14508 14.8412 6.11289 14.6482 6.00898 14.4924C5.40203 13.5123 5.08048 12.3825 5.08046 11.2297C5.08046 7.83023 7.87784 5.03284 11.2773 5.03284C14.6768 5.03284 17.4742 7.83023 17.4742 11.2297C17.4742 13.3702 16.3651 15.3645 14.5465 16.494C13.5847 17.1101 12.4658 17.4363 11.3235 17.4335M14.9142 12.8992L14.4648 12.695C14.4648 12.695 13.9248 12.4587 13.5197 12.2623C13.4425 12.2249 13.3659 12.1639 13.2802 12.1639C13.1795 12.1664 13.081 12.1946 12.9942 12.2456C12.9166 12.2912 12.9449 12.288 12.5465 12.7501C12.4377 12.8764 12.3439 13.0658 12.1772 13.0626C12.1501 13.0626 12.1226 13.0612 12.0966 13.0533C12.0919 13.0518 12.0871 13.0502 12.0824 13.0485C12.0019 13.0196 11.9322 12.9646 11.8527 12.9328L11.7687 12.8992C11.3305 12.7137 10.9292 12.4508 10.5841 12.1231C10.5024 12.0414 10.3799 11.9597 10.2982 11.878C9.99575 11.5883 9.7346 11.2584 9.52203 10.8976L9.52146 10.8965C9.49464 10.8429 9.4617 10.7924 9.43474 10.7388C9.40681 10.6833 9.39012 10.6209 9.39972 10.5595C9.40583 10.5205 9.41952 10.4826 9.44032 10.4483C9.4775 10.387 9.60372 10.244 9.72627 10.1215C9.76568 10.0821 9.79242 10.0469 9.81327 10.0146C9.89078 9.89446 9.98758 9.78028 10.0156 9.64012C10.0297 9.56966 10.0285 9.497 10.0122 9.42702C9.82184 8.89845 9.60367 8.38031 9.35863 7.87475C9.22931 7.67364 8.95182 7.6705 8.71273 7.6705H8.62333C8.55542 7.6705 8.48751 7.69873 8.41959 7.70826C8.39327 7.71195 8.36768 7.72191 8.34888 7.7407C8.34127 7.74832 8.33243 7.75456 8.32301 7.75979C8.24611 7.80249 8.1692 7.87715 8.09229 7.9156C8.01059 7.95645 7.96975 8.07901 7.88805 8.1607C7.60248 8.52157 7.44447 8.96686 7.4387 9.42702C7.44323 9.75072 7.51268 10.0702 7.64294 10.3666L7.6838 10.4891C8.05059 11.2733 8.56357 11.9804 9.19524 12.5724L9.35863 12.7358C9.41458 12.7822 9.46843 12.8309 9.52003 12.882C9.63598 12.9967 9.74639 13.1175 9.87294 13.2203C10.6787 13.8752 11.6162 14.3509 12.6225 14.6149C12.6252 14.6158 12.6279 14.6167 12.6307 14.6176C12.8888 14.6987 13.1689 14.6966 13.4395 14.6966C13.653 14.6861 13.8618 14.6304 14.0522 14.5332C14.1173 14.5037 14.1805 14.4703 14.2415 14.4331C14.3072 14.3931 14.3655 14.3425 14.4199 14.2881C14.5016 14.2064 14.5833 14.1656 14.665 14.0839C14.6917 14.06 14.7173 14.0349 14.7415 14.0085C14.8374 13.9042 14.9003 13.7744 14.9442 13.6397C14.9795 13.5313 15.0069 13.4203 15.0261 13.3077C15.0307 13.2806 15.0326 13.2531 15.0326 13.2256V13.1287C15.0326 13.0347 14.995 12.9396 14.9101 12.8992\" fill=\"#558BFB\"></path>\n</g>\n<defs>\n<clipPath id=\"svg1893058421_4044_bgblur_0_680_35669_clip_path\" transform=\"translate(10.8266 10.8266)\"><rect width=\"22.5\" height=\"22.5\" rx=\"3\"></rect>\n</clipPath><linearGradient id=\"svg1893058421_4044_paint0_linear_680_35669\" x1=\"11.25\" y1=\"0\" x2=\"11.25\" y2=\"22.5\" gradientUnits=\"userSpaceOnUse\">\n<stop stop-color=\"white\" stop-opacity=\"0.1\"></stop>\n<stop offset=\"1\" stop-color=\"white\" stop-opacity=\"0.15\"></stop>\n</linearGradient>\n</defs>\n</svg>",
+    "<svg width=\"23\" height=\"23\" viewBox=\"0 0 23 23\" fill=\"none\" id=\"svg-2118696483_2949\">\n<foreignObject x=\"-10.8266\" y=\"-10.8266\" width=\"44.1532\" height=\"44.1532\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"backdrop-filter:blur(5.23px);clip-path:url(#svg-2118696483_2949_bgblur_0_680_35675_clip_path);height:100%;width:100%\"></div></foreignObject><rect data-figma-bg-blur-radius=\"10.4516\" width=\"22.5\" height=\"22.5\" rx=\"3\" fill=\"white\" fill-opacity=\"0.02\" stroke=\"url(#svg-2118696483_2949_paint0_linear_680_35675)\" stroke-width=\"0.75\"></rect>\n<g opacity=\"0.7\">\n<g clip-path=\"url(#svg-2118696483_2949_clip1_680_35675)\">\n<path d=\"M15.0133 8.84248V7.08091C15.2461 6.97211 15.4432 6.79943 15.5817 6.58297C15.7202 6.36651 15.7943 6.11517 15.7955 5.85821V5.81779C15.7955 5.06859 15.1881 4.46124 14.439 4.46124H14.3985C13.6493 4.46124 13.042 5.06859 13.042 5.81779V5.85821C13.0431 6.11517 13.1173 6.36651 13.2558 6.58297C13.3942 6.79943 13.5913 6.97211 13.8241 7.08091V8.84248C13.1551 8.94494 12.5249 9.22237 11.9976 9.64667L7.16636 5.88364C7.20081 5.75928 7.21878 5.6314 7.22081 5.50304C7.2214 5.20071 7.13232 4.905 6.96482 4.65331C6.79733 4.40162 6.55895 4.20526 6.27985 4.08907C6.00074 3.97287 5.69344 3.94207 5.39682 4.00054C5.10021 4.05902 4.82759 4.20415 4.61347 4.41758C4.39934 4.63101 4.25333 4.90315 4.19389 5.19958C4.13445 5.49601 4.16426 5.8034 4.27955 6.08288C4.39484 6.36237 4.59043 6.60138 4.84157 6.76969C5.09272 6.938 5.38814 7.02804 5.69047 7.02843C5.95495 7.02718 6.21447 6.95657 6.44313 6.82365L11.2005 10.5256C10.3259 11.8469 10.3493 13.5689 11.2594 14.866L9.81249 16.3133C9.69547 16.2759 9.57368 16.2561 9.45087 16.2544C8.75791 16.255 8.19653 16.817 8.1967 17.5099C8.19688 18.2028 8.75862 18.7645 9.45153 18.7647C10.1445 18.7649 10.7065 18.2035 10.7071 17.5105C10.7054 17.3878 10.6856 17.2659 10.6481 17.149L12.0795 15.717C13.3585 16.7016 15.1151 16.7865 16.4831 15.9297C17.851 15.0728 18.5413 13.4553 18.2135 11.8748C17.8858 10.2943 16.6092 9.08476 15.0133 8.84248ZM14.42 14.6362C14.1556 14.6433 13.8924 14.5973 13.646 14.5011C13.3996 14.4048 13.175 14.2601 12.9854 14.0756C12.7958 13.891 12.6452 13.6704 12.5423 13.4267C12.4394 13.183 12.3864 12.9211 12.3864 12.6566C12.3864 12.392 12.4394 12.1302 12.5423 11.8864C12.6452 11.6427 12.7958 11.4221 12.9854 11.2376C13.175 11.053 13.3996 10.9083 13.646 10.8121C13.8924 10.7158 14.1556 10.6698 14.42 10.677C15.4857 10.7143 16.3305 11.5887 16.3311 12.6551C16.3315 13.7214 15.4877 14.5968 14.422 14.6352\" fill=\"#558BFB\"></path>\n</g>\n</g>\n<defs>\n<clipPath id=\"svg-2118696483_2949_bgblur_0_680_35675_clip_path\" transform=\"translate(10.8266 10.8266)\"><rect width=\"22.5\" height=\"22.5\" rx=\"3\"></rect>\n</clipPath><linearGradient id=\"svg-2118696483_2949_paint0_linear_680_35675\" x1=\"11.25\" y1=\"0\" x2=\"11.25\" y2=\"22.5\" gradientUnits=\"userSpaceOnUse\">\n<stop stop-color=\"white\" stop-opacity=\"0.1\"></stop>\n<stop offset=\"1\" stop-color=\"white\" stop-opacity=\"0.15\"></stop>\n</linearGradient>\n<clipPath id=\"svg-2118696483_2949_clip1_680_35675\">\n<rect x=\"3.75\" y=\"3.76514\" width=\"15\" height=\"15\" rx=\"3\" fill=\"white\"></rect>\n</clipPath>\n</defs>\n</svg>",
+    "<svg width=\"11\" height=\"10\" viewBox=\"-1 -1 11 10\" fill=\"none\" id=\"svg-1160060004_483\">\n<path d=\"M0 0C7.5 0 9 1.5 9 7.99997\" stroke=\"url(#svg-1160060004_483_paint0_linear_4667_10125)\" stroke-width=\"2\" stroke-linecap=\"round\"></path>\n<defs>\n<linearGradient id=\"svg-1160060004_483_paint0_linear_4667_10125\" x1=\"-1\" y1=\"-0.5\" x2=\"9\" y2=\"9\" gradientUnits=\"userSpaceOnUse\">\n<stop stop-color=\"#ADFF30\"></stop>\n<stop offset=\"0.519231\" stop-color=\"#00D5FF\"></stop>\n<stop offset=\"1\" stop-color=\"#D469FF\"></stop>\n</linearGradient>\n</defs>\n</svg>"
+  ],
+  "title": "Amani — AI Workflow & Automation Platform",
+  "videos": [
+    {
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "poster": "",
+      "src": "https://framerusercontent.com/assets/JXkSb842N1eODd97BKJ49jsMuis.mp4"
+    }
+  ],
+  "viewport": {
+    "height": 900,
+    "scrollHeight": 12710,
+    "width": 1440
+  }
+}

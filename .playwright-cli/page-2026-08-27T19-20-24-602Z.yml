@@ -1,0 +1,406 @@
+- generic [ref=f3e1]:
+  - main [ref=f3e2]:
+    - generic [ref=f3e3]:
+      - generic [ref=f3e6]:
+        - link "Fusion AI home" [ref=f3e7] [cursor=pointer]:
+          - /url: /fusion-ai
+          - generic [ref=f3e8]: Fusion AI
+        - navigation "Main navigation" [ref=f3e9]:
+          - link "About us" [ref=f3e10] [cursor=pointer]:
+            - /url: "#about-us"
+          - link "Pricing" [ref=f3e11] [cursor=pointer]:
+            - /url: "#pricing"
+          - link "Integration" [ref=f3e12] [cursor=pointer]:
+            - /url: "#integration"
+          - link "Blog" [ref=f3e13] [cursor=pointer]:
+            - /url: "#blog"
+          - link "Contact" [ref=f3e14] [cursor=pointer]:
+            - /url: "#contact"
+        - generic [ref=f3e15]:
+          - link "Waitlist" [ref=f3e16] [cursor=pointer]:
+            - /url: "#waitlist"
+          - link "Get Started" [ref=f3e17] [cursor=pointer]:
+            - /url: "#get-started"
+            - generic [ref=f3e18]:
+              - generic [ref=f3e19]: Get Started
+              - generic [ref=f3e20]: Get Started
+      - generic [ref=f3e21]:
+        - paragraph [ref=f3e22]: Supercharge Your AI Workflows
+        - heading "Automate Your AI Workflows with AI Agent" [level=1] [ref=f3e23]
+        - paragraph [ref=f3e24]: Connect your favorite apps, set triggers and watch AI handle the rest - no coding required. Get up and running in minutes.
+        - generic [ref=f3e25]:
+          - link "Get Started - Free" [ref=f3e26] [cursor=pointer]:
+            - /url: "#get-started"
+            - generic [ref=f3e27]:
+              - generic [ref=f3e28]: Get Started - Free
+              - generic [ref=f3e29]: Get Started - Free
+          - link "View Pricing" [ref=f3e30] [cursor=pointer]:
+            - /url: "#pricing"
+            - generic [ref=f3e31]:
+              - generic [ref=f3e32]: View Pricing
+              - generic [ref=f3e33]: View Pricing
+      - generic "AI workflow prompt example" [ref=f3e35]:
+        - generic [ref=f3e36]:
+          - generic [ref=f3e37]:
+            - button "Select AI model" [expanded] [active] [ref=f3e38] [cursor=pointer]:
+              - generic [ref=f3e39]: ◎
+              - text: GPT 5.5
+              - generic [ref=f3e40]: ⌄
+            - listbox "AI models" [ref=f3e419]:
+              - option "GPT 5.5" [selected] [ref=f3e420] [cursor=pointer]:
+                - generic [ref=f3e421]: ◎
+                - text: GPT 5.5
+                - generic [ref=f3e422]: ✓
+              - option "Claude 4.1" [ref=f3e423] [cursor=pointer]:
+                - generic [ref=f3e424]: ◎
+                - text: Claude 4.1
+              - option "Gemini 2.5" [ref=f3e425] [cursor=pointer]:
+                - generic [ref=f3e426]: ◎
+                - text: Gemini 2.5
+          - button "Browse the web" [ref=f3e41]: ◎
+        - generic [ref=f3e42]:
+          - generic [ref=f3e43]: Workflow prompt
+          - textbox "Workflow prompt" [ref=f3e44]: Create CRM contact from emails
+        - generic [ref=f3e45]:
+          - generic "Workflow modes" [ref=f3e46]:
+            - button "Chat" [pressed] [ref=f3e47] [cursor=pointer]
+            - button "Launch Workflow" [ref=f3e48] [cursor=pointer]
+            - button "Data Analysis" [ref=f3e49] [cursor=pointer]
+          - button "Send" [ref=f3e50] [cursor=pointer]
+    - region [ref=f3e54]:
+      - paragraph [ref=f3e55]: Trusted by 150,000+ users worldwide
+      - generic "Trusted companies" [ref=f3e56]:
+        - generic [ref=f3e57]: Webflow
+        - generic [ref=f3e58]: Dropbox
+        - generic [ref=f3e59]: Notion
+        - generic [ref=f3e60]: Slack
+        - generic [ref=f3e61]: Intercom
+    - region [ref=f3e62]:
+      - generic [ref=f3e63]:
+        - paragraph [ref=f3e64]: AI-Driven Features
+        - heading "Build, scale and manage entire AI workforce" [level=2] [ref=f3e65]
+        - paragraph [ref=f3e66]: Fusion AI helps you tackle data bottlenecks, streamline analysis, and make smarter decisions with ease.
+      - generic [ref=f3e67]:
+        - generic [ref=f3e68]:
+          - article [ref=f3e69]:
+            - generic [ref=f3e70]:
+              - img "Fusion AI integrations arranged around the Fusion logo" [ref=f3e72]
+              - generic [ref=f3e73]:
+                - heading "Seamless Integrations" [level=3] [ref=f3e74]
+                - paragraph [ref=f3e75]: Integrate Slack, HubSpot, Zendesk & more—automate data flow instantly.
+          - article [ref=f3e76]:
+            - generic [ref=f3e77]:
+              - img "Fusion AI conversational action interface" [ref=f3e79]
+              - generic [ref=f3e80]:
+                - heading "Conversational Actions" [level=3] [ref=f3e81]
+                - paragraph [ref=f3e82]: Create records, assign tasks & queue emails with a simple prompt in seconds flat.
+        - generic [ref=f3e83]:
+          - article [ref=f3e84]:
+            - generic [ref=f3e85]:
+              - img "Fusion AI visual workflow designer" [ref=f3e87]
+              - generic [ref=f3e88]:
+                - heading "Visual Workflow Designer" [level=3] [ref=f3e89]
+                - paragraph [ref=f3e90]: Drag & drop AI actions to build workflows visually— no coding required.
+          - article [ref=f3e91]:
+            - generic [ref=f3e92]:
+              - img "Fusion AI multi-channel automation interface" [ref=f3e94]
+              - generic [ref=f3e95]:
+                - heading "Multi-Channel Automation" [level=3] [ref=f3e96]
+                - paragraph [ref=f3e97]: Trigger email, SMS & chat messages automatically on schedule.
+    - region [ref=f3e98]:
+      - heading "AI Powered" [level=2] [ref=f3e100]
+      - generic [ref=f3e101]:
+        - img "Fusion AI workspace dashboard" [ref=f3e103]
+        - generic:
+          - generic:
+            - text: Agent is working
+            - strong: 100%
+          - paragraph: Hey, can you generate a customer follow-up list
+          - paragraph: Done—compiled 60 leads and emailed the list to you. Ready for your outreach!
+          - paragraph: That’s awesome, thanks!
+          - paragraph: Want me to draft a quick template for your outreach?
+      - generic "Industries" [ref=f3e104]:
+        - article [ref=f3e105]:
+          - heading "Customer Support" [level=3] [ref=f3e106]
+        - article [ref=f3e107]:
+          - heading "Healthcare" [level=3] [ref=f3e108]
+        - article [ref=f3e109]:
+          - heading "Marketing" [level=3] [ref=f3e110]
+        - article [ref=f3e111]:
+          - heading "Education" [level=3] [ref=f3e112]
+        - article [ref=f3e113]:
+          - heading "Finance" [level=3] [ref=f3e114]
+    - region "Build, scale and manage entire AI workforce" [ref=f3e115]:
+      - generic [ref=f3e116]:
+        - paragraph [ref=f3e117]: AI-Driven Features
+        - heading "Build, scale and manage entire AI workforce" [level=2] [ref=f3e118]
+        - paragraph [ref=f3e119]: Fluence AI helps you tackle data bottlenecks, streamline analysis, and make smarter decisions with ease.
+      - generic [ref=f3e120]:
+        - article [ref=f3e121]:
+          - generic [ref=f3e122]:
+            - paragraph [ref=f3e123]: Feature 01
+            - heading "Instant, One-Command Actions" [level=3] [ref=f3e124]
+            - paragraph [ref=f3e125]: Type an action once—Fusion AI executes it across Slack, WhatsApp, HubSpot, Calendar, and more.
+            - list [ref=f3e126]:
+              - listitem [ref=f3e127]:
+                - generic [ref=f3e128]: ✓
+                - generic [ref=f3e129]: Draft & send multi-channel messages
+              - listitem [ref=f3e130]:
+                - generic [ref=f3e131]: ✓
+                - generic [ref=f3e132]: Create CRM contacts on the fly
+              - listitem [ref=f3e133]:
+                - generic [ref=f3e134]: ✓
+                - generic [ref=f3e135]: Cancel meetings or raise issues instantly
+          - img "Fusion AI one-command action dashboard" [ref=f3e137]
+        - article [ref=f3e138]:
+          - generic [ref=f3e139]:
+            - paragraph [ref=f3e140]: Feature 02
+            - heading "No-Code Workflow Builder" [level=3] [ref=f3e141]
+            - paragraph [ref=f3e142]: Design complex, multi-step automations with drag-and-drop ease—no coding required.
+            - list [ref=f3e143]:
+              - listitem [ref=f3e144]:
+                - generic [ref=f3e145]: ✓
+                - generic [ref=f3e146]: Visual workflow canvas
+              - listitem [ref=f3e147]:
+                - generic [ref=f3e148]: ✓
+                - generic [ref=f3e149]: Pre-built action blocks
+              - listitem [ref=f3e150]:
+                - generic [ref=f3e151]: ✓
+                - generic [ref=f3e152]: Conditional logic & branching
+          - img "Fusion AI visual workflow builder" [ref=f3e154]
+        - article [ref=f3e155]:
+          - generic [ref=f3e156]:
+            - paragraph [ref=f3e157]: Feature 03
+            - heading "Natural-Language Interaction" [level=3] [ref=f3e158]
+            - paragraph [ref=f3e159]: Chat with your AI agents to run tasks, query data, or generate content—just type what you need.
+            - list [ref=f3e160]:
+              - listitem [ref=f3e161]:
+                - generic [ref=f3e162]: ✓
+                - generic [ref=f3e163]: Context-aware Q&A
+              - listitem [ref=f3e164]:
+                - generic [ref=f3e165]: ✓
+                - generic [ref=f3e166]: Instant task execution
+              - listitem [ref=f3e167]:
+                - generic [ref=f3e168]: ✓
+                - generic [ref=f3e169]: Follow-up action chaining
+          - img "Fusion AI natural-language assistant" [ref=f3e171]
+    - region [ref=f3e172]:
+      - generic [ref=f3e173]:
+        - paragraph [ref=f3e174]: PRODUCT FEATURES
+        - heading "Build workflows, track insights, connect tools." [level=2] [ref=f3e175]
+      - tabpanel [ref=f3e176]:
+        - img "Fusion AI analytics dashboard" [ref=f3e427]
+      - tablist "Product capabilities" [ref=f3e178]:
+        - tab "Workflow Drag-and-drop multi-step automations with triggers, AI actions, and rules—built visually in minutes." [ref=f3e179] [cursor=pointer]:
+          - generic [ref=f3e180]: Workflow
+          - text: Drag-and-drop multi-step automations with triggers, AI actions, and rules—built visually in minutes.
+        - tab "Analytics Real-time dashboards surface trends, bottlenecks, and ROI at a glance—for faster decisions." [selected] [ref=f3e181] [cursor=pointer]:
+          - generic [ref=f3e182]: Analytics
+          - text: Real-time dashboards surface trends, bottlenecks, and ROI at a glance—for faster decisions.
+        - tab "Integration One-click connectors and an open API sync CRM, chat, calendar, and more—everything stays in sync." [ref=f3e183] [cursor=pointer]:
+          - generic [ref=f3e184]: Integration
+          - text: One-click connectors and an open API sync CRM, chat, calendar, and more—everything stays in sync.
+    - region [ref=f3e185]:
+      - generic [ref=f3e186]:
+        - paragraph [ref=f3e187]: POWERFUL INTEGRATIONS
+        - heading "Seamlessly Integrate Every App" [level=2] [ref=f3e188]
+        - link "Explore All" [ref=f3e189] [cursor=pointer]:
+          - /url: "#integration"
+          - text: Explore All
+          - generic [ref=f3e190]: ↗
+      - generic "Supported integrations" [ref=f3e191]:
+        - generic [ref=f3e192]:
+          - generic [ref=f3e193]: Slack
+          - generic [ref=f3e196]: Notion
+          - generic [ref=f3e199]: HubSpot
+          - generic [ref=f3e202]: Dropbox
+          - generic [ref=f3e205]: Salesforce
+          - generic [ref=f3e208]: WhatsApp
+          - generic [ref=f3e211]: Gmail
+          - generic [ref=f3e214]: Slack
+          - generic [ref=f3e217]: Notion
+          - generic [ref=f3e220]: HubSpot
+          - generic [ref=f3e223]: Dropbox
+          - generic [ref=f3e226]: Salesforce
+          - generic [ref=f3e229]: WhatsApp
+          - generic [ref=f3e232]: Gmail
+    - region [ref=f3e235]:
+      - generic [ref=f3e236]:
+        - paragraph [ref=f3e237]: SUCCESS STORIES
+        - heading "Hear from our customers & their success stories" [level=2] [ref=f3e238]
+      - generic [ref=f3e240]:
+        - article [ref=f3e241]:
+          - paragraph [ref=f3e242]: “Seamless Slack and Salesforce integrations keep our team in sync. Fusion AI ensures everyone’s on the same page.”
+          - generic [ref=f3e244]:
+            - strong [ref=f3e245]: Mat Mursmark
+            - generic [ref=f3e246]: Chief Growth Officer
+        - article [ref=f3e247]:
+          - paragraph [ref=f3e248]: “Fusion AI cut our onboarding time by 50%—setup was effortless, and our AI agents are now core to daily ops.”
+          - generic [ref=f3e250]:
+            - strong [ref=f3e251]: Chris Milkulin
+            - generic [ref=f3e252]: Performance Marketer
+        - article [ref=f3e253]:
+          - paragraph [ref=f3e254]: “Automating lead follow-ups boosted our conversion rate by 30% without adding headcount. Fusion AI is a game-changer.”
+          - generic [ref=f3e256]:
+            - strong [ref=f3e257]: Audrey Madden
+            - generic [ref=f3e258]: Chief Growth Officer
+        - article [ref=f3e259]:
+          - paragraph [ref=f3e260]: “Real-time insights from AI agents help us spot trends before they emerge—our decisions are smarter and faster.”
+          - generic [ref=f3e262]:
+            - strong [ref=f3e263]: Jamal Richardson
+            - generic [ref=f3e264]: Head of Analytics
+        - article [ref=f3e265]:
+          - paragraph [ref=f3e266]: “Fusion AI gives our customers faster answers while keeping every conversation personal, consistent, and on-brand.”
+          - generic [ref=f3e268]:
+            - strong [ref=f3e269]: Priya Desai
+            - generic [ref=f3e270]: Customer Success Manager
+        - article [ref=f3e271]:
+          - paragraph [ref=f3e272]: “Seamless Slack and Salesforce integrations keep our team in sync. Fusion AI ensures everyone’s on the same page.”
+          - generic [ref=f3e274]:
+            - strong [ref=f3e275]: Mat Mursmark
+            - generic [ref=f3e276]: Chief Growth Officer
+        - article [ref=f3e277]:
+          - paragraph [ref=f3e278]: “Fusion AI cut our onboarding time by 50%—setup was effortless, and our AI agents are now core to daily ops.”
+          - generic [ref=f3e280]:
+            - strong [ref=f3e281]: Chris Milkulin
+            - generic [ref=f3e282]: Performance Marketer
+        - article [ref=f3e283]:
+          - paragraph [ref=f3e284]: “Automating lead follow-ups boosted our conversion rate by 30% without adding headcount. Fusion AI is a game-changer.”
+          - generic [ref=f3e286]:
+            - strong [ref=f3e287]: Audrey Madden
+            - generic [ref=f3e288]: Chief Growth Officer
+        - article [ref=f3e289]:
+          - paragraph [ref=f3e290]: “Real-time insights from AI agents help us spot trends before they emerge—our decisions are smarter and faster.”
+          - generic [ref=f3e292]:
+            - strong [ref=f3e293]: Jamal Richardson
+            - generic [ref=f3e294]: Head of Analytics
+        - article [ref=f3e295]:
+          - paragraph [ref=f3e296]: “Fusion AI gives our customers faster answers while keeping every conversation personal, consistent, and on-brand.”
+          - generic [ref=f3e298]:
+            - strong [ref=f3e299]: Priya Desai
+            - generic [ref=f3e300]: Customer Success Manager
+    - region [ref=f3e301]:
+      - generic [ref=f3e302]:
+        - paragraph [ref=f3e303]: AI-Driven Features
+        - heading "Automate workflows in three simple steps" [level=2] [ref=f3e304]
+      - generic [ref=f3e305]:
+        - article [ref=f3e306]:
+          - generic [ref=f3e308]:
+            - generic [ref=f3e309]: "1."
+            - generic [ref=f3e310]:
+              - heading "Select a trigger" [level=3] [ref=f3e311]
+              - paragraph [ref=f3e312]: Choose an event or schedule that kicks off your workflow.
+        - article [ref=f3e313]:
+          - generic [ref=f3e315]:
+            - generic [ref=f3e316]: "2."
+            - generic [ref=f3e317]:
+              - heading "Connect your apps" [level=3] [ref=f3e318]
+              - paragraph [ref=f3e319]: Sync Fusion AI with your tools—CRM, email, Slack, and more.
+        - article [ref=f3e320]:
+          - generic [ref=f3e322]:
+            - generic [ref=f3e323]: "3."
+            - generic [ref=f3e324]:
+              - heading "Let AI do the work" [level=3] [ref=f3e325]
+              - paragraph [ref=f3e326]: Lets Fusion AI execute tasks automatically.
+    - region [ref=f3e327]:
+      - generic [ref=f3e328]:
+        - paragraph [ref=f3e329]: FAQ
+        - heading "Frequently asked questions" [level=2] [ref=f3e330]
+        - generic [ref=f3e331]:
+          - heading "Got any Questions? Let us know!" [level=3] [ref=f3e332]
+          - paragraph [ref=f3e333]: Reach out and our team will get right back to you.
+          - link "Contact us" [ref=f3e334] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Contact us ↗
+      - generic [ref=f3e335]:
+        - generic [ref=f3e336]:
+          - button "What is Fusion AI and how does it work?" [expanded] [ref=f3e337] [cursor=pointer]:
+            - generic [ref=f3e339]: −
+          - paragraph [ref=f3e342]: Fusion AI is an AI workspace that connects your tools and automates repeatable workflows.
+        - generic [ref=f3e343]:
+          - button "Which apps can I integrate?" [ref=f3e344] [cursor=pointer]:
+            - generic [ref=f3e346]: +
+          - paragraph [ref=f3e347]: Fusion AI supports 50+ integrations, including Slack, HubSpot, Zendesk, Salesforce, Google Workspace, WhatsApp, Zapier, and more.
+        - generic [ref=f3e348]:
+          - button "How does Fluence AI automate tasks?" [ref=f3e349] [cursor=pointer]:
+            - generic [ref=f3e351]: +
+          - paragraph [ref=f3e352]: Fluence AI uses triggers, connected apps, and AI agents to complete routine tasks automatically from start to finish.
+        - generic [ref=f3e353]:
+          - button "Is my data secure with Fluence AI?" [ref=f3e354] [cursor=pointer]:
+            - generic [ref=f3e356]: +
+          - paragraph [ref=f3e357]: Yes. Your data is protected with secure connections and industry-standard safeguards at every step.
+        - generic [ref=f3e358]:
+          - button "What kind of support do you offer?" [ref=f3e359] [cursor=pointer]:
+            - generic [ref=f3e361]: +
+          - paragraph [ref=f3e362]: Our team is available to help with setup, integrations, troubleshooting, and workflow optimization.
+    - region [ref=f3e363]:
+      - generic [ref=f3e364]:
+        - heading "Start Your AI Automation Journey Today" [level=2] [ref=f3e365]
+        - paragraph [ref=f3e366]: Sign up for Fusion AI and let AI handle your routine tasks—no credit card needed.
+        - generic [ref=f3e367]:
+          - link "Get Started - Free" [ref=f3e368] [cursor=pointer]:
+            - /url: "#waitlist"
+            - generic [ref=f3e369]:
+              - generic [ref=f3e370]: Get Started - Free
+              - generic [ref=f3e371]: Get Started - Free
+          - link "View Pricing" [ref=f3e372] [cursor=pointer]:
+            - /url: "#pricing"
+            - generic [ref=f3e373]:
+              - generic [ref=f3e374]: View Pricing
+              - generic [ref=f3e375]: View Pricing
+    - generic [ref=f3e376]:
+      - generic [ref=f3e377]:
+        - generic [ref=f3e378]:
+          - link [ref=f3e379] [cursor=pointer]:
+            - /url: "#top"
+            - strong [ref=f3e380]: Fusion AI
+          - paragraph [ref=f3e381]: Fusion AI and let AI handle your routine tasks.
+        - navigation "Footer navigation" [ref=f3e382]:
+          - generic [ref=f3e383]:
+            - heading "Main Page" [level=3] [ref=f3e384]
+            - link "Home" [ref=f3e385] [cursor=pointer]:
+              - /url: "#home"
+            - link "About" [ref=f3e386] [cursor=pointer]:
+              - /url: "#about"
+            - link "Pricing" [ref=f3e387] [cursor=pointer]:
+              - /url: "#pricing"
+            - link "Blogs" [ref=f3e388] [cursor=pointer]:
+              - /url: "#blogs"
+            - link "Contact" [ref=f3e389] [cursor=pointer]:
+              - /url: "#contact"
+          - generic [ref=f3e390]:
+            - heading "Quick Links" [level=3] [ref=f3e391]
+            - link "Integration" [ref=f3e392] [cursor=pointer]:
+              - /url: "#integration"
+            - link "Teams" [ref=f3e393] [cursor=pointer]:
+              - /url: "#teams"
+            - link "Career" [ref=f3e394] [cursor=pointer]:
+              - /url: "#career"
+            - link "FAQ" [ref=f3e395] [cursor=pointer]:
+              - /url: "#faq"
+            - link "404" [ref=f3e396] [cursor=pointer]:
+              - /url: "#404"
+          - generic [ref=f3e397]:
+            - heading "Others" [level=3] [ref=f3e398]
+            - link "Privacy Policy" [ref=f3e399] [cursor=pointer]:
+              - /url: "#privacy-policy"
+            - link "Terms & Condition" [ref=f3e400] [cursor=pointer]:
+              - /url: "#terms-&-condition"
+            - link "Waitlist" [ref=f3e401] [cursor=pointer]:
+              - /url: "#waitlist"
+            - link "Changelog" [ref=f3e402] [cursor=pointer]:
+              - /url: "#changelog"
+      - generic [ref=f3e403]:
+        - paragraph [ref=f3e404]: © 2026 Design & Developed by Amani Design.
+        - generic "Social links" [ref=f3e405]:
+          - link "LinkedIn" [ref=f3e406] [cursor=pointer]:
+            - /url: "#linkedin"
+            - text: in
+          - link "X" [ref=f3e407] [cursor=pointer]:
+            - /url: "#x"
+            - text: 𝕏
+          - link "Instagram" [ref=f3e408] [cursor=pointer]:
+            - /url: "#instagram"
+            - text: ◎
+  - button "Open Next.js Dev Tools" [ref=f3e414] [cursor=pointer]
+  - alert [ref=f3e418]

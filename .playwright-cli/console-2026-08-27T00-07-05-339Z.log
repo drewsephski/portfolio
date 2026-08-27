@@ -1,0 +1,5 @@
+[      97ms] [LOG] [Fast Refresh] done in 38ms @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[     164ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[     180ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776
+[     218ms] [WARNING] Image with src "/screenshots/nexora.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3000/_next/static/chunks/0484_next_dist_0_l-60x._.js:776

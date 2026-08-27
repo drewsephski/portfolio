@@ -1,0 +1,434 @@
+.rail {
+  width: min(1344px, calc(100% - 80px));
+  margin: auto;
+}
+.industry, .compliance, .faq {
+  background: #fff;
+  color: #000;
+  padding: 112px 0;
+}
+.eyebrow {
+  margin: 0 0 24px;
+  font: 700 11px/1 var(--agentlab-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.eyebrow span {
+  width: 12px;
+  height: 7px;
+  background: #558bfb;
+  display: inline-block;
+  clip-path: polygon(0 0, 100% 18%, 80% 100%, 0 82%);
+}
+.rail > h2, .sectionLead h2, .compliance h2, .faq h2, .cta h2 {
+  font: 400 clamp(38px, 3vw, 58px)/1.08 var(--agentlab-display);
+  letter-spacing: -0.04em;
+  margin: 0;
+}
+.industryGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 70px;
+  border: 1px solid #dedede;
+}
+.industryGrid article {
+  min-height: 270px;
+  padding: 30px;
+  border-right: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+}
+.industryGrid article:nth-child(3n) {
+  border-right: 0;
+}
+.industryGrid article:nth-child(n+4) {
+  border-bottom: 0;
+}
+.iconTile {
+  width: 124px;
+  height: 124px;
+  background: linear-gradient(145deg, #123cff, #5d95ff 60%, #c4e4ff);
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font: 34px var(--agentlab-body);
+}
+.industry h3, .securityCards h3 {
+  font: 400 25px/1.08 var(--agentlab-display);
+  margin: 24px 0 12px;
+}
+.industry p, .securityCards p, .faq p, .cta p, .footer p {
+  font: 400 14px/1.55 var(--agentlab-body);
+  margin: 0;
+}
+.testimonials {
+  background: #000;
+  color: #fff;
+  padding: 120px 0;
+}
+.sectionLead {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.sectionLead a, .lightButton, .ctaButtons a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid currentColor;
+  padding: 14px 17px;
+  color: inherit;
+  text-decoration: none;
+  font: 700 11px/1 var(--agentlab-ui);
+  text-transform: uppercase;
+}
+.sectionLead svg, .lightButton svg, .ctaButtons svg {
+  width: 15px;
+}
+.sectionLead a {
+  transition: background-color 220ms ease, color 220ms ease, transform 220ms ease;
+}
+.sectionLead a:hover {
+  background: #fff;
+  color: #000;
+  transform: translateY(-2px);
+}
+.sectionLead a:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+.testimonialCard {
+  display: grid;
+  grid-template-columns: 35% 41% 24%;
+  margin-top: 78px;
+  border: 1px solid #292929;
+  min-height: 530px;
+  animation: fadeIn 0.35s ease;
+}
+.brandPanel {
+  background: linear-gradient(
+    145deg,
+    #2147ff 0 45%,
+    #5f8fff 45% 55%,
+    #1640ee 55%
+  );
+  display: grid;
+  place-items: center;
+  font: 700 32px var(--agentlab-ui);
+}
+.testimonialHeadline {
+  padding: 40px 30px;
+  border-right: 1px solid #292929;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.testimonialHeadline h3 {
+  font: 400 33px/1.05 var(--agentlab-display);
+  margin: 0;
+}
+.testimonialHeadline strong {
+  display: block;
+  font: 400 48px var(--agentlab-display);
+}
+.testimonialHeadline small, .testimonialCard blockquote footer span {
+  display: block;
+  font: 12px var(--agentlab-body);
+  color: #aaa;
+}
+.testimonialCard blockquote {
+  margin: 0;
+  padding: 62px 32px 35px;
+  font: 400 14px/1.7 var(--agentlab-body);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.testimonialCard blockquote footer b {
+  display: block;
+  font: 700 13px var(--agentlab-body);
+}
+.carouselControls {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  margin-top: 18px;
+  font: 12px var(--agentlab-ui);
+}
+.carouselControls button {
+  width: 42px;
+  height: 42px;
+  color: #fff;
+  background: #000;
+  border: 1px solid #555;
+  cursor: pointer;
+}
+.complianceGrid, .faqGrid {
+  display: grid;
+  grid-template-columns: 38% 62%;
+  gap: 0;
+}
+.badges {
+  display: flex;
+  gap: 12px;
+  margin-top: 88px;
+}
+.badges span {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(
+    circle at 35% 30%,
+    #9ec5ff,
+    #1348ee 62%,
+    #c4e4ff 66%
+  );
+  color: #fff;
+  font: 700 11px var(--agentlab-ui);
+}
+.securityCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid #dedede;
+}
+.securityCards article {
+  padding: 30px 25px;
+  min-height: 320px;
+  border-right: 1px solid #dedede;
+  display: flex;
+  flex-direction: column;
+}
+.securityCards article:last-child {
+  border: 0;
+}
+.securityCards i {
+  font-style: normal;
+  font-size: 25px;
+}
+.securityCards h3 {
+  margin-top: auto;
+}
+.faq {
+  border-top: 1px solid #e2e2e2;
+}
+.faqGrid > div:first-child h4 {
+  font: 700 14px var(--agentlab-body);
+  margin: 58px 0 6px;
+}
+.lightButton {
+  margin-top: 24px;
+}
+.accordion {
+  border-top: 1px solid #ddd;
+}
+.accordion article {
+  border-bottom: 1px solid #ddd;
+}
+.accordion button {
+  width: 100%;
+  padding: 25px 0;
+  border: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font: 700 14px var(--agentlab-body);
+  cursor: pointer;
+}
+.accordion button svg {
+  width: 18px;
+  flex: 0 0 18px;
+  transition: transform 0.3s;
+}
+.accordion button span {
+  padding-right: 24px;
+}
+.accordion .open button svg {
+  transform: rotate(45deg);
+}
+.answer {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+}
+.answer p {
+  overflow: hidden;
+  color: #555;
+  padding: 0;
+}
+.open .answer {
+  grid-template-rows: 1fr;
+}
+.open .answer p {
+  padding: 0 35px 25px 0;
+}
+.footer {
+  background: #000;
+  color: #fff;
+}
+.cta {
+  min-height: 364px;
+  padding: 80px 0;
+  background-image: radial-gradient(#124ee0 1px, transparent 1px);
+  background-size: 20px 20px;
+  border-bottom: 1px solid #202020;
+}
+.cta .rail {
+  display: grid;
+  grid-template-columns: 58% 42%;
+  align-items: end;
+}
+.cta p {
+  max-width: 520px;
+}
+.ctaButtons {
+  display: flex;
+  gap: 10px;
+  margin-top: 36px;
+}
+.ctaButtons a:first-child {
+  background: #fff;
+  color: #000;
+}
+.footerGrid {
+  display: grid;
+  grid-template-columns: 2fr repeat(4, 1fr);
+  gap: 42px;
+  padding: 92px 0 120px;
+}
+.footerBrand h2 {
+  font: 400 25px var(--agentlab-display);
+  margin: 0 0 18px;
+}
+.footerBrand p {
+  max-width: 320px;
+  color: #aaa;
+}
+.footerBrand small {
+  display: block;
+  margin-top: 90px;
+  color: #aaa;
+  font: 12px var(--agentlab-body);
+}
+.footerGrid nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footerGrid nav b {
+  font: 700 11px var(--agentlab-ui);
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 8px;
+}
+.footerGrid nav a {
+  color: #aaa;
+  text-decoration: none;
+  font: 13px var(--agentlab-body);
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0.3;
+    transform: translateX(12px);
+  }
+}
+@media (max-width: 767px) {
+  .rail {
+    width: calc(100% - 40px);
+  }
+  .industry, .compliance {
+    padding: 80px 0;
+  }
+  .faq {
+    padding: 60px 0;
+  }
+  .industryGrid {
+    grid-template-columns: 1fr;
+    margin-top: 48px;
+  }
+  .industryGrid article {
+    border-right: 0 !important;
+    border-bottom: 1px solid #dedede !important;
+    min-height: 245px;
+  }
+  .industryGrid article:last-child {
+    border-bottom: 0 !important;
+  }
+  .iconTile {
+    width: 100px;
+    height: 100px;
+  }
+  .testimonials {
+    padding: 80px 0;
+  }
+  .sectionLead {
+    align-items: start;
+    gap: 28px;
+    flex-direction: column;
+  }
+  .testimonialCard {
+    grid-template-columns: 1fr;
+    margin-top: 46px;
+  }
+  .brandPanel {
+    min-height: 270px;
+  }
+  .testimonialHeadline {
+    min-height: 330px;
+    border-right: 0;
+    border-bottom: 1px solid #292929;
+  }
+  .testimonialCard blockquote {
+    min-height: 300px;
+  }
+  .complianceGrid, .faqGrid {
+    grid-template-columns: 1fr;
+    gap: 68px;
+  }
+  .badges {
+    margin-top: 40px;
+  }
+  .securityCards {
+    grid-template-columns: 1fr;
+  }
+  .securityCards article {
+    min-height: 230px;
+    border-right: 0;
+    border-bottom: 1px solid #dedede;
+  }
+  .securityCards article:last-child {
+    border-bottom: 0;
+  }
+  .cta {
+    padding: 70px 0;
+  }
+  .cta .rail {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  .ctaButtons {
+    flex-wrap: wrap;
+  }
+  .footerGrid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 72px 0;
+  }
+  .footerBrand {
+    grid-column: 1/-1;
+  }
+  .footerBrand small {
+    margin-top: 40px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .testimonialCard, .accordion button svg, .answer {
+    animation: none;
+    transition: none;
+  }
+}

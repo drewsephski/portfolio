@@ -1,0 +1,22 @@
+- generic [active] [ref=f4e1]:
+  - main [ref=f4e2]:
+    - navigation "Primary navigation" [ref=f4e6]:
+      - generic [ref=f4e10]:
+        - link "Features" [ref=f4e11] [cursor=pointer]:
+          - /url: "#features"
+        - link "Plans" [ref=f4e12] [cursor=pointer]:
+          - /url: "#plans"
+        - link "Security" [ref=f4e13] [cursor=pointer]:
+          - /url: "#security"
+        - link "About" [ref=f4e14] [cursor=pointer]:
+          - /url: "#about"
+    - region [ref=f4e15]:
+      - generic [ref=f4e16]:
+        - generic [ref=f4e17]: "Y"
+        - generic [ref=f4e18]: Funded by Y Combinator
+      - heading "Deploy digital workers for mundane workflows" [level=1] [ref=f4e19]:
+        - generic [ref=f4e20]: Deploy digital workers
+        - generic [ref=f4e21]: for mundane workflows
+      - paragraph [ref=f4e22]: Eliminate your tedious browser work and 10x your team's capacity. Put intelligent agents on every routine process so you grow faster and deliver more for clients — effortlessly.
+      - button "Get Early Access" [ref=f4e23] [cursor=pointer]
+  - alert [ref=f4e24]

@@ -1,0 +1,1685 @@
+{
+  "assets": [
+    {
+      "id": "4fa82b5f88d79857",
+      "kind": "script",
+      "name": "script",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 209,
+          "property": "src"
+        }
+      ],
+      "url": "https://events.framer.com/script?v=2"
+    },
+    {
+      "id": "fd3158ffb4afdfec",
+      "kind": "script",
+      "name": "framerauth.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 215,
+          "property": "src"
+        }
+      ],
+      "url": "https://cdn.jsdelivr.net/npm/@framerauth/sdk@2/dist/framerauth.js"
+    },
+    {
+      "id": "4911cb7de867c47e",
+      "kind": "image",
+      "name": "32PMYeIp6ythhHu9icszQGtI40.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 5,
+          "property": "src"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 5,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/32PMYeIp6ythhHu9icszQGtI40.png?width=1672&height=941"
+    },
+    {
+      "id": "8d194cf61409a781",
+      "kind": "image",
+      "name": "y2inQNDM8kZ4u53nQ3uuTi3Js.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1384,
+          "property": "src"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/y2inQNDM8kZ4u53nQ3uuTi3Js.svg?width=48&height=48"
+    },
+    {
+      "id": "979774d9e42a8dfa",
+      "kind": "image",
+      "name": "lOdRNaZh9wLtBjtYzydrJwPiCU.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1386,
+          "property": "src"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/lOdRNaZh9wLtBjtYzydrJwPiCU.svg?width=48&height=48"
+    },
+    {
+      "id": "1c67cfd7530debf0",
+      "kind": "image",
+      "name": "BhUEoRHEvvS7WVRxEB9Q9LpHOA.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1416,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1446,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1476,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/BhUEoRHEvvS7WVRxEB9Q9LpHOA.png?scale-down-to=1024&width=1672&height=941"
+    },
+    {
+      "id": "ce33b31fca3f7e50",
+      "kind": "image",
+      "name": "02kuAuYCaznKHw2sgyuBxqVWBDk.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1421,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1451,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1481,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/02kuAuYCaznKHw2sgyuBxqVWBDk.png?scale-down-to=1024&width=1672&height=941"
+    },
+    {
+      "id": "a0435336cdb19a9d",
+      "kind": "image",
+      "name": "LZLK3wAggqgLticaJQBs312AuU.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1431,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1461,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1491,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/LZLK3wAggqgLticaJQBs312AuU.png?scale-down-to=1024&width=1254&height=1254"
+    },
+    {
+      "id": "b6dff5c92a8ea8df",
+      "kind": "image",
+      "name": "xDgJQnWNUXrlUAkLj1amrB59c8.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1436,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1466,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1496,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/xDgJQnWNUXrlUAkLj1amrB59c8.png?scale-down-to=1024&width=1254&height=1254"
+    },
+    {
+      "id": "c7aae4bad5689bdf",
+      "kind": "image",
+      "name": "0XfqZXv0FmnC4rYKLWYR81ojdRs.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1426,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1456,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1486,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/0XfqZXv0FmnC4rYKLWYR81ojdRs.png?scale-down-to=1024&width=1672&height=941"
+    },
+    {
+      "id": "f93db879446c2d1c",
+      "kind": "image",
+      "name": "G9BLd5BjtGGASMbphqjzKktktqo.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1441,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1471,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1501,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/G9BLd5BjtGGASMbphqjzKktktqo.png?scale-down-to=1024&width=1672&height=941"
+    },
+    {
+      "id": "762a288963f4a08c",
+      "kind": "image",
+      "name": "RyMJHfJwtSjXjwDCtSFoNziiiQ.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1514,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1549,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1584,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/RyMJHfJwtSjXjwDCtSFoNziiiQ.png?scale-down-to=1024&width=1672&height=941"
+    },
+    {
+      "id": "d83e33697b17bf88",
+      "kind": "image",
+      "name": "TUjKacdsQ0dcofKZ0jn7S5HJ4.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1519,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1554,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1589,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/TUjKacdsQ0dcofKZ0jn7S5HJ4.png?scale-down-to=1024&width=1672&height=941"
+    },
+    {
+      "id": "f7f6d55bd49761f0",
+      "kind": "image",
+      "name": "hMQ3oK9RBSJZk55iqAZPJRwRRQI.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1524,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1559,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1594,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/hMQ3oK9RBSJZk55iqAZPJRwRRQI.png?scale-down-to=1024&width=1672&height=941"
+    },
+    {
+      "id": "a57c846b5de913d6",
+      "kind": "image",
+      "name": "fYOtUiVyCHQkf7lB09YGX7vj4E.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1529,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1564,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1599,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/fYOtUiVyCHQkf7lB09YGX7vj4E.png?scale-down-to=1024&width=1672&height=940"
+    },
+    {
+      "id": "a83064472d8cd827",
+      "kind": "image",
+      "name": "51ySR5GCs6OUT5dD8yLEbCkUs0.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1534,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1569,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1604,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/51ySR5GCs6OUT5dD8yLEbCkUs0.png?scale-down-to=1024&width=1672&height=941"
+    },
+    {
+      "id": "c6174a44f5e7180e",
+      "kind": "image",
+      "name": "GQeibNm44SYG1WWeK6bOKaW6S3E.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1539,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1574,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1609,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/GQeibNm44SYG1WWeK6bOKaW6S3E.png?scale-down-to=1024&width=1672&height=941"
+    },
+    {
+      "id": "4f056765ea3b7c81",
+      "kind": "image",
+      "name": "6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left"
+    },
+    {
+      "id": "18609652482112b9",
+      "kind": "image",
+      "name": "11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right"
+    },
+    {
+      "id": "04746c0d8e0a48e5",
+      "kind": "image",
+      "name": "rYUfh49LbgwP3WCub6TLVrmMB4.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1729,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/rYUfh49LbgwP3WCub6TLVrmMB4.png?scale-down-to=512&width=1600&height=1200"
+    },
+    {
+      "id": "4fde7007c87c2100",
+      "kind": "image",
+      "name": "gzoMTgo8ScJfKGKJgSMS5M2otU.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1544,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1579,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1614,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/gzoMTgo8ScJfKGKJgSMS5M2otU.png?scale-down-to=1024&width=1672&height=941"
+    },
+    {
+      "id": "5b3aacd604464aa0",
+      "kind": "image",
+      "name": "2mL7iucLb27woBOrPyo16AyWat8.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1730,
+          "property": "src"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1730,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/2mL7iucLb27woBOrPyo16AyWat8.png?width=1600&height=1200"
+    },
+    {
+      "id": "07867dd6b37efcc1",
+      "kind": "script",
+      "name": "rolldown-runtime.Dh6celcD.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1901,
+          "property": "href"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/rolldown-runtime.Dh6celcD.mjs"
+    },
+    {
+      "id": "d93c2f7df9725dd4",
+      "kind": "script",
+      "name": "react.DwDJOhmk.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1902,
+          "property": "href"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/react.DwDJOhmk.mjs"
+    },
+    {
+      "id": "9bdffbcc28b926df",
+      "kind": "script",
+      "name": "motion.C50qbFCJ.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1903,
+          "property": "href"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/motion.C50qbFCJ.mjs"
+    },
+    {
+      "id": "a59b1fc833a85edd",
+      "kind": "script",
+      "name": "framer.1T5T5Qif.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1904,
+          "property": "href"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/framer.1T5T5Qif.mjs"
+    },
+    {
+      "id": "c594b45a41d24eff",
+      "kind": "script",
+      "name": "FramerAuthV2.DFzamA5e.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1905,
+          "property": "href"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/FramerAuthV2.DFzamA5e.mjs"
+    },
+    {
+      "id": "f30cbbda617f6fe2",
+      "kind": "script",
+      "name": "jbsOSsZpz.431VELN0.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1907,
+          "property": "href"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/jbsOSsZpz.431VELN0.mjs"
+    },
+    {
+      "id": "7b7ec9f5b34a2a12",
+      "kind": "script",
+      "name": "framerauth.1BeSNAR_.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1906,
+          "property": "href"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/framerauth.1BeSNAR_.mjs"
+    },
+    {
+      "id": "547bf27442e1a59d",
+      "kind": "script",
+      "name": "sqYXlTjHU.Djr1fs-Z.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1908,
+          "property": "href"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/sqYXlTjHU.Djr1fs-Z.mjs"
+    },
+    {
+      "id": "3775516d3196b952",
+      "kind": "script",
+      "name": "AnqNoZ_U2.WBoWTQnC.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1909,
+          "property": "href"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/AnqNoZ_U2.WBoWTQnC.mjs"
+    },
+    {
+      "id": "5d3ee2c039d57bb3",
+      "kind": "script",
+      "name": "I1dFaNZDG.CVtg8ilF.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1910,
+          "property": "href"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/I1dFaNZDG.CVtg8ilF.mjs"
+    },
+    {
+      "id": "e7d9f5198d4040be",
+      "kind": "script",
+      "name": "adHpn8gQZ.CSiPlWwb.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1915,
+          "property": "href"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/adHpn8gQZ.CSiPlWwb.mjs"
+    },
+    {
+      "id": "da8776368aa79020",
+      "kind": "script",
+      "name": "IUDPD5iI6r5xWhj4CCvIklr-pITuzRGoK-DRXAs9y8s.M3ZZBAZh.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1918,
+          "property": "href"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/IUDPD5iI6r5xWhj4CCvIklr-pITuzRGoK-DRXAs9y8s.M3ZZBAZh.mjs"
+    },
+    {
+      "id": "62200819f0f0009f",
+      "kind": "script",
+      "name": "Awxi1CAQQ.D74Wj7J1.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1911,
+          "property": "href"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/Awxi1CAQQ.D74Wj7J1.mjs"
+    },
+    {
+      "id": "1968ab3c12968099",
+      "kind": "script",
+      "name": "IsDMY7Ceo.DUeKferb.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1916,
+          "property": "href"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/IsDMY7Ceo.DUeKferb.mjs"
+    },
+    {
+      "id": "f4e87525a1e02ff6",
+      "kind": "script",
+      "name": "GxHDpGVa7.BuYRUAVi.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1913,
+          "property": "href"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/GxHDpGVa7.BuYRUAVi.mjs"
+    },
+    {
+      "id": "b7da104de8d1487f",
+      "kind": "script",
+      "name": "RrS411mD0.CpU4pAL5.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1912,
+          "property": "href"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/RrS411mD0.CpU4pAL5.mjs"
+    },
+    {
+      "id": "280b29e330f033ca",
+      "kind": "script",
+      "name": "ByD69Lzay.CwFe-mgr.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1917,
+          "property": "href"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/ByD69Lzay.CwFe-mgr.mjs"
+    },
+    {
+      "id": "e26a4447ef9c57e8",
+      "kind": "script",
+      "name": "PdMkjvJnS39SHo7fyRNObXUyJ8_y2KkIqVSXMlCpIpk.C4q5emo4.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1914,
+          "property": "href"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/PdMkjvJnS39SHo7fyRNObXUyJ8_y2KkIqVSXMlCpIpk.C4q5emo4.mjs"
+    },
+    {
+      "id": "4f481c182308dde5",
+      "kind": "script",
+      "name": "script_main.DioZLW0_.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1919,
+          "property": "src"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/script_main.DioZLW0_.mjs"
+    },
+    {
+      "id": "57cfd562b348c329",
+      "kind": "other",
+      "name": "config",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://core.framerauth.com/v2/public/project/config"
+    },
+    {
+      "id": "05103e2a779c2bd1",
+      "kind": "font",
+      "name": "jizBRFtNs2ka5fXjeivQ4LroWlx-6zUTjg.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        }
+      ],
+      "url": "https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-6zUTjg.woff2"
+    },
+    {
+      "id": "2f3cfb7ef832428e",
+      "kind": "font",
+      "name": "7AHDUZ4A7LFLVFUIFSARGIWCRQJHISQP.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        }
+      ],
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/P2LQKHE6KA6ZP4AAGN72KDWMHH6ZH3TA/ZC32TK2P7FPS5GFTL46EU6KQJA24ZYDB/7AHDUZ4A7LFLVFUIFSARGIWCRQJHISQP.woff2"
+    },
+    {
+      "id": "303206dc8b8af658",
+      "kind": "font",
+      "name": "KFIAZD4RUMEZIYV6FQ3T3GP5PDBDB6JY.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        }
+      ],
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/TTX2Z3BF3P6Y5BQT3IV2VNOK6FL22KUT/7QYRJOI3JIMYHGY6CH7SOIFRQLZOLNJ6/KFIAZD4RUMEZIYV6FQ3T3GP5PDBDB6JY.woff2"
+    },
+    {
+      "id": "8a18e34e62a1b84b",
+      "kind": "font",
+      "name": "UjlFhCnUjxhNfep4oYBPqnEssyo.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        }
+      ],
+      "url": "https://framerusercontent.com/assets/UjlFhCnUjxhNfep4oYBPqnEssyo.woff2"
+    },
+    {
+      "id": "cd48ba5f964ee1a0",
+      "kind": "font",
+      "name": "syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        }
+      ],
+      "url": "https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2"
+    },
+    {
+      "id": "5afd6099115c5013",
+      "kind": "font",
+      "name": "GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        }
+      ],
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2"
+    },
+    {
+      "id": "027b5148bd3195b1",
+      "kind": "image",
+      "name": "aX7MTNtljvKLZgoAQcYqRLk9iSs.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 698,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/aX7MTNtljvKLZgoAQcYqRLk9iSs.png?scale-down-to=512&width=1254&height=1254"
+    },
+    {
+      "id": "4b66c8d1da7317e6",
+      "kind": "image",
+      "name": "WiXK9IxjSYae5vhRgnPTaFtm6M.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 702,
+          "property": "src"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 702,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 864,
+          "property": "src"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 864,
+          "property": "srcset"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1723,
+          "property": "src"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 1723,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/WiXK9IxjSYae5vhRgnPTaFtm6M.png?width=1774&height=887"
+    },
+    {
+      "id": "98f9d314ae8b9f45",
+      "kind": "image",
+      "name": "fF3Mc4fgVZTZxt8trElosIucYU.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 706,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/fF3Mc4fgVZTZxt8trElosIucYU.png?scale-down-to=512&width=1254&height=1254"
+    },
+    {
+      "id": "160962b342cca465",
+      "kind": "image",
+      "name": "imfcpiKB8yuozI4ETpHn68JuY.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 721,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/imfcpiKB8yuozI4ETpHn68JuY.png?scale-down-to=512&width=1614&height=693"
+    },
+    {
+      "id": "4d341371792bdb06",
+      "kind": "image",
+      "name": "BKmePUXYTnTwjyXGyJfBlhiI8.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "img"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 867,
+          "property": "srcset"
+        }
+      ],
+      "url": "https://framerusercontent.com/images/BKmePUXYTnTwjyXGyJfBlhiI8.png?scale-down-to=512&width=1152&height=1152"
+    },
+    {
+      "id": "aa6c186a35eb3c7c",
+      "kind": "script",
+      "name": "PX9hIOIVM.CdtLmKaP.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/PX9hIOIVM.CdtLmKaP.mjs"
+    },
+    {
+      "id": "7c7273e747cf5bc3",
+      "kind": "other",
+      "name": "get-session",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://dreammotion.frameauth.io/v2/get-session?disableCookieCache=true"
+    },
+    {
+      "id": "021ae6cf61bee7db",
+      "kind": "script",
+      "name": "init.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "https://framer.com/edit/init.mjs"
+    },
+    {
+      "id": "117af72b3fdf7b01",
+      "kind": "script",
+      "name": "chunk-GL6GZPCT.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "https://app.framerstatic.com/chunk-GL6GZPCT.mjs"
+    },
+    {
+      "id": "1262245c4eda729f",
+      "kind": "script",
+      "name": "qjRa-lCDk0pqJuAVM-qJje7Zw-ALAib1MZJEzk0hf6s.CaxuRNdt.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/qjRa-lCDk0pqJuAVM-qJje7Zw-ALAib1MZJEzk0hf6s.CaxuRNdt.mjs"
+    },
+    {
+      "id": "76e0a89a29ab78ca",
+      "kind": "script",
+      "name": "rnkQyai1OUEI2hn_HoNtGKY0FvW-B6ZqoMu4iV83LoA.fIyduDgY.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/rnkQyai1OUEI2hn_HoNtGKY0FvW-B6ZqoMu4iV83LoA.fIyduDgY.mjs"
+    },
+    {
+      "id": "6896d65acb35d993",
+      "kind": "script",
+      "name": "X7ckgHGKntuROszZ4fwpgHh99CsLFBb8IMpQTcls4n8.D3Q9WsGa.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/X7ckgHGKntuROszZ4fwpgHh99CsLFBb8IMpQTcls4n8.D3Q9WsGa.mjs"
+    },
+    {
+      "id": "4f111836a0fdea94",
+      "kind": "script",
+      "name": "ActionButton.1WGdNBFp.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/ActionButton.1WGdNBFp.mjs"
+    },
+    {
+      "id": "15d256416eb52503",
+      "kind": "script",
+      "name": "mV5okBlJDOWAjXDw4JEYkJZm_M5Ti4VttB9eUuxi5V4.DMGo6046.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/mV5okBlJDOWAjXDw4JEYkJZm_M5Ti4VttB9eUuxi5V4.DMGo6046.mjs"
+    },
+    {
+      "id": "26cb83a13f909400",
+      "kind": "script",
+      "name": "SendOTP.BHFVR_TB.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/SendOTP.BHFVR_TB.mjs"
+    },
+    {
+      "id": "60d305576466dd2c",
+      "kind": "script",
+      "name": "TxuFvqTkm._ZX_zMWq.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/TxuFvqTkm._ZX_zMWq.mjs"
+    },
+    {
+      "id": "0422b557ea72911d",
+      "kind": "script",
+      "name": "NnQPx8vLl-27tdbmLOgx4g9QGEA8vrvAcYeAVAPkinI.go6Wh5_g.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/NnQPx8vLl-27tdbmLOgx4g9QGEA8vrvAcYeAVAPkinI.go6Wh5_g.mjs"
+    },
+    {
+      "id": "4918484b62fb07a6",
+      "kind": "script",
+      "name": "TnbBxZx7asZUbbHirF9_ZB0Ss-c1Oqx4r9OD8Pj823w.D6fr5fOl.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/TnbBxZx7asZUbbHirF9_ZB0Ss-c1Oqx4r9OD8Pj823w.D6fr5fOl.mjs"
+    },
+    {
+      "id": "9f0359a6495bf331",
+      "kind": "script",
+      "name": "MZX4wDnrw.gvNqj4ac.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "https://framerusercontent.com/sites/74eSGiMqUBvn1babfnJ0SN/MZX4wDnrw.gvNqj4ac.mjs"
+    },
+    {
+      "id": "0edc87f30aa89f04",
+      "kind": "other",
+      "name": "MZX4wDnrw-indexes-default-0.framercms",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://framerusercontent.com/cms/pu9wEBbYJYGFuDdyvFgr/73qbug0ifwnGw4NtiaUO/MZX4wDnrw-indexes-default-0.framercms?range=0-96"
+    },
+    {
+      "id": "a34481f659614350",
+      "kind": "other",
+      "name": "MZX4wDnrw-chunk-default-0.framercms",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://framerusercontent.com/cms/pu9wEBbYJYGFuDdyvFgr/73qbug0ifwnGw4NtiaUO/MZX4wDnrw-chunk-default-0.framercms?range=4-53582"
+    },
+    {
+      "id": "88bc0f6a55d4dc92",
+      "kind": "other",
+      "name": "edit",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "iframe"
+        }
+      ],
+      "url": "https://framer.com/edit?framerSiteId=f9557b5df90338c8053a6b4134f1eae2be4e467572ff122168791c68dcc45377&source=dreammotion.framer.website&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1787852551776"
+    }
+  ],
+  "id": "03312ce5-b0fd-4339-9162-8e098b3bb689",
+  "inlineSvgs": [
+    {
+      "id": "3a39c51f0857b163",
+      "markup": "<svg class=\"framer-0xnP3 framer-1swyjdu\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1m6trwb: 0; --21h8s6: var(--token-94aa1dea-dfea-4fa5-8a42-bbeebe5052f2, rgb(0, 0, 0)); --pgex8v: 1.5; opacity: 1;\"><use href=\"#1125768050\"></use></svg>",
+      "name": "svg-1"
+    },
+    {
+      "id": "dfbc2927de820ab7",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1745882051_1155\"></use></svg>",
+      "name": "svg-2"
+    },
+    {
+      "id": "829664695907f0eb",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1413088234_9059\"></use></svg>",
+      "name": "svg-3"
+    },
+    {
+      "id": "1e15620b8be0d179",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1345847338_990\"></use></svg>",
+      "name": "svg-4"
+    },
+    {
+      "id": "93daee8745096afe",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1828372334_684\"></use></svg>",
+      "name": "svg-5"
+    },
+    {
+      "id": "b93516af2376c737",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1030575290_509\"></use></svg>",
+      "name": "svg-6"
+    },
+    {
+      "id": "b6e53811312298a5",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1647683835_478\"></use></svg>",
+      "name": "svg-7"
+    },
+    {
+      "id": "bbf941952127df35",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1745882051_1155\"></use></svg>",
+      "name": "svg-8"
+    },
+    {
+      "id": "bd3124594cca03d3",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1413088234_9059\"></use></svg>",
+      "name": "svg-9"
+    },
+    {
+      "id": "2e4b9231ed5a3c5e",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1345847338_990\"></use></svg>",
+      "name": "svg-10"
+    },
+    {
+      "id": "2e01592f0548c4af",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1828372334_684\"></use></svg>",
+      "name": "svg-11"
+    },
+    {
+      "id": "915dc240fb6aa240",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1030575290_509\"></use></svg>",
+      "name": "svg-12"
+    },
+    {
+      "id": "af7634269433f2ad",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1647683835_478\"></use></svg>",
+      "name": "svg-13"
+    },
+    {
+      "id": "4156764aac644e15",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1745882051_1155\"></use></svg>",
+      "name": "svg-14"
+    },
+    {
+      "id": "9262d7b798f47be2",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1413088234_9059\"></use></svg>",
+      "name": "svg-15"
+    },
+    {
+      "id": "a72349a14570c7e8",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1345847338_990\"></use></svg>",
+      "name": "svg-16"
+    },
+    {
+      "id": "d24a2c90690f5c36",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1828372334_684\"></use></svg>",
+      "name": "svg-17"
+    },
+    {
+      "id": "6162edce7c167648",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1030575290_509\"></use></svg>",
+      "name": "svg-18"
+    },
+    {
+      "id": "3aa5ea0849f0cff6",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1647683835_478\"></use></svg>",
+      "name": "svg-19"
+    },
+    {
+      "id": "5bcf4fb94b1147c7",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1745882051_1155\"></use></svg>",
+      "name": "svg-20"
+    },
+    {
+      "id": "67b63c8fa3a55620",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1413088234_9059\"></use></svg>",
+      "name": "svg-21"
+    },
+    {
+      "id": "4ba1576095c93016",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1345847338_990\"></use></svg>",
+      "name": "svg-22"
+    },
+    {
+      "id": "e76385a7136c61b3",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1828372334_684\"></use></svg>",
+      "name": "svg-23"
+    },
+    {
+      "id": "bfbc80853467894e",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1030575290_509\"></use></svg>",
+      "name": "svg-24"
+    },
+    {
+      "id": "63b8605e08a991c9",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 28 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1647683835_478\"></use></svg>",
+      "name": "svg-25"
+    },
+    {
+      "id": "c77f8d0404d10740",
+      "markup": "<svg style=\"width:100%;height:100%;\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-42423018_319\"></use></svg>",
+      "name": "svg-26"
+    },
+    {
+      "id": "698d59b8d1b1b450",
+      "markup": "<svg style=\"width:100%;height:100%;\"><use href=\"#svg12851319880\"></use></svg>",
+      "name": "svg-27"
+    },
+    {
+      "id": "e732922aa8dd83b5",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 71 25\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-1267655132_1116\"></use></svg>",
+      "name": "svg-28"
+    },
+    {
+      "id": "0a60e61a8dbb71db",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 71 25\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-86167272_1128\"></use></svg>",
+      "name": "svg-29"
+    },
+    {
+      "id": "760a5f2e4784bf40",
+      "markup": "<svg style=\"width:100%;height:100%;\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-42423018_319\"></use></svg>",
+      "name": "svg-30"
+    },
+    {
+      "id": "3c94c50578d0fdf4",
+      "markup": "<svg class=\"framer-hFyzn framer-gzhpn8\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1ww558a: 1.5; --4rxgx6: var(--token-18c2b5cb-5f3a-4a37-ad6a-197cd994af92, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#2183609386\"></use></svg>",
+      "name": "svg-31"
+    },
+    {
+      "id": "72b009fe6c0c0789",
+      "markup": "<svg class=\"framer-ab47M framer-11kj3zr\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1m973uw: var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97, rgb(255, 255, 255)); --js9iwy: 2; opacity: 1;\"><use href=\"#2903821725\"></use></svg>",
+      "name": "svg-32"
+    },
+    {
+      "id": "597d72068061618e",
+      "markup": "<svg class=\"framer-89qtu framer-gzhpn8\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1ww558a: 1.5; --4rxgx6: var(--token-18c2b5cb-5f3a-4a37-ad6a-197cd994af92, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#1084106824\"></use></svg>",
+      "name": "svg-33"
+    },
+    {
+      "id": "2065d009f2c9978d",
+      "markup": "<svg class=\"framer-ab47M framer-11kj3zr\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1m973uw: var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97, rgb(255, 255, 255)); --js9iwy: 2; opacity: 1;\"><use href=\"#2903821725\"></use></svg>",
+      "name": "svg-34"
+    },
+    {
+      "id": "a93c59436077d485",
+      "markup": "<svg class=\"framer-fLQQ1 framer-gzhpn8\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1ww558a: 1.5; --4rxgx6: var(--token-18c2b5cb-5f3a-4a37-ad6a-197cd994af92, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#3067269320\"></use></svg>",
+      "name": "svg-35"
+    },
+    {
+      "id": "3bb6c2b762002ead",
+      "markup": "<svg class=\"framer-ab47M framer-11kj3zr\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1m973uw: var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97, rgb(255, 255, 255)); --js9iwy: 2; opacity: 1;\"><use href=\"#2903821725\"></use></svg>",
+      "name": "svg-36"
+    },
+    {
+      "id": "f877277fac55bdf3",
+      "markup": "<svg class=\"framer-Elqj5 framer-gzhpn8\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1ww558a: 1.5; --4rxgx6: var(--token-18c2b5cb-5f3a-4a37-ad6a-197cd994af92, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#3163803808\"></use></svg>",
+      "name": "svg-37"
+    },
+    {
+      "id": "62db272de998aa19",
+      "markup": "<svg class=\"framer-ab47M framer-11kj3zr\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1m973uw: var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97, rgb(255, 255, 255)); --js9iwy: 2; opacity: 1;\"><use href=\"#2903821725\"></use></svg>",
+      "name": "svg-38"
+    },
+    {
+      "id": "fee4a83b9f72c7aa",
+      "markup": "<svg style=\"width:100%;height:100%;\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-42423018_319\"></use></svg>",
+      "name": "svg-39"
+    },
+    {
+      "id": "dbceaf20830b2217",
+      "markup": "<svg class=\"framer-xIt3r framer-utzvtl\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1m6trwb: 0; --21h8s6: var(--token-94aa1dea-dfea-4fa5-8a42-bbeebe5052f2, rgb(255, 255, 255)); --pgex8v: 1.5; opacity: 1;\"><use href=\"#1503548889\"></use></svg>",
+      "name": "svg-40"
+    },
+    {
+      "id": "13d99130c387aab2",
+      "markup": "<svg class=\"framer-p6Bxo framer-utzvtl\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1m6trwb: 0; --21h8s6: var(--token-94aa1dea-dfea-4fa5-8a42-bbeebe5052f2, rgb(255, 255, 255)); --pgex8v: 1.5; opacity: 1;\"><use href=\"#1646686408\"></use></svg>",
+      "name": "svg-41"
+    },
+    {
+      "id": "c3ce6ca387da8582",
+      "markup": "<svg class=\"framer-adTrB framer-utzvtl\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1m6trwb: 0; --21h8s6: var(--token-94aa1dea-dfea-4fa5-8a42-bbeebe5052f2, rgb(255, 255, 255)); --pgex8v: 1.5; opacity: 1;\"><use href=\"#3571911165\"></use></svg>",
+      "name": "svg-42"
+    },
+    {
+      "id": "595f68c4b42826c2",
+      "markup": "<svg class=\"framer-0nw0H framer-utzvtl\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1m6trwb: 0; --21h8s6: var(--token-94aa1dea-dfea-4fa5-8a42-bbeebe5052f2, rgb(255, 255, 255)); --pgex8v: 1.5; opacity: 1;\"><use href=\"#1523066278\"></use></svg>",
+      "name": "svg-43"
+    },
+    {
+      "id": "d418323f78ed101b",
+      "markup": "<svg class=\"framer-CCPgn framer-utzvtl\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1m6trwb: 0; --21h8s6: var(--token-94aa1dea-dfea-4fa5-8a42-bbeebe5052f2, rgb(255, 255, 255)); --pgex8v: 1.5; opacity: 1;\"><use href=\"#654422706\"></use></svg>",
+      "name": "svg-44"
+    },
+    {
+      "id": "6f1e42a26f3a57ce",
+      "markup": "<svg class=\"framer-QsbKo framer-utzvtl\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1m6trwb: 0; --21h8s6: var(--token-94aa1dea-dfea-4fa5-8a42-bbeebe5052f2, rgb(255, 255, 255)); --pgex8v: 1.5; opacity: 1;\"><use href=\"#3061554576\"></use></svg>",
+      "name": "svg-45"
+    },
+    {
+      "id": "a65ef7a0a5eb71b9",
+      "markup": "<svg style=\"width:100%;height:100%;\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-42423018_319\"></use></svg>",
+      "name": "svg-46"
+    },
+    {
+      "id": "213425b672ac4a11",
+      "markup": "<svg style=\"width:100%;height:100%;\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-42423018_319\"></use></svg>",
+      "name": "svg-47"
+    },
+    {
+      "id": "da7e532a0cd0cb11",
+      "markup": "<svg style=\"width:100%;height:100%;\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-42423018_319\"></use></svg>",
+      "name": "svg-48"
+    },
+    {
+      "id": "f51a442ab76a6e2f",
+      "markup": "<svg style=\"width:100%;height:100%;\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-42423018_319\"></use></svg>",
+      "name": "svg-49"
+    },
+    {
+      "id": "8b21ebe29f5bad1d",
+      "markup": "<svg class=\"framer-ohg0r framer-9okh0w\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1m6trwb: 0; --21h8s6: var(--token-94aa1dea-dfea-4fa5-8a42-bbeebe5052f2, rgb(0, 0, 0)); --pgex8v: 2; transform: none; opacity: 1;\"><use href=\"#465907804\"></use></svg>",
+      "name": "svg-50"
+    },
+    {
+      "id": "2b3e2ba174bf8201",
+      "markup": "<svg class=\"framer-ohg0r framer-9okh0w\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1m6trwb: 0; --21h8s6: var(--token-94aa1dea-dfea-4fa5-8a42-bbeebe5052f2, rgb(0, 0, 0)); --pgex8v: 2; transform: none; opacity: 1;\"><use href=\"#465907804\"></use></svg>",
+      "name": "svg-51"
+    },
+    {
+      "id": "dece8e191449bda9",
+      "markup": "<svg class=\"framer-ohg0r framer-9okh0w\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1m6trwb: 0; --21h8s6: var(--token-94aa1dea-dfea-4fa5-8a42-bbeebe5052f2, rgb(0, 0, 0)); --pgex8v: 2; transform: none; opacity: 1;\"><use href=\"#465907804\"></use></svg>",
+      "name": "svg-52"
+    },
+    {
+      "id": "ca44519e99d628e6",
+      "markup": "<svg class=\"framer-ohg0r framer-9okh0w\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1m6trwb: 0; --21h8s6: var(--token-94aa1dea-dfea-4fa5-8a42-bbeebe5052f2, rgb(0, 0, 0)); --pgex8v: 2; transform: none; opacity: 1;\"><use href=\"#465907804\"></use></svg>",
+      "name": "svg-53"
+    },
+    {
+      "id": "39e712ae47db3895",
+      "markup": "<svg class=\"framer-ohg0r framer-9okh0w\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1m6trwb: 0; --21h8s6: var(--token-94aa1dea-dfea-4fa5-8a42-bbeebe5052f2, rgb(0, 0, 0)); --pgex8v: 2; transform: none; opacity: 1;\"><use href=\"#465907804\"></use></svg>",
+      "name": "svg-54"
+    },
+    {
+      "id": "dd3e3fe6a558a56e",
+      "markup": "<svg class=\"framer-ohg0r framer-9okh0w\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1m6trwb: 0; --21h8s6: var(--token-94aa1dea-dfea-4fa5-8a42-bbeebe5052f2, rgb(0, 0, 0)); --pgex8v: 2; transform: none; opacity: 1;\"><use href=\"#465907804\"></use></svg>",
+      "name": "svg-55"
+    },
+    {
+      "id": "3353a440108197b0",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 16 16\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-1859665208_389\"></use></svg>",
+      "name": "svg-56"
+    },
+    {
+      "id": "89f04214b5361f17",
+      "markup": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 11 10\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-1160060004_483\"></use></svg>",
+      "name": "svg-57"
+    },
+    {
+      "id": "f52d9f78be24415b",
+      "markup": "<svg class=\"framer-0xnP3 framer-15qr6t8\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1m6trwb: 0; --21h8s6: var(--token-94aa1dea-dfea-4fa5-8a42-bbeebe5052f2, rgb(255, 255, 255)); --pgex8v: 1.5; opacity: 1;\"><use href=\"#1125768050\"></use></svg>",
+      "name": "svg-58"
+    },
+    {
+      "id": "684356d29337394a",
+      "markup": "<svg class=\"framer-QMsyA framer-4iz9d0\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1m6trwb: 0; --21h8s6: var(--token-94aa1dea-dfea-4fa5-8a42-bbeebe5052f2, rgb(255, 255, 255)); --pgex8v: 1.5; opacity: 1;\"><use href=\"#1688045918\"></use></svg>",
+      "name": "svg-59"
+    },
+    {
+      "id": "f83dae70e849d928",
+      "markup": "<svg class=\"framer-qVh2c framer-4iz9d0\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1m6trwb: 0; --21h8s6: var(--token-94aa1dea-dfea-4fa5-8a42-bbeebe5052f2, rgb(255, 255, 255)); --pgex8v: 1.5; opacity: 1;\"><use href=\"#4033599021\"></use></svg>",
+      "name": "svg-60"
+    },
+    {
+      "id": "8f901e627e780eb4",
+      "markup": "<svg width=\"28\" height=\"28\" viewBox=\"0 0 28 28\" fill=\"none\" id=\"svg1745882051_1155\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M6.986 1.89233C5.93619 2.9191 5.12636 4.16526 4.61447 5.5416C4.10257 6.91795 3.90128 8.39043 4.025 9.85367C4.43217 14.9963 9.282 19.1812 13.6803 19.1812C17.7718 19.1812 19.3737 15.61 18.9782 13.1845C18.8321 12.2936 18.4493 11.4583 17.8698 10.766C18.6072 11.1627 19.3212 11.6713 19.9803 12.2827C21.7537 13.9335 22.827 16.0498 22.9985 18.2327C23.38 23.0568 19.81 28 13.8402 28C11.8627 28 9.78017 27.496 8.03017 26.6665C3.28533 24.4265 0 19.5965 0 14.0023C0 8.83283 2.80583 4.31667 6.986 1.89233ZM14.1587 0C16.1373 0 18.2198 0.504 19.9687 1.3335C24.717 3.5735 28 8.4035 28 13.9977C28 19.1672 25.1942 23.6845 21.014 26.1077C22.0638 25.0809 22.8736 23.8347 23.3855 22.4584C23.8974 21.0821 24.0987 19.6096 23.975 18.1463C23.5678 13.0037 18.718 8.81883 14.3197 8.81883C10.2282 8.81883 8.62633 12.39 9.02183 14.8155C9.16791 15.7071 9.55204 16.5427 10.1337 17.234C9.36783 16.8208 8.65815 16.3111 8.022 15.7173C6.24867 14.0665 5.17533 11.9525 5.0015 9.76733C4.62 4.94317 8.19 0 14.1598 0H14.1587Z\" fill=\"white\"></path>\n</svg>",
+      "name": "svg1745882051_1155"
+    },
+    {
+      "id": "58babcfbd36edd32",
+      "markup": "<svg width=\"28\" height=\"28\" viewBox=\"0 0 28 28\" fill=\"none\" id=\"svg1413088234_9059\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M20.7295 1.72896C22.4216 2.68871 23.6724 4.27097 24.2155 6.13896C24.4372 6.21829 24.6554 6.31862 24.863 6.43879C24.8934 6.45629 24.9214 6.47379 24.9482 6.49362C25.2119 6.65346 25.4569 6.84479 25.6797 7.06529C26.0554 7.44121 26.3511 7.88925 26.5491 8.38246C26.7472 8.87566 26.8433 9.40383 26.8319 9.93518C26.8204 10.4665 26.7016 10.9901 26.4825 11.4743C26.2635 11.9585 25.9487 12.3934 25.5572 12.7528C25.9799 13.1405 26.3129 13.6159 26.5327 14.1458C26.7526 14.6756 26.8541 15.2471 26.8301 15.8202C26.8061 16.3933 26.6572 16.9543 26.3938 17.4639C26.1304 17.9735 25.7589 18.4194 25.3052 18.7705L25.262 18.8043L25.2865 18.8416C25.7415 19.544 25.969 20.3863 25.9095 21.2508L25.899 21.3791C25.837 21.9909 25.6327 22.5796 25.3024 23.0983C24.9721 23.6169 24.5249 24.0511 23.9968 24.3659C23.4686 24.6808 22.8741 24.8677 22.2608 24.9116C21.6474 24.9556 21.0323 24.8553 20.4647 24.619C20.2317 25.2866 19.8233 25.8792 19.2824 26.3347C18.7415 26.7901 18.088 27.0916 17.3904 27.2075C16.6928 27.3233 15.9769 27.2493 15.3178 26.9932C14.6587 26.7371 14.0807 26.3083 13.6444 25.7518C13.0479 26.0379 12.3981 26.1957 11.7369 26.215C11.6902 26.2208 11.6412 26.2243 11.591 26.2243H10.5445L10.4652 26.2208C9.16319 26.1426 9.19002 24.15 10.5445 24.15H11.4825L11.5362 24.1453L11.591 24.1441C12.3027 24.1563 12.9901 23.8854 13.5019 23.3908C14.0138 22.8962 14.3082 22.2185 14.3204 21.5069C14.3327 20.7952 14.0617 20.1078 13.5671 19.596C13.0725 19.0841 12.3948 18.7897 11.6832 18.7775C11.6522 18.7811 11.621 18.783 11.5899 18.7833H3.27619C3.00111 18.7833 2.7373 18.674 2.5428 18.4795C2.34829 18.285 2.23902 18.0212 2.23902 17.7461C2.23902 17.471 2.34829 17.2072 2.5428 17.0127C2.7373 16.8182 3.00111 16.709 3.27619 16.709H11.4825L11.5362 16.7043L11.5922 16.7031C12.253 16.7044 12.8911 16.4618 13.3842 16.0218C13.8773 15.5818 14.1906 14.9753 14.2642 14.3185C14.3377 13.6617 14.1664 13.0009 13.7829 12.4627C13.3994 11.9245 12.8308 11.5467 12.186 11.4018L12.0215 11.3656C11.9066 11.3397 11.7901 11.3218 11.6727 11.312C11.6455 11.3144 11.6183 11.3155 11.591 11.3155H3.27619C3.13713 11.3201 2.99856 11.2968 2.86873 11.2468C2.73889 11.1968 2.62043 11.1212 2.52042 11.0245C2.4204 10.9277 2.34087 10.8119 2.28655 10.6838C2.23223 10.5557 2.20424 10.418 2.20424 10.2789C2.20424 10.1397 2.23223 10.002 2.28655 9.87395C2.34087 9.74586 2.4204 9.63001 2.52042 9.53329C2.62043 9.43657 2.73889 9.36097 2.86873 9.31098C2.99856 9.26098 3.13713 9.23762 3.27619 9.24229H11.4837L11.5374 9.23762L11.5922 9.23646C12.3038 9.24992 12.9917 8.98012 13.5045 8.48641C14.0172 7.99271 14.3128 7.31554 14.3263 6.60387C14.3397 5.89221 14.0699 5.20435 13.5762 4.69161C13.0825 4.17887 12.4053 3.88325 11.6937 3.86979C11.6599 3.87286 11.6261 3.87442 11.5922 3.87446H10.5457L10.4652 3.87329C9.16319 3.79512 9.19002 1.80246 10.5445 1.80246H11.4779C11.5154 1.79848 11.5532 1.79653 11.591 1.79662C12.06 1.79662 12.5127 1.86429 12.9409 1.99029L12.977 1.96696C14.1235 1.22108 15.4529 0.804525 16.8201 0.762759C18.1872 0.720994 19.5396 1.05563 20.7295 1.73012V1.72896ZM16.3697 15.127L16.2904 15.169L16.1935 15.2285C15.9324 16.2203 15.3579 17.1014 14.5555 17.7403C15.1153 18.1854 15.5673 18.7511 15.8778 19.3954C16.1883 20.0396 16.3493 20.7456 16.3487 21.4608C16.3501 22.5578 15.9707 23.6212 15.2754 24.4696C15.5351 24.8031 15.9005 25.0385 16.3116 25.1372C16.7227 25.2358 17.1551 25.192 17.5379 25.0127C17.9208 24.8335 18.2314 24.5295 18.419 24.1506C18.6065 23.7718 18.6597 23.3404 18.57 22.9273L18.535 22.7826L18.5199 22.6905L18.514 22.6251L18.5129 22.5761L18.514 22.5085L18.5199 22.4466L18.535 22.3556L18.556 22.2716L18.5817 22.197L18.6225 22.1048L18.6284 22.0931C18.6763 21.9997 18.7385 21.9143 18.8127 21.84L18.8769 21.7793L18.9247 21.742L18.983 21.7011L19.032 21.6708L19.0962 21.6358L19.1814 21.6008L19.2467 21.5775L19.2934 21.5646L19.3844 21.546L19.4695 21.5355L19.522 21.5331H19.578L19.6259 21.5355L19.6935 21.5425L19.7589 21.5541L19.8312 21.5716L19.8674 21.5833L19.9245 21.6031L19.9875 21.63L20.0389 21.6545L20.1007 21.6906L20.1415 21.7175C20.2115 21.7665 20.2745 21.8225 20.3317 21.889L20.376 21.9426L20.4157 21.9986C20.5604 22.2229 20.7516 22.4135 20.9763 22.5575C21.2009 22.7016 21.4539 22.7958 21.7181 22.8339C21.9823 22.8719 22.2515 22.8528 22.5077 22.7779C22.7639 22.703 23.001 22.5741 23.2031 22.3998C23.4053 22.2254 23.5676 22.0098 23.6793 21.7674C23.791 21.525 23.8494 21.2615 23.8506 20.9946C23.8518 20.7277 23.7957 20.4636 23.6862 20.2202C23.5767 19.9768 23.4162 19.7597 23.2157 19.5836C23.0322 19.5997 22.8478 19.6024 22.6639 19.5918L22.5974 19.586L22.567 19.5801H22.5484C21.7274 19.5079 20.9498 19.1799 20.3251 18.6424C19.7003 18.105 19.2599 17.3851 19.0659 16.5841L19.0355 16.4488C18.9816 16.1656 18.8629 15.8988 18.6886 15.6692C18.5143 15.4397 18.2892 15.2536 18.031 15.1255C17.7728 14.9975 17.4884 14.931 17.2002 14.9312C16.912 14.9315 16.6277 14.9985 16.3697 15.127ZM11.2177 20.4878C11.3567 20.4831 11.4953 20.5065 11.6251 20.5565C11.755 20.6065 11.8734 20.6821 11.9735 20.7788C12.0735 20.8755 12.153 20.9914 12.2073 21.1194C12.2616 21.2475 12.2896 21.3852 12.2896 21.5244C12.2896 21.6635 12.2616 21.8012 12.2073 21.9293C12.153 22.0574 12.0735 22.1732 11.9735 22.27C11.8734 22.3667 11.755 22.4423 11.6251 22.4923C11.4953 22.5423 11.3567 22.5656 11.2177 22.561H6.92902C6.66012 22.5519 6.40525 22.4388 6.21822 22.2454C6.03119 22.0519 5.92663 21.7934 5.92663 21.5244C5.92663 21.2553 6.03119 20.9968 6.21822 20.8034C6.40525 20.61 6.66012 20.4968 6.92902 20.4878H11.2177ZM21.9604 8.23429C21.6914 8.38976 21.4655 8.60989 21.3031 8.87473C21.1408 9.13957 21.0471 9.44075 21.0305 9.75096L21.0282 9.85012C21.0282 10.1133 20.9281 10.3666 20.7483 10.5587C20.5685 10.7509 20.3224 10.8675 20.0599 10.885L19.991 10.8873C19.7279 10.8873 19.4746 10.7872 19.2824 10.6074C19.0903 10.4276 18.9736 10.1815 18.9562 9.91896L18.9539 9.85012C18.9533 9.50762 18.8586 9.17187 18.68 8.87961C18.5014 8.58736 18.2459 8.34986 17.9414 8.19314C17.6368 8.03641 17.295 7.96649 16.9534 7.99104C16.6118 8.01558 16.2835 8.13364 16.0045 8.33229C15.6941 9.09925 15.1895 9.77228 14.5404 10.2853C15.3965 10.9624 15.9941 11.913 16.2332 12.978C16.7434 12.848 17.2745 12.8218 17.7951 12.9008C18.3156 12.9797 18.8151 13.1624 19.2638 13.4378C19.7125 13.7132 20.1014 14.0759 20.4075 14.5043C20.7136 14.9327 20.9306 15.4182 21.0457 15.932L21.069 16.0405C21.1505 16.4259 21.3518 16.7756 21.6441 17.0397C21.9365 17.3037 22.3048 17.4685 22.6965 17.5105L22.8412 17.5221L22.8902 17.5245C22.9602 17.5245 23.0302 17.521 23.1002 17.5128L23.1994 17.5L23.2717 17.4825C23.7146 17.3887 24.1084 17.1372 24.3797 16.7747C24.651 16.4122 24.7812 15.9635 24.7463 15.5121C24.7113 15.0607 24.5135 14.6374 24.1896 14.321C23.8658 14.0046 23.4379 13.8167 22.9859 13.7923L22.8937 13.79C22.7416 13.7901 22.5913 13.7567 22.4536 13.6922C22.3159 13.6277 22.1941 13.5336 22.0969 13.4166L22.0572 13.3653C21.9716 13.249 21.9113 13.116 21.8804 12.9749C21.8494 12.8338 21.8484 12.6878 21.8775 12.5463C21.9225 12.3244 22.0389 12.1233 22.2089 11.9737C22.3789 11.8241 22.5932 11.7343 22.819 11.718L22.8937 11.7168C23.2623 11.7166 23.6227 11.6073 23.9293 11.4026C24.2359 11.1979 24.475 10.907 24.6165 10.5666C24.758 10.2262 24.7956 9.85155 24.7244 9.48983C24.6532 9.12812 24.4766 8.79557 24.2167 8.53412C23.9645 8.28469 23.6464 8.11229 23.2997 8.03712L23.1807 8.01496C23.1509 8.01008 23.1213 8.00385 23.092 7.99629C22.6991 7.95318 22.3026 8.03655 21.9604 8.23429ZM11.2282 12.9943C11.5033 12.9943 11.7671 13.1036 11.9616 13.2981C12.1561 13.4926 12.2654 13.7564 12.2654 14.0315C12.2654 14.3065 12.1561 14.5703 11.9616 14.7648C11.7671 14.9593 11.5033 15.0686 11.2282 15.0686H1.03852C0.769619 15.0596 0.514747 14.9464 0.327717 14.753C0.140686 14.5596 0.0361328 14.3011 0.0361328 14.032C0.0361328 13.763 0.140686 13.5045 0.327717 13.3111C0.514747 13.1176 0.769619 13.0045 1.03852 12.9955H11.2294L11.2282 12.9943ZM11.2165 5.49029C11.3556 5.48562 11.4941 5.50898 11.624 5.55898C11.7538 5.60897 11.8723 5.68457 11.9723 5.78129C12.0723 5.87801 12.1518 5.99386 12.2062 6.12195C12.2605 6.25003 12.2885 6.38774 12.2885 6.52687C12.2885 6.666 12.2605 6.80371 12.2062 6.9318C12.1518 7.05989 12.0723 7.17574 11.9723 7.27246C11.8723 7.36917 11.7538 7.44478 11.624 7.49477C11.4941 7.54476 11.3556 7.56812 11.2165 7.56346H6.93019C6.79113 7.56812 6.65256 7.54476 6.52273 7.49477C6.39289 7.44478 6.27443 7.36917 6.17442 7.27246C6.0744 7.17574 5.99487 7.05989 5.94055 6.9318C5.88623 6.80371 5.85824 6.666 5.85824 6.52687C5.85824 6.38774 5.88623 6.25003 5.94055 6.12195C5.99487 5.99386 6.0744 5.87801 6.17442 5.78129C6.27443 5.68457 6.39289 5.60897 6.52273 5.55898C6.65256 5.50898 6.79113 5.48562 6.93019 5.49029H11.2189H11.2165ZM15.063 3.21062L15.0012 3.23512C15.7304 3.98317 16.1922 4.95105 16.3149 5.98846C16.9789 5.85512 17.6662 5.89535 18.3101 6.10524C18.9541 6.31513 19.5331 6.68759 19.991 7.18662C20.5192 6.60942 21.2078 6.20316 21.9685 6.01996C21.401 4.75235 20.3661 3.75268 19.0796 3.22931C17.7931 2.70594 16.3543 2.69924 15.063 3.21062Z\" fill=\"white\"></path>\n</svg>",
+      "name": "svg1413088234_9059"
+    },
+    {
+      "id": "82ab1ead71b2e605",
+      "markup": "<svg width=\"28\" height=\"28\" viewBox=\"0 0 28 28\" fill=\"none\" id=\"svg1345847338_990\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M20.8365 26.8242C17.7227 27.11 15.135 23.4688 13.14 21.6278C12.1308 28.8857 1.1665 28.2067 1.1665 20.8368V7.17518C1.1665 6.10068 1.45117 5.00402 2.02167 4.08352C3.074 2.30668 5.11334 1.14352 7.17484 1.16685H20.8365C28.2052 1.16685 28.9075 12.1312 21.6263 13.117L25.0913 16.5598C28.8853 20.1345 26.034 26.977 20.8377 26.823L20.8365 26.8242ZM19.1705 22.483C21.3195 24.6973 24.7402 21.2767 22.5258 19.1277L16.5385 13.1403H13.1832V16.4957L18.3585 21.671L19.1705 22.483ZM4.8065 20.8158C4.76334 23.8865 9.60967 23.8865 9.54317 20.8158V7.15418C9.5875 5.61885 7.96467 4.41252 6.49584 4.87335C6.42934 4.89552 6.364 4.91651 6.32084 4.93868C5.39917 5.28985 4.76334 6.21035 4.78434 7.19735V20.8158H4.8065ZM20.8365 9.52251C23.9072 9.56568 23.9072 4.74152 20.8365 4.78585H12.7013C13.315 6.07968 13.1622 8.11901 13.1832 9.52251H20.8365Z\" fill=\"white\"></path>\n</svg>",
+      "name": "svg1345847338_990"
+    },
+    {
+      "id": "261e8591102d1569",
+      "markup": "<svg width=\"28\" height=\"28\" viewBox=\"0 0 28 28\" fill=\"none\" id=\"svg1828372334_684\">\n<path d=\"M2.3335 6.99883L14.4575 0V28L2.3335 21V6.99883Z\" fill=\"white\"></path>\n<path d=\"M14.4575 28L2.3335 21L14.4575 14L26.5827 21L14.4575 28Z\" fill=\"white\"></path>\n<path d=\"M14.4575 28L2.3335 21L14.4575 14L26.5827 21L14.4575 28Z\" fill=\"white\"></path>\n<g style=\"mix-blend-mode:screen\">\n<path d=\"M2.3335 6.99883L14.4575 0V28L2.3335 21V6.99883Z\" fill=\"white\"></path>\n</g>\n<g style=\"mix-blend-mode:overlay\">\n<path d=\"M14.4575 28L2.3335 21L14.4575 14L26.5827 21L14.4575 28Z\" fill=\"white\"></path>\n</g>\n<g style=\"mix-blend-mode:overlay\">\n<path d=\"M2.3335 6.99883L14.4575 0V28L2.3335 21V6.99883Z\" fill=\"white\"></path>\n</g>\n</svg>",
+      "name": "svg1828372334_684"
+    },
+    {
+      "id": "facb7c9439b64491",
+      "markup": "<svg width=\"28\" height=\"28\" viewBox=\"0 0 28 28\" fill=\"none\" id=\"svg1030575290_509\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M0 24.13L14.0117 2.9165L28 24.13H25.3948L14.0105 6.8575L4.0495 21.9402H18.1918L19.6373 24.13H0Z\" fill=\"white\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M9.41406 19.5114L11.8326 15.8772L14.2522 19.5114H9.41406ZM21.2802 24.1302L14.6676 13.9721H17.2074L23.8411 24.1302H21.2802ZM23.0302 13.6221L25.5152 9.90039L28.0002 13.6221H23.0302Z\" fill=\"white\"></path>\n</svg>",
+      "name": "svg1030575290_509"
+    },
+    {
+      "id": "5855ec8efabad837",
+      "markup": "<svg width=\"28\" height=\"28\" viewBox=\"0 0 28 28\" fill=\"none\" id=\"svg1647683835_478\">\n<path d=\"M14 28C13.4664 24.4777 11.8195 21.2186 9.30048 18.6995C6.78141 16.1805 3.52231 14.5336 0 14C3.52231 13.4664 6.78141 11.8195 9.30048 9.30048C11.8195 6.78141 13.4664 3.52231 14 0C14.5338 3.52224 16.1807 6.78124 18.6997 9.30028C21.2188 11.8193 24.4778 13.4662 28 14C24.4778 14.5338 21.2188 16.1807 18.6997 18.6997C16.1807 21.2188 14.5338 24.4778 14 28Z\" fill=\"white\"></path>\n</svg>",
+      "name": "svg1647683835_478"
+    },
+    {
+      "id": "13d74fcb0314623a",
+      "markup": "<svg viewBox=\"0 0 8 8\" overflow=\"visible\" id=\"svg-42423018_319\"><path d=\"M 4 0 C 6.209 0 8 1.791 8 4 C 8 6.209 6.209 8 4 8 C 1.791 8 0 6.209 0 4 C 0 1.791 1.791 0 4 0 Z\" fill=\"var(--token-d56366ae-ad88-499c-8eb0-aa22484eb4f4, rgba(48, 48, 48, 0.7))\"></path></svg>",
+      "name": "svg-42423018_319"
+    },
+    {
+      "id": "4c1a83b8e3d124b8",
+      "markup": "<svg viewBox=\"0 0 40 40\" id=\"svg12851319880\"><path d=\"M 20 40 C 8.954 40 0 31.046 0 20 L 0 20 C 0 8.954 8.954 0 20 0 L 20 0 C 31.046 0 40 8.954 40 20 L 40 20 C 40 31.046 31.046 40 20 40 Z\" fill=\"var(--token-73282bcc-57eb-439e-883b-a5e86ef05d7b, rgba(255, 255, 255, 0.05)) /* {&quot;name&quot;:&quot;White 5&quot;} */\"></path><g transform=\"translate(10 10)\"><path d=\"M 0 20 L 0 0 L 20 0 L 20 20 Z\" fill=\"transparent\"></path><path d=\"M 8.294 9.136 L 10.631 11.473 L 2.585 19.518 C 2.254 19.849 1.723 19.849 1.391 19.518 L 0.249 18.375 C -0.083 18.044 -0.083 17.512 0.249 17.181 Z M 13.699 7.216 L 12.551 6.067 C 12.225 5.742 11.688 5.742 11.362 6.067 L 8.694 8.736 L 11.036 11.067 L 13.699 8.404 C 14.025 8.079 14.025 7.542 13.699 7.216 Z M 8.357 0.335 L 8.097 1.177 C 7.883 1.873 7.338 2.418 6.642 2.633 L 5.8 2.893 C 5.665 2.934 5.665 3.125 5.8 3.166 L 6.642 3.426 C 7.338 3.641 7.883 4.186 8.097 4.882 L 8.357 5.724 C 8.399 5.858 8.589 5.858 8.631 5.724 L 8.89 4.882 C 9.105 4.186 9.65 3.641 10.346 3.426 L 11.188 3.166 C 11.323 3.125 11.323 2.934 11.188 2.893 L 10.346 2.633 C 9.65 2.418 9.105 1.873 8.89 1.177 L 8.631 0.335 C 8.589 0.201 8.399 0.201 8.357 0.335 Z M 14.632 10.956 L 14.473 11.471 C 14.342 11.896 14.009 12.229 13.584 12.36 L 13.07 12.518 C 12.988 12.544 12.988 12.66 13.07 12.685 L 13.584 12.844 C 14.009 12.975 14.342 13.308 14.473 13.733 L 14.632 14.247 C 14.657 14.329 14.774 14.329 14.799 14.247 L 14.958 13.733 C 15.089 13.308 15.421 12.975 15.847 12.844 L 16.361 12.685 C 16.443 12.66 16.443 12.544 16.361 12.518 L 15.847 12.36 C 15.421 12.229 15.089 11.896 14.958 11.471 L 14.799 10.956 C 14.774 10.874 14.657 10.874 14.632 10.956 Z M 17.776 5.901 L 17.579 6.54 C 17.416 7.068 17.003 7.481 16.475 7.644 L 15.836 7.841 C 15.734 7.873 15.734 8.017 15.836 8.049 L 16.475 8.246 C 17.003 8.409 17.416 8.822 17.579 9.35 L 17.776 9.989 C 17.807 10.091 17.952 10.091 17.984 9.989 L 18.181 9.35 C 18.343 8.822 18.757 8.409 19.285 8.246 L 19.923 8.049 C 20.026 8.017 20.026 7.873 19.923 7.841 L 19.285 7.644 C 18.757 7.481 18.343 7.068 18.181 6.54 L 17.984 5.901 C 17.952 5.799 17.807 5.799 17.776 5.901 Z\" fill=\"var(--token-bad6d7ef-d880-4bf8-8504-e0f905d14890, rgb(0, 0, 0)) /* {&quot;name&quot;:&quot;Black&quot;} */\"></path></g></svg>",
+      "name": "svg12851319880"
+    },
+    {
+      "id": "774ab766d07d3fb5",
+      "markup": "<svg width=\"71\" height=\"25\" viewBox=\"0 0 71 25\" fill=\"none\" id=\"svg-1267655132_1116\">\n<path d=\"M1.39065 9.972C1.42244 9.51737 1.60815 9.14035 1.94857 8.84547C2.29618 8.54329 2.6968 8.40751 3.15143 8.4393L9.16149 8.85956L9.58098 2.86059C9.61277 2.40596 9.79943 2.03124 10.1387 1.73628C10.4797 1.43363 10.877 1.29761 11.3316 1.3294C11.7863 1.3612 12.1607 1.55118 12.4563 1.89833C12.759 2.23819 12.8949 2.63658 12.8631 3.09122L12.4437 9.09019L18.4537 9.51045C18.9006 9.5417 19.2718 9.73035 19.5662 10.0785C19.8689 10.4184 20.0049 10.8157 19.9731 11.2703C19.9413 11.7249 19.751 12.1039 19.4034 12.406C19.0641 12.701 18.6704 12.8339 18.2224 12.8026L12.2123 12.3823L11.7921 18.3924C11.7608 18.8393 11.5722 19.2105 11.2239 19.506C10.8841 19.8087 10.4868 19.9447 10.0321 19.9129C9.5775 19.8811 9.20302 19.6911 8.90749 19.344C8.76423 19.1846 8.65513 18.9976 8.58692 18.7945C8.51872 18.5914 8.49286 18.3765 8.51093 18.163L8.9312 12.1529L2.92114 11.7326C2.4665 11.7008 2.08846 11.5139 1.78573 11.1741C1.64234 11.0104 1.53345 10.8195 1.46557 10.6128C1.3977 10.406 1.37216 10.1888 1.39065 9.972Z\" fill=\"white\"></path>\n</svg>",
+      "name": "svg-1267655132_1116"
+    },
+    {
+      "id": "4a323ad6123e7462",
+      "markup": "<svg width=\"71\" height=\"25\" viewBox=\"0 0 71 25\" fill=\"none\" id=\"svg-86167272_1128\">\n<path d=\"M1.38207 14.6848C1.35029 14.2304 1.48165 13.8314 1.77758 13.4922C2.0796 13.1448 2.45723 12.9546 2.91164 12.9229L8.9187 12.5028L8.49942 6.50684C8.46765 6.05243 8.60027 5.65558 8.89508 5.31643C9.19046 4.96946 9.56476 4.77956 10.0192 4.74779C10.4736 4.71601 10.8707 4.85196 11.2115 5.15446C11.5584 5.44873 11.7483 5.82414 11.7801 6.27855L12.1994 12.2745L18.2064 11.8545C18.6531 11.8232 19.0468 11.9583 19.3865 12.262C19.7334 12.5563 19.9233 12.9306 19.9551 13.385C19.9869 13.8394 19.8512 14.2409 19.5492 14.5883C19.2544 14.9275 18.8832 15.1138 18.4354 15.1451L12.4284 15.5652L12.8484 21.5722C12.8797 22.0189 12.7446 22.4126 12.441 22.7535C12.1467 23.1004 11.7724 23.2902 11.318 23.322C10.8636 23.3538 10.4665 23.2178 10.1257 22.9154C9.96176 22.7776 9.82776 22.6077 9.732 22.4161C9.63624 22.2246 9.58074 22.0154 9.56893 21.8016L9.14888 15.7945L3.14182 16.2146C2.68741 16.2463 2.28723 16.1139 1.94033 15.8197C1.77563 15.6776 1.64129 15.5038 1.54536 15.3086C1.44942 15.1134 1.39393 14.902 1.38207 14.6848Z\" fill=\"white\"></path>\n</svg>",
+      "name": "svg-86167272_1128"
+    },
+    {
+      "id": "15147b03b7fca531",
+      "markup": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" id=\"svg-1859665208_389\">\n<rect width=\"16\" height=\"16\" rx=\"8\" fill=\"black\"></rect>\n<path d=\"M7.99655 7.05767L11.2964 3.75781L12.2392 4.70062L8.93935 8.00047L12.2392 11.3003L11.2964 12.2431L7.99655 8.94327L4.69672 12.2431L3.75391 11.3003L7.05375 8.00047L3.75391 4.70062L4.69672 3.75781L7.99655 7.05767Z\" fill=\"white\"></path>\n</svg>",
+      "name": "svg-1859665208_389"
+    },
+    {
+      "id": "cca6db8d7b29e1f8",
+      "markup": "<svg width=\"11\" height=\"10\" viewBox=\"-1 -1 11 10\" fill=\"none\" id=\"svg-1160060004_483\">\n<path d=\"M0 0C7.5 0 9 1.5 9 7.99997\" stroke=\"url(#svg-1160060004_483_paint0_linear_4667_10125)\" stroke-width=\"2\" stroke-linecap=\"round\"></path>\n<defs>\n<linearGradient id=\"svg-1160060004_483_paint0_linear_4667_10125\" x1=\"-1\" y1=\"-0.5\" x2=\"9\" y2=\"9\" gradientUnits=\"userSpaceOnUse\">\n<stop stop-color=\"#ADFF30\"></stop>\n<stop offset=\"0.519231\" stop-color=\"#00D5FF\"></stop>\n<stop offset=\"1\" stop-color=\"#D469FF\"></stop>\n</linearGradient>\n</defs>\n</svg>",
+      "name": "svg-1160060004_483"
+    },
+    {
+      "id": "a826e9cd91d4eeb8",
+      "markup": "<svg id=\"1125768050\" display=\"block\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0 6 L 0 0 L 15 0 L 15 6 Z\" fill-opacity=\"var(--1m6trwb, 0)\" fill=\"var(--21h8s6, rgb(0, 0, 0))\" height=\"6px\" id=\"xQKb1LEHN\" transform=\"translate(4.5 9)\" width=\"15px\"></path><path d=\"M 0 0 L 0 6\" fill=\"transparent\" height=\"6px\" id=\"SxHEG4GMt\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(4.5 9)\" width=\"1px\"></path><path d=\"M 0 0 L 0 18\" fill=\"transparent\" height=\"18px\" id=\"dOEiwuToG\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(8.25 3)\" width=\"1px\"></path><path d=\"M 0 0 L 0 12\" fill=\"transparent\" height=\"12px\" id=\"amx1tOXlI\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(12 6)\" width=\"1px\"></path><path d=\"M 0 0 L 0 6\" fill=\"transparent\" height=\"6px\" id=\"Q2gGMFfAP\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(15.75 9)\" width=\"1px\"></path><path d=\"M 0 0 L 0 9\" fill=\"transparent\" height=\"9px\" id=\"G9CXWjSeg\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(19.5 7.5)\" width=\"1px\"></path></svg>",
+      "name": "1125768050"
+    },
+    {
+      "id": "2468baa67c88f379",
+      "markup": "<svg id=\"3467097230\" display=\"block\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0 0 L 16 0\" fill=\"transparent\" height=\"1px\" id=\"YnobPTYMb\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--js9iwy, 2)\" stroke=\"var(--1m973uw, rgb(0,0,0))\" transform=\"translate(4 5)\" width=\"16px\"></path><path d=\"M 0 0 L 16 0\" fill=\"transparent\" height=\"1px\" id=\"Cb0Gao21R\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--js9iwy, 2)\" stroke=\"var(--1m973uw, rgb(0,0,0))\" transform=\"translate(4 12)\" width=\"16px\"></path><path d=\"M 0 0 L 16 0\" fill=\"transparent\" height=\"1px\" id=\"oPtuyu4df\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--js9iwy, 2)\" stroke=\"var(--1m973uw, rgb(0,0,0))\" transform=\"translate(4 19)\" width=\"16px\"></path></svg>",
+      "name": "3467097230"
+    },
+    {
+      "id": "4c1bdfca6e6fb1fe",
+      "markup": "<svg id=\"1688045918\" display=\"block\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0 0 L 4.5 0 L 15 16.5 L 10.5 16.5 Z\" fill-opacity=\"var(--1m6trwb, 0)\" fill=\"var(--21h8s6, rgb(0, 0, 0))\" height=\"16.5px\" id=\"wBdJ15Yu6\" transform=\"translate(4.5 3.75)\" width=\"15px\"></path><path d=\"M 0 0 L 4.5 0 L 15 16.5 L 10.5 16.5 Z\" fill=\"transparent\" height=\"16.5px\" id=\"El8uvQLqv\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(4.5 3.75)\" width=\"15px\"></path><path d=\"M 6.176 0 L 0 6.794\" fill=\"transparent\" height=\"6.7940624999999955px\" id=\"AHSzdg78i\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(4.5 13.456)\" width=\"6.176249999999996px\"></path><path d=\"M 6.176 0 L 0 6.794\" fill=\"transparent\" height=\"6.794062499999999px\" id=\"h4GjUNYzh\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(13.324 3.75)\" width=\"6.176249999999996px\"></path></svg>",
+      "name": "1688045918"
+    },
+    {
+      "id": "2e30efe51230c00b",
+      "markup": "<svg id=\"4033599021\" display=\"block\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0.75 18 C 0.336 18 0 17.664 0 17.25 L 0 0.75 C 0 0.336 0.336 0 0.75 0 L 17.25 0 C 17.664 0 18 0.336 18 0.75 L 18 17.25 C 18 17.664 17.664 18 17.25 18 Z\" fill-opacity=\"var(--1m6trwb, 0)\" fill=\"var(--21h8s6, rgb(0, 0, 0))\" height=\"18px\" id=\"ubm8tT7Gs\" transform=\"translate(3 3)\" width=\"18px\"></path><path d=\"M 0.75 18 C 0.336 18 0 17.664 0 17.25 L 0 0.75 C 0 0.336 0.336 0 0.75 0 L 17.25 0 C 17.664 0 18 0.336 18 0.75 L 18 17.25 C 18 17.664 17.664 18 17.25 18 Z\" fill=\"transparent\" height=\"18px\" id=\"uLIbokj1X\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(3 3)\" width=\"18px\"></path><path d=\"M 0 0 L 0 6\" fill=\"transparent\" height=\"6px\" id=\"wcL4Xtw6S\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(11.25 10.5)\" width=\"1px\"></path><path d=\"M 0 0 L 0 6\" fill=\"transparent\" height=\"6px\" id=\"haFqKG9T6\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(8.25 10.5)\" width=\"1px\"></path><path d=\"M 0 2.625 C 0 1.175 1.175 0 2.625 0 C 4.075 0 5.25 1.175 5.25 2.625 L 5.25 6\" fill=\"transparent\" height=\"6px\" id=\"ldXP7NTX2\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(11.25 10.5)\" width=\"5.25px\"></path><path d=\"M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z\" fill=\"var(--21h8s6, rgb(0, 0, 0))\" height=\"2.25px\" id=\"M86o3vn0T\" transform=\"translate(7.125 6.75)\" width=\"2.25px\"></path></svg>",
+      "name": "4033599021"
+    },
+    {
+      "id": "c54add06c204bdae",
+      "markup": "<svg id=\"2183609386\" display=\"block\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 4 12.001 L 0 16.001 M 0 16.001 L 4 20.001 M 0 16.001 L 13 16.001 C 14.657 16.001 16 14.657 16 13.001 L 16 10 M 12 8 L 16 4 M 16 4 L 12 0 M 16 4 L 3 4 C 1.343 4 0 5.343 0 7 L 0 10\" fill=\"transparent\" height=\"20.00058937072754px\" id=\"lQJd2mHeO\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--1ww558a, 2)\" stroke=\"var(--4rxgx6, black)\" transform=\"translate(4 2)\" width=\"16px\"></path></svg>",
+      "name": "2183609386"
+    },
+    {
+      "id": "226cdaf79381b89f",
+      "markup": "<svg id=\"2903821725\" display=\"block\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0 12 L 6 6 L 0 0\" fill=\"transparent\" height=\"12px\" id=\"sVN6YVZ9m\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--js9iwy, 2)\" stroke=\"var(--1m973uw, rgb(0,0,0))\" transform=\"translate(9 6)\" width=\"6px\"></path></svg>",
+      "name": "2903821725"
+    },
+    {
+      "id": "b680cddff4488e2b",
+      "markup": "<svg id=\"1084106824\" display=\"block\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 19 7.207 L 0 0 L 7.207 19 L 10.483 10.483 Z\" fill=\"transparent\" height=\"19px\" id=\"cb0srnjda\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--1ww558a, 2)\" stroke=\"var(--4rxgx6, black)\" transform=\"translate(3 3)\" width=\"19px\"></path></svg>",
+      "name": "1084106824"
+    },
+    {
+      "id": "a1faa262a1919ec7",
+      "markup": "<svg id=\"3067269320\" display=\"block\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 16 0 L 2 0 C 0.895 0 0 0.895 0 2 L 0 12 C 0 13.105 0.895 14 2 14 L 5 14 L 8.646 17.646 C 8.842 17.842 9.158 17.842 9.354 17.646 L 13 14 L 16 14 C 17.105 14 18 13.105 18 12 L 18 2 C 18 0.895 17.105 0 16 0 Z\" fill=\"transparent\" height=\"17.792875px\" id=\"G2LtUK8is\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--1ww558a, 2)\" stroke=\"var(--4rxgx6, black)\" transform=\"translate(3 3)\" width=\"18px\"></path></svg>",
+      "name": "3067269320"
+    },
+    {
+      "id": "c06251a217571e0b",
+      "markup": "<svg id=\"3163803808\" display=\"block\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0 0 L 0 18 L 18 18 M 4 13 L 9.25 7.75 L 12.75 11.25 L 18 6\" fill=\"transparent\" height=\"18px\" id=\"padVgycWX\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--1ww558a, 2)\" stroke=\"var(--4rxgx6, black)\" transform=\"translate(3 3)\" width=\"18px\"></path></svg>",
+      "name": "3163803808"
+    },
+    {
+      "id": "d018c5b60ab5e244",
+      "markup": "<svg id=\"1503548889\" display=\"block\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 6 6 L 0.3 1.725 C 0.111 1.583 0 1.361 0 1.125 L 0 0 L 12 0 L 12 1.091 C 11.999 1.326 11.889 1.546 11.702 1.688 L 6 6 L 6 6\" fill-opacity=\"var(--1m6trwb, 0)\" fill=\"var(--21h8s6, rgb(0, 0, 0))\" height=\"6px\" id=\"pNste0CYw\" transform=\"translate(6 6)\" width=\"12px\"></path><path d=\"M 0 0 L 12 0\" fill=\"transparent\" height=\"1px\" id=\"kKZuHZlEs\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(6 6)\" width=\"12px\"></path><path d=\"M 6 9 L 0.3 4.725 C 0.111 4.583 0 4.361 0 4.125 L 0 0.75 C 0 0.336 0.336 0 0.75 0 L 11.25 0 C 11.664 0 12 0.336 12 0.75 L 12 4.091 C 11.999 4.326 11.889 4.546 11.702 4.688 L 6 9 L 6 9\" fill=\"transparent\" height=\"9px\" id=\"zoVYFSxVb\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(6 3)\" width=\"12px\"></path><path d=\"M 6 0 L 0.3 4.275 C 0.111 4.417 0 4.639 0 4.875 L 0 8.25 C 0 8.664 0.336 9 0.75 9 L 11.25 9 C 11.664 9 12 8.664 12 8.25 L 12 4.909 C 12 4.674 11.889 4.452 11.702 4.311 L 6 0 L 6 0\" fill=\"transparent\" height=\"9px\" id=\"m2FY86RUt\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(6 12)\" width=\"12px\"></path></svg>",
+      "name": "1503548889"
+    },
+    {
+      "id": "3d37c12e355cfd7c",
+      "markup": "<svg id=\"1646686408\" display=\"block\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 6.75 5.201 L 4.5 7.451 L 4.5 0 L 0.219 4.232 C 0.079 4.372 0 4.563 0 4.762 L 0 11.951 L 7.19 11.951 C 7.388 11.951 7.579 11.872 7.719 11.732 L 14.213 5.164 Z\" fill-opacity=\"var(--1m6trwb, 0)\" fill=\"var(--21h8s6, rgb(0, 0, 0))\" height=\"11.951250000000002px\" id=\"pzs8kyRI3\" transform=\"translate(6 6.049)\" width=\"14.212500000000006px\"></path><path d=\"M 14.25 0 L 0 14.25\" fill=\"transparent\" height=\"14.25px\" id=\"gQPbmYmeM\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(3 6.75)\" width=\"14.25px\"></path><path d=\"M 7.719 15.531 C 7.579 15.671 7.388 15.75 7.19 15.75 L 0 15.75 L 0 8.561 C 0 8.362 0.079 8.171 0.219 8.031 L 6.788 1.538 C 8.838 -0.513 12.162 -0.513 14.213 1.538 C 16.263 3.588 16.263 6.912 14.213 8.963 Z\" fill=\"transparent\" height=\"15.750267850310113px\" id=\"PKSsd1BJ9\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(6 2.25)\" width=\"15.75026785031011px\"></path><path d=\"M 0 0 L 0 7.451\" fill=\"transparent\" height=\"7.451250000000002px\" id=\"Y9FnsRAz_\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(10.5 6.049)\" width=\"1px\"></path><path d=\"M 0 0 L 7.425 0\" fill=\"transparent\" height=\"1px\" id=\"RWnHzlDSJ\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(12.75 11.25)\" width=\"7.424999999999997px\"></path></svg>",
+      "name": "1646686408"
+    },
+    {
+      "id": "f555ce072ce76b58",
+      "markup": "<svg id=\"3571911165\" display=\"block\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0 4.5 C 0 2.015 2.015 0 4.5 0 C 6.985 0 9 2.015 9 4.5 C 9 6.985 6.985 9 4.5 9 C 2.015 9 0 6.985 0 4.5 Z\" fill-opacity=\"var(--1m6trwb, 0)\" fill=\"var(--21h8s6, rgb(0, 0, 0))\" height=\"9px\" id=\"H1R4C0x9Q\" transform=\"translate(7.5 7.5)\" width=\"9px\"></path><path d=\"M 0 9 L 9 0\" fill=\"transparent\" height=\"9px\" id=\"bUAtlYSSu\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(12 3)\" width=\"9px\"></path><path d=\"M 15.338 2.625 C 12.033 -0.672 6.754 -0.89 3.188 2.123 C -0.378 5.135 -1.044 10.377 1.655 14.186 C 4.354 17.995 9.519 19.104 13.544 16.738 C 17.569 14.372 19.112 9.32 17.097 5.109\" fill=\"transparent\" height=\"17.97837613750978px\" id=\"j5LOquzhO\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(3.026 3.011)\" width=\"17.979200387801164px\"></path><path d=\"M 7.68 1.316 C 6.144 -0.218 3.732 -0.437 1.945 0.796 C 0.158 2.029 -0.494 4.362 0.395 6.342 C 1.284 8.323 3.46 9.387 5.569 8.871 C 7.678 8.356 9.118 6.409 8.993 4.241\" fill=\"transparent\" height=\"9.000613277709206px\" id=\"KXYJT1ORo\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(7.501 7.502)\" width=\"9.000523854961273px\"></path></svg>",
+      "name": "3571911165"
+    },
+    {
+      "id": "99bd5641fe4b393f",
+      "markup": "<svg id=\"1523066278\" display=\"block\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 12.75 0 C 11.093 0 9.75 1.343 9.75 3 C 9.75 1.343 8.407 0 6.75 0 L 0 0 L 0 13.5 L 6.75 13.5 C 8.407 13.5 9.75 14.843 9.75 16.5 C 9.75 14.843 11.093 13.5 12.75 13.5 L 19.5 13.5 L 19.5 0 Z\" fill-opacity=\"var(--1m6trwb, 0)\" fill=\"var(--21h8s6, rgb(0, 0, 0))\" height=\"16.5px\" id=\"VaJ0SXoYw\" transform=\"translate(2.25 5.25)\" width=\"19.5px\"></path><path d=\"M 0 3 C 0 1.343 1.343 0 3 0 L 9.75 0 L 9.75 13.5 L 3 13.5 C 1.343 13.5 0 14.843 0 16.5\" fill=\"transparent\" height=\"16.5px\" id=\"oAakIlfTx\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(12 5.25)\" width=\"9.75px\"></path><path d=\"M 0 13.5 L 6.75 13.5 C 8.407 13.5 9.75 14.843 9.75 16.5 L 9.75 3 C 9.75 1.343 8.407 0 6.75 0 L 0 0 Z\" fill=\"transparent\" height=\"16.5px\" id=\"imv5_mFb8\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(2.25 5.25)\" width=\"9.75px\"></path></svg>",
+      "name": "1523066278"
+    },
+    {
+      "id": "a1399256271d6951",
+      "markup": "<svg id=\"654422706\" display=\"block\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 5.599 6.817 C 5.406 6.695 5.279 6.492 5.254 6.265 C 5.229 6.039 5.308 5.813 5.469 5.652 L 9.75 1.5 L 13.462 1.5 L 13.436 1.372 L 8.25 0 L 3.064 1.372 L 0 7.5 L 5.25 11.25 L 11.25 12.75 L 15 9 L 11.25 6 C 9.469 7.793 7.24 7.866 5.599 6.817 Z\" fill-opacity=\"var(--1m6trwb, 0)\" fill=\"var(--21h8s6, rgb(0, 0, 0))\" height=\"12.75px\" id=\"STPphmIs1\" transform=\"translate(3.75 5.25)\" width=\"15px\"></path><path d=\"M 15 1.5 L 11.25 5.25 L 5.25 3.75 L 0 0\" fill=\"transparent\" height=\"5.25px\" id=\"s2UlGIQsD\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(3.75 12.75)\" width=\"15px\"></path><path d=\"M 0 1.372 L 5.186 0 L 10.373 1.372\" fill=\"transparent\" height=\"1.371562499999996px\" id=\"G7qRvgQXA\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(6.814 5.25)\" width=\"10.372500000000002px\"></path><path d=\"M 2.472 0.414 L 0.079 5.201 C -0.106 5.571 0.044 6.022 0.414 6.207 L 3 7.5 L 6.063 1.371 L 3.479 0.08 C 3.301 -0.01 3.095 -0.024 2.906 0.038 C 2.717 0.101 2.561 0.236 2.472 0.414 Z\" fill=\"transparent\" height=\"7.499895614211489px\" id=\"NSMDpsBS0\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(0.75 5.25)\" width=\"6.0634330695530725px\"></path><path d=\"M 3.064 7.5 L 5.649 6.207 C 6.019 6.022 6.169 5.571 5.984 5.201 L 3.592 0.414 C 3.502 0.236 3.346 0.101 3.157 0.038 C 2.969 -0.024 2.763 -0.01 2.585 0.08 L 0 1.371 Z\" fill=\"transparent\" height=\"7.499895614211496px\" id=\"Q4stJJpxq\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(17.186 5.25)\" width=\"6.063433069553071px\"></path><path d=\"M 8.25 0 L 4.5 0 L 0.22 4.152 C 0.059 4.313 -0.021 4.539 0.005 4.765 C 0.03 4.992 0.157 5.195 0.349 5.317 C 1.991 6.366 4.219 6.293 6 4.5 L 9.75 7.5 L 11.25 6\" fill=\"transparent\" height=\"7.5px\" id=\"V8C7CgGuv\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(9 6.75)\" width=\"11.250434208778643px\"></path><path d=\"M 6.381 2.742 L 2.469 1.764 L 0 0\" fill=\"transparent\" height=\"2.7421875px\" id=\"JmxDCNKU_\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(5.25 17.508)\" width=\"6.380625000000002px\"></path></svg>",
+      "name": "654422706"
+    },
+    {
+      "id": "51159b909f6825a9",
+      "markup": "<svg id=\"3061554576\" display=\"block\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 13.875 4.854 L 6.938 0 L 0 4.854 C 2.332 9.244 6.938 10.5 6.938 10.5 C 6.938 10.5 11.543 9.244 13.875 4.854 Z\" fill-opacity=\"var(--1m6trwb, 0)\" fill=\"var(--21h8s6, rgb(0, 0, 0))\" height=\"10.5px\" id=\"Ry7_qXQF8\" transform=\"translate(5.063 11.25)\" width=\"13.875px\"></path><path d=\"M 16.5 6 L 16.5 0.75 C 16.5 0.336 16.164 0 15.75 0 L 0.75 0 C 0.336 0 0 0.336 0 0.75 L 0 6 C 0 15 8.25 17.25 8.25 17.25 C 8.25 17.25 16.5 15 16.5 6 Z\" fill=\"transparent\" height=\"17.25px\" id=\"NCXYaGStM\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(3.75 4.5)\" width=\"16.5px\"></path><path d=\"M 13.869 4.854 L 6.935 0 L 0 4.854\" fill=\"transparent\" height=\"4.8543750000000045px\" id=\"T7_AMnENs\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(5.065 11.25)\" width=\"13.869374999999998px\"></path></svg>",
+      "name": "3061554576"
+    },
+    {
+      "id": "386614a47e57c4eb",
+      "markup": "<svg id=\"465907804\" display=\"block\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 1.5 16.5 C 0.672 16.5 0 15.828 0 15 L 0 1.5 C 0 0.672 0.672 0 1.5 0 L 15 0 C 15.828 0 16.5 0.672 16.5 1.5 L 16.5 15 C 16.5 15.828 15.828 16.5 15 16.5 Z\" fill-opacity=\"var(--1m6trwb, 0)\" fill=\"var(--21h8s6, rgb(0, 0, 0))\" height=\"16.5px\" id=\"qUr6K2nJv\" transform=\"translate(3.75 3.75)\" width=\"16.5px\"></path><path d=\"M 0 0 L 16.5 0\" fill=\"transparent\" height=\"1px\" id=\"MbfmAbWGf\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(3.75 12)\" width=\"16.5px\"></path><path d=\"M 0 0 L 0 16.5\" fill=\"transparent\" height=\"16.5px\" id=\"mcA57vhod\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"var(--pgex8v, 1.5)\" stroke=\"var(--21h8s6, rgb(0, 0, 0))\" transform=\"translate(12 3.75)\" width=\"1px\"></path></svg>",
+      "name": "465907804"
+    }
+  ],
+  "pageUrl": "https://dreammotion.framer.website/",
+  "summary": {
+    "byKind": {
+      "font": 6,
+      "image": 25,
+      "other": 5,
+      "script": 34,
+      "stylesheet": 0,
+      "video": 0
+    },
+    "inlineSvgCount": 88,
+    "totalCount": 70
+  }
+}

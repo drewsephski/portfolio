@@ -1,0 +1,33 @@
+- generic [active] [ref=f2e1]:
+  - main [ref=f2e2]:
+    - generic [ref=f2e3]:
+      - generic [ref=f2e4]:
+        - link "Vantage home" [ref=f2e5] [cursor=pointer]:
+          - /url: "#screen"
+        - generic [ref=f2e14]:
+          - navigation "Primary navigation" [ref=f2e15]:
+            - link "Home" [ref=f2e16] [cursor=pointer]:
+              - /url: "#screen"
+            - link "About" [ref=f2e17] [cursor=pointer]:
+              - /url: "#"
+            - link "Services" [ref=f2e18] [cursor=pointer]:
+              - /url: "#"
+            - link "Contact" [ref=f2e19] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=f2e20]:
+            - generic [ref=f2e21]: Timezone
+            - generic [ref=f2e22]: 9:47 PM • 14 July 2026
+          - button "Sign Up" [ref=f2e23] [cursor=pointer]
+      - region [ref=f2e24]:
+        - generic [ref=f2e25]:
+          - heading "Stop Digging Through Dashboards." [level=1] [ref=f2e26]:
+            - generic [ref=f2e27]: Stop Digging
+            - generic [ref=f2e29]: Through Dashboards.
+          - paragraph [ref=f2e31]: Your metrics are scattered across a dozen dashboards.Vantage bring them into one clear signal, so everydecision is backed by data you actually trust.
+          - button "Get Started" [ref=f2e32] [cursor=pointer]
+        - article [ref=f2e37]:
+          - generic [ref=f2e38]:
+            - img "Abstract red and blue smoke" [ref=f2e39]
+            - button "Play demo" [ref=f2e40] [cursor=pointer]
+          - button "Watch Demo" [ref=f2e43] [cursor=pointer]
+  - alert [ref=f2e44]

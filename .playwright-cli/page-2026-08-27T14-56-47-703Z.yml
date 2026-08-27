@@ -1,0 +1,204 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - navigation "Primary navigation" [ref=e4]:
+        - link "Drew Sepeczi" [ref=e5] [cursor=pointer]:
+          - /url: "#top"
+        - generic [ref=e6]:
+          - link "Products" [ref=e7] [cursor=pointer]:
+            - /url: "#products"
+          - link "Studies" [ref=e8] [cursor=pointer]:
+            - /url: "#studies"
+          - link "Portfolio" [ref=e9] [cursor=pointer]:
+            - /url: https://portfolio.drewsepeczi.xyz
+          - link "Contact" [ref=e21] [cursor=pointer]:
+            - /url: mailto:hello@drewsepeczi.xyz
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: Software engineer · Chicago
+        - heading "I design and build software people can actually use." [level=1] [ref=e24]
+        - generic [ref=e25]:
+          - paragraph [ref=e26]: AI products, developer tools, and full-stack web apps. From the first useful workflow through production.
+          - link "Let's work together" [ref=e27] [cursor=pointer]:
+            - /url: mailto:hello@drewsepeczi.xyz
+      - region [ref=e39]:
+        - generic [ref=e40]:
+          - heading "Selected products" [level=2] [ref=e41]
+          - paragraph [ref=e42]: 6 shipped & active
+        - generic [ref=e43]:
+          - article [ref=e44]:
+            - button "Preview Sitterfolio landing page" [ref=e45]:
+              - generic [ref=e46]: "01"
+              - generic [ref=e47]: SaaS product
+              - heading "Sitterfolio" [level=3] [ref=e48]
+              - paragraph [ref=e49]: Pet sitters build polished websites and manage every inquiry in one workspace.
+            - link "Visit product" [ref=e52] [cursor=pointer]:
+              - /url: https://www.sitterfolio.com
+          - article [ref=e63]:
+            - button "Preview Vault Zero landing page" [ref=e64]:
+              - generic [ref=e65]: "02"
+              - generic [ref=e66]: Voice AI
+              - heading "Vault Zero" [level=3] [ref=e67]
+              - paragraph [ref=e68]: AI receptionist answers missed calls while keeping customers connected to a human.
+            - link "Visit product" [ref=e71] [cursor=pointer]:
+              - /url: https://vaultzero.dev
+          - article [ref=e82]:
+            - button "Preview Vault Zero CRM landing page" [ref=e83]:
+              - generic [ref=e84]: "03"
+              - generic [ref=e85]: AI workflow
+              - heading "Vault Zero CRM" [level=3] [ref=e86]
+              - paragraph [ref=e87]: CRM researches businesses, checks buyer fit, and supports every recommendation with evidence.
+            - link "Visit product" [ref=e90] [cursor=pointer]:
+              - /url: https://crm.vaultzero.dev
+          - article [ref=e101]:
+            - button "Preview Squid Agent landing page" [ref=e102]:
+              - generic [ref=e103]: "04"
+              - generic [ref=e104]: Developer tool
+              - heading "Squid Agent" [level=3] [ref=e105]
+              - paragraph [ref=e106]: Turns prompts, screenshots, and live sites into React prototypes with revision evidence.
+            - link "Visit product" [ref=e109] [cursor=pointer]:
+              - /url: https://squidagent.app
+          - article [ref=e120]:
+            - button "Preview SquidCrawl landing page" [ref=e121]:
+              - generic [ref=e122]: "05"
+              - generic [ref=e123]: Developer API
+              - heading "SquidCrawl" [level=3] [ref=e124]
+              - paragraph [ref=e125]: Scraper API gives AI agents clean page content instead of raw HTML.
+            - link "Visit product" [ref=e128] [cursor=pointer]:
+              - /url: https://squidcrawl.dev
+          - article [ref=e139]:
+            - button "Preview Phoenix Design Lab landing page" [ref=e140]:
+              - generic [ref=e141]: "06"
+              - generic [ref=e142]: Design system
+              - heading "Phoenix Design Lab" [level=3] [ref=e143]
+              - paragraph [ref=e144]: A design agency demo pairing bold art direction with an editorial portfolio.
+            - link "Visit product" [ref=e147] [cursor=pointer]:
+              - /url: https://phoenixdev.agency/demo
+      - region [ref=e158]:
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - heading "About" [level=2] [ref=e161]
+            - paragraph [ref=e162]: Product engineer · Chicago
+          - generic [ref=e164]:
+            - paragraph [ref=e165]: I’m Drew, a product engineer in Chicago. I design and build AI products, developer tools, and full-stack software from early product decisions through production. I care about useful workflows, clear interfaces, and software people can confidently own.
+            - paragraph [ref=e166]:
+              - generic [ref=e167]: I’m
+              - generic [ref=e168]: Drew,
+              - generic [ref=e169]: a
+              - generic [ref=e170]: product
+              - generic [ref=e171]: engineer
+              - generic [ref=e172]: in
+              - generic [ref=e173]: Chicago.
+              - generic [ref=e174]: I
+              - generic [ref=e175]: design
+              - generic [ref=e176]: and
+              - generic [ref=e177]: build
+              - generic [ref=e178]: AI
+              - generic [ref=e179]: products,
+              - generic [ref=e180]: developer
+              - generic [ref=e181]: tools,
+              - generic [ref=e182]: and
+              - generic [ref=e183]: full-stack
+              - generic [ref=e184]: software
+              - generic [ref=e185]: from
+              - generic [ref=e186]: early
+              - generic [ref=e187]: product
+              - generic [ref=e188]: decisions
+              - generic [ref=e189]: through
+              - generic [ref=e190]: production.
+              - generic [ref=e191]: I
+              - generic [ref=e192]: care
+              - generic [ref=e193]: about
+              - generic [ref=e194]: useful
+              - generic [ref=e195]: workflows,
+              - generic [ref=e196]: clear
+              - generic [ref=e197]: interfaces,
+              - generic [ref=e198]: and
+              - generic [ref=e199]: software
+              - generic [ref=e200]: people
+              - generic [ref=e201]: can
+              - generic [ref=e202]: confidently
+              - generic [ref=e203]: own.
+      - region [ref=e204]:
+        - generic [ref=e205]:
+          - heading "Interface studies" [level=2] [ref=e206]
+          - paragraph [ref=e207]: Landing pages for software products
+        - list [ref=e208]:
+          - listitem [ref=e209]:
+            - button "Open Equilibrium screenshot" [ref=e210]
+            - link "Equilibrium Wellness for a steadier everyday life" [ref=e211] [cursor=pointer]:
+              - /url: /equilibrium
+              - generic [ref=e212]:
+                - generic [ref=e213]: Equilibrium
+                - generic [ref=e214]: Wellness for a steadier everyday life
+          - listitem [ref=e218]:
+            - button "Open Palomar screenshot" [ref=e219]
+            - link "Palomar One unified system for LLMs" [ref=e220] [cursor=pointer]:
+              - /url: /palomar
+              - generic [ref=e221]:
+                - generic [ref=e222]: Palomar
+                - generic [ref=e223]: One unified system for LLMs
+          - listitem [ref=e227]:
+            - button "Open Axon screenshot" [ref=e228]
+            - link "Axon Digital workers for mundane workflows" [ref=e229] [cursor=pointer]:
+              - /url: /axon
+              - generic [ref=e230]:
+                - generic [ref=e231]: Axon
+                - generic [ref=e232]: Digital workers for mundane workflows
+          - listitem [ref=e236]:
+            - button "Open Vesper screenshot" [ref=e237]
+            - link "Vesper Operational AI infrastructure" [ref=e238] [cursor=pointer]:
+              - /url: /vesper
+              - generic [ref=e239]:
+                - generic [ref=e240]: Vesper
+                - generic [ref=e241]: Operational AI infrastructure
+          - listitem [ref=e245]:
+            - button "Open Nexora screenshot" [ref=e246]
+            - link "Nexora Automation for busywork" [ref=e247] [cursor=pointer]:
+              - /url: /nexora
+              - generic [ref=e248]:
+                - generic [ref=e249]: Nexora
+                - generic [ref=e250]: Automation for busywork
+          - listitem [ref=e254]:
+            - button "Open The Next Layer of Intelligence screenshot" [ref=e255]
+            - link "The Next Layer of Intelligence Infrastructure for scaling AI systems" [ref=e256] [cursor=pointer]:
+              - /url: /next-layer-of-intelligence
+              - generic [ref=e257]:
+                - generic [ref=e258]: The Next Layer of Intelligence
+                - generic [ref=e259]: Infrastructure for scaling AI systems
+          - listitem [ref=e263]:
+            - button "Open Convix Software screenshot" [ref=e264]
+            - link "Convix Software The future of PR agency operations" [ref=e265] [cursor=pointer]:
+              - /url: /convix
+              - generic [ref=e266]:
+                - generic [ref=e267]: Convix Software
+                - generic [ref=e268]: The future of PR agency operations
+          - listitem [ref=e272]:
+            - button "Open Vantage screenshot" [ref=e273]
+            - link "Vantage A clear signal across every dashboard" [ref=e274] [cursor=pointer]:
+              - /url: /vantage
+              - generic [ref=e275]:
+                - generic [ref=e276]: Vantage
+                - generic [ref=e277]: A clear signal across every dashboard
+          - listitem [ref=e281]:
+            - button "Open Meridian screenshot" [ref=e282]
+            - link "Meridian Revenue intelligence for SaaS" [ref=e283] [cursor=pointer]:
+              - /url: /meridian
+              - generic [ref=e284]:
+                - generic [ref=e285]: Meridian
+                - generic [ref=e286]: Revenue intelligence for SaaS
+        - dialog [ref=e328]:
+          - generic [ref=e329]:
+            - generic [ref=e330]:
+              - heading "Equilibrium" [level=2] [ref=e331]
+              - button "Close screenshot" [active] [ref=e332] [cursor=pointer]
+            - img "Equilibrium landing page screenshot" [ref=e337]
+      - generic [ref=e290]:
+        - paragraph [ref=e291]: Available for product engineering work.
+        - generic [ref=e292]:
+          - link "GitHub" [ref=e293] [cursor=pointer]:
+            - /url: https://github.com/drewsephski
+          - link "LinkedIn" [ref=e305] [cursor=pointer]:
+            - /url: https://linkedin.com/in/drewsepeczi
+        - paragraph [ref=e317]: © 2026 Drew Sepeczi
+  - button "Open Next.js Dev Tools" [ref=e323] [cursor=pointer]
+  - alert [ref=e327]
