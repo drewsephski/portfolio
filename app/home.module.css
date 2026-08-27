@@ -1,4 +1,4 @@
-.page { min-height: 100dvh; background: #080808; color: #f1f1ef; color-scheme: dark; font-family: Arial, Helvetica, sans-serif; scrollbar-color: #3a3a37 #080808; }
+.page { min-height: 100dvh; overflow-x: clip; background: #080808; color: #f1f1ef; color-scheme: dark; font-family: Arial, Helvetica, sans-serif; scrollbar-color: #3a3a37 #080808; }
 .page ::selection { background: #c8f55f; color: #080808; }
 .content { width: min(calc(100% - 64px), 1120px); margin: 0 auto; }
 .nav { display: flex; align-items: center; justify-content: space-between; height: 76px; border-bottom: 1px solid #292929; font-size: 13px; }

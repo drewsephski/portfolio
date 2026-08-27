@@ -1,6 +1,13 @@
 "use client";
 
-import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
+import {
+  motion,
+  useReducedMotion,
+  useScroll,
+  useSpring,
+  useTransform,
+  type MotionValue,
+} from "framer-motion";
 import { useCallback, useRef, type CSSProperties } from "react";
 
 type RevealMode = "words" | "letters" | "lines";
@@ -31,13 +38,14 @@ function RevealToken({
   value,
 }: {
   index: number;
-  progress: ReturnType<typeof useScroll>["scrollYProgress"];
+  progress: MotionValue<number>;
   reducedMotion: boolean;
   total: number;
   value: string;
 }) {
-  const start = index / Math.max(total, 1);
-  const end = Math.min(start + 1 / Math.max(total, 1), 1);
+  const revealWindow = 7;
+  const start = index / Math.max(total - 1 + revealWindow, 1);
+  const end = Math.min((index + revealWindow) / Math.max(total - 1 + revealWindow, 1), 1);
   const opacity = useTransform(progress, [start, end], [0, 1]);
 
   return (
@@ -66,7 +74,13 @@ export function ScrollRevealText({
   const separator = mode === "words" ? "\u00a0" : mode === "lines" ? "\n" : "";
   const { scrollYProgress } = useScroll({
     target: progressTargetRef,
-    offset: ["start 88%", "end 42%"],
+    offset: ["start 88%", "end 58%"],
+  });
+  const smoothProgress = useSpring(scrollYProgress, {
+    stiffness: 260,
+    damping: 32,
+    mass: 0.16,
+    restDelta: 0.0005,
   });
   const alignment = { textAlign } satisfies CSSProperties;
   const setContainerRef = useCallback((node: HTMLDivElement | null) => {
@@ -104,7 +118,7 @@ export function ScrollRevealText({
             >
               <RevealToken
                 index={index}
-                progress={scrollYProgress}
+                progress={smoothProgress}
                 reducedMotion={prefersReducedMotion}
                 total={tokens.length}
                 value={`${token}${separator}`}
