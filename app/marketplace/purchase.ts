@@ -21,7 +21,7 @@ export async function verifyPaidPurchase(slug: string, sessionId: string) {
 
   if (
     session.status !== "complete" ||
-    session.payment_status !== "paid" ||
+    !["paid", "no_payment_required"].includes(session.payment_status) ||
     session.metadata?.pontail_slug !== product.slug
   ) {
     return null;

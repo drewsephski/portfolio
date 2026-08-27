@@ -45,6 +45,7 @@ export async function POST(request: Request) {
     const session = await getStripeClient().checkout.sessions.create({
       mode: "payment",
       integration_identifier: INTEGRATION_IDENTIFIER,
+      allow_promotion_codes: true,
       client_reference_id: product.slug,
       customer_creation: "always",
       line_items: [{ price: product.stripePriceId, quantity: 1 }],
