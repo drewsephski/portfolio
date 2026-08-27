@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { PurchaseDock } from "./marketplace/purchase-dock";
+import { ScrollToTopOnNavigation } from "./scroll-to-top-on-navigation";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -10,8 +11,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
-      <body>{children}<PurchaseDock /></body>
+    <html lang="en" data-scroll-behavior="smooth">
+      <body>
+        <ScrollToTopOnNavigation />
+        {children}
+        <PurchaseDock />
+      </body>
     </html>
   );
 }

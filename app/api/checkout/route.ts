@@ -17,7 +17,7 @@ export async function POST(request: Request) {
   const requestOrigin = request.headers.get("origin");
   if (requestOrigin) {
     try {
-      if (new URL(requestOrigin).origin !== getReturnOrigin(request)) {
+      if (new URL(requestOrigin).origin !== new URL(request.url).origin) {
         return Response.json({ error: "Cross-origin checkout requests are not allowed" }, { status: 403 });
       }
     } catch {

@@ -23,8 +23,9 @@ await mkdir(downloads, { recursive: true });
 for (const slug of products) {
   const temp = await mkdtemp(join(tmpdir(), `pontail-${slug}-`));
   const project = join(temp, slug);
-  await mkdir(join(project, "app"), { recursive: true });
-  await cp(join(root, "app", slug), join(project, "app"), { recursive: true });
+  const routeDirectory = join(project, "app", "(template)");
+  await mkdir(routeDirectory, { recursive: true });
+  await cp(join(root, "app", slug), routeDirectory, { recursive: true });
   for (const shared of ["bold-arrow-link.tsx", "bold-arrow-link.module.css", "globals.css"]) {
     await cp(join(root, "app", shared), join(project, "app", shared));
   }
@@ -41,7 +42,7 @@ for (const slug of products) {
     try { await cp(source, join(project, "public", assetDirectory), { recursive: true }); } catch {}
   }
 
-  const sourceFiles = await readdir(join(project, "app"));
+  const sourceFiles = await readdir(join(project, "app"), { recursive: true });
   const referencedAssets = new Set();
   for (const file of sourceFiles.filter((name) => /\.(tsx|css)$/.test(name))) {
     const contents = await readFile(join(project, "app", file), "utf8");

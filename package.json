@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "prebuild": "pnpm marketplace:downloads",
+    "marketplace:downloads": "node scripts/build-marketplace-downloads.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

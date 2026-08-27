@@ -3,7 +3,8 @@
 import { Check, Copy, Download, Lock, Terminal, X } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
-import { marketplaceBySlug } from "./catalog";
+import { marketplaceBySlug, type MarketplaceProduct } from "./catalog";
+import { createCheckoutRequestGuard } from "./checkout-request.mjs";
 import {
   getPurchasedAgentPrompt,
   getPurchaseSessionId,
@@ -16,7 +17,16 @@ export function PurchaseDock() {
   const pathname = usePathname();
   const slug = pathname.split("/").filter(Boolean)[0] ?? "";
   const product = marketplaceBySlug.get(slug);
+
+  if (!product) return null;
+
+  return <ProductPurchaseDock key={product.slug} product={product} />;
+}
+
+function ProductPurchaseDock({ product }: { product: MarketplaceProduct }) {
+  const slug = product.slug;
   const dialogRef = useRef<HTMLDialogElement>(null);
+  const checkoutRequestRef = useRef<ReturnType<typeof createCheckoutRequestGuard> | null>(null);
   const [dialogView, setDialogView] = useState<"checkout" | "setup">("checkout");
   const purchaseSessionId = useSyncExternalStore(
     subscribeToPurchases,
@@ -28,6 +38,10 @@ export function PurchaseDock() {
   const [promptCopied, setPromptCopied] = useState(false);
   const [setupCopied, setSetupCopied] = useState(false);
   const [checkoutPending, setCheckoutPending] = useState(false);
+
+  useEffect(() => {
+    return () => checkoutRequestRef.current?.cancel();
+  }, []);
 
   useEffect(() => {
     const searchParams = new URLSearchParams(window.location.search);
@@ -67,8 +81,6 @@ export function PurchaseDock() {
     };
   }, [product]);
 
-  if (!product) return null;
-
   const setupCommand = `cd ~/Downloads
 unzip ${product.slug}-nextjs.zip
 cd ${product.slug}
@@ -93,6 +105,9 @@ pnpm dev`;
   };
 
   const purchase = async () => {
+    checkoutRequestRef.current?.cancel();
+    const requestGuard = createCheckoutRequestGuard(product.slug);
+    checkoutRequestRef.current = requestGuard;
     setCheckoutPending(true);
     setCheckoutError("");
 
@@ -101,15 +116,22 @@ pnpm dev`;
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ slug: product.slug }),
+        signal: requestGuard.signal,
       });
       const result = (await response.json()) as { url?: string; error?: string };
       if (!response.ok || !result.url) throw new Error(result.error ?? "Unable to start checkout");
+      if (!requestGuard.canRedirect(window.location.pathname)) return;
       window.location.assign(result.url);
     } catch (error) {
+      if (requestGuard.signal.aborted) return;
       setCheckoutError(error instanceof Error ? error.message : "Unable to start checkout");
       setCheckoutPending(false);
       setDialogView("checkout");
       dialogRef.current?.showModal();
+    } finally {
+      if (checkoutRequestRef.current === requestGuard && requestGuard.signal.aborted) {
+        checkoutRequestRef.current = null;
+      }
     }
   };
 
