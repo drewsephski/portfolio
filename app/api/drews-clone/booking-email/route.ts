@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
+export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 type ToolCall = {
@@ -10,52 +11,26 @@ type ToolCall = {
   arguments?: string | Record<string, unknown>;
 };
 
-type BookingEntry = { tool: string; args: Record<string, unknown> };
-
-function isRecord(value: unknown): value is Record<string, unknown> {
-  return typeof value === "object" && value !== null && !Array.isArray(value);
+function extractToolCalls(data: any): ToolCall[] {
+  const message = data?.message && typeof data.message === "object" ? data.message : data;
+  let toolCalls: ToolCall[] =
+    message?.toolCalls ||
+    message?.toolCallList ||
+    (message?.toolCall ? [message.toolCall] : []) ||
+    [];
+  if ((!toolCalls || toolCalls.length === 0) && Array.isArray(data?.toolWithToolCallList)) {
+    toolCalls = data.toolWithToolCallList.map((item: any) => item?.toolCall).filter(Boolean);
+  }
+  return toolCalls || [];
 }
 
-function parseToolCall(value: unknown): ToolCall | null {
-  if (!isRecord(value)) return null;
-  return value as ToolCall;
-}
-
-function extractToolCalls(data: Record<string, unknown>): ToolCall[] {
-  const message = isRecord(data.message) ? data.message : data;
-
-  const fromMessage = message.toolCalls ?? message.toolCallList;
-  if (Array.isArray(fromMessage) && fromMessage.length > 0) {
-    return fromMessage.map(parseToolCall).filter((tc): tc is ToolCall => tc !== null);
+async function fireWebhook(booking: Record<string, unknown>) {
+  const url = process.env.DREWS_CLONE_WEBHOOK_URL;
+  const authRaw = process.env.DREWS_CLONE_WEBHOOK_AUTH;
+  if (!url || !authRaw) {
+    console.error("missing DREWS_CLONE_WEBHOOK_URL or DREWS_CLONE_WEBHOOK_AUTH");
+    return;
   }
-
-  if (isRecord(message.toolCall)) {
-    const single = parseToolCall(message.toolCall);
-    if (single) return [single];
-  }
-
-  const withList = data.toolWithToolCallList;
-  if (Array.isArray(withList)) {
-    return withList
-      .map((item) => (isRecord(item) ? parseToolCall(item.toolCall) : null))
-      .filter((tc): tc is ToolCall => tc !== null);
-  }
-
-  return [];
-}
-
-function parseArguments(raw: string | Record<string, unknown> | undefined): Record<string, unknown> {
-  if (raw === undefined) return {};
-  if (typeof raw === "object") return raw;
-  try {
-    const parsed: unknown = JSON.parse(raw);
-    return isRecord(parsed) ? parsed : { raw };
-  } catch {
-    return { raw };
-  }
-}
-
-function normalizeAuthorization(authRaw: string): { authorization: string; token: string } {
   let authorization = authRaw.trim();
   if (authorization.toLowerCase().startsWith("authorization:")) {
     authorization = authorization.split(":").slice(1).join(":").trim();
@@ -64,19 +39,6 @@ function normalizeAuthorization(authRaw: string): { authorization: string; token
     authorization = `Bearer ${authorization}`;
   }
   const token = authorization.slice(7).trim();
-  return { authorization, token };
-}
-
-async function fireWebhook(booking: Record<string, unknown>) {
-  const url = process.env.DREWS_CLONE_WEBHOOK_URL;
-  const authRaw = process.env.DREWS_CLONE_WEBHOOK_AUTH;
-  if (!url || !authRaw) {
-    console.error("drews-clone-booking: missing DREWS_CLONE_WEBHOOK_URL or DREWS_CLONE_WEBHOOK_AUTH");
-    return;
-  }
-
-  const { authorization, token } = normalizeAuthorization(authRaw);
-
   try {
     await fetch(url, {
       method: "POST",
@@ -88,9 +50,8 @@ async function fireWebhook(booking: Record<string, unknown>) {
       },
       body: JSON.stringify(booking),
     });
-  } catch (error) {
-    const message = error instanceof Error ? error.message : "unknown";
-    console.error("drews-clone-booking: webhook_forward_failed", message);
+  } catch (err: any) {
+    console.error("webhook_forward_failed", err?.message || err);
   }
 }
 
@@ -99,29 +60,30 @@ export async function GET() {
 }
 
 export async function POST(req: NextRequest) {
-  const contentType = req.headers.get("content-type");
-  if (!contentType || !contentType.toLowerCase().includes("application/json")) {
-    return NextResponse.json({ error: "Content-Type must be application/json" }, { status: 415 });
-  }
-
-  let data: Record<string, unknown> = {};
+  let data: any = {};
   try {
-    const parsed: unknown = await req.json();
-    if (isRecord(parsed)) data = parsed;
+    data = await req.json();
   } catch {
     data = {};
   }
 
   const toolCalls = extractToolCalls(data);
-  const bookings: BookingEntry[] = [];
+  const bookings: Array<{ tool: string; args: Record<string, unknown> }> = [];
   const results = toolCalls.map((tc) => {
-    const toolCallId = tc.id ?? tc.toolCallId ?? "unknown";
-    const fn = tc.function ?? {};
-    const name = fn.name ?? tc.name ?? "email_drew_booking";
-    const args = parseArguments(fn.arguments ?? tc.arguments);
-    bookings.push({ tool: name, args });
+    const tcid = tc.id || tc.toolCallId || "unknown";
+    const fn = tc.function || {};
+    const name = fn.name || tc.name || "email_drew_booking";
+    let args: any = fn.arguments ?? tc.arguments ?? {};
+    if (typeof args === "string") {
+      try {
+        args = JSON.parse(args);
+      } catch {
+        args = { raw: args };
+      }
+    }
+    bookings.push({ tool: name, args: args as Record<string, unknown> });
     return {
-      toolCallId,
+      toolCallId: tcid,
       result: "Booking notification queued for Drew by email.",
     };
   });
