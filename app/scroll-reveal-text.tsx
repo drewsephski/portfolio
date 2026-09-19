@@ -2,13 +2,24 @@
 
 import {
   motion,
-  useReducedMotion,
   useScroll,
   useSpring,
   useTransform,
   type MotionValue,
 } from "framer-motion";
-import { useCallback, useRef, type CSSProperties } from "react";
+import { useCallback, useRef, useSyncExternalStore, type CSSProperties } from "react";
+
+const reducedMotionQuery = "(prefers-reduced-motion: reduce)";
+
+function subscribeToReducedMotion(onChange: () => void) {
+  const query = window.matchMedia(reducedMotionQuery);
+  query.addEventListener("change", onChange);
+  return () => query.removeEventListener("change", onChange);
+}
+
+function getReducedMotionSnapshot() {
+  return window.matchMedia(reducedMotionQuery).matches;
+}
 
 type RevealMode = "words" | "letters" | "lines";
 type TextAlignment = "left" | "center" | "right";
@@ -43,7 +54,7 @@ function RevealToken({
   total: number;
   value: string;
 }) {
-  const revealWindow = 7;
+  const revealWindow = Math.max(7, Math.ceil(total * 0.18));
   const start = index / Math.max(total - 1 + revealWindow, 1);
   const end = Math.min((index + revealWindow) / Math.max(total - 1 + revealWindow, 1), 1);
   const opacity = useTransform(progress, [start, end], [0, 1]);
@@ -69,7 +80,7 @@ export function ScrollRevealText({
   textAlign = "left",
 }: ScrollRevealTextProps) {
   const progressTargetRef = useRef<HTMLElement>(null);
-  const prefersReducedMotion = useReducedMotion() ?? false;
+  const prefersReducedMotion = useSyncExternalStore(subscribeToReducedMotion, getReducedMotionSnapshot, () => false);
   const tokens = splitText(children, mode);
   const separator = mode === "words" ? "\u00a0" : mode === "lines" ? "\n" : "";
   const { scrollYProgress } = useScroll({
@@ -77,9 +88,9 @@ export function ScrollRevealText({
     offset: ["start 88%", "end 58%"],
   });
   const smoothProgress = useSpring(scrollYProgress, {
-    stiffness: 260,
-    damping: 32,
-    mass: 0.16,
+    stiffness: 80,
+    damping: 26,
+    mass: 0.4,
     restDelta: 0.0005,
   });
   const alignment = { textAlign } satisfies CSSProperties;

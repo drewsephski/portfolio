@@ -1,7 +1,9 @@
 import styles from "./home.module.css";
+import { FeaturedApps } from "./featured-apps";
 import { BoldArrowLink } from "./bold-arrow-link";
 import { LandingPageList } from "./landing-page-list";
 import { PaidTemplateList } from "./paid-template-list";
+import { PortfolioBento } from "./portfolio-bento";
 import { ProductGrid } from "./product-grid";
 import { ScrollRevealText } from "./scroll-reveal-text";
 import { marketplaceProducts } from "./marketplace/catalog";
@@ -26,12 +28,9 @@ export default function HomePage() {
         <nav className={styles.nav} aria-label="Primary navigation">
           <a className={styles.wordmark} href="#top">Drew Sepeczi</a>
           <div className={styles.navLinks}>
-            <a href="#products">Products</a>
+            <a href="#featured-projects">Products</a>
             <a href="#studies">Studies</a>
-            <BoldArrowLink href="https://portfolio.drewsepeczi.xyz" target="_blank" rel="noreferrer">
-              Portfolio
-            </BoldArrowLink>
-            <a href="mailto:hello@drewsepeczi.xyz">Contact</a>
+            <BoldArrowLink href="mailto:hello@drewsepeczi.xyz">Contact</BoldArrowLink>
           </div>
         </nav>
         <header className={styles.hero} id="top">
@@ -42,31 +41,37 @@ export default function HomePage() {
             <BoldArrowLink className={styles.heroCta} href="mailto:hello@drewsepeczi.xyz">Let&apos;s work together</BoldArrowLink>
           </div>
         </header>
-        <section className={styles.products} id="products" aria-labelledby="products-title">
-          <div className={styles.sectionHeader}><h2 id="products-title">Selected products</h2><p>{products.length} shipped &amp; active</p></div>
-          <ProductGrid products={products} />
+        <FeaturedApps />
+        <section className={styles.studies} id="studies" aria-labelledby="studies-title">
+          <div className={styles.sectionHeader}><h2 id="studies-title">Hero components</h2></div>
+          <LandingPageList landingPages={landingPages} />
         </section>
         <section className={styles.about} id="about" aria-labelledby="about-title">
-          <div className={styles.aboutSticky}>
+          <div className={styles.aboutContent}>
             <div className={styles.aboutHeader}>
               <h2 id="about-title">About</h2>
               <p>Product engineer · Chicago</p>
             </div>
-            <ScrollRevealText className={styles.aboutReveal} mode="letters" progressTarget="section" showGhost textAlign="center">
+            <ScrollRevealText className={styles.aboutReveal} mode="letters" showGhost textAlign="center">
               I’m Drew, a product engineer in Chicago. I design and build AI products, developer tools, and full-stack software from early product decisions through production. I care about useful workflows, clear interfaces, and software people can confidently own.
             </ScrollRevealText>
           </div>
         </section>
-        <section className={styles.studies} id="studies" aria-labelledby="studies-title">
-          <div className={styles.sectionHeader}><h2 id="studies-title">Hero components</h2><p>Premium interface studies · $39–$79</p></div>
-          <LandingPageList landingPages={landingPages} />
-        </section>
         <section className={styles.templates} id="templates" aria-labelledby="templates-title">
           <div className={styles.sectionHeader}>
             <h2 id="templates-title">Complete templates</h2>
-            <p>Production-ready Next.js sites · $199–$299</p>
           </div>
           <PaidTemplateList templates={paidTemplates} />
+        </section>
+        <section className={styles.products} id="products" aria-labelledby="products-title">
+          <div className={styles.sectionHeader}><h2 id="products-title">Selected products</h2></div>
+          <ProductGrid products={products} />
+        </section>
+        <section className={styles.capabilities} aria-labelledby="capabilities-title">
+          <div className={styles.sectionHeader}>
+            <h2 id="capabilities-title">How I build</h2>
+          </div>
+          <PortfolioBento />
         </section>
         <footer className={styles.footer}>
           <p>Available for product engineering work.</p>

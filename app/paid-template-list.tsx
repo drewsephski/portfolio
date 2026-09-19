@@ -32,8 +32,8 @@ export function PaidTemplateList({ templates }: { templates: readonly PaidTempla
               <p className={styles.templateDescription}>{template.description}</p>
             </div>
             <div className={styles.templateActions}>
-              <Link href={template.previewHref}>Live preview</Link>
-              <Link href={template.previewHref}>Buy now · ${template.price} <ArrowRight aria-hidden="true" /></Link>
+              <Link href={template.previewHref}>Live preview <span className={styles.templateActionArrow} aria-hidden="true"><ArrowRight /><ArrowRight /></span></Link>
+              <Link href={template.previewHref}>Buy now · ${template.price} <span className={styles.templateActionArrow} aria-hidden="true"><ArrowRight /><ArrowRight /></span></Link>
             </div>
           </div>
         </article>
