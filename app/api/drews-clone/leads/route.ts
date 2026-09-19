@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { isDrewsCloneAuthorized, unauthorized } from "../_lib/auth";
+import { lookupPhoneWithContact, PhoneLookupResult } from "../_lib/contacts";
 import { getSql, normalizePhone } from "../_lib/db";
 
 export const runtime = "nodejs";
@@ -271,11 +272,12 @@ async function upsertLead(input: UpsertInput): Promise<LeadPayload> {
 
 async function handleLookupOrUpsert(
   input: UpsertInput
-): Promise<{ found: boolean; lead?: LeadPayload; leadPayload?: LeadPayload }> {
+): Promise<
+  PhoneLookupResult | { found: boolean; leadPayload?: LeadPayload; lead?: LeadPayload }
+> {
   const action = input.action ?? "upsert";
   if (action === "lookup") {
-    const result = await lookupLead(input.phone);
-    return { found: result.found, lead: result.lead };
+    return await lookupPhoneWithContact(input.phone, lookupLead);
   }
   const lead = await upsertLead(input);
   return { found: true, leadPayload: lead, lead: lead };
@@ -297,7 +299,7 @@ export async function GET(req: NextRequest) {
   }
 
   try {
-    const result = await lookupLead(phone);
+    const result = await lookupPhoneWithContact(phone, lookupLead);
     return NextResponse.json(result);
   } catch (err: unknown) {
     const message = err instanceof Error ? err.message : "Database error";
