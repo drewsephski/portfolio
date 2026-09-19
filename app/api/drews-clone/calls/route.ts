@@ -210,6 +210,10 @@ function toIso(value: Date | null): string | null {
   return value ? value.toISOString() : null;
 }
 
+function emptyText(value?: string): string {
+  return value ?? "";
+}
+
 async function upsertCall(parsed: ParsedCall): Promise<void> {
   const sql = getSql();
   if (!sql) {
@@ -244,20 +248,20 @@ async function upsertCall(parsed: ParsedCall): Promise<void> {
       ${parsed.callId},
       ${parsed.assistantId ?? null},
       ${storedPhone},
-      ${parsed.callerName ?? null},
-      ${parsed.callerEmail ?? null},
+      ${emptyText(parsed.callerName)},
+      ${emptyText(parsed.callerEmail)},
       ${toIso(parsed.startedAt)}::timestamptz,
       ${toIso(parsed.endedAt)}::timestamptz,
       ${parsed.durationSeconds},
-      ${parsed.endedReason ?? null},
-      ${parsed.summary ?? null},
-      ${parsed.transcript ?? null},
-      ${parsed.recordingUrl ?? null},
+      ${emptyText(parsed.endedReason)},
+      ${emptyText(parsed.summary)},
+      ${emptyText(parsed.transcript)},
+      ${emptyText(parsed.recordingUrl)},
       ${parsed.booked},
-      ${parsed.bookingSummary ?? null},
+      ${emptyText(parsed.bookingSummary)},
       ${toIso(parsed.bookingStart)}::timestamptz,
       ${toIso(parsed.bookingEnd)}::timestamptz,
-      ${parsed.calendarLink ?? null},
+      ${emptyText(parsed.calendarLink)},
       ${rawJson}::jsonb,
       NOW()
     )
