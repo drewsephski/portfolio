@@ -7,9 +7,61 @@ type ToolCall = {
   id?: string;
   toolCallId?: string;
   name?: string;
-  function?: { name?: string; arguments?: string | Record<string, unknown> };
+  function?: {
+    name?: string;
+    arguments?: string | Record<string, unknown>;
+    parameters?: string | Record<string, unknown>;
+  };
   arguments?: string | Record<string, unknown>;
+  parameters?: string | Record<string, unknown>;
 };
+
+function parseArgSource(value: unknown): Record<string, unknown> {
+  if (value == null) {
+    return {};
+  }
+  if (typeof value === "string") {
+    try {
+      const parsed: unknown = JSON.parse(value);
+      if (typeof parsed === "object" && parsed !== null && !Array.isArray(parsed)) {
+        return parsed as Record<string, unknown>;
+      }
+      return {};
+    } catch {
+      return { raw: value };
+    }
+  }
+  if (typeof value === "object" && !Array.isArray(value)) {
+    return value as Record<string, unknown>;
+  }
+  return {};
+}
+
+function isNonEmptyObject(obj: Record<string, unknown>): boolean {
+  return Object.keys(obj).length > 0;
+}
+
+/** Merge tool-call arg sources; later non-empty sources override earlier keys. */
+function extractToolCallArgs(tc: ToolCall): Record<string, unknown> {
+  const fn = tc.function ?? {};
+  const sources = [
+    parseArgSource(fn.arguments),
+    parseArgSource(tc.arguments),
+    parseArgSource(tc.parameters),
+    parseArgSource(fn.parameters),
+  ];
+
+  let merged: Record<string, unknown> = {};
+  for (const source of sources) {
+    if (isNonEmptyObject(source)) {
+      merged = { ...merged, ...source };
+    }
+  }
+  if (isNonEmptyObject(merged)) {
+    return merged;
+  }
+  return sources.find((s) => typeof s === "object") ?? {};
+}
 
 function extractToolCalls(data: any): ToolCall[] {
   const message = data?.message && typeof data.message === "object" ? data.message : data;
@@ -71,17 +123,10 @@ export async function POST(req: NextRequest) {
   const bookings: Array<{ tool: string; args: Record<string, unknown> }> = [];
   const results = toolCalls.map((tc) => {
     const tcid = tc.id || tc.toolCallId || "unknown";
-    const fn = tc.function || {};
+    const fn = tc.function ?? {};
     const name = fn.name || tc.name || "email_drew_booking";
-    let args: any = fn.arguments ?? tc.arguments ?? {};
-    if (typeof args === "string") {
-      try {
-        args = JSON.parse(args);
-      } catch {
-        args = { raw: args };
-      }
-    }
-    bookings.push({ tool: name, args: args as Record<string, unknown> });
+    const args = extractToolCallArgs(tc);
+    bookings.push({ tool: name, args });
     return {
       toolCallId: tcid,
       result: "Booking notification queued for Drew by email.",
@@ -96,6 +141,7 @@ export async function POST(req: NextRequest) {
     type: "drews-clone-booking-email",
     source: "vercel-drewsepeczi.xyz",
     bookings,
+    booking: bookings[0]?.args ?? {},
   });
 
   return NextResponse.json({ results });
