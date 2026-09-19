@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { isDrewsCloneAuthorized, unauthorized } from "../_lib/auth";
-import { lookupPhoneWithContact, PhoneLookupResult } from "../_lib/contacts";
+import { lookupPhoneWithContact } from "../_lib/contacts";
 import { getSql, normalizePhone } from "../_lib/db";
 
 export const runtime = "nodejs";
@@ -270,19 +270,6 @@ async function upsertLead(input: UpsertInput): Promise<LeadPayload> {
   return rowToLead(rows[0] as LeadRow);
 }
 
-async function handleLookupOrUpsert(
-  input: UpsertInput
-): Promise<
-  PhoneLookupResult | { found: boolean; leadPayload?: LeadPayload; lead?: LeadPayload }
-> {
-  const action = input.action ?? "upsert";
-  if (action === "lookup") {
-    return await lookupPhoneWithContact(input.phone, lookupLead);
-  }
-  const lead = await upsertLead(input);
-  return { found: true, leadPayload: lead, lead: lead };
-}
-
 export async function GET(req: NextRequest) {
   const phoneParam = req.nextUrl.searchParams.get("phone");
   if (!phoneParam) {
@@ -337,21 +324,17 @@ export async function POST(req: NextRequest) {
         continue;
       }
       try {
-        const outcome = await handleLookupOrUpsert(input);
         if (input.action === "lookup") {
+          const outcome = await lookupPhoneWithContact(input.phone, lookupLead);
           results.push({
             toolCallId: tcid,
             result: JSON.stringify(outcome),
           });
-        } else if (outcome.leadPayload) {
-          results.push({
-            toolCallId: tcid,
-            result: JSON.stringify(outcome.leadPayload),
-          });
         } else {
+          const lead = await upsertLead(input);
           results.push({
             toolCallId: tcid,
-            result: leadSummary(outcome.lead!),
+            result: JSON.stringify(lead),
           });
         }
       } catch (err: unknown) {
@@ -372,11 +355,12 @@ export async function POST(req: NextRequest) {
   }
 
   try {
-    const outcome = await handleLookupOrUpsert(input);
     if (input.action === "lookup") {
+      const outcome = await lookupPhoneWithContact(input.phone, lookupLead);
       return NextResponse.json(outcome);
     }
-    return NextResponse.json({ ok: true, lead: outcome.leadPayload ?? outcome.lead });
+    const lead = await upsertLead(input);
+    return NextResponse.json({ ok: true, lead });
   } catch (err: unknown) {
     const message = err instanceof Error ? err.message : "Database error";
     console.error("drews_clone_leads_post_failed", message);
