@@ -1,5 +1,6 @@
-import { neon } from "@neondatabase/serverless";
 import { NextRequest, NextResponse } from "next/server";
+import { isDrewsCloneAuthorized, unauthorized } from "../_lib/auth";
+import { getSql, normalizePhone } from "../_lib/db";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -116,58 +117,6 @@ function extractToolCalls(data: Record<string, unknown>): ToolCall[] {
       .filter(Boolean) as ToolCall[];
   }
   return toolCalls || [];
-}
-
-function normalizeAuthToken(raw: string): string {
-  let token = raw.trim();
-  if (token.toLowerCase().startsWith("authorization:")) {
-    token = token.split(":").slice(1).join(":").trim();
-  }
-  if (token.toLowerCase().startsWith("bearer ")) {
-    token = token.slice(7).trim();
-  }
-  return token;
-}
-
-function isAuthorized(req: NextRequest): boolean {
-  const authRaw = process.env.DREWS_CLONE_LEADS_AUTH;
-  if (!authRaw?.trim()) {
-    return false;
-  }
-  const expected = normalizeAuthToken(authRaw);
-  const header = req.headers.get("authorization");
-  if (!header?.trim()) {
-    return false;
-  }
-  const provided = normalizeAuthToken(header);
-  return provided === expected;
-}
-
-function unauthorized(): NextResponse {
-  return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-}
-
-function normalizePhone(raw: string): string | null {
-  const digits = raw.replace(/\D/g, "");
-  if (digits.length === 0) {
-    return null;
-  }
-  let normalized = digits;
-  if (normalized.length === 11 && normalized.startsWith("1")) {
-    normalized = normalized.slice(1);
-  }
-  if (normalized.length < 10) {
-    return null;
-  }
-  return normalized;
-}
-
-function getSql() {
-  const url = process.env.DREWS_CLONE_DATABASE_URL;
-  if (!url) {
-    return null;
-  }
-  return neon(url);
 }
 
 function rowToLead(row: LeadRow): LeadPayload {
@@ -338,7 +287,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ ok: true, service: "drews-clone-leads" });
   }
 
-  if (!isAuthorized(req)) {
+  if (!isDrewsCloneAuthorized(req)) {
     return unauthorized();
   }
 
@@ -358,7 +307,7 @@ export async function GET(req: NextRequest) {
 }
 
 export async function POST(req: NextRequest) {
-  if (!isAuthorized(req)) {
+  if (!isDrewsCloneAuthorized(req)) {
     return unauthorized();
   }
 
