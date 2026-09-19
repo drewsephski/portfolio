@@ -3,6 +3,9 @@ import { NextRequest, NextResponse } from "next/server";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
+const TOOL_EMAIL_DREW_BOOKING = "email_drew_booking";
+const TOOL_EMAIL_VIP_FOLLOWUP = "email_vip_followup";
+
 type ToolCall = {
   id?: string;
   toolCallId?: string;
@@ -15,6 +18,61 @@ type ToolCall = {
   arguments?: string | Record<string, unknown>;
   parameters?: string | Record<string, unknown>;
 };
+
+/** Args forwarded to Cursor when Vapi invokes `email_vip_followup`. */
+type VipFollowupPayload = {
+  toEmail?: string;
+  mode?: string;
+  callSummary?: string;
+  personalHook?: string;
+  voiceAgentIdea?: string;
+  toName?: string;
+  toPhone?: string;
+  subjectHint?: string;
+};
+
+type BookingEntry = { tool: string; args: Record<string, unknown> };
+
+type DrewsCloneBookingWebhook = {
+  type: "drews-clone-booking-email";
+  source: string;
+  bookings: BookingEntry[];
+  booking: Record<string, unknown>;
+};
+
+type DrewsCloneVipFollowupWebhook = {
+  type: "drews-clone-vip-followup";
+  source: string;
+  bookings: BookingEntry[];
+  booking: Record<string, unknown>;
+  vipFollowup: VipFollowupPayload;
+};
+
+type DrewsCloneWebhookPayload = DrewsCloneBookingWebhook | DrewsCloneVipFollowupWebhook;
+
+function toVipFollowupPayload(args: Record<string, unknown>): VipFollowupPayload {
+  const pick = (key: keyof VipFollowupPayload): string | undefined => {
+    const value = args[key];
+    return typeof value === "string" ? value : undefined;
+  };
+  return {
+    toEmail: pick("toEmail"),
+    mode: pick("mode"),
+    callSummary: pick("callSummary"),
+    personalHook: pick("personalHook"),
+    voiceAgentIdea: pick("voiceAgentIdea"),
+    toName: pick("toName"),
+    toPhone: pick("toPhone"),
+    subjectHint: pick("subjectHint"),
+  };
+}
+
+function toolResultMessage(toolName: string): string {
+  if (toolName === TOOL_EMAIL_VIP_FOLLOWUP) {
+    return "VIP follow-up email queued.";
+  }
+  return "Booking notification queued for Drew by email.";
+}
 
 function parseArgSource(value: unknown): Record<string, unknown> {
   if (value == null) {
@@ -63,20 +121,31 @@ function extractToolCallArgs(tc: ToolCall): Record<string, unknown> {
   return sources.find((s) => typeof s === "object") ?? {};
 }
 
-function extractToolCalls(data: any): ToolCall[] {
-  const message = data?.message && typeof data.message === "object" ? data.message : data;
+function extractToolCalls(data: Record<string, unknown>): ToolCall[] {
+  const messageRaw = data.message;
+  const message =
+    messageRaw && typeof messageRaw === "object" && messageRaw !== null
+      ? (messageRaw as Record<string, unknown>)
+      : data;
   let toolCalls: ToolCall[] =
-    message?.toolCalls ||
-    message?.toolCallList ||
-    (message?.toolCall ? [message.toolCall] : []) ||
+    (message.toolCalls as ToolCall[] | undefined) ||
+    (message.toolCallList as ToolCall[] | undefined) ||
+    (message.toolCall ? [message.toolCall as ToolCall] : []) ||
     [];
-  if ((!toolCalls || toolCalls.length === 0) && Array.isArray(data?.toolWithToolCallList)) {
-    toolCalls = data.toolWithToolCallList.map((item: any) => item?.toolCall).filter(Boolean);
+  if ((!toolCalls || toolCalls.length === 0) && Array.isArray(data.toolWithToolCallList)) {
+    toolCalls = data.toolWithToolCallList
+      .map((item: unknown) => {
+        if (typeof item === "object" && item !== null && "toolCall" in item) {
+          return (item as { toolCall?: ToolCall }).toolCall;
+        }
+        return undefined;
+      })
+      .filter((tc): tc is ToolCall => Boolean(tc));
   }
   return toolCalls || [];
 }
 
-async function fireWebhook(booking: Record<string, unknown>) {
+async function fireWebhook(payload: DrewsCloneWebhookPayload) {
   const url = process.env.DREWS_CLONE_WEBHOOK_URL;
   const authRaw = process.env.DREWS_CLONE_WEBHOOK_AUTH;
   if (!url || !authRaw) {
@@ -100,10 +169,13 @@ async function fireWebhook(booking: Record<string, unknown>) {
         "X-Automation-Key": token,
         "User-Agent": "drews-clone-booking-bridge/vercel",
       },
-      body: JSON.stringify(booking),
+      body: JSON.stringify(payload),
     });
-  } catch (err: any) {
-    console.error("webhook_forward_failed", err?.message || err);
+  } catch (err: unknown) {
+    console.error(
+      "webhook_forward_failed",
+      err instanceof Error ? err.message : String(err),
+    );
   }
 }
 
@@ -112,24 +184,27 @@ export async function GET() {
 }
 
 export async function POST(req: NextRequest) {
-  let data: any = {};
+  let data: Record<string, unknown> = {};
   try {
-    data = await req.json();
+    const parsed: unknown = await req.json();
+    if (typeof parsed === "object" && parsed !== null && !Array.isArray(parsed)) {
+      data = parsed as Record<string, unknown>;
+    }
   } catch {
     data = {};
   }
 
   const toolCalls = extractToolCalls(data);
-  const bookings: Array<{ tool: string; args: Record<string, unknown> }> = [];
+  const bookings: BookingEntry[] = [];
   const results = toolCalls.map((tc) => {
     const tcid = tc.id || tc.toolCallId || "unknown";
     const fn = tc.function ?? {};
-    const name = fn.name || tc.name || "email_drew_booking";
+    const name = fn.name || tc.name || TOOL_EMAIL_DREW_BOOKING;
     const args = extractToolCallArgs(tc);
     bookings.push({ tool: name, args });
     return {
       toolCallId: tcid,
-      result: "Booking notification queued for Drew by email.",
+      result: toolResultMessage(name),
     };
   });
 
@@ -137,12 +212,26 @@ export async function POST(req: NextRequest) {
     results.push({ toolCallId: "unknown", result: "ok" });
   }
 
-  void fireWebhook({
-    type: "drews-clone-booking-email",
-    source: "vercel-drewsepeczi.xyz",
-    bookings,
-    booking: bookings[0]?.args ?? {},
-  });
+  const source = "vercel-drewsepeczi.xyz";
+  const booking = bookings[0]?.args ?? {};
+  const vipEntry = bookings.find((b) => b.tool === TOOL_EMAIL_VIP_FOLLOWUP);
+
+  if (vipEntry) {
+    void fireWebhook({
+      type: "drews-clone-vip-followup",
+      source,
+      bookings,
+      booking,
+      vipFollowup: toVipFollowupPayload(vipEntry.args),
+    });
+  } else {
+    void fireWebhook({
+      type: "drews-clone-booking-email",
+      source,
+      bookings,
+      booking,
+    });
+  }
 
   return NextResponse.json({ results });
 }
