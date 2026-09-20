@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "../inbox.module.css";
+import { unlockInbox } from "../actions";
 import { isInboxKeyValid } from "../_lib/auth";
 
 export default async function InboxUnlockPage({
@@ -16,7 +17,7 @@ export default async function InboxUnlockPage({
         <div className={styles.unlock}>
           <p>Unlocking inbox…</p>
           <p>
-            <Link href={`/inbox?key=${encodeURIComponent(params.key)}`}>Continue</Link>
+            <Link href={`/inbox/auth?key=${encodeURIComponent(params.key)}`}>Continue</Link>
           </p>
         </div>
       </main>
@@ -36,14 +37,14 @@ export default async function InboxUnlockPage({
         {invalidAttempt ? (
           <p role="alert">That key did not match. Try again.</p>
         ) : null}
-        <form className={styles.unlockForm} action="/inbox" method="get">
+        <form className={styles.unlockForm} action={unlockInbox}>
           <label htmlFor="inbox-key">Inbox key</label>
           <input
             id="inbox-key"
             name="key"
             type="password"
             autoComplete="off"
-            placeholder="Paste MENACE_INBOX_SECRET"
+            placeholder="Paste DREWS_CLONE_LEADS_AUTH or MENACE_INBOX_SECRET"
             aria-label="Inbox access key"
             required
           />
