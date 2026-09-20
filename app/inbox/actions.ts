@@ -1,9 +1,19 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
+import { redirect } from "next/navigation";
 import { patchInboxCall } from "@/app/api/menace/inbox/_lib/queries";
 import type { InboxDisposition } from "@/app/api/menace/inbox/_lib/types";
-import { verifyInboxServerAction } from "./_lib/auth";
+import { isInboxKeyValid, setInboxAccessCookie, verifyInboxServerAction } from "./_lib/auth";
+
+export async function unlockInbox(formData: FormData): Promise<void> {
+  const raw = String(formData.get("key") ?? "").trim();
+  if (!isInboxKeyValid(raw)) {
+    redirect("/inbox/unlock?error=1");
+  }
+  await setInboxAccessCookie(raw);
+  redirect("/inbox");
+}
 
 export type InboxActionState = {
   ok: boolean;
