@@ -109,6 +109,7 @@ export async function GET(req: NextRequest) {
   const locationParam = req.nextUrl.searchParams.get("location");
   const whenParam = req.nextUrl.searchParams.get("when");
   const includeMarineParam = req.nextUrl.searchParams.get("includeMarine");
+  const fishableParam = req.nextUrl.searchParams.get("fishable");
 
   if (!locationParam) {
     return NextResponse.json({ ok: true, service: "drews-clone-weather" });
@@ -126,6 +127,9 @@ export async function GET(req: NextRequest) {
   }
   if (includeMarineParam != null) {
     source.includeMarine = includeMarineParam;
+  }
+  if (fishableParam != null) {
+    source.fishable = fishableParam;
   }
 
   const summary = await summarizeFromSource(source);
