@@ -222,6 +222,7 @@ async function upsertCall(parsed: ParsedCall): Promise<void> {
 
   const rawJson = JSON.stringify(parsed.raw);
   const storedPhone = parsed.phone ? normalizePhone(parsed.phone) : null;
+  const disposition = parsed.booked ? "booked" : "needs_you";
 
   await sql`
     INSERT INTO drews_clone_calls (
@@ -243,6 +244,7 @@ async function upsertCall(parsed: ParsedCall): Promise<void> {
       booking_end,
       calendar_link,
       raw_json,
+      disposition,
       created_at
     ) VALUES (
       ${parsed.callId},
@@ -263,6 +265,7 @@ async function upsertCall(parsed: ParsedCall): Promise<void> {
       ${toIso(parsed.bookingEnd)}::timestamptz,
       ${emptyText(parsed.calendarLink)},
       ${rawJson}::jsonb,
+      ${disposition},
       NOW()
     )
     ON CONFLICT (call_id) DO UPDATE SET
@@ -283,6 +286,10 @@ async function upsertCall(parsed: ParsedCall): Promise<void> {
       booking_end = EXCLUDED.booking_end,
       calendar_link = EXCLUDED.calendar_link,
       raw_json = EXCLUDED.raw_json,
+      disposition = CASE
+        WHEN EXCLUDED.booked THEN 'booked'
+        ELSE drews_clone_calls.disposition
+      END,
       created_at = drews_clone_calls.created_at
   `;
 }
