@@ -74,3 +74,18 @@ export async function markCallRead(callId: string): Promise<void> {
     revalidatePath(`/inbox/${callId}`);
   });
 }
+
+export async function markCallsReadInView(callIds: string[]): Promise<void> {
+  const ids = callIds.filter((id) => id.trim().length > 0);
+  if (ids.length === 0) {
+    return;
+  }
+
+  await runAction(async () => {
+    const readAt = new Date().toISOString();
+    for (const callId of ids) {
+      await patchInboxCall(callId, { readAt });
+    }
+    revalidatePath("/inbox");
+  });
+}

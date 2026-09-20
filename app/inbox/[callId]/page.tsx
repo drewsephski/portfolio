@@ -1,15 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import {
-  ArrowLeft,
-  Calendar,
-  ExternalLink,
-  Headphones,
-  Phone,
-} from "lucide-react";
+import { ArrowLeft, Calendar, ExternalLink, Headphones } from "lucide-react";
 import { getSql } from "@/app/api/drews-clone/_lib/db";
 import { getInboxCall } from "@/app/api/menace/inbox/_lib/queries";
-import { saveOwnerNote, setCallDisposition } from "../actions";
 import { assertInboxPageAccess } from "../_lib/auth";
 import {
   displayCallerName,
@@ -18,28 +11,20 @@ import {
   telHref,
 } from "../_lib/format";
 import { CallerAvatar } from "../_components/caller-avatar";
+import { CallDetailActions } from "../_components/call-detail-actions";
 import { DispositionBadge, VipBadge } from "../_components/disposition-badge";
 import { InboxCollapsibleSection } from "../_components/inbox-collapsible-section";
 import { MarkCallRead } from "../_components/mark-call-read";
+import { OwnerNoteForm } from "../_components/owner-note-form";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
-import { Textarea } from "@/components/ui/textarea";
-import { cn } from "@/lib/utils";
 
 type PageProps = {
   params: Promise<{ callId: string }>;
   searchParams: Promise<{ key?: string }>;
 };
-
-const DISPOSITION_ACTIONS = [
-  { id: "needs_you" as const, label: "Needs you", variant: "outline" as const },
-  { id: "booked" as const, label: "Booked", variant: "secondary" as const },
-  { id: "done" as const, label: "Done", variant: "default" as const },
-  { id: "spam" as const, label: "Spam", variant: "destructive" as const },
-];
 
 export default async function InboxCallDetailPage({ params, searchParams }: PageProps) {
   const [{ callId }, query] = await Promise.all([params, searchParams]);
@@ -73,7 +58,7 @@ export default async function InboxCallDetailPage({ params, searchParams }: Page
   const callerName = displayCallerName(call.callerName, call.contactDisplayName);
 
   return (
-    <>
+    <div className="pb-28 md:pb-2">
       <MarkCallRead callId={call.callId} readAt={call.readAt} />
 
       <header
@@ -106,8 +91,11 @@ export default async function InboxCallDetailPage({ params, searchParams }: Page
         </div>
       </header>
 
-      <section aria-labelledby="summary-heading" className="space-y-2">
-        <h2 id="summary-heading" className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+      <section aria-labelledby="summary-heading" className="mt-4 space-y-2">
+        <h2
+          id="summary-heading"
+          className="text-xs font-medium uppercase tracking-wide text-muted-foreground"
+        >
           Summary
         </h2>
         <Card className="bg-card/50 py-4">
@@ -118,7 +106,7 @@ export default async function InboxCallDetailPage({ params, searchParams }: Page
       </section>
 
       {(call.booked || call.bookingSummary || call.calendarLink || call.bookingStart) && (
-        <section aria-labelledby="booking-heading" className="space-y-2">
+        <section aria-labelledby="booking-heading" className="mt-4 space-y-2">
           <h2
             id="booking-heading"
             className="text-xs font-medium uppercase tracking-wide text-muted-foreground"
@@ -164,7 +152,7 @@ export default async function InboxCallDetailPage({ params, searchParams }: Page
       )}
 
       {call.contact ? (
-        <section aria-labelledby="vip-heading" className="space-y-2">
+        <section aria-labelledby="vip-heading" className="mt-4 space-y-2">
           <h2
             id="vip-heading"
             className="text-xs font-medium uppercase tracking-wide text-muted-foreground"
@@ -184,99 +172,56 @@ export default async function InboxCallDetailPage({ params, searchParams }: Page
       ) : null}
 
       {call.recordingUrl ? (
-        <InboxCollapsibleSection title="Recording">
-          <Button
-            variant="outline"
-            size="sm"
-            className="min-h-11"
-            render={
-              <a
-                href={call.recordingUrl}
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Listen to call recording"
-              />
-            }
-          >
-            <Headphones className="size-4" />
-            Listen to recording
-          </Button>
-        </InboxCollapsibleSection>
+        <div className="mt-4">
+          <InboxCollapsibleSection title="Recording">
+            <Button
+              variant="outline"
+              size="sm"
+              className="min-h-11"
+              render={
+                <a
+                  href={call.recordingUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Listen to call recording"
+                />
+              }
+            >
+              <Headphones className="size-4" />
+              Listen to recording
+            </Button>
+          </InboxCollapsibleSection>
+        </div>
       ) : null}
 
       {call.transcript ? (
-        <InboxCollapsibleSection title="Transcript">
-          <p className="whitespace-pre-wrap text-sm text-foreground/90">{call.transcript}</p>
-        </InboxCollapsibleSection>
+        <div className="mt-4">
+          <InboxCollapsibleSection title="Transcript">
+            <p className="whitespace-pre-wrap text-sm text-foreground/90">{call.transcript}</p>
+          </InboxCollapsibleSection>
+        </div>
       ) : null}
 
-      <section aria-labelledby="actions-heading" className="space-y-3">
-        <h2
-          id="actions-heading"
-          className="text-xs font-medium uppercase tracking-wide text-muted-foreground"
-        >
-          Disposition
-        </h2>
-        <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-          {DISPOSITION_ACTIONS.map((action) => (
-            <form key={action.id} action={setCallDisposition.bind(null, callId, action.id)}>
-              <Button
-                type="submit"
-                variant={action.variant}
-                className={cn(
-                  "min-h-11 w-full",
-                  call.disposition === action.id && "ring-2 ring-ring ring-offset-2 ring-offset-background"
-                )}
-                aria-pressed={call.disposition === action.id}
-              >
-                {action.label}
-              </Button>
-            </form>
-          ))}
-        </div>
-        {phoneLink ? (
-          <Button
-            size="lg"
-            className="min-h-12 w-full text-base"
-            render={<a href={phoneLink} aria-label={`Call back ${callerName}`} />}
-          >
-            <Phone className="size-4" />
-            Call back
-          </Button>
-        ) : (
-          <Button size="lg" className="min-h-12 w-full" disabled aria-disabled="true">
-            <Phone className="size-4" />
-            No number on file
-          </Button>
-        )}
-      </section>
+      <div className="mt-4">
+        <CallDetailActions
+          callId={call.callId}
+          initialDisposition={call.disposition}
+          phoneLink={phoneLink}
+          callerName={callerName}
+        />
+      </div>
 
-      <Separator />
+      <Separator className="my-6" />
 
-      <section aria-labelledby="note-heading" className="space-y-3 pb-2">
+      <section aria-labelledby="note-heading" className="space-y-3">
         <h2
           id="note-heading"
           className="text-xs font-medium uppercase tracking-wide text-muted-foreground"
         >
           Owner note
         </h2>
-        <form className="space-y-3" action={saveOwnerNote.bind(null, callId)}>
-          <div className="space-y-2">
-            <Label htmlFor="owner-note">Private follow-up note</Label>
-            <Textarea
-              id="owner-note"
-              name="ownerNote"
-              defaultValue={call.ownerNote}
-              placeholder="Add context for your next follow-up…"
-              rows={4}
-              className="min-h-[7rem] resize-y"
-            />
-          </div>
-          <Button type="submit" className="min-h-11 w-full sm:w-auto">
-            Save note
-          </Button>
-        </form>
+        <OwnerNoteForm callId={call.callId} initialNote={call.ownerNote} />
       </section>
-    </>
+    </div>
   );
 }
