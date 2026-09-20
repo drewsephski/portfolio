@@ -4,7 +4,10 @@ export type WeatherRequest = {
   location: string;
   when: WhenOption;
   includeMarine: boolean;
+  fishable: boolean;
 };
+
+export type FishabilityLevel = "stay_ashore" | "marginal" | "ok";
 
 type GeocodeResult = {
   name: string;
@@ -44,10 +47,41 @@ type MarineSlice = {
 const MARINE_KEYWORDS =
   /\b(lake|fishing|harbor|harbour|michigan|marina|pier|offshore|beach)\b/i;
 
+/** Common Lake Michigan harbor / shore queries (Illinois & nearby) for marine + fishable defaults. */
+const LAKE_MICHIGAN_SHORE =
+  /\b(waukegan|chicago|evanston|winthrop\s*harbor|kenosha|racine|milwaukee|port\s*washington|sheboygan|manitowoc|michigan\s*city|new\s*buffalo|st\.?\s*joseph|south\s*haven|holland|grand\s*haven|muskegon)\b/i;
+
 const TOOL_GET_WEATHER = "get_weather";
 
 export function defaultIncludeMarine(location: string): boolean {
-  return MARINE_KEYWORDS.test(location);
+  return MARINE_KEYWORDS.test(location) || LAKE_MICHIGAN_SHORE.test(location);
+}
+
+function parseBooleanArg(value: unknown): boolean | undefined {
+  if (typeof value === "boolean") {
+    return value;
+  }
+  if (typeof value === "string") {
+    const lowered = value.trim().toLowerCase();
+    if (lowered === "true" || lowered === "1" || lowered === "yes") {
+      return true;
+    }
+    if (lowered === "false" || lowered === "0" || lowered === "no") {
+      return false;
+    }
+  }
+  return undefined;
+}
+
+export function parseFishable(
+  value: unknown,
+  includeMarine: boolean,
+): boolean {
+  const parsed = parseBooleanArg(value);
+  if (parsed !== undefined) {
+    return parsed;
+  }
+  return includeMarine;
 }
 
 export function parseWhen(value: unknown): WhenOption {
@@ -70,17 +104,9 @@ export function parseIncludeMarine(
   value: unknown,
   location: string,
 ): boolean {
-  if (typeof value === "boolean") {
-    return value;
-  }
-  if (typeof value === "string") {
-    const lowered = value.trim().toLowerCase();
-    if (lowered === "true" || lowered === "1" || lowered === "yes") {
-      return true;
-    }
-    if (lowered === "false" || lowered === "0" || lowered === "no") {
-      return false;
-    }
+  const parsed = parseBooleanArg(value);
+  if (parsed !== undefined) {
+    return parsed;
   }
   return defaultIncludeMarine(location);
 }
@@ -95,12 +121,17 @@ export function parseWeatherRequest(
     return null;
   }
   const location = locationRaw.trim();
+  const includeMarine = parseIncludeMarine(
+    source.includeMarine ?? source.include_marine ?? source.IncludeMarine,
+    location,
+  );
   return {
     location,
     when: parseWhen(source.when ?? source.When),
-    includeMarine: parseIncludeMarine(
-      source.includeMarine ?? source.include_marine ?? source.IncludeMarine,
-      location,
+    includeMarine,
+    fishable: parseFishable(
+      source.fishable ?? source.Fishable,
+      includeMarine,
     ),
   };
 }
@@ -416,6 +447,147 @@ function formatMarine(marine: MarineSlice | null): string | null {
   return parts.join(", ");
 }
 
+const FISHABILITY_DISCLAIMER =
+  "This is a rough recreational guide, not marine safety advice.";
+
+type FishabilityInputs = {
+  weatherCode: number | null;
+  windSustainedMph: number | null;
+  windGustsMph: number | null;
+  waveHeightFt: number | null;
+};
+
+export function assessFishabilityLevel(
+  input: FishabilityInputs,
+): FishabilityLevel {
+  const { weatherCode, windSustainedMph, windGustsMph, waveHeightFt } = input;
+
+  if (weatherCode != null && weatherCode >= 95) {
+    return "stay_ashore";
+  }
+  if (waveHeightFt != null && waveHeightFt >= 4.0) {
+    return "stay_ashore";
+  }
+  if (windSustainedMph != null && windSustainedMph >= 25) {
+    return "stay_ashore";
+  }
+  if (windGustsMph != null && windGustsMph >= 35) {
+    return "stay_ashore";
+  }
+
+  if (weatherCode === 65 || weatherCode === 82) {
+    return "marginal";
+  }
+  if (
+    waveHeightFt != null &&
+    waveHeightFt >= 3.0 &&
+    waveHeightFt < 4.0
+  ) {
+    return "marginal";
+  }
+  if (
+    windSustainedMph != null &&
+    windSustainedMph >= 18 &&
+    windSustainedMph < 25
+  ) {
+    return "marginal";
+  }
+  if (windGustsMph != null && windGustsMph >= 28 && windGustsMph < 35) {
+    return "marginal";
+  }
+
+  return "ok";
+}
+
+function worseFishability(
+  a: FishabilityLevel,
+  b: FishabilityLevel,
+): FishabilityLevel {
+  const rank: Record<FishabilityLevel, number> = {
+    ok: 0,
+    marginal: 1,
+    stay_ashore: 2,
+  };
+  return rank[a] >= rank[b] ? a : b;
+}
+
+export function formatFishabilityVerdict(
+  level: FishabilityLevel,
+  wavesKnown: boolean,
+): string {
+  const windOnlyNote = wavesKnown
+    ? ""
+    : " Wave data unavailable; wind-only call.";
+
+  switch (level) {
+    case "stay_ashore":
+      return `Fishable call: stay ashore — waves or wind are up past a comfortable recreational cutoff (this is a rough guide, not a safety briefing). ${FISHABILITY_DISCLAIMER}${windOnlyNote}`;
+    case "marginal":
+      return `Fishable call: marginal — choppy / windy; fine for experienced anglers, rough for a leisurely trip.${windOnlyNote} ${FISHABILITY_DISCLAIMER}`;
+    case "ok": {
+      const windPhrase = wavesKnown
+        ? "nothing extreme on wind or waves"
+        : "nothing extreme on wind";
+      return `Fishable call: looks OK for a casual shore/boat day — ${windPhrase}.${windOnlyNote} ${FISHABILITY_DISCLAIMER}`;
+    }
+  }
+}
+
+function fishabilityFromCurrent(
+  current: CurrentSlice,
+  marine: MarineSlice | null,
+  marineRequested: boolean,
+): string {
+  const wavesKnown =
+    marine != null && marine.waveHeightFt != null;
+  const level = assessFishabilityLevel({
+    weatherCode: current.weatherCode,
+    windSustainedMph: current.windSpeedMph,
+    windGustsMph: current.windGustsMph,
+    waveHeightFt: marine?.waveHeightFt ?? null,
+  });
+  const showWavesUnavailable = marineRequested && !wavesKnown;
+  return formatFishabilityVerdict(level, !showWavesUnavailable);
+}
+
+function fishabilityFromDaily(
+  slices: DailySlice[],
+  marine: MarineSlice | null,
+  marineRequested: boolean,
+): string {
+  const wavesKnown =
+    marine != null && marine.waveHeightFt != null;
+  let level: FishabilityLevel = "ok";
+  for (const slice of slices) {
+    const sliceLevel = assessFishabilityLevel({
+      weatherCode: slice.weatherCode,
+      windSustainedMph: slice.windSpeedMaxMph,
+      windGustsMph: slice.windGustsMaxMph,
+      waveHeightFt: marine?.waveHeightFt ?? null,
+    });
+    level = worseFishability(level, sliceLevel);
+  }
+  const showWavesUnavailable = marineRequested && !wavesKnown;
+  return formatFishabilityVerdict(level, !showWavesUnavailable);
+}
+
+function appendFishabilityIfNeeded(
+  summary: string,
+  request: WeatherRequest,
+  current: CurrentSlice,
+  dailySlices: DailySlice[],
+  marine: MarineSlice | null,
+): string {
+  if (!request.fishable) {
+    return summary;
+  }
+  const verdict =
+    request.when === "now"
+      ? fishabilityFromCurrent(current, marine, request.includeMarine)
+      : fishabilityFromDaily(dailySlices, marine, request.includeMarine);
+  return `${summary} ${verdict}`;
+}
+
 function summarizeDaySlice(slice: DailySlice, label: string): string {
   const conditions = wmoDescription(slice.weatherCode);
   const wind = formatWind(slice.windSpeedMaxMph, null, slice.windGustsMaxMph);
@@ -484,7 +656,15 @@ export async function buildWeatherSummary(
     if (marineText) {
       sentences.push(`On the water: ${marineText}.`);
     }
-    return sentences.join(" ");
+    const summary = sentences.join(" ");
+    const dailyNow = daily[0] ? [daily[0]] : [];
+    return appendFishabilityIfNeeded(
+      summary,
+      request,
+      current,
+      dailyNow,
+      marine,
+    );
   }
 
   const slices = pickDaily(daily, request.when);
@@ -503,5 +683,12 @@ export async function buildWeatherSummary(
     sentences.push(`Marine conditions now: ${marineText}.`);
   }
 
-  return sentences.join(" ");
+  const summary = sentences.join(" ");
+  return appendFishabilityIfNeeded(
+    summary,
+    request,
+    current,
+    slices,
+    marine,
+  );
 }
