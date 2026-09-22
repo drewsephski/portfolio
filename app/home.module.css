@@ -21,8 +21,8 @@
 .products, .studies, .templates { scroll-margin-top: 28px; }
 .products { padding-top: clamp(110px, 14vw, 176px); }
 .capabilities { padding-top: clamp(110px, 14vw, 176px); }
-.about { width: 100vw; padding-top: clamp(110px, 14vw, 176px); margin-left: calc(50% - 50vw); scroll-margin-top: 28px; }
-.aboutContent { display: grid; width: calc(100% - 64px); margin-inline: auto; }
+.about { padding-top: clamp(110px, 14vw, 176px); scroll-margin-top: 28px; }
+.aboutContent { display: grid; }
 .aboutHeader { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; padding-bottom: 18px; border-bottom: 1px solid #292929; }
 .aboutHeader h2, .aboutHeader p { margin: 0; }
 .aboutHeader h2 { font-size: 13px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; }
@@ -101,7 +101,11 @@
 .arrow svg { width: 20px; height: 20px; stroke-width: 1.5; transition: stroke-width 200ms ease; }
 .row:hover .arrow, .row:focus-within .arrow { border-color: rgb(200 245 95 / 45%); color: #c8f55f; transform: translateX(4px); }
 .row:hover .arrow svg, .row:focus-within .arrow svg { stroke-width: 2.5; }
-.footer { display: grid; grid-template-columns: 1fr auto 1fr; align-items: end; gap: 24px; margin-top: clamp(110px, 14vw, 176px); padding: 28px 0 42px; border-top: 1px solid #292929; color: #777773; font-size: 12px; }
+.contactCta { display: flex; align-items: flex-end; justify-content: space-between; gap: 48px; margin-top: clamp(110px, 14vw, 176px); padding: 28px 0 clamp(72px, 8vw, 104px); border-top: 1px solid #292929; }
+.contactCtaEyebrow { margin: 0 0 14px; color: #777773; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; }
+.contactCta h2 { margin: 0; font-size: clamp(42px, 6vw, 76px); font-weight: 500; letter-spacing: -.05em; line-height: .95; }
+.contactCta a { color: #f1f1ef; text-decoration: none; white-space: nowrap; }
+.footer { display: grid; grid-template-columns: 1fr auto 1fr; align-items: end; gap: 24px; margin-top: 0; padding: 28px 0 42px; border-top: 1px solid #292929; color: #777773; font-size: 12px; }
 .footer p { margin: 0; }
 .footer div { display: flex; gap: 22px; }
 .footer p:last-child { text-align: right; }
@@ -136,7 +140,7 @@
   .heroDetails { flex-direction: column; gap: 18px; margin-top: 38px; }
   .sectionHeader { align-items: flex-end; }
   .sectionHeader p { max-width: 22ch; text-align: right; }
-  .aboutContent { width: calc(100% - 40px); }
+  .aboutContent { width: auto; }
   .aboutHeader { align-items: flex-end; }
   .aboutHeader p { max-width: 18ch; text-align: right; }
   .aboutReveal { padding: 34px 0; }
@@ -160,6 +164,8 @@
   .description { margin-top: 4px; font-size: 12px; line-height: 1.35; }
   .footer { grid-template-columns: 1fr; align-items: start; }
   .footer p:last-child { text-align: left; }
+  .contactCta { align-items: flex-start; flex-direction: column; gap: 24px; }
+  .contactCta h2 { font-size: clamp(42px, 12vw, 58px); }
   .dialogHeader { align-items: flex-start; }
   .dialogActions a { width: 34px; padding: 0; justify-content: center; font-size: 0; }
 }

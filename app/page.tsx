@@ -75,6 +75,13 @@ export default function HomePage() {
           </div>
           <PaidTemplateList templates={paidTemplates} />
         </section>
+        <section className={styles.contactCta} aria-labelledby="contact-cta-title">
+          <div>
+            <p className={styles.contactCtaEyebrow}>Have a useful idea?</p>
+            <h2 id="contact-cta-title">Let&apos;s make it real.</h2>
+          </div>
+          <BoldArrowLink href="mailto:hello@drewsepeczi.xyz">Start a conversation</BoldArrowLink>
+        </section>
         <footer className={styles.footer}>
           <p>Available for product engineering work.</p>
           <div>
