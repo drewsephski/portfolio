@@ -1,5 +1,7 @@
+import { resolveAssistantRequest } from "./assistant-request";
 import {
   DREWS_CLONE_ASSISTANT_ID,
+  VAPI_MESSAGE_ASSISTANT_REQUEST,
   VAPI_MESSAGE_END_OF_CALL_REPORT,
   VAPI_MESSAGE_HANG,
   VAPI_MESSAGE_STATUS_UPDATE,
@@ -11,8 +13,10 @@ import {
 } from "./parse";
 import { insertWebhookEvent, persistEndOfCallReport } from "./persist";
 
-export type WebhookHandlerResult =
-  | { status: number; body: Record<string, unknown> };
+export type WebhookHandlerResult = {
+  status: number;
+  body: Record<string, unknown>;
+};
 
 function shouldSkipAssistant(assistantId: string | null): boolean {
   if (!assistantId) {
@@ -26,6 +30,18 @@ export async function handleVapiWebhookBody(
   options?: { skipCursorForward?: boolean }
 ): Promise<WebhookHandlerResult> {
   const envelope = parseWebhookEnvelope(body);
+
+  // Deterministic opener from caller ID — no persist/forward (Vapi ~7.5s budget).
+  // Phone +18884178537 must use server.url → this route with assistantId cleared
+  // so Vapi sends assistant-request before the LLM speaks.
+  if (envelope.messageType === VAPI_MESSAGE_ASSISTANT_REQUEST) {
+    const assistantResponse = await resolveAssistantRequest(body);
+    return {
+      status: 200,
+      body: assistantResponse as unknown as Record<string, unknown>,
+    };
+  }
+
   const dedupeKey = buildEventDedupeKey(
     envelope.messageType,
     envelope.callId,

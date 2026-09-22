@@ -6,3 +6,4 @@ export const DREWS_CLONE_STRUCTURED_OUTPUT_ID =
 export const VAPI_MESSAGE_END_OF_CALL_REPORT = "end-of-call-report";
 export const VAPI_MESSAGE_STATUS_UPDATE = "status-update";
 export const VAPI_MESSAGE_HANG = "hang";
+export const VAPI_MESSAGE_ASSISTANT_REQUEST = "assistant-request";
