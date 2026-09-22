@@ -1,0 +1,6 @@
+# Project-local MCP servers for Pontail.
+# Set VAPI_TOKEN in the environment before starting Codex.
+
+[mcp_servers.vapi]
+url = "https://mcp.vapi.ai/mcp"
+bearer_token_env_var = "VAPI_TOKEN"
