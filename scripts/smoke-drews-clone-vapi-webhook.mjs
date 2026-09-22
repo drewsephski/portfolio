@@ -12,10 +12,12 @@
  *
  *   DREWS_CLONE_VAPI_WEBHOOK_SECRET=... node scripts/smoke-drews-clone-vapi-webhook.mjs
  *   node scripts/smoke-drews-clone-vapi-webhook.mjs --dry-run
+ *   node scripts/smoke-drews-clone-vapi-webhook.mjs --out-file /tmp/smoke.json
+ *   node scripts/smoke-drews-clone-vapi-webhook.mjs --replay-file /tmp/smoke.json
  */
 
 import { randomUUID } from "node:crypto";
-import { readFileSync } from "node:fs";
+import { chmodSync, readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 
@@ -191,8 +193,21 @@ function safeReport(responseStatus, body, syntheticCallId) {
   };
 }
 
+function normalizeAuthToken(raw) {
+  let token = raw.trim();
+  if (token.toLowerCase().startsWith("authorization:")) {
+    token = token.split(":").slice(1).join(":").trim();
+  }
+  if (token.toLowerCase().startsWith("bearer ")) {
+    token = token.slice(7).trim();
+  }
+  return token;
+}
+
 async function postSmoke(payload, syntheticCallId) {
-  const secret = process.env.DREWS_CLONE_VAPI_WEBHOOK_SECRET?.trim();
+  const secret = normalizeAuthToken(
+    process.env.DREWS_CLONE_VAPI_WEBHOOK_SECRET ?? ""
+  );
   if (!secret) {
     throw new Error("DREWS_CLONE_VAPI_WEBHOOK_SECRET is not set");
   }
@@ -224,6 +239,37 @@ async function postSmoke(payload, syntheticCallId) {
   return safeReport(response.status, body, syntheticCallId);
 }
 
+function readArg(flag) {
+  const index = process.argv.indexOf(flag);
+  if (index < 0) {
+    return null;
+  }
+  const value = process.argv[index + 1];
+  if (!value || value.startsWith("--")) {
+    throw new Error(`${flag} requires a file path`);
+  }
+  return value;
+}
+
+function assertSmokePayload(payload, fixture) {
+  const sourceCallId = readSourceCallId(fixture);
+  const inspection = inspectSmokePayload(payload, sourceCallId, fixture);
+  if (inspection.originalCallIdPresent) {
+    throw new Error("Smoke payload still contains the fixture call id");
+  }
+  if (inspection.customerPhone !== null || inspection.forwardedFrom !== null) {
+    throw new Error("Smoke payload still contains a caller phone");
+  }
+  if (inspection.fixturePhonesRemaining.length > 0) {
+    throw new Error("Smoke payload still contains a fixture phone number");
+  }
+  const callId = payload?.message?.call?.id ?? payload?.call?.id;
+  if (typeof callId !== "string" || callId.trim() === "") {
+    throw new Error("Smoke payload is missing a call id");
+  }
+  return { inspection, callId };
+}
+
 function printReport(report, callId) {
   console.log(`httpStatus: ${report.httpStatus}`);
   console.log(`syntheticCallId: ${report.syntheticCallId}`);
@@ -249,18 +295,27 @@ function printReport(report, callId) {
 
 async function main() {
   const dryRun = process.argv.includes("--dry-run");
-  const fixture = JSON.parse(readFileSync(FIXTURE_PATH, "utf8"));
-  const { payload, sourceCallId, syntheticCallId } = buildSmokePayload(fixture);
-  const inspection = inspectSmokePayload(payload, sourceCallId, fixture);
+  const outFile = readArg("--out-file");
+  const replayFile = readArg("--replay-file");
+  if (replayFile && (dryRun || outFile)) {
+    throw new Error("--replay-file cannot be combined with --dry-run or --out-file");
+  }
 
-  if (inspection.originalCallIdPresent) {
-    throw new Error("Smoke payload still contains the fixture call id");
-  }
-  if (inspection.customerPhone !== null || inspection.forwardedFrom !== null) {
-    throw new Error("Smoke payload still contains a caller phone");
-  }
-  if (inspection.fixturePhonesRemaining.length > 0) {
-    throw new Error("Smoke payload still contains a fixture phone number");
+  const fixture = JSON.parse(readFileSync(FIXTURE_PATH, "utf8"));
+  let payload;
+  let syntheticCallId;
+  let inspection;
+
+  if (replayFile) {
+    payload = JSON.parse(readFileSync(replayFile, "utf8"));
+    const checked = assertSmokePayload(payload, fixture);
+    inspection = checked.inspection;
+    syntheticCallId = checked.callId;
+  } else {
+    const built = buildSmokePayload(fixture);
+    payload = built.payload;
+    syntheticCallId = built.syntheticCallId;
+    inspection = assertSmokePayload(payload, fixture).inspection;
   }
 
   if (dryRun) {
@@ -283,6 +338,11 @@ async function main() {
       )
     );
     return;
+  }
+
+  if (outFile) {
+    writeFileSync(outFile, `${JSON.stringify(payload)}\n`, { mode: 0o600 });
+    chmodSync(outFile, 0o600);
   }
 
   const report = await postSmoke(payload, syntheticCallId);

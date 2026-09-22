@@ -49,4 +49,24 @@ describe("drews clone vapi webhook smoke payload", () => {
     expect(stdout).not.toContain(originalCallId);
     expect(stdout).not.toContain("+12244980322");
   });
+
+  test("replay refuses the unmodified fixture before any request", () => {
+    const env = { ...process.env };
+    delete env.DREWS_CLONE_VAPI_WEBHOOK_SECRET;
+    let stderr = "";
+    try {
+      execFileSync(
+        process.execPath,
+        [
+          "scripts/smoke-drews-clone-vapi-webhook.mjs",
+          "--replay-file",
+          "app/api/drews-clone/vapi/webhook/__fixtures__/end-of-call-report-short.json",
+        ],
+        { encoding: "utf8", cwd: process.cwd(), env }
+      );
+    } catch (error) {
+      stderr = String((error as { stderr?: string }).stderr ?? "");
+    }
+    expect(stderr).toContain("fixture call id");
+  });
 });
