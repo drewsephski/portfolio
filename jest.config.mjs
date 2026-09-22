@@ -1,7 +1,7 @@
 /** @type {import('jest').Config} */
 const config = {
   testEnvironment: "node",
-  roots: ["<rootDir>/app/api/drews-clone"],
+  roots: ["<rootDir>/app/api/drews-clone", "<rootDir>/lib/portfolio-ai"],
   testMatch: ["**/__tests__/**/*.test.ts"],
   transform: {
     "^.+\\.tsx?$": [

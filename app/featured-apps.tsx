@@ -3,52 +3,9 @@
 import Image from "next/image";
 import { ArrowUpRight, Pause, Play } from "lucide-react";
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
+import { featuredProjects } from "@/lib/portfolio/content";
 import homeStyles from "./home.module.css";
 import styles from "./featured-apps.module.css";
-
-type FeaturedApp = {
-  name: string;
-  domain: string;
-  category: string;
-  description: string;
-  slug: string;
-  capture: string;
-};
-
-const apps: readonly FeaturedApp[] = [
-  {
-    name: "Menace UI",
-    domain: "menaceui.com",
-    category: "Components & templates",
-    description: "Source-ready React interfaces with thoughtful motion, clear hierarchy, and the details that make a product feel finished.",
-    slug: "menace-ui",
-    capture: "menace-ui-20260907-smooth",
-  },
-  {
-    name: "Menace Voice",
-    domain: "voice.menaceui.com",
-    category: "Voice AI platform",
-    description: "Turn a brief into a voice agent. Shape the conversation, connect your tools, and bring it together in a visual workflow.",
-    slug: "menace-voice",
-    capture: "menace-voice-20260907-smooth",
-  },
-  {
-    name: "Squid Agent",
-    domain: "squidagent.app",
-    category: "Developer tool",
-    description: "Turn prompts, screenshots, and live sites into React prototypes with revision evidence.",
-    slug: "squid-agent",
-    capture: "squid-agent-20260824",
-  },
-  {
-    name: "Elsewhere",
-    domain: "elsewhere-alpha-web.fly.dev",
-    category: "Agent workspace",
-    description: "Give AI workers their own computers, memory, routines, and approvals that keep working when you close the laptop.",
-    slug: "elsewhere",
-    capture: "elsewhere-20260922",
-  },
-] as const;
 
 const reducedMotionQuery = "(prefers-reduced-motion: reduce)";
 
@@ -89,7 +46,7 @@ export function FeaturedApps() {
         <h2 id="featured-projects-title">Featured projects</h2>
       </div>
       <div className={styles.grid}>
-        {apps.map((app, index) => {
+        {featuredProjects.map((app, index) => {
           const isPlaying = playing[app.slug] ?? false;
 
           return (

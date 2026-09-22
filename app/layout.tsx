@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { PurchaseDock } from "./marketplace/purchase-dock";
+import { PortfolioChat } from "./portfolio-chat/portfolio-chat";
 import { ScrollToTopOnNavigation } from "./scroll-to-top-on-navigation";
 import "./globals.css";
 import { Geist } from "next/font/google";
@@ -20,6 +21,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <ScrollToTopOnNavigation />
         {children}
         <PurchaseDock />
+        <PortfolioChat />
       </body>
     </html>
   );

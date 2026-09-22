@@ -13,6 +13,7 @@
 .heroTitle { max-width: 13ch; margin: 0; font-size: clamp(54px, 7.2vw, 92px); font-weight: 500; letter-spacing: -.055em; line-height: .94; text-wrap: balance; }
 .heroDetails { display: flex; align-items: flex-start; justify-content: space-between; gap: 48px; margin-top: 54px; padding-top: 18px; border-top: 1px solid #292929; color: #92928e; font-size: 14px; line-height: 1.55; }
 .heroDetails p { max-width: 48ch; margin: 0; }
+.heroActions { display: flex; flex: none; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 14px 22px; }
 .heroDetails a { color: #f1f1ef; text-decoration: none; white-space: nowrap; }
 .sectionHeader { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; padding-bottom: 18px; }
 .sectionHeader h2, .sectionHeader p { margin: 0; }
@@ -101,7 +102,7 @@
 .arrow svg { width: 20px; height: 20px; stroke-width: 1.5; transition: stroke-width 200ms ease; }
 .row:hover .arrow, .row:focus-within .arrow { border-color: rgb(200 245 95 / 45%); color: #c8f55f; transform: translateX(4px); }
 .row:hover .arrow svg, .row:focus-within .arrow svg { stroke-width: 2.5; }
-.contactCta { display: flex; align-items: flex-end; justify-content: space-between; gap: 48px; margin-top: clamp(110px, 14vw, 176px); padding: 28px 0 clamp(72px, 8vw, 104px); border-top: 1px solid #292929; }
+.contactCta { display: flex; align-items: flex-end; justify-content: space-between; gap: 48px; margin-top: clamp(110px, 14vw, 176px); padding: 28px 0 clamp(72px, 8vw, 104px); border-top: 1px solid #292929; scroll-margin-top: 28px; }
 .contactCtaEyebrow { margin: 0 0 14px; color: #777773; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; }
 .contactCta h2 { margin: 0; font-size: clamp(42px, 6vw, 76px); font-weight: 500; letter-spacing: -.05em; line-height: .95; }
 .contactCta a { color: #f1f1ef; text-decoration: none; white-space: nowrap; }
@@ -138,6 +139,7 @@
   .hero { padding: 88px 0 104px; }
   .heroTitle { font-size: clamp(46px, 13vw, 66px); line-height: .96; }
   .heroDetails { flex-direction: column; gap: 18px; margin-top: 38px; }
+  .heroActions { justify-content: flex-start; }
   .sectionHeader { align-items: flex-end; }
   .sectionHeader p { max-width: 22ch; text-align: right; }
   .aboutContent { width: auto; }
