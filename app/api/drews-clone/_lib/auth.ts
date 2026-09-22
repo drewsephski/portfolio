@@ -14,7 +14,7 @@ export function normalizeAuthToken(raw: string): string {
 function expectedAuthTokens(includeWebhookAuth: boolean): string[] {
   const keys = ["DREWS_CLONE_LEADS_AUTH"];
   if (includeWebhookAuth) {
-    keys.push("DREWS_CLONE_WEBHOOK_AUTH");
+    keys.push("DREWS_CLONE_WEBHOOK_AUTH", "DREWS_CLONE_VAPI_WEBHOOK_SECRET");
   }
   const tokens: string[] = [];
   for (const key of keys) {
@@ -22,6 +22,19 @@ function expectedAuthTokens(includeWebhookAuth: boolean): string[] {
     if (raw?.trim()) {
       tokens.push(normalizeAuthToken(raw));
     }
+  }
+  return tokens;
+}
+
+function headerTokens(req: NextRequest): string[] {
+  const tokens: string[] = [];
+  const authorization = req.headers.get("authorization");
+  if (authorization?.trim()) {
+    tokens.push(normalizeAuthToken(authorization));
+  }
+  const vapiSecret = req.headers.get("x-vapi-secret");
+  if (vapiSecret?.trim()) {
+    tokens.push(normalizeAuthToken(vapiSecret));
   }
   return tokens;
 }
@@ -34,12 +47,11 @@ export function isDrewsCloneAuthorized(
   if (expected.length === 0) {
     return false;
   }
-  const header = req.headers.get("authorization");
-  if (!header?.trim()) {
+  const provided = headerTokens(req);
+  if (provided.length === 0) {
     return false;
   }
-  const provided = normalizeAuthToken(header);
-  return expected.includes(provided);
+  return provided.some((token) => expected.includes(token));
 }
 
 export function unauthorized(): NextResponse {

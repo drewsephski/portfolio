@@ -20,6 +20,9 @@
 # production
 /build
 
+# local audit backups (never commit production config)
+.local-backups/
+
 # misc
 .DS_Store
 *.pem

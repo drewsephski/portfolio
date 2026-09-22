@@ -1,0 +1,32 @@
+{
+  "message": {
+    "type": "end-of-call-report",
+    "call": {
+      "id": "fixture-null-fields",
+      "assistantId": "5aa57a90-3fcf-47b3-ba73-ec81ab97270c",
+      "customer": {
+        "number": "+15550003333"
+      },
+      "endedReason": "customer-ended-call",
+      "artifact": {
+        "structuredOutputs": {
+          "008d4b30-93b6-4972-8c8e-e23f41d9ca60": {
+            "name": "Drews Clone Call Summary",
+            "result": {
+              "callerName": null,
+              "organization": "null",
+              "callerType": "unknown",
+              "reason": "test",
+              "message": "null",
+              "urgency": "normal",
+              "callbackRequested": false,
+              "requestedNextStep": "null",
+              "calendarEventCreated": false,
+              "calendarEventTime": "null"
+            }
+          }
+        }
+      }
+    }
+  }
+}
