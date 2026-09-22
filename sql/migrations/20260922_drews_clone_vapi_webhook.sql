@@ -74,19 +74,20 @@ ALTER TABLE drews_clone_calls
 ALTER TABLE drews_clone_calls
   ALTER COLUMN cursor_forward_attempts SET DEFAULT 0;
 
-DO $$
-BEGIN
-  IF EXISTS (
-    SELECT 1 FROM pg_constraint WHERE conname = 'drews_clone_calls_cursor_forward_status_check'
-  ) THEN
-    ALTER TABLE drews_clone_calls
-      DROP CONSTRAINT drews_clone_calls_cursor_forward_status_check;
-  END IF;
-END $$;
+ALTER TABLE drews_clone_calls
+  DROP CONSTRAINT IF EXISTS drews_clone_calls_cursor_forward_status_check;
 
 ALTER TABLE drews_clone_calls
   ADD CONSTRAINT drews_clone_calls_cursor_forward_status_check
-  CHECK (cursor_forward_status IN ('pending', 'processing', 'sent', 'failed', 'skipped'));
+  CHECK (
+    cursor_forward_status IN (
+      'pending',
+      'processing',
+      'sent',
+      'failed',
+      'skipped'
+    )
+  );
 
 CREATE TABLE IF NOT EXISTS drews_clone_webhook_events (
   id bigserial PRIMARY KEY,

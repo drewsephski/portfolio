@@ -20,4 +20,12 @@ describe("drews_clone_vapi_webhook migration", () => {
   test("includes processing status", () => {
     expect(sql).toContain("'processing'");
   });
+
+  test("replaces the status check without a dollar-quoted block", () => {
+    expect(sql).toContain(
+      "DROP CONSTRAINT IF EXISTS drews_clone_calls_cursor_forward_status_check"
+    );
+    expect(sql).not.toContain("DO $$");
+    expect(sql).toContain("'skipped'");
+  });
 });
