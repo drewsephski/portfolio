@@ -1,3 +1,5 @@
+export const CURSOR_FORWARD_TIMEOUT_MS = 5000;
+
 export type CursorForwardConfig = {
   url: string;
   authorization: string;
@@ -39,10 +41,22 @@ export type CursorForwardResult =
   | { ok: true; status: number }
   | { ok: false; status: number | null; error: string };
 
+function sanitizeForwardError(err: unknown): string {
+  if (err instanceof Error && err.name === "TimeoutError") {
+    return "cursor_forward_timeout";
+  }
+  if (err instanceof Error && err.name === "AbortError") {
+    return "cursor_forward_timeout";
+  }
+  return "cursor_forward_failed";
+}
+
 export async function forwardToCursorWebhook(
   body: Record<string, unknown>,
-  config: CursorForwardConfig
+  config: CursorForwardConfig,
+  options?: { timeoutMs?: number }
 ): Promise<CursorForwardResult> {
+  const timeoutMs = options?.timeoutMs ?? CURSOR_FORWARD_TIMEOUT_MS;
   try {
     const response = await fetch(config.url, {
       method: "POST",
@@ -53,6 +67,7 @@ export async function forwardToCursorWebhook(
         "User-Agent": "drews-clone-vapi-webhook/vercel",
       },
       body: JSON.stringify(body),
+      signal: AbortSignal.timeout(timeoutMs),
     });
 
     if (!response.ok) {
@@ -65,7 +80,10 @@ export async function forwardToCursorWebhook(
 
     return { ok: true, status: response.status };
   } catch (err: unknown) {
-    const message = err instanceof Error ? err.message : "cursor_forward_failed";
-    return { ok: false, status: null, error: message };
+    return {
+      ok: false,
+      status: null,
+      error: sanitizeForwardError(err),
+    };
   }
 }

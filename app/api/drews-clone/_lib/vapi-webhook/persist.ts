@@ -1,20 +1,21 @@
 import { bumpLeadFromCall } from "../bump-lead-from-call";
 import { getSql, normalizePhone } from "../db";
+import { runCursorForwardAfterPersist } from "./cursor-forward-db";
 import type { ParsedEndOfCallReport } from "./parse";
-import {
-  forwardToCursorWebhook,
-  resolveCursorForwardConfig,
-} from "./cursor-forward";
 
 export type PersistEndOfCallResult = {
   callId: string;
   inserted: boolean;
-  cursorForwardStatus: "sent" | "failed" | "skipped" | "pending";
+  cursorForwardStatus: string;
   leadUpserted: boolean;
 };
 
 function toIso(value: Date | null): string | null {
   return value ? value.toISOString() : null;
+}
+
+function emptyLegacyText(value: string | null | undefined): string {
+  return value ?? "";
 }
 
 export async function insertWebhookEvent(
@@ -66,7 +67,7 @@ export async function persistEndOfCallReport(
   const rawJson = JSON.stringify(parsed.rawEnvelope);
 
   const existing = await sql`
-    SELECT call_id, cursor_forward_status
+    SELECT call_id
     FROM drews_clone_calls
     WHERE call_id = ${parsed.callId}
     LIMIT 1
@@ -113,28 +114,28 @@ export async function persistEndOfCallReport(
       ${parsed.callId},
       ${parsed.assistantId},
       ${storedPhone},
-      ${parsed.callerName ?? ""},
-      ${parsed.callerEmail ?? ""},
+      ${emptyLegacyText(parsed.callerName)},
+      ${emptyLegacyText(parsed.callerEmail)},
       ${toIso(parsed.startedAt)}::timestamptz,
       ${toIso(parsed.endedAt)}::timestamptz,
       ${parsed.durationSeconds},
-      ${parsed.endedReason ?? ""},
-      ${parsed.summary ?? ""},
-      ${parsed.transcript ?? ""},
-      ${parsed.recordingUrl ?? ""},
+      ${emptyLegacyText(parsed.endedReason)},
+      ${emptyLegacyText(parsed.summary)},
+      ${emptyLegacyText(parsed.transcript)},
+      ${emptyLegacyText(parsed.recordingUrl)},
       ${parsed.booked},
       ${toIso(parsed.bookingStart)}::timestamptz,
       ${toIso(parsed.bookingEnd)}::timestamptz,
-      ${parsed.calendarLink ?? ""},
+      ${emptyLegacyText(parsed.calendarLink)},
       ${rawJson}::jsonb,
       ${disposition},
-      ${sf.organization ?? ""},
-      ${sf.callerType ?? ""},
-      ${sf.reason ?? ""},
-      ${sf.message ?? ""},
-      ${sf.urgency ?? ""},
+      ${sf.organization},
+      ${sf.callerType},
+      ${sf.reason},
+      ${sf.message},
+      ${sf.urgency},
       ${sf.callbackRequested},
-      ${sf.requestedNextStep ?? ""},
+      ${sf.requestedNextStep},
       ${sf.calendarEventCreated},
       ${toIso(sf.calendarEventTime)}::timestamptz,
       ${structuredJson}::jsonb,
@@ -159,13 +160,13 @@ export async function persistEndOfCallReport(
       recording_url = COALESCE(NULLIF(EXCLUDED.recording_url, ''), drews_clone_calls.recording_url),
       booked = EXCLUDED.booked OR drews_clone_calls.booked,
       booking_start = COALESCE(EXCLUDED.booking_start, drews_clone_calls.booking_start),
-      organization = COALESCE(NULLIF(EXCLUDED.organization, ''), drews_clone_calls.organization),
-      caller_type = COALESCE(NULLIF(EXCLUDED.caller_type, ''), drews_clone_calls.caller_type),
-      reason = COALESCE(NULLIF(EXCLUDED.reason, ''), drews_clone_calls.reason),
-      call_message = COALESCE(NULLIF(EXCLUDED.call_message, ''), drews_clone_calls.call_message),
-      urgency = COALESCE(NULLIF(EXCLUDED.urgency, ''), drews_clone_calls.urgency),
+      organization = COALESCE(EXCLUDED.organization, drews_clone_calls.organization),
+      caller_type = COALESCE(EXCLUDED.caller_type, drews_clone_calls.caller_type),
+      reason = COALESCE(EXCLUDED.reason, drews_clone_calls.reason),
+      call_message = COALESCE(EXCLUDED.call_message, drews_clone_calls.call_message),
+      urgency = COALESCE(EXCLUDED.urgency, drews_clone_calls.urgency),
       callback_requested = COALESCE(EXCLUDED.callback_requested, drews_clone_calls.callback_requested),
-      requested_next_step = COALESCE(NULLIF(EXCLUDED.requested_next_step, ''), drews_clone_calls.requested_next_step),
+      requested_next_step = COALESCE(EXCLUDED.requested_next_step, drews_clone_calls.requested_next_step),
       calendar_event_created = COALESCE(EXCLUDED.calendar_event_created, drews_clone_calls.calendar_event_created),
       calendar_event_time = COALESCE(EXCLUDED.calendar_event_time, drews_clone_calls.calendar_event_time),
       structured_output_json = COALESCE(EXCLUDED.structured_output_json, drews_clone_calls.structured_output_json),
@@ -189,7 +190,12 @@ export async function persistEndOfCallReport(
     });
   }
 
-  let cursorForwardStatus: PersistEndOfCallResult["cursorForwardStatus"] = "skipped";
+  const forwardOutcome = await runCursorForwardAfterPersist(
+    sql,
+    parsed.callId,
+    parsed.rawEnvelope,
+    options
+  );
 
   const statusRows = await sql`
     SELECT cursor_forward_status
@@ -197,50 +203,9 @@ export async function persistEndOfCallReport(
     WHERE call_id = ${parsed.callId}
     LIMIT 1
   `;
-  const priorStatus = (statusRows[0] as { cursor_forward_status: string } | undefined)
-    ?.cursor_forward_status;
-
-  if (priorStatus === "sent") {
-    cursorForwardStatus = "sent";
-  } else if (options?.skipCursorForward) {
-    cursorForwardStatus = "skipped";
-  } else {
-    const config = resolveCursorForwardConfig();
-    if (!config) {
-      await sql`
-        UPDATE drews_clone_calls
-        SET cursor_forward_status = 'skipped',
-            cursor_forward_last_error = 'cursor_forward_not_configured',
-            updated_at = NOW()
-        WHERE call_id = ${parsed.callId}
-      `;
-      cursorForwardStatus = "skipped";
-    } else {
-      const forwardResult = await forwardToCursorWebhook(parsed.rawEnvelope, config);
-      if (forwardResult.ok) {
-        await sql`
-          UPDATE drews_clone_calls
-          SET cursor_forward_status = 'sent',
-              cursor_forward_attempts = cursor_forward_attempts + 1,
-              cursor_forward_sent_at = NOW(),
-              cursor_forward_last_error = NULL,
-              updated_at = NOW()
-          WHERE call_id = ${parsed.callId}
-        `;
-        cursorForwardStatus = "sent";
-      } else {
-        await sql`
-          UPDATE drews_clone_calls
-          SET cursor_forward_status = 'failed',
-              cursor_forward_attempts = cursor_forward_attempts + 1,
-              cursor_forward_last_error = ${forwardResult.error},
-              updated_at = NOW()
-          WHERE call_id = ${parsed.callId}
-        `;
-        cursorForwardStatus = "failed";
-      }
-    }
-  }
+  const cursorForwardStatus =
+    (statusRows[0] as { cursor_forward_status: string } | undefined)
+      ?.cursor_forward_status ?? forwardOutcome;
 
   return {
     callId: parsed.callId,

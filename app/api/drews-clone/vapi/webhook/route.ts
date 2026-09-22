@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { isDrewsCloneAuthorized, unauthorized } from "../../_lib/auth";
+import { isVapiServerWebhookAuthorized, unauthorized } from "../../_lib/auth";
 import { handleVapiWebhookBody } from "../../_lib/vapi-webhook/handler";
 
 export const runtime = "nodejs";
@@ -10,7 +10,7 @@ export async function GET() {
 }
 
 export async function POST(req: NextRequest) {
-  if (!isDrewsCloneAuthorized(req, { includeWebhookAuth: true })) {
+  if (!isVapiServerWebhookAuthorized(req)) {
     return unauthorized();
   }
 

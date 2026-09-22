@@ -52,16 +52,22 @@ ALTER TABLE drews_clone_calls
 ALTER TABLE drews_clone_calls
   ADD COLUMN IF NOT EXISTS cursor_forward_sent_at timestamptz;
 
+-- Historical rows (pre-webhook ingestion): never forward retroactively.
 UPDATE drews_clone_calls
-SET received_at = COALESCE(received_at, created_at),
-    updated_at = COALESCE(updated_at, created_at),
-    cursor_forward_status = COALESCE(cursor_forward_status, 'pending'),
-    cursor_forward_attempts = COALESCE(cursor_forward_attempts, 0)
-WHERE received_at IS NULL
-   OR updated_at IS NULL
-   OR cursor_forward_status IS NULL
-   OR cursor_forward_attempts IS NULL;
+SET
+  received_at = COALESCE(received_at, created_at),
+  updated_at = COALESCE(updated_at, created_at),
+  cursor_forward_status = 'skipped',
+  cursor_forward_attempts = 0
+WHERE vapi_event_json IS NULL
+  AND (
+    cursor_forward_status IS NULL
+    OR cursor_forward_attempts IS NULL
+    OR received_at IS NULL
+    OR updated_at IS NULL
+  );
 
+-- New webhook-ingested rows default to pending at insert time (application sets explicitly).
 ALTER TABLE drews_clone_calls
   ALTER COLUMN cursor_forward_status SET DEFAULT 'pending';
 
@@ -70,14 +76,17 @@ ALTER TABLE drews_clone_calls
 
 DO $$
 BEGIN
-  IF NOT EXISTS (
+  IF EXISTS (
     SELECT 1 FROM pg_constraint WHERE conname = 'drews_clone_calls_cursor_forward_status_check'
   ) THEN
     ALTER TABLE drews_clone_calls
-      ADD CONSTRAINT drews_clone_calls_cursor_forward_status_check
-      CHECK (cursor_forward_status IN ('pending', 'sent', 'failed', 'skipped'));
+      DROP CONSTRAINT drews_clone_calls_cursor_forward_status_check;
   END IF;
 END $$;
+
+ALTER TABLE drews_clone_calls
+  ADD CONSTRAINT drews_clone_calls_cursor_forward_status_check
+  CHECK (cursor_forward_status IN ('pending', 'processing', 'sent', 'failed', 'skipped'));
 
 CREATE TABLE IF NOT EXISTS drews_clone_webhook_events (
   id bigserial PRIMARY KEY,

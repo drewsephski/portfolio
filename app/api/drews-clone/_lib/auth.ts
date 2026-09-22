@@ -1,3 +1,4 @@
+import { timingSafeEqual } from "node:crypto";
 import { NextRequest, NextResponse } from "next/server";
 
 export function normalizeAuthToken(raw: string): string {
@@ -11,19 +12,21 @@ export function normalizeAuthToken(raw: string): string {
   return token;
 }
 
-function expectedAuthTokens(includeWebhookAuth: boolean): string[] {
-  const keys = ["DREWS_CLONE_LEADS_AUTH"];
-  if (includeWebhookAuth) {
-    keys.push("DREWS_CLONE_WEBHOOK_AUTH", "DREWS_CLONE_VAPI_WEBHOOK_SECRET");
+function readEnvSecret(key: string): string | null {
+  const raw = process.env[key];
+  if (!raw?.trim()) {
+    return null;
   }
-  const tokens: string[] = [];
-  for (const key of keys) {
-    const raw = process.env[key];
-    if (raw?.trim()) {
-      tokens.push(normalizeAuthToken(raw));
-    }
+  return normalizeAuthToken(raw);
+}
+
+function secretsMatch(provided: string, expected: string): boolean {
+  const a = Buffer.from(provided);
+  const b = Buffer.from(expected);
+  if (a.length !== b.length) {
+    return false;
   }
-  return tokens;
+  return timingSafeEqual(a, b);
 }
 
 function headerTokens(req: NextRequest): string[] {
@@ -39,19 +42,44 @@ function headerTokens(req: NextRequest): string[] {
   return tokens;
 }
 
-export function isDrewsCloneAuthorized(
-  req: NextRequest,
-  options?: { includeWebhookAuth?: boolean }
-): boolean {
-  const expected = expectedAuthTokens(options?.includeWebhookAuth ?? false);
-  if (expected.length === 0) {
+function matchesAnySecret(provided: string[], expectedSecrets: string[]): boolean {
+  if (provided.length === 0 || expectedSecrets.length === 0) {
     return false;
   }
-  const provided = headerTokens(req);
-  if (provided.length === 0) {
+  return provided.some((token) =>
+    expectedSecrets.some((secret) => secretsMatch(token, secret))
+  );
+}
+
+/** Tool routes: leads, contacts, weather, Menace inbox. */
+export function isDrewsCloneToolAuthorized(req: NextRequest): boolean {
+  const secret = readEnvSecret("DREWS_CLONE_LEADS_AUTH");
+  if (!secret) {
     return false;
   }
-  return provided.some((token) => expected.includes(token));
+  return matchesAnySecret(headerTokens(req), [secret]);
+}
+
+/**
+ * @deprecated Use isDrewsCloneToolAuthorized or isVapiServerWebhookAuthorized.
+ * Kept for call sites that only need tool auth.
+ */
+export function isDrewsCloneAuthorized(req: NextRequest): boolean {
+  return isDrewsCloneToolAuthorized(req);
+}
+
+/** Legacy `/api/drews-clone/calls` ingest and similar webhook-style routes. */
+export function isDrewsCloneWebhookIngestAuthorized(req: NextRequest): boolean {
+  const secrets = [
+    readEnvSecret("DREWS_CLONE_VAPI_WEBHOOK_SECRET"),
+    readEnvSecret("DREWS_CLONE_WEBHOOK_AUTH"),
+  ].filter((s): s is string => Boolean(s));
+  return matchesAnySecret(headerTokens(req), secrets);
+}
+
+/** Vapi server URL target: never accepts leads tool credentials. */
+export function isVapiServerWebhookAuthorized(req: NextRequest): boolean {
+  return isDrewsCloneWebhookIngestAuthorized(req);
 }
 
 export function unauthorized(): NextResponse {

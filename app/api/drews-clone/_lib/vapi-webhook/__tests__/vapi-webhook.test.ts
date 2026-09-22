@@ -139,6 +139,27 @@ describe("cursor forward", () => {
     expect(result.ok).toBe(true);
   });
 
+  test("forwardToCursorWebhook timeout", async () => {
+    global.fetch = jest.fn(async () => {
+      const err = new Error("The operation was aborted");
+      err.name = "TimeoutError";
+      throw err;
+    }) as typeof fetch;
+
+    const result = await forwardToCursorWebhook(
+      {},
+      {
+        url: "https://example.com/hook",
+        authorization: "Bearer x",
+        automationKey: "x",
+      }
+    );
+    expect(result.ok).toBe(false);
+    if (!result.ok) {
+      expect(result.error).toBe("cursor_forward_timeout");
+    }
+  });
+
   test("forwardToCursorWebhook failure", async () => {
     global.fetch = jest.fn(
       async () => new Response(null, { status: 500 })

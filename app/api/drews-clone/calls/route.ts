@@ -1,6 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import { bumpLeadFromCall } from "../_lib/bump-lead-from-call";
-import { isDrewsCloneAuthorized, unauthorized } from "../_lib/auth";
+import {
+  isDrewsCloneWebhookIngestAuthorized,
+  unauthorized,
+} from "../_lib/auth";
 import {
   asRecord,
   getSql,
@@ -346,7 +349,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ ok: true, service: "drews-clone-calls" });
   }
 
-  if (!isDrewsCloneAuthorized(req, { includeWebhookAuth: true })) {
+  if (!isDrewsCloneWebhookIngestAuthorized(req)) {
     return unauthorized();
   }
 
@@ -404,7 +407,7 @@ export async function GET(req: NextRequest) {
 }
 
 export async function POST(req: NextRequest) {
-  if (!isDrewsCloneAuthorized(req, { includeWebhookAuth: true })) {
+  if (!isDrewsCloneWebhookIngestAuthorized(req)) {
     return unauthorized();
   }
 
