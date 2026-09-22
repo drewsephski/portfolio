@@ -28,8 +28,10 @@ export default function HomePage() {
         <nav className={styles.nav} aria-label="Primary navigation">
           <a className={styles.wordmark} href="#top">Drew Sepeczi</a>
           <div className={styles.navLinks}>
-            <a href="#featured-projects">Products</a>
+            <a href="#featured-projects">Work</a>
+            <a href="#products">Products</a>
             <a href="#studies">Studies</a>
+            <a href="#templates">Templates</a>
             <BoldArrowLink href="mailto:hello@drewsepeczi.xyz">Contact</BoldArrowLink>
           </div>
         </nav>
@@ -42,9 +44,15 @@ export default function HomePage() {
           </div>
         </header>
         <FeaturedApps />
-        <section className={styles.studies} id="studies" aria-labelledby="studies-title">
-          <div className={styles.sectionHeader}><h2 id="studies-title">Hero components</h2></div>
-          <LandingPageList landingPages={landingPages} />
+        <section className={styles.products} id="products" aria-labelledby="products-title">
+          <div className={styles.sectionHeader}><h2 id="products-title">Selected products</h2></div>
+          <ProductGrid products={products} />
+        </section>
+        <section className={styles.capabilities} aria-labelledby="capabilities-title">
+          <div className={styles.sectionHeader}>
+            <h2 id="capabilities-title">How I build</h2>
+          </div>
+          <PortfolioBento />
         </section>
         <section className={styles.about} id="about" aria-labelledby="about-title">
           <div className={styles.aboutContent}>
@@ -57,21 +65,15 @@ export default function HomePage() {
             </ScrollRevealText>
           </div>
         </section>
+        <section className={styles.studies} id="studies" aria-labelledby="studies-title">
+          <div className={styles.sectionHeader}><h2 id="studies-title">Interface studies</h2></div>
+          <LandingPageList landingPages={landingPages} />
+        </section>
         <section className={styles.templates} id="templates" aria-labelledby="templates-title">
           <div className={styles.sectionHeader}>
             <h2 id="templates-title">Complete templates</h2>
           </div>
           <PaidTemplateList templates={paidTemplates} />
-        </section>
-        <section className={styles.products} id="products" aria-labelledby="products-title">
-          <div className={styles.sectionHeader}><h2 id="products-title">Selected products</h2></div>
-          <ProductGrid products={products} />
-        </section>
-        <section className={styles.capabilities} aria-labelledby="capabilities-title">
-          <div className={styles.sectionHeader}>
-            <h2 id="capabilities-title">How I build</h2>
-          </div>
-          <PortfolioBento />
         </section>
         <footer className={styles.footer}>
           <p>Available for product engineering work.</p>

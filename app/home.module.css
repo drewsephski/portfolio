@@ -130,7 +130,7 @@
   .content { width: min(calc(100% - 40px), 1120px); }
   .nav { height: 64px; }
   .navLinks { gap: 16px; }
-  .navLinks a:nth-child(2) { display: none; }
+  .navLinks a:nth-child(2), .navLinks a:nth-child(4) { display: none; }
   .hero { padding: 88px 0 104px; }
   .heroTitle { font-size: clamp(46px, 13vw, 66px); line-height: .96; }
   .heroDetails { flex-direction: column; gap: 18px; margin-top: 38px; }
