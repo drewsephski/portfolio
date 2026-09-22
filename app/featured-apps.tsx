@@ -6,7 +6,18 @@ import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import homeStyles from "./home.module.css";
 import styles from "./featured-apps.module.css";
 
-const apps = [
+type FeaturedApp = {
+  name: string;
+  domain: string;
+  category: string;
+  description: string;
+  slug: string;
+} & (
+  | { capture: string; poster?: never }
+  | { capture?: never; poster: string }
+);
+
+const apps: readonly FeaturedApp[] = [
   {
     name: "Menace UI",
     domain: "menaceui.com",
@@ -22,6 +33,22 @@ const apps = [
     description: "Turn a brief into a voice agent. Shape the conversation, connect your tools, and bring it together in a visual workflow.",
     slug: "menace-voice",
     capture: "menace-voice-20260907-smooth",
+  },
+  {
+    name: "Squid Agent",
+    domain: "squidagent.app",
+    category: "Developer tool",
+    description: "Turn prompts, screenshots, and live sites into React prototypes with revision evidence.",
+    slug: "squid-agent",
+    capture: "squid-agent-20260824",
+  },
+  {
+    name: "Elsewhere",
+    domain: "elsewhere-alpha-web.fly.dev",
+    category: "Agent workspace",
+    description: "Give AI workers their own computers, memory, routines, and approvals that keep working when you close the laptop.",
+    slug: "elsewhere",
+    poster: "elsewhere-20260922",
   },
 ] as const;
 
@@ -162,8 +189,8 @@ export function FeaturedApps() {
                     <ArrowUpRight />
                   </div>
                   <div className={styles.media} data-preview-media data-reduced-motion={reducedMotion}>
-                    <Image src={`/assets/product-previews/${app.capture}-poster.jpg`} alt="" fill sizes="(max-width: 700px) calc(100vw - 72px), 520px" />
-                    {hasEntered && !reducedMotion ? (
+                    <Image src={`/assets/product-previews/${app.capture ? `${app.capture}-poster.jpg` : `${app.poster}-poster.png`}`} alt="" fill sizes="(max-width: 700px) calc(100vw - 72px), 520px" />
+                    {app.capture && hasEntered && !reducedMotion ? (
                       <video ref={(video) => { videoRefs.current[index] = video; }} poster={`/assets/product-previews/${app.capture}-poster.jpg`} muted playsInline preload="auto" aria-hidden="true" tabIndex={-1}>
                         <source src={`/assets/product-previews/${app.capture}.mp4`} type="video/mp4" />
                         <source src={`/assets/product-previews/${app.capture}.webm`} type="video/webm" />
