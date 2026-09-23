@@ -1,4 +1,5 @@
 import styles from "./home.module.css";
+import Link from "next/link";
 import { AskDrewButton } from "./portfolio-chat/ask-drew-button";
 import { FeaturedApps } from "./featured-apps";
 import { BoldArrowLink } from "./bold-arrow-link";
@@ -25,6 +26,7 @@ export default function HomePage() {
             <a href="#products">Products</a>
             <a href="#studies">Studies</a>
             <a href="#templates">Templates</a>
+            <Link href="/guides">Guides</Link>
             <BoldArrowLink href={profile.emailHref}>Contact</BoldArrowLink>
           </div>
         </nav>
@@ -81,6 +83,7 @@ export default function HomePage() {
         <footer className={styles.footer}>
           <p>{profile.availability}</p>
           <div>
+            <Link href="/guides">Guides</Link>
             <BoldArrowLink href={profile.github} target="_blank" rel="noreferrer">GitHub</BoldArrowLink>
             <BoldArrowLink href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn</BoldArrowLink>
           </div>
