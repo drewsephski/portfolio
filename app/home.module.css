@@ -8,12 +8,13 @@
 .navLinks a, .footer a { text-underline-offset: 4px; transition: color 160ms ease; }
 .navLinks a:hover, .navLinks a:focus-visible, .footer a:hover, .footer a:focus-visible { color: #fff; outline: none; }
 .navLinks a:focus-visible, .footer a:focus-visible { box-shadow: 0 2px 0 #c8f55f; }
-.hero { padding: clamp(96px, 13vw, 168px) 0 clamp(100px, 14vw, 180px); scroll-margin-top: 24px; }
-.eyebrow { margin: 0 0 26px; color: #8e8e89; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; }
+.hero { padding: clamp(88px, 12vw, 148px) 0 clamp(88px, 12vw, 154px); scroll-margin-top: 24px; }
+.eyebrow { margin: 0 0 28px; color: #8e8e89; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; }
 .heroTitle { max-width: 13ch; margin: 0; font-size: clamp(54px, 7.2vw, 92px); font-weight: 500; letter-spacing: -.055em; line-height: .94; text-wrap: balance; }
-.heroDetails { display: flex; align-items: flex-start; justify-content: space-between; gap: 48px; margin-top: 54px; padding-top: 18px; border-top: 1px solid #292929; color: #92928e; font-size: 14px; line-height: 1.55; }
+.heroDetails { display: flex; align-items: flex-start; justify-content: space-between; gap: 28px; margin-top: 54px; padding-top: 18px; border-top: 1px solid #292929; color: #92928e; font-size: 14px; line-height: 1.55; }
 .heroDetails p { max-width: 48ch; margin: 0; }
-.heroActions { display: flex; flex: none; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 14px 22px; }
+.heroActions { display: flex; flex: none; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 14px 28px; }
+.heroCta { color: #f1f1ef; white-space: nowrap; }
 .heroDetails a { color: #f1f1ef; text-decoration: none; white-space: nowrap; }
 .sectionHeader { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; padding-bottom: 18px; }
 .sectionHeader h2, .sectionHeader p { margin: 0; }
@@ -79,29 +80,39 @@
 .templateActionArrow svg:last-child { transform: translateX(-24px); }
 .templateActions a:hover .templateActionArrow svg:first-child, .templateActions a:focus-visible .templateActionArrow svg:first-child { transform: translateX(24px); }
 .templateActions a:hover .templateActionArrow svg:last-child, .templateActions a:focus-visible .templateActionArrow svg:last-child { transform: translateX(0); }
-@media (prefers-reduced-motion: reduce) {
-  .templateActionArrow svg { transition: none; }
-  .templateActions a:hover .templateActionArrow svg:first-child, .templateActions a:focus-visible .templateActionArrow svg:first-child { transform: none; }
-  .templateActions a:hover .templateActionArrow svg:last-child, .templateActions a:focus-visible .templateActionArrow svg:last-child { transform: translateX(-24px); }
-}
 .list { margin: 0; padding: 0; border-top: 1px solid #292929; list-style: none; }
-.row { display: grid; grid-template-columns: minmax(240px, 34%) minmax(0, 1fr); align-items: center; gap: clamp(24px, 4vw, 48px); border-bottom: 1px solid #292929; transition: border-color 160ms ease; }
-.link { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; align-self: stretch; gap: 24px; padding: 18px 4px 18px 0; color: inherit; text-decoration: none; }
-.row:hover, .row:focus-within { border-color: #666; }
+.row { display: grid; grid-template-columns: minmax(240px, 34%) minmax(0, 1fr); align-items: center; gap: clamp(24px, 4vw, 28px); border-bottom: 1px solid #292929; transition: border-color 200ms cubic-bezier(.16, 1, .3, 1); }
+.link { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; align-self: stretch; gap: 28px; padding: 18px 4px 18px 0; color: inherit; text-decoration: none; }
+.row:hover,
+.row:focus-within,
+.row:has(.preview:focus-visible) { border-color: #666; }
 .link:focus-visible { outline: none; box-shadow: 0 2px 0 #fff; }
-.preview { position: relative; display: block; aspect-ratio: 16 / 10; padding: 0; overflow: hidden; border: 1px solid #2c2c2c; border-radius: 4px; background: #111; cursor: zoom-in; }
+.preview { position: relative; display: block; aspect-ratio: 16 / 10; padding: 0; overflow: hidden; border: 1px solid #2c2c2c; border-radius: 4px; background: #111; cursor: zoom-in; transition: border-color 200ms cubic-bezier(.16, 1, .3, 1); }
 .preview:focus-visible { border-color: #fff; outline: 2px solid #fff; outline-offset: 3px; }
-.screenshot { display: block; width: 100%; height: 100%; object-fit: cover; filter: saturate(.8); transition: filter 180ms ease; }
+.screenshot { display: block; width: 100%; height: 100%; object-fit: cover; filter: saturate(.8); transition: filter 200ms cubic-bezier(.16, 1, .3, 1); }
+.row:hover .screenshot,
+.row:focus-within .screenshot,
+.row:has(.preview:focus-visible) .screenshot,
 .preview:hover .screenshot { filter: saturate(1); }
+.row:hover .preview,
+.row:focus-within .preview,
+.row:has(.preview:focus-visible) .preview { border-color: #3a3a37; }
 .copy { min-width: 0; }
 .name, .description { display: block; }
-.name { font-size: clamp(20px, 3vw, 27px); line-height: 1.2; letter-spacing: -.025em; }
+.name { font-size: clamp(20px, 3vw, 27px); line-height: 1.2; letter-spacing: -.025em; transition: color 200ms ease; }
 .description { margin-top: 6px; color: #777773; font-size: 13px; line-height: 1.5; }
 .studyPrice { display: block; margin-top: 14px; color: #c8f55f; font-size: 10px; letter-spacing: .09em; text-transform: uppercase; }
-.arrow { display: grid; width: 34px; height: 34px; border: 1px solid transparent; border-radius: 50%; color: #777773; transition: border-color 200ms ease, color 200ms ease, transform 280ms cubic-bezier(.16,1,.3,1); place-items: center; }
+.arrow { display: grid; width: 34px; height: 34px; border: 1px solid transparent; border-radius: 50%; color: #777773; transition: border-color 200ms cubic-bezier(.16, 1, .3, 1), color 200ms ease, transform 220ms cubic-bezier(.16, 1, .3, 1); place-items: center; }
 .arrow svg { width: 20px; height: 20px; stroke-width: 1.5; transition: stroke-width 200ms ease; }
-.row:hover .arrow, .row:focus-within .arrow { border-color: rgb(200 245 95 / 45%); color: #c8f55f; transform: translateX(4px); }
-.row:hover .arrow svg, .row:focus-within .arrow svg { stroke-width: 2.5; }
+.row:hover .arrow,
+.row:focus-within .arrow,
+.row:has(.preview:focus-visible) .arrow { border-color: rgb(200 245 95 / 45%); color: #c8f55f; transform: translateX(4px); }
+.row:hover .arrow svg,
+.row:focus-within .arrow svg,
+.row:has(.preview:focus-visible) .arrow svg { stroke-width: 2.5; }
+.row:hover .name,
+.row:focus-within .name,
+.row:has(.preview:focus-visible) .name { color: #fff; }
 .contactCta { display: flex; align-items: flex-end; justify-content: space-between; gap: 48px; margin-top: clamp(110px, 14vw, 176px); padding: 28px 0 clamp(72px, 8vw, 104px); border-top: 1px solid #292929; scroll-margin-top: 28px; }
 .contactCtaEyebrow { margin: 0 0 14px; color: #777773; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; }
 .contactCta h2 { margin: 0; font-size: clamp(42px, 6vw, 76px); font-weight: 500; letter-spacing: -.05em; line-height: .95; }
@@ -171,4 +182,53 @@
   .dialogHeader { align-items: flex-start; }
   .dialogActions a { width: 34px; padding: 0; justify-content: center; font-size: 0; }
 }
-@media (prefers-reduced-motion: reduce) { .navLinks a, .productCard, .productVisual, .visit, .screenshot, .arrow, .arrow svg, .dialog { transition: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .navLinks a,
+  .footer a,
+  .productCard,
+  .productVisual,
+  .visit,
+  .templateThumbnail img,
+  .templateActionArrow svg,
+  .row,
+  .preview,
+  .screenshot,
+  .name,
+  .arrow,
+  .arrow svg,
+  .link,
+  .dialog {
+    transition: none;
+  }
+
+  .productCard:hover .productVisual,
+  .productCard:focus-visible .productVisual {
+    transform: none;
+  }
+
+  .productCard:hover .visit,
+  .productCard:focus-visible .visit {
+    transform: none;
+  }
+
+  .templateThumbnail:hover img,
+  .templateThumbnail:focus-visible img {
+    transform: none;
+  }
+
+  .templateActions a:hover .templateActionArrow svg:first-child,
+  .templateActions a:focus-visible .templateActionArrow svg:first-child {
+    transform: none;
+  }
+
+  .templateActions a:hover .templateActionArrow svg:last-child,
+  .templateActions a:focus-visible .templateActionArrow svg:last-child {
+    transform: translateX(-24px);
+  }
+
+  .row:hover .arrow,
+  .row:focus-within .arrow,
+  .row:has(.preview:focus-visible) .arrow {
+    transform: none;
+  }
+}
