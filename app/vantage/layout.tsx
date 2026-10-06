@@ -1,9 +1,9 @@
-import type { Metadata, Viewport } from "next";
+import { productMetadata } from "@/app/marketplace/seo";
+import { ProductStructuredData } from "@/app/marketplace/product-structured-data";
+import type { Viewport } from "next";
 import type { ReactNode } from "react";
 
-export const metadata: Metadata = {
-  title: "Stop Digging Through Dashboards",
-};
+export const metadata = productMetadata("vantage");
 
 export const viewport: Viewport = {
   themeColor: "#000000",
@@ -26,6 +26,7 @@ export default function VantageLayout({ children }: { children: ReactNode }) {
   return (
     <>
       <script dangerouslySetInnerHTML={{ __html: motionBootstrap }} />
+      <ProductStructuredData slug="vantage" />
       {children}
     </>
   );

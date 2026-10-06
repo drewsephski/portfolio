@@ -1,3 +1,4 @@
+import { canonicalUrl } from "@/lib/site";
 import Link from "next/link";
 import { AlertCircle, KeyRound, Lock } from "lucide-react";
 import { unlockInbox } from "../actions";
@@ -15,6 +16,8 @@ import {
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+
+export const metadata = { alternates: { canonical: canonicalUrl("/inbox/unlock") } };
 
 export default async function InboxUnlockPage({
   searchParams,

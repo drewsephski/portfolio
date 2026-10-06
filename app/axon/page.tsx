@@ -1,4 +1,5 @@
-import type { Metadata } from "next";
+import { productMetadata } from "@/app/marketplace/seo";
+import { ProductStructuredData } from "@/app/marketplace/product-structured-data";
 import { Instrument_Serif, Inter } from "next/font/google";
 import styles from "./axon.module.css";
 
@@ -22,9 +23,7 @@ const VIDEO_URL =
 
 const navigationItems = ["Features", "Plans", "Security", "About"] as const;
 
-export const metadata: Metadata = {
-  title: "Axon — Digital Workers for Mundane Workflows",
-};
+export const metadata = productMetadata("axon");
 
 function AxonLogo() {
   return (
@@ -43,6 +42,7 @@ function AxonLogo() {
 export default function AxonPage() {
   return (
     <main className={`${styles.page} ${inter.variable} ${instrumentSerif.variable}`}>
+      <ProductStructuredData slug="axon" />
       <div className={styles.videoLayer} aria-hidden="true">
         <video
           className={styles.backgroundVideo}

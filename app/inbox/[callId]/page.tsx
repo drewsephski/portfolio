@@ -1,3 +1,4 @@
+import { canonicalUrl } from "@/lib/site";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Calendar, ExternalLink, Headphones } from "lucide-react";
@@ -25,6 +26,11 @@ type PageProps = {
   params: Promise<{ callId: string }>;
   searchParams: Promise<{ key?: string }>;
 };
+
+export async function generateMetadata({ params }: PageProps) {
+  const { callId } = await params;
+  return { alternates: { canonical: canonicalUrl(`/inbox/${encodeURIComponent(callId)}`) } };
+}
 
 export default async function InboxCallDetailPage({ params, searchParams }: PageProps) {
   const [{ callId }, query] = await Promise.all([params, searchParams]);

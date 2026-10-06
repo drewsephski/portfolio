@@ -21,6 +21,8 @@ export function createGuideMetadata(guide: Guide): Metadata {
       description: guide.description,
       siteName: "Drew Sepeczi",
       publishedTime: guide.published,
+      modifiedTime: guide.modified ?? guide.published,
+      authors: [siteUrl],
       images: [{ url: defaultOgImage, alt: "Drew Sepeczi — Next.js templates and interface studies" }],
     },
     twitter: {

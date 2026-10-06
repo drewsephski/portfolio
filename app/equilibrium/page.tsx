@@ -1,12 +1,15 @@
-import type { Metadata } from "next";
+import { productMetadata } from "@/app/marketplace/seo";
+import { ProductStructuredData } from "@/app/marketplace/product-structured-data";
 
 import { EquilibriumHero } from "./equilibrium-hero";
 
-export const metadata: Metadata = {
-  title: "Equilibrium",
-  description: "Live better and feel whole every day with Equilibrium.",
-};
+export const metadata = productMetadata("equilibrium");
 
 export default function EquilibriumPage() {
-  return <EquilibriumHero />;
+  return (
+    <>
+      <ProductStructuredData slug="equilibrium" />
+      <EquilibriumHero />
+    </>
+  );
 }

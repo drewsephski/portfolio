@@ -87,7 +87,7 @@ export function GuideArticle({ guide }: { guide: Guide }) {
         <h1>{guide.h1}</h1>
         <p className={styles.directAnswer}>{guide.directAnswer}</p>
         <p className={styles.meta}>
-          <time dateTime={guide.published}>Updated {guide.published}</time>
+          <time dateTime={guide.modified ?? guide.published}>Updated {guide.modified ?? guide.published}</time>
           <span aria-hidden="true"> · </span>
           <span>{profile.name}</span>
         </p>

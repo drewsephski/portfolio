@@ -1,3 +1,4 @@
+import { canonicalUrl } from "@/lib/site";
 import styles from "./home.module.css";
 import Link from "next/link";
 import { AskDrewButton } from "./portfolio-chat/ask-drew-button";
@@ -14,6 +15,8 @@ import { marketplaceProducts } from "./marketplace/catalog";
 const landingPages = marketplaceProducts.filter((product) => product.kind === "component").map((product) => ({ ...product, href: `/${product.slug}` }));
 
 const paidTemplates = marketplaceProducts.filter((product) => product.kind === "template").map((product) => ({ ...product, previewHref: `/${product.slug}` }));
+
+export const metadata = { alternates: { canonical: canonicalUrl() } };
 
 export default function HomePage() {
   return (

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import { canonicalUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
+  alternates: { canonical: canonicalUrl("/sms-opt-in") },
   title: "SMS Opt-In | Drew Sepeczi",
   description: "Verbal SMS opt-in / Call-to-Action workflow for Drew Sepeczi AI missed-call assistant.",
 };

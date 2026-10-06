@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import { canonicalUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
+  alternates: { canonical: canonicalUrl("/privacy") },
   title: "Privacy Policy | Drew Sepeczi",
   description:
     "Privacy policy for Drew Sepeczi AI missed-call assistant SMS program (A2P 10DLC).",

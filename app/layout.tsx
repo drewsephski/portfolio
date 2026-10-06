@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { siteUrl } from "@/lib/site";
 import type { ReactNode } from "react";
 import { PurchaseDock } from "./marketplace/purchase-dock";
 import { PortfolioChat } from "./portfolio-chat/portfolio-chat";
@@ -10,7 +11,8 @@ import { cn } from "@/lib/utils";
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
-  title: "Drew Sepeczi | Product Engineer",
+  metadataBase: new URL(siteUrl),
+  title: "Drew Sepeczi Portfolio | AI Products & Developer Tools",
   description: "AI products, developer tools, and full-stack software designed and built by Drew Sepeczi.",
 };
 

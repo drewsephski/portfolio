@@ -31,6 +31,7 @@ export type Guide = {
   directAnswer: string;
   eyebrow: string;
   published: string;
+  modified?: string;
   sections: GuideSection[];
   faqs: GuideFaq[];
   relatedSlugs: string[];

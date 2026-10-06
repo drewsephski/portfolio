@@ -1,29 +1,33 @@
 import type { MetadataRoute } from "next";
 
 import { allGuides } from "@/lib/guides/catalog";
-import { siteUrl } from "@/lib/guides/site";
+import { marketplaceProducts } from "@/app/marketplace/catalog";
+import { canonicalUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const guideEntries = allGuides.map((guide) => ({
-    url: `${siteUrl}/guides/${guide.slug}`,
-    lastModified: guide.published,
+    url: canonicalUrl(`/guides/${guide.slug}`),
+    lastModified: guide.modified ?? guide.published,
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
 
   return [
     {
-      url: siteUrl,
-      lastModified: new Date(),
+      url: canonicalUrl(),
       changeFrequency: "weekly",
       priority: 1,
     },
     {
-      url: `${siteUrl}/guides`,
-      lastModified: new Date(),
+      url: canonicalUrl("/guides"),
       changeFrequency: "weekly",
       priority: 0.8,
     },
+    ...marketplaceProducts.map((product) => ({
+      url: canonicalUrl(`/${product.slug}`),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
     ...guideEntries,
   ];
 }

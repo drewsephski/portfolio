@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import { canonicalUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
+  alternates: { canonical: canonicalUrl("/terms") },
   title: "Terms of Service | Drew Sepeczi",
   description:
     "Terms of service for Drew Sepeczi AI missed-call assistant SMS program (A2P 10DLC).",

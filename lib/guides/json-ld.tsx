@@ -1,3 +1,4 @@
+import { JsonLd } from "@/lib/json-ld";
 import { guideCanonicalUrl, siteUrl } from "./site";
 import type { Guide, GuideFaq } from "./types";
 
@@ -16,14 +17,16 @@ function faqPageJsonLd(faqs: GuideFaq[]) {
   };
 }
 
-function articleJsonLd(guide: Guide) {
+export function articleJsonLd(guide: Guide) {
   return {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
+    "@id": `${guideCanonicalUrl(guide.slug)}#article`,
+    url: guideCanonicalUrl(guide.slug),
     headline: guide.h1,
     description: guide.description,
     datePublished: guide.published,
-    dateModified: guide.published,
+    dateModified: guide.modified ?? guide.published,
     author: {
       "@type": "Person",
       name: "Drew Sepeczi",
@@ -43,10 +46,5 @@ function articleJsonLd(guide: Guide) {
 export function GuideStructuredData({ guide }: { guide: Guide }) {
   const payload = [articleJsonLd(guide), faqPageJsonLd(guide.faqs)];
 
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(payload) }}
-    />
-  );
+  return <JsonLd data={payload} />;
 }

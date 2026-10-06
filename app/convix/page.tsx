@@ -1,4 +1,5 @@
-import type { Metadata } from "next";
+import { productMetadata } from "@/app/marketplace/seo";
+import { ProductStructuredData } from "@/app/marketplace/product-structured-data";
 import { ChevronRight } from "lucide-react";
 import { DashboardPreview } from "./dashboard-preview";
 import { Navbar } from "./navbar";
@@ -9,9 +10,7 @@ const VIDEO_URL =
 const POSTER_URL =
   "https://images.unsplash.com/photo-1557683316-973673baf926?w=1600&q=60";
 
-export const metadata: Metadata = {
-  title: "Convix Software",
-};
+export const metadata = productMetadata("convix");
 
 export default function ConvixPage() {
   const inlineVideoAttributes = {
@@ -21,6 +20,7 @@ export default function ConvixPage() {
 
   return (
     <main className={styles.page}>
+      <ProductStructuredData slug="convix" />
       <section className={styles.hero} aria-labelledby="convix-heading">
         <video
           className={styles.backgroundVideo}

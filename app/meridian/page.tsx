@@ -1,15 +1,15 @@
+import { productMetadata } from "@/app/marketplace/seo";
+import { ProductStructuredData } from "@/app/marketplace/product-structured-data";
 /* eslint-disable @next/next/no-page-custom-font */
 import type { CSSProperties } from "react";
-import type { Metadata, Viewport } from "next";
+import type { Viewport } from "next";
 import { MeridianMobileNavigation } from "./meridian-mobile-navigation";
 import styles from "./meridian.module.css";
 
 const VIDEO_URL =
   "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_075824_7c8a2ef3-826c-43ca-81a1-162429faa306.mp4";
 
-export const metadata: Metadata = {
-  title: "Meridian — Revenue Intelligence for SaaS",
-};
+export const metadata = productMetadata("meridian");
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -73,6 +73,7 @@ export default function MeridianPage() {
       />
 
       <main className={styles.page}>
+      <ProductStructuredData slug="meridian" />
         <div className={styles.background} aria-hidden="true">
           <video className={styles.backgroundVideo} autoPlay muted loop playsInline>
             <source src={VIDEO_URL} type="video/mp4" />
