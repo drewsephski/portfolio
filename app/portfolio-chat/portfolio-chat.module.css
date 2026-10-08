@@ -92,6 +92,7 @@
   width: min(400px, calc(100vw - 40px));
   height: min(560px, calc(100dvh - 108px));
   flex-direction: column;
+  max-height: var(--chat-panel-max-height, calc(100dvh - 108px));
   overflow: hidden;
   border: 1px solid #292929;
   border-radius: 8px;
@@ -102,6 +103,7 @@
 
 .header {
   display: flex;
+  flex: none;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
@@ -207,6 +209,7 @@
   gap: 14px;
   overflow-y: auto;
   overscroll-behavior: contain;
+  touch-action: pan-y;
   padding: 16px;
   scrollbar-color: #3a3a37 transparent;
 }
@@ -258,6 +261,7 @@
 .user,
 .assistant {
   max-width: 92%;
+  overflow-wrap: anywhere;
   font-size: 13px;
   line-height: 1.55;
 }
@@ -364,6 +368,7 @@
 
 .composer {
   display: flex;
+  flex: none;
   align-items: flex-end;
   gap: 8px;
   padding: 12px;
@@ -371,8 +376,10 @@
 }
 
 .composer textarea {
+  min-width: 0;
   min-height: 40px;
-  max-height: 120px;
+  max-height: min(120px, 25dvh, calc(var(--chat-panel-max-height, 480px) / 4));
+  touch-action: pan-y;
   flex: 1;
   resize: none;
   border: 1px solid #3a3a37;
@@ -473,6 +480,17 @@
   .panel {
     width: 100%;
     height: min(78dvh, 640px);
+  }
+}
+
+@media (max-width: 700px), (pointer: coarse) {
+  .panel {
+    touch-action: pan-x pan-y;
+  }
+
+  .composer textarea {
+    min-height: 44px;
+    font-size: 16px;
   }
 }
 

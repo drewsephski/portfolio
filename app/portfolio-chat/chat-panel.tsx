@@ -8,6 +8,7 @@ import { usePathname } from "next/navigation";
 import { ChatComposer } from "./chat-composer";
 import { ChatMessage } from "./chat-message";
 import { SuggestedPrompts } from "./suggested-prompts";
+import { mobileChatMedia } from "./viewport-placement";
 import styles from "./portfolio-chat.module.css";
 
 interface ChatPanelProps {
@@ -67,6 +68,22 @@ export function ChatPanel({
   }, []);
 
   useEffect(() => {
+    if (open && window.matchMedia(mobileChatMedia).matches) {
+      panelRef.current?.focus({ preventScroll: true });
+    }
+  }, [open]);
+
+  useEffect(() => {
+    const log = logRef.current;
+    if (!open || !log) return;
+    const observer = new ResizeObserver(() => {
+      if (stickToBottom.current) log.scrollTop = log.scrollHeight;
+    });
+    observer.observe(log);
+    return () => observer.disconnect();
+  }, [open]);
+
+  useEffect(() => {
     if (status === "submitted") stickToBottom.current = true;
   }, [status]);
 
@@ -121,6 +138,7 @@ export function ChatPanel({
       ref={panelRef}
       id="portfolio-chat-panel"
       role="dialog"
+      tabIndex={-1}
       aria-modal="false"
       aria-labelledby="portfolio-chat-title"
       className={styles.panel}

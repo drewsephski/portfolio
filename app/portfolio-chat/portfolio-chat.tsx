@@ -3,16 +3,18 @@
 import { useChat } from "@ai-sdk/react";
 import { DefaultChatTransport } from "ai";
 import { usePathname } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { marketplaceBySlug } from "@/app/marketplace/catalog";
 import { ChatPanel } from "./chat-panel";
 import { ChatTrigger } from "./chat-trigger";
 import { portfolioChatOpenEvent } from "./open-portfolio-chat";
+import { mobileChatMedia, viewportPlacement } from "./viewport-placement";
 import styles from "./portfolio-chat.module.css";
 
 export function PortfolioChat() {
   const pathname = usePathname();
   const triggerRef = useRef<HTMLButtonElement>(null);
+  const rootRef = useRef<HTMLDivElement>(null);
   const restoreFocus = useRef(false);
   const [open, setOpen] = useState(false);
   const [triggerVisible, setTriggerVisible] = useState(true);
@@ -24,8 +26,59 @@ export function PortfolioChat() {
   useEffect(() => {
     if (open || !restoreFocus.current || !triggerVisible) return;
     restoreFocus.current = false;
-    triggerRef.current?.focus();
+    triggerRef.current?.focus({ preventScroll: true });
   }, [open, triggerVisible]);
+
+  useLayoutEffect(() => {
+    if (!open || !rootRef.current) return;
+    const root = rootRef.current;
+
+    const media = window.matchMedia(mobileChatMedia);
+    const viewport = window.visualViewport;
+    let frame = 0;
+
+    function reset() {
+      root.style.removeProperty("bottom");
+      root.style.removeProperty("--chat-panel-max-height");
+    }
+
+    function place() {
+      // Read the CSS resting position, including safe areas and purchase docks.
+      reset();
+      if (!media.matches) return;
+      const current = window.visualViewport;
+      const placement = viewportPlacement({
+        layoutHeight: document.documentElement.clientHeight,
+        visualHeight: current?.height ?? window.innerHeight,
+        offsetTop: current?.offsetTop ?? 0,
+        scale: current?.scale ?? 1,
+        restingBottom: parseFloat(getComputedStyle(root).bottom),
+      });
+      if (!placement) return;
+      root.style.bottom = `${placement.bottom}px`;
+      root.style.setProperty("--chat-panel-max-height", `${placement.maxHeight}px`);
+    }
+
+    function schedule() {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(place);
+    }
+
+    place();
+    viewport?.addEventListener("resize", schedule);
+    viewport?.addEventListener("scroll", schedule);
+    window.addEventListener("resize", schedule);
+    media.addEventListener("change", schedule);
+
+    return () => {
+      cancelAnimationFrame(frame);
+      viewport?.removeEventListener("resize", schedule);
+      viewport?.removeEventListener("scroll", schedule);
+      window.removeEventListener("resize", schedule);
+      media.removeEventListener("change", schedule);
+      reset();
+    };
+  }, [open, pathname]);
 
   useEffect(() => {
     function handleOpenRequest() {
@@ -64,7 +117,7 @@ export function PortfolioChat() {
   }
 
   return (
-    <div className={raised ? `${styles.root} ${styles.raised}` : styles.root}>
+    <div ref={rootRef} className={raised ? `${styles.root} ${styles.raised}` : styles.root}>
       <ChatPanel
         open={open}
         messages={messages}

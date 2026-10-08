@@ -1,7 +1,8 @@
 import { ArrowUp, Square } from "lucide-react";
-import { useRef, useState, type ChangeEvent, type FormEvent, type KeyboardEvent } from "react";
+import { useEffect, useRef, useState, type ChangeEvent, type FormEvent, type KeyboardEvent } from "react";
 import type { ChatStatus } from "ai";
 import { maxMessageLength } from "@/lib/portfolio-ai/limits";
+import { mobileChatMedia } from "./viewport-placement";
 import styles from "./portfolio-chat.module.css";
 
 interface ChatComposerProps {
@@ -15,6 +16,13 @@ export function ChatComposer({ status, onSend, onStop }: ChatComposerProps) {
   const [input, setInput] = useState("");
   const busy = status === "submitted" || status === "streaming";
   const trimmed = input.trim();
+
+  useEffect(() => {
+    // Opening chat on a phone should not summon the keyboard or pan the page.
+    if (!window.matchMedia(mobileChatMedia).matches) {
+      fieldRef.current?.focus({ preventScroll: true });
+    }
+  }, []);
 
   function handleSubmit(event?: FormEvent<HTMLFormElement>) {
     event?.preventDefault();
@@ -47,7 +55,6 @@ export function ChatComposer({ status, onSend, onStop }: ChatComposerProps) {
         maxLength={maxMessageLength}
         placeholder="Ask about his work"
         aria-label="Message"
-        autoFocus
         onChange={handleInput}
         onKeyDown={handleKeyDown}
       />

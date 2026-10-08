@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { siteUrl } from "@/lib/site";
 import type { ReactNode } from "react";
 import { PurchaseDock } from "./marketplace/purchase-dock";
@@ -14,6 +14,15 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Drew Sepeczi Portfolio | AI Products & Developer Tools",
   description: "AI products, developer tools, and full-stack software designed and built by Drew Sepeczi.",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  minimumScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+  interactiveWidget: "resizes-visual",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
