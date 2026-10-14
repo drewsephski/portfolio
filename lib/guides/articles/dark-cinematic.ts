@@ -3,8 +3,9 @@ import type { Guide } from "../types";
 export const darkCinematicGuide: Guide = {
   slug: "dark-cinematic-ai-saas-landing-templates-nextjs",
   title: "Dark cinematic AI SaaS landing templates (Next.js + Tailwind)",
+  metaTitle: "Dark cinematic AI SaaS landing templates for Next.js",
   description:
-    "Layout and motion patterns for dark, cinematic AI SaaS marketing sites in Next.js—without looking like every generic shadcn clone—with exemplars from Infranex and DreamMotion.",
+    "Layout and motion patterns for dark, cinematic AI SaaS sites in Next.js that don't look like every shadcn clone, with Infranex and DreamMotion examples.",
   h1: "Dark / cinematic AI SaaS landing page templates (Next.js + Tailwind)—what actually works?",
   directAnswer:
     "Dark cinematic AI pages work when contrast, motion, and product proof are disciplined: one hero focal point, restrained glow, real UI density in screenshots, and sections that escalate trust—not endless feature grids. Next.js + Tailwind templates like Infranex and DreamMotion on this site embody that pattern in full journeys; interface studies cover hero-level craft.",

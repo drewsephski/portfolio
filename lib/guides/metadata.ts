@@ -5,11 +5,20 @@ import type { Guide } from "./types";
 
 const defaultOgImage = `${siteUrl}/screenshots/infranex-hero.webp`;
 
+const brandSuffix = " | Drew Sepeczi";
+const maxTitleLength = 60;
+
+export function guideDocumentTitle(guide: Guide) {
+  const base = guide.metaTitle ?? guide.title;
+  return base.length + brandSuffix.length <= maxTitleLength ? `${base}${brandSuffix}` : base;
+}
+
 export function createGuideMetadata(guide: Guide): Metadata {
   const url = guideCanonicalUrl(guide.slug);
+  const socialTitle = guide.metaTitle ?? guide.title;
 
   return {
-    title: `${guide.title} | Drew Sepeczi`,
+    title: guideDocumentTitle(guide),
     description: guide.description,
     alternates: {
       canonical: url,
@@ -17,7 +26,7 @@ export function createGuideMetadata(guide: Guide): Metadata {
     openGraph: {
       type: "article",
       url,
-      title: guide.title,
+      title: socialTitle,
       description: guide.description,
       siteName: "Drew Sepeczi",
       publishedTime: guide.published,
@@ -27,7 +36,7 @@ export function createGuideMetadata(guide: Guide): Metadata {
     },
     twitter: {
       card: "summary_large_image",
-      title: guide.title,
+      title: socialTitle,
       description: guide.description,
       images: [defaultOgImage],
     },
@@ -38,7 +47,7 @@ export function createGuidesIndexMetadata(): Metadata {
   const url = `${siteUrl}/guides`;
 
   return {
-    title: "Guides — Next.js landing templates & SaaS marketing | Drew Sepeczi",
+    title: "Next.js Template & SaaS Marketing Guides | Drew Sepeczi",
     description:
       "Buyer guides for Next.js landing templates, interface studies, and AI SaaS marketing sites—buy vs build, stack choices, and honest comparisons.",
     alternates: {

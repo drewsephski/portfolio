@@ -26,6 +26,8 @@ export type GuideSection = {
 export type Guide = {
   slug: string;
   title: string;
+  /** Shorter title for <title> / social cards when `title` runs past ~60 characters. */
+  metaTitle?: string;
   description: string;
   h1: string;
   directAnswer: string;

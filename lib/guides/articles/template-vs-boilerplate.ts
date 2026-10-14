@@ -4,7 +4,7 @@ export const templateVsBoilerplateGuide: Guide = {
   slug: "landing-template-vs-saas-boilerplate",
   title: "Landing template vs SaaS boilerplate vs AI starter kit",
   description:
-    "What separates a Next.js marketing template from a SaaS boilerplate or AI starter kit—and how to buy the right product when you only need a launch-ready homepage.",
+    "How a Next.js marketing template differs from a SaaS boilerplate or AI starter kit, and what to buy when you only need a launch-ready homepage.",
   h1: "What’s the difference between a Next.js landing template and a SaaS boilerplate?",
   directAnswer:
     "A landing template is the public marketing surface: hero, story, proof, pricing, FAQ—usually no auth or Stripe. A SaaS boilerplate or AI starter kit ships signed-in app scaffolding (auth, billing, dashboards). Buy the marketing layer when you are launching positioning; buy a boilerplate when you are launching accounts and payments.",

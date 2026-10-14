@@ -10,18 +10,36 @@ import { cn } from "@/lib/utils";
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
+const siteTitle = "Drew Sepeczi Portfolio | AI Products & Developer Tools";
+const siteDescription =
+  "Drew Sepeczi builds AI products, developer tools, and full-stack apps, and sells production-ready Next.js templates and hero sections for SaaS launches.";
+const ogImage = { url: "/readme-cover.png", width: 1774, height: 887, alt: "Drew Sepeczi — AI products, developer tools, and Next.js templates" };
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Drew Sepeczi Portfolio | AI Products & Developer Tools",
-  description: "AI products, developer tools, and full-stack software designed and built by Drew Sepeczi.",
+  title: siteTitle,
+  description: siteDescription,
+  authors: [{ name: "Drew Sepeczi", url: siteUrl }],
+  creator: "Drew Sepeczi",
+  openGraph: {
+    type: "website",
+    siteName: "Drew Sepeczi",
+    title: siteTitle,
+    description: siteDescription,
+    locale: "en_US",
+    images: [ogImage],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteTitle,
+    description: siteDescription,
+    images: [ogImage.url],
+  },
 };
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  minimumScale: 1,
-  maximumScale: 1,
-  userScalable: false,
   interactiveWidget: "resizes-visual",
 };
 

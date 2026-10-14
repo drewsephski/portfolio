@@ -4,7 +4,7 @@ export const buyVsBuildGuide: Guide = {
   slug: "buy-nextjs-landing-template-vs-build-from-scratch",
   title: "Buy a Next.js landing template or build from scratch?",
   description:
-    "When founders should buy a Next.js landing template, assemble free blocks, use Framer, or design a SaaS marketing site from scratch—and what each path costs in time and polish.",
+    "When to buy a Next.js landing template, assemble free blocks, use Framer, or build your SaaS marketing site from scratch—and what each path costs.",
   h1: "Should you buy a Next.js landing page template or build your SaaS marketing site from scratch?",
   directAnswer:
     "Build from scratch only when the homepage is your core product experiment. For most AI and SaaS launches, a premium Next.js template or a focused hero study gets you to credible polish in days—not weeks—without paying for auth, billing, or agency rates.",
