@@ -81,6 +81,18 @@ function ProductPurchaseDock({ product }: { product: MarketplaceProduct }) {
     };
   }, [product]);
 
+  // Deep link from "Buy now" buttons elsewhere on the site: /<slug>?buy=1 opens checkout.
+  useEffect(() => {
+    const searchParams = new URLSearchParams(window.location.search);
+    if (searchParams.get("buy") !== "1") return;
+
+    window.history.replaceState({}, "", window.location.pathname);
+    if (getPurchaseSessionId(product.slug)) return;
+
+    // The dialog starts on the checkout view, so it only needs opening.
+    dialogRef.current?.showModal();
+  }, [product.slug]);
+
   const setupCommand = `cd ~/Downloads
 unzip ${product.slug}-nextjs.zip
 cd ${product.slug}
@@ -144,7 +156,7 @@ pnpm dev`;
   return (
     <>
       <aside className={styles.dock} aria-label={`${product.name} purchase options`}>
-        <div className={styles.identity}><span className={styles.name}>{product.name}</span><span className={styles.meta}>{unlocked ? "Purchased · Files and prompt unlocked" : `Next.js ${product.kind}`}</span></div>
+        <div className={styles.identity}><span className={styles.name}>{product.name}</span><span className={styles.meta}>{unlocked ? "Purchased · Files and prompt unlocked" : `Live demo · Next.js ${product.kind} by Drew Sepeczi`}</span></div>
         <div className={styles.actions}>
           {unlocked ? <>
             <button

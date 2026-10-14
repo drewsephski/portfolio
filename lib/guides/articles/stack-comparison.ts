@@ -4,7 +4,7 @@ export const stackComparisonGuide: Guide = {
   slug: "nextjs-vs-framer-vs-webflow-saas-marketing",
   title: "Next.js vs Framer vs Webflow for a SaaS marketing site",
   description:
-    "Compare Next.js, Framer, and Webflow for SaaS marketing: who edits the site, SEO control, engineering cost, and when to start from a Next.js template after you choose the stack.",
+    "Next.js vs Framer vs Webflow for SaaS marketing: who edits the site, SEO control, engineering cost, and when to start from a Next.js template.",
   h1: "Next.js vs Framer vs Webflow for a SaaS marketing site—when is Next.js the right call?",
   directAnswer:
     "Pick Framer or Webflow when marketers must ship copy and layout without engineers. Pick Next.js when the marketing site shares components, auth, or data with the product—or when developers own releases on Vercel. If you choose Next.js, start from a designed template or hero study, not a blank app.",

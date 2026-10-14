@@ -3,8 +3,9 @@ import type { Guide } from "../types";
 export const chooseAiSaasTemplateGuide: Guide = {
   slug: "choose-nextjs-template-ai-saas-marketing-site",
   title: "How to choose a Next.js template for an AI SaaS marketing site",
+  metaTitle: "Choosing a Next.js template for an AI SaaS marketing site",
   description:
-    "A practical checklist for evaluating Next.js + Tailwind marketing templates for AI SaaS: stack, demo quality, sections, motion, licensing, and maintainability— with examples from a premium catalog.",
+    "A checklist for choosing a Next.js + Tailwind template for an AI SaaS marketing site: stack, demo quality, sections, motion, licensing, and upkeep.",
   h1: "How do I choose the right Next.js template for an AI SaaS marketing site?",
   directAnswer:
     "Filter on five checks before you pay: modern App Router + TypeScript stack, a live demo that matches your aesthetic, conversion sections you will not delete, motion that feels intentional (not noisy), and a license that covers commercial use. Open the repo structure—not just the screenshot.",

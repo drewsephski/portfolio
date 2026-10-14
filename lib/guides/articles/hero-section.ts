@@ -14,7 +14,7 @@ export const heroSectionGuide: Guide = {
   slug: "premium-nextjs-hero-section-40-80",
   title: "Where to buy a premium Next.js hero section ($40–$80)",
   description:
-    "How to buy a premium Next.js hero section for an AI SaaS site—not a full boilerplate— including interface studies, drop-in App Router workflow, and when a hero beats a full template.",
+    "How to buy a premium Next.js hero section for an AI SaaS site instead of a full boilerplate, and when a drop-in hero beats a complete template.",
   h1: "Where can I buy a premium Next.js hero section (not a full SaaS kit) for about $40–$80?",
   directAnswer:
     "Look for interface studies or hero-only Next.js packages from indie makers—not ThemeForest boilerplates. On drewsepeczi.xyz, component-tier studies (Equilibrium through Nexora) ship focused above-the-fold experiences in the $39–$79 range you can drop into an existing App Router project.",

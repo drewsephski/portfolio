@@ -1,4 +1,9 @@
+import type { Metadata } from "next";
+import { ArrowRight } from "lucide-react";
 import { canonicalUrl } from "@/lib/site";
+import { JsonLd } from "@/lib/json-ld";
+import { allGuides } from "@/lib/guides/catalog";
+import { homeJsonLd } from "@/lib/portfolio/json-ld";
 import styles from "./home.module.css";
 import Link from "next/link";
 import { AskDrewButton } from "./portfolio-chat/ask-drew-button";
@@ -16,11 +21,35 @@ const landingPages = marketplaceProducts.filter((product) => product.kind === "c
 
 const paidTemplates = marketplaceProducts.filter((product) => product.kind === "template").map((product) => ({ ...product, previewHref: `/${product.slug}` }));
 
-export const metadata = { alternates: { canonical: canonicalUrl() } };
+const homeTitle = "Drew Sepeczi Portfolio | AI Products & Developer Tools";
+const homeDescription =
+  "Drew Sepeczi builds AI products, developer tools, and full-stack apps, and sells production-ready Next.js templates and hero sections for SaaS launches.";
+const homeImage = { url: canonicalUrl("/readme-cover.png"), width: 1774, height: 887, alt: "Drew Sepeczi — AI products, developer tools, and Next.js templates" };
+
+export const metadata: Metadata = {
+  title: homeTitle,
+  description: homeDescription,
+  alternates: { canonical: canonicalUrl() },
+  openGraph: {
+    type: "profile",
+    url: canonicalUrl(),
+    siteName: "Drew Sepeczi",
+    title: homeTitle,
+    description: homeDescription,
+    locale: "en_US",
+    firstName: "Drew",
+    lastName: "Sepeczi",
+    images: [homeImage],
+  },
+  twitter: { card: "summary_large_image", title: homeTitle, description: homeDescription, images: [homeImage.url] },
+};
+
+const latestGuides = [...allGuides].sort((a, b) => (b.modified ?? b.published).localeCompare(a.modified ?? a.published));
 
 export default function HomePage() {
   return (
     <main className={styles.page}>
+      <JsonLd data={homeJsonLd()} />
       <div className={styles.content}>
         <nav className={styles.nav} aria-label="Primary navigation">
           <a className={styles.wordmark} href="#top">{profile.name}</a>
@@ -29,7 +58,7 @@ export default function HomePage() {
             <a href="#products">Products</a>
             <a href="#studies">Studies</a>
             <a href="#templates">Templates</a>
-            <Link href="/guides">Guides</Link>
+            <a href="#guides">Guides</a>
             <BoldArrowLink href={profile.emailHref}>Contact</BoldArrowLink>
           </div>
         </nav>
@@ -75,6 +104,25 @@ export default function HomePage() {
             <h2 id="templates-title">Complete templates</h2>
           </div>
           <PaidTemplateList templates={paidTemplates} />
+        </section>
+        <section className={styles.guides} id="guides" aria-labelledby="guides-title">
+          <div className={styles.sectionHeader}>
+            <h2 id="guides-title">Guides</h2>
+            <p><Link href="/guides">All guides</Link></p>
+          </div>
+          <ul className={styles.list}>
+            {latestGuides.map((guide) => (
+              <li className={`${styles.row} ${styles.guideRow}`} key={guide.slug}>
+                <Link className={styles.link} href={`/guides/${guide.slug}`}>
+                  <span className={styles.copy}>
+                    <h3 className={styles.name}>{guide.title}</h3>
+                    <span className={styles.description}>{guide.description}</span>
+                  </span>
+                  <span className={styles.arrow} aria-hidden="true"><ArrowRight /></span>
+                </Link>
+              </li>
+            ))}
+          </ul>
         </section>
         <section className={styles.contactCta} id="contact" aria-labelledby="contact-cta-title">
           <div>

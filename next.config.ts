@@ -4,12 +4,12 @@ import { siteUrl } from "./lib/site";
 const nextConfig: NextConfig = {
   redirects() {
     return [
-      {
+      ...["www.drewsepeczi.xyz", "portfolio.drewsepeczi.xyz"].map((host) => ({
         source: "/:path*",
-        has: [{ type: "host", value: "www.drewsepeczi.xyz" }],
+        has: [{ type: "host" as const, value: host }],
         destination: `${siteUrl}/:path*`,
-        statusCode: 301,
-      },
+        statusCode: 301 as const,
+      })),
       ...["privacy", "terms", "sms-opt-in"].map((slug) => ({
         source: `/${slug}.html`,
         destination: `/${slug}`,

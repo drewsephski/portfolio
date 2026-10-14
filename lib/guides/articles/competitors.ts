@@ -3,8 +3,9 @@ import type { Guide } from "../types";
 export const competitorsGuide: Guide = {
   slug: "cruip-tailwind-ui-magic-ui-vs-premium-nextjs-template",
   title: "Cruip, Tailwind UI, Magic UI vs a complete Next.js landing template",
+  metaTitle: "Cruip, Tailwind UI & Magic UI vs a full Next.js template",
   description:
-    "Honest comparison of block libraries (Cruip, Tailwind UI, Magic UI, Aceternity) vs complete premium Next.js landing templates and hero studies—who each option is for.",
+    "Cruip, Tailwind UI, Magic UI, and Aceternity block libraries vs a complete premium Next.js landing template: who each option is really for.",
   h1: "Cruip / Tailwind UI / Magic UI / Aceternity vs a complete premium Next.js landing template—what should I buy?",
   directAnswer:
     "Block libraries and component kits win when you will assemble many pages over time and want partial sections. A complete premium Next.js landing template wins when you need one coherent launch journey now. Hero studies win when only above-the-fold must upgrade. None of these replace a SaaS boilerplate if you need auth and billing.",

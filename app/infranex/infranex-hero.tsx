@@ -8,12 +8,10 @@ const navigation = ["Home", "About", "Features", "Pricing", "Blog", "Contact"];
 const marks = ["dY6gFYwTiNDBOpNo0XjrZuC2k0.svg","GO2mgXJdSWHQC4kP9mhLnl2gI.svg","ik68RmZ03YqFseGfuYghKZayI.svg","GQK4qUiDfkbd1MIRLv3w2a00m8.svg","VPPDzyaDcAlhEkw70xfY6wKe0Lg.svg","syEfnea7a159JvcSbIVdHseAe8g.svg"];
 
 function Counter({ prefix = "", target, suffix }: { prefix?: string; target: number; suffix: string }) {
-  const [value, setValue] = useState(0);
+  // Render the final value on the server so crawlers and no-JS visitors see real numbers, then count up on the client.
+  const [value, setValue] = useState(target);
   useEffect(() => {
-    if (matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      const reducedFrame = requestAnimationFrame(() => setValue(target));
-      return () => cancelAnimationFrame(reducedFrame);
-    }
+    if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const start = performance.now(); let frame = 0;
     const tick = (now: number) => { const p = Math.min((now - start) / 1100, 1); setValue(Math.round(target * (1 - (1 - p) ** 3))); if (p < 1) frame = requestAnimationFrame(tick); };
     frame = requestAnimationFrame(tick); return () => cancelAnimationFrame(frame);
