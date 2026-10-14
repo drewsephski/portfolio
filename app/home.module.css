@@ -61,7 +61,7 @@
 .guides { padding-top: clamp(110px, 14vw, 176px); scroll-margin-top: 28px; }
 .guides .sectionHeader a { color: inherit; text-decoration: none; }
 .guides .sectionHeader a:hover, .guides .sectionHeader a:focus-visible { color: #f1f1ef; }
-.guideRow { grid-template-columns: minmax(0, 1fr); }
+.row.guideRow { grid-template-columns: minmax(0, 1fr); }
 .guideRow .name { margin: 0; font-weight: inherit; font-size: clamp(18px, 2.4vw, 22px); }
 .templates > .sectionHeader, .templateGrid { width: min(100%, 960px); margin-inline: auto; }
 .templateGrid { border-top: 1px solid #292929; }
