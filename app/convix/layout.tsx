@@ -1,9 +1,11 @@
 import type { ReactNode } from "react";
-import { Instrument_Serif, Inter } from "next/font/google";
+import { Instrument_Serif } from "next/font/google";
+import localFont from "next/font/local";
 
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+const inter = localFont({
+  src: "../fonts/InterVariable.woff2",
+  weight: "100 900",
+  display: "swap",
   variable: "--font-convix-inter",
 });
 

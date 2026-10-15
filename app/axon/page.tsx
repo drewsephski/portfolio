@@ -1,11 +1,12 @@
 import { productMetadata } from "@/app/marketplace/seo";
 import { ProductStructuredData } from "@/app/marketplace/product-structured-data";
-import { Instrument_Serif, Inter } from "next/font/google";
+import { Instrument_Serif } from "next/font/google";
+import localFont from "next/font/local";
 import styles from "./axon.module.css";
 
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
+const inter = localFont({
+  src: "../fonts/InterVariable.woff2",
+  weight: "100 900",
   display: "swap",
   variable: "--font-axon-inter",
 });

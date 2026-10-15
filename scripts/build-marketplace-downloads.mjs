@@ -8,6 +8,7 @@ const root = process.cwd();
 const downloads = join(root, "private", "downloads");
 const products = ["equilibrium", "palomar", "axon", "vesper", "nexora", "next-layer-of-intelligence", "convix", "vantage", "meridian", "infranex", "salix", "dreammotion", "agentlab", "fusion-ai"];
 const assetDirectories = { infranex: "infranex", salix: "salix", dreammotion: "dreammotion", agentlab: "agentlab", "fusion-ai": "fusionai", vantage: "vantage" };
+const localFontProducts = new Set(["axon", "convix", "agentlab"]);
 
 const packageJson = JSON.parse(await readFile(join(root, "package.json"), "utf8"));
 const starterPackage = {
@@ -27,6 +28,9 @@ for (const slug of products) {
   const routeDirectory = join(project, "app", "(template)");
   await mkdir(routeDirectory, { recursive: true });
   await cp(join(root, "app", slug), routeDirectory, { recursive: true });
+  if (localFontProducts.has(slug)) {
+    await cp(join(root, "app", "fonts"), join(project, "app", "fonts"), { recursive: true });
+  }
   for (const shared of ["bold-arrow-link.tsx", "bold-arrow-link.module.css", "globals.css"]) {
     await cp(join(root, "app", shared), join(project, "app", shared));
   }
