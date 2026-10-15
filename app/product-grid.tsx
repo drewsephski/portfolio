@@ -66,7 +66,7 @@ export function ProductGrid({ products }: { products: readonly Product[] }) {
                 <ProductCardVisual kind={product.visual} loading={index === 0 ? "eager" : "lazy"} />
               </span>
             </button>
-            <a className={`${styles.visit} ${boldArrowGroupClassName}`} href={product.href} target="_blank" rel="noreferrer">
+            <a className={`${styles.visit} ${boldArrowGroupClassName}`} href={product.href} target="_blank" rel="noreferrer" aria-label={`Visit ${product.name} (opens in a new tab)`}>
               Visit product <BoldArrow />
             </a>
           </article>
@@ -91,8 +91,9 @@ export function ProductGrid({ products }: { products: readonly Product[] }) {
                 <h2 id="product-dialog-title">{selectedProduct.name}</h2>
               </div>
               <div className={styles.dialogActions}>
-                <a href={selectedProduct.href} target="_blank" rel="noreferrer">
-                  Visit product <ExternalLink aria-hidden="true" />
+                <a href={selectedProduct.href} target="_blank" rel="noreferrer" aria-label={`Visit ${selectedProduct.name} (opens in a new tab)`}>
+                  <span className={styles.dialogActionLabel}>Visit product</span>
+                  <ExternalLink aria-hidden="true" />
                 </a>
                 <button className={styles.dialogClose} type="button" aria-label="Close preview" onClick={closeDialog}>
                   <X aria-hidden="true" />
