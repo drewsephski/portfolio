@@ -33,6 +33,15 @@ export type FeaturedProject = {
 
 export const featuredProjects: readonly FeaturedProject[] = [
   {
+    name: "Krafty / Kraftybot",
+    domain: "kraftybot.app",
+    category: "AI teammates",
+    description:
+      "Give AI teammates real work. Bots use your apps, remember context, and collaborate on tasks from start to finish.",
+    slug: "kraftybot",
+    capture: "kraftybot-20261015",
+  },
+  {
     name: "Squid Agent",
     domain: "squidagent.app",
     category: "Developer tool",
